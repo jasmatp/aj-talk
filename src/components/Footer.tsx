@@ -14,28 +14,28 @@ const Footer: React.FC = () => {
             height="40"
             className="d-inline-block align-top me-2"
           />
-          <div className="">
-            <p className="rights">All rights reserved © 2025 AJ Talk.</p>
-            <div>
-              <div className="rights">
-                Email:
-                <a
-                  href="mailto:support@ajtalk.com"
-                  className="text-decoration-none text-info"
-                >
-                  &nbsp; ajtalk3707@gmail.com
-                </a>{" "}
-                &nbsp; Whatsapp No:
-                <a
-                  href="tel:+919876543210"
-                  className="text-decoration-none text-info"
-                >
-                  &nbsp; +91 96873 36426
-                </a>
-              </div>
+        </Navbar.Brand>
+        <div className="">
+          <p className="rights">All rights reserved © 2025 AJ Talk.</p>
+          <div>
+            <div className="rights">
+              Email:
+              <a
+                href="mailto:support@ajtalk.com"
+                className="text-decoration-none text-info"
+              >
+                &nbsp; ajtalk3707@gmail.com
+              </a>{" "}
+              &nbsp; Whatsapp No:
+              <a
+                href="tel:+919876543210"
+                className="text-decoration-none text-info"
+              >
+                &nbsp; +91 96873 36426
+              </a>
             </div>
           </div>
-        </Navbar.Brand>
+        </div>
       </Container>
     </Navbar>
   );
