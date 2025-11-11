@@ -1,0 +1,38 @@
+.slogan {
+  font-weight: 700;
+  /* color: #ffd54f; */
+  color: #fff;
+  letter-spacing: 0.02em;
+  margin-left: 12px;
+}
+
+.slogan-description {
+  font-size: 1.35rem;
+  color: #424242;
+  max-width: 700px;
+  /* margin: 16px auto 016px auto; */
+  margin: 14px 4px 14px 4px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  background: #fffde4;
+  padding: 12px 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(240, 214, 79, 0.08);
+  opacity: 0.95;
+}
+
+.slogan-section {
+  background-color: #d6d5d3;
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    font-size: 0.7rem;
+  }
+
+  .slogan-description {
+    font-size: 0.7rem;
+  }
+}

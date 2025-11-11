@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.main {
+  height: 85vh;
+  /* overflow: auto; */
+}
+
+@media (max-width: 768px) {
+
+  .main {
+    height: 90vh;
+    overflow: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .slogan-description {
+    font-size: 0.7rem;
   }
 }
