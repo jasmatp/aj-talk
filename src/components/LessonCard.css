@@ -37,7 +37,8 @@
 }
 
 .lesson-card:hover .lesson-title {
-    color: #0b4da1; /* darker blue on hover */
+    color: #0b4da1;
+    /* darker blue on hover */
 }
 
 .lesson-description {
@@ -60,7 +61,14 @@
     line-height: 1.5;
     text-align: justify;
 }
-.btn{
+
+.btn {
     height: 25px;
     padding: 0px 10px !important;
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: auto;
+    }
 }
