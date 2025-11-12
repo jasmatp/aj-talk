@@ -177,19 +177,17 @@ const LessonDetail: React.FC = () => {
         <Modal.Body>
           {selectedLesson ? (
             <>
-              <p className="fw-bold">
-                <p className="d-grid">
-                  <span>
-                    {selectedLesson.detail1}{" "}
-                    <button
-                      onClick={() => speakText(selectedLesson.detail1)}
-                      className="btn btn-info"
-                    >
-                      Listen
-                    </button>
-                  </span>
-                  <span> {selectedLesson.detail1Guj}</span>
-                </p>
+              <p className="d-grid fw-bold">
+                <span>
+                  {selectedLesson.detail1}{" "}
+                  <button
+                    onClick={() => speakText(selectedLesson.detail1)}
+                    className="btn btn-info"
+                  >
+                    Listen
+                  </button>
+                </span>
+                <span> {selectedLesson.detail1Guj}</span>
               </p>
               <p>
                 <em>Example:</em>
@@ -222,21 +220,17 @@ const LessonDetail: React.FC = () => {
 
               {selectedLesson.detail2 && (
                 <>
-                  <p className="fw-bold">
-                    <p className="d-grid">
-                      <span>
-                        {selectedLesson.detail2}{" "}
-                        <button
-                          onClick={() =>
-                            speakText(selectedLesson.detail2 || "")
-                          }
-                          className="btn btn-info"
-                        >
-                          Listen
-                        </button>
-                      </span>
-                      <span> {selectedLesson.detail2Guj}</span>
-                    </p>
+                  <p className="d-grid fw-bold">
+                    <span>
+                      {selectedLesson.detail2}{" "}
+                      <button
+                        onClick={() => speakText(selectedLesson.detail2 || "")}
+                        className="btn btn-info"
+                      >
+                        Listen
+                      </button>
+                    </span>
+                    <span> {selectedLesson.detail2Guj}</span>
                   </p>
 
                   <p>

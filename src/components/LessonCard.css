@@ -60,3 +60,7 @@
     line-height: 1.5;
     text-align: justify;
 }
+.btn{
+    height: 25px;
+    padding: 0px 10px !important;
+}
