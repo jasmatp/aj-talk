@@ -8,6 +8,7 @@ import { lessons } from "../src/mochData/mockLessons";
 import LessonDetail from "./components/LessonDetail";
 import Footer from "./components/Footer";
 import ContactInfo from "./components/ContactInfo";
+import ScrollingHeading from "./components/ScrollingHeading";
 
 function Home() {
   return (
@@ -32,6 +33,7 @@ function App() {
     <Router>
       <div className="main">
         <Header />
+        <ScrollingHeading />
         <HeaderSection
           description="Discover exciting English sentences every day and practice real-life communication for confident speaking!"
           descriptionGuj="દરરોજ રોમાંચક અંગ્રેજી વાક્યો શોધો અને આત્મવિશ્વાસપૂર્વક વાતચીત કરવા માટે વાસ્તવિક જીવનની વાર્તાલાપ પ્રેક્ટિસ કરો!"
