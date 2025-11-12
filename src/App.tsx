@@ -7,6 +7,7 @@ import LessonCard from "./components/LessonCard";
 import { lessons } from "../src/mochData/mockLessons";
 import LessonDetail from "./components/LessonDetail";
 import Footer from "./components/Footer";
+import ContactInfo from "./components/ContactInfo";
 
 function Home() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/:lessonId" element={<LessonDetail />} />
+          <Route path="/contacts" element={<ContactInfo />} />
         </Routes>
         <Footer />
       </div>

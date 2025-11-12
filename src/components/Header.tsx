@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <Navbar bg="dark" variant="dark" className="p-0">
       <Container className="m-2">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/" className="align-items-center">
           <img
             alt="AJ-TALK Logo"
             src="/aj-talk-logo.png"

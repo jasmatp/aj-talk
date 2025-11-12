@@ -6,7 +6,7 @@
 
 .rights {
     color: #bababa;
-    font-size: 1rem;
+    font-size: .7rem;
     margin: 0;
     justify-content: center;
     display: flex;
@@ -14,13 +14,4 @@
 
 a {
     display: flex;
-}
-
-@media (max-width: 786px) {
-    .rights {
-        color: #bababa;
-        font-size: .7rem;
-        margin: 0;
-        display: flex;
-    }
 }

@@ -15,25 +15,10 @@ const Footer: React.FC = () => {
             className="d-inline-block align-top me-2"
           />
         </Navbar.Brand>
-        <div className="">
+        <div className="justify-center">
           <p className="rights">All rights reserved © 2025 AJ Talk.</p>
-          <div>
-            <div className="rights">
-              Email:
-              <a
-                href="mailto:support@ajtalk.com"
-                className="text-decoration-none text-info"
-              >
-                &nbsp; ajtalk3707@gmail.com
-              </a>{" "}
-              &nbsp; Whatsapp No:
-              <a
-                href="tel:+919876543210"
-                className="text-decoration-none text-info"
-              >
-                &nbsp; +91 96873 36426
-              </a>
-            </div>
+          <div className="">
+            <a href="/contacts">Contact</a>
           </div>
         </div>
       </Container>
