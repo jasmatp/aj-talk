@@ -16,9 +16,9 @@ const LessonCard: React.FC<LessonCardProps> = ({
     navigate(lessonUrl);
   };
   return (
-    <div className="row m-1">
+    <div className="col-sm-6 col-md-6 col-lg-4">
       <div
-        className="lesson-card col-4"
+        className="lesson-card "
         onClick={handleDetailPage}
       >
         <img src={imageSrc} alt={title} className="lesson-img" />

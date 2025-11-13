@@ -9,11 +9,14 @@ import LessonDetail from "./components/LessonDetail";
 import Footer from "./components/Footer";
 import ContactInfo from "./components/ContactInfo";
 import ScrollingHeading from "./components/ScrollingHeading";
+import GrammarDetail from "./components/GrammarDetail";
+import ListeningDetail from "./components/ListeningDetail";
+import Listening from "./components/Listening";
 
 function Home() {
   return (
     <>
-      <div>
+      <div className="row m-1">
         {lessons.map((lesson) => (
           <LessonCard
             key={lesson.title}
@@ -40,7 +43,10 @@ function App() {
         />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/:lessonId" element={<LessonDetail />} />
+          <Route path="/basic-I" element={<LessonDetail />} />
+          <Route path="/grammar" element={<GrammarDetail />} />
+          <Route path="/listening" element={<Listening />} />
+          <Route path="/listening/:lessonId" element={<ListeningDetail />} />
           <Route path="/contacts" element={<ContactInfo />} />
         </Routes>
         <Footer />

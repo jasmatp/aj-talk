@@ -2,14 +2,21 @@ export const lessons = [
   {
     imageSrc: "/images/english-basic.png",
     title: "English Speaking Basics",
-    description: "Basics of common English expressions for beginners.",
+    description: "Learn basic everyday English expressions for beginners.",
     lessonUrl: '/basic-I'
   },
-//   {
-//     imageSrc: "/images/listening.jpg",
-//     title: "English Listening Lessons",
-//     description: "Improve your listening skills with fun questions and answers."
-//   },
+    {
+    imageSrc: "/images/grammar.png",
+    title: "Basics of English Grammar",
+    description: "Improve your English speaking with strong grammar basics.",
+    lessonUrl: '/grammar'
+  },
+  {
+    imageSrc: "/images/listening.png",
+    title: "English Listening Lessons",
+    description: "Practice listening the fun way — with exciting Q&A!",
+    lessonUrl: '/listening'
+  },
 //   {
 //     imageSrc: "/images/regular.jpg",
 //     title: "Regular English Lessons",
