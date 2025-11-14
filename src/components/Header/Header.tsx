@@ -16,6 +16,7 @@ const Header: React.FC = () => {
           />
           <span className="slogan">English Learning and Speaking Practice</span>
         </Navbar.Brand>
+        <a href="/">Home</a>
       </Container>
     </Navbar>
   );

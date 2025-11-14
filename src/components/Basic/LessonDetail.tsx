@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { lessonLinks } from "../mochData/lessonLinks";
-import { Button, Form, Modal, Pagination, Table } from "react-bootstrap";
-import { LessonContent, LessonLink } from "../types/types";
+import { Badge, Button, Form, Modal, Pagination, Table } from "react-bootstrap";
+import { LessonContent, LessonLink } from "../../types/types";
+import { lessonLinks } from "../../mochData/lessonLinks";
 
 declare global {
   interface Window {
@@ -63,8 +63,9 @@ const LessonDetail: React.FC = () => {
       {!start ? (
         <div className="m-2">
           <h1 className="lesson-title-main">
-            Basics for English Speaking{" "}
-            <Button onClick={handleStart}>Let's Start</Button>
+            <Badge bg="secondary"><h2> Basics for English Speaking{" "}</h2></Badge>
+           
+            <Button onClick={handleStart} className="m-2">Let's Start</Button>
           </h1>
           <p className="lesson-description-main">
             This section is designed for English beginners who want to build

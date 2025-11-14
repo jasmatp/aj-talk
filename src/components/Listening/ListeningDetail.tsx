@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { lestningLession } from "../mochData/lesteningData";
+import { lestningLession } from "../../mochData/lesteningData";
+
 
 const ListeningDetail = () => {
   const { lessonId } = useParams();

@@ -9,7 +9,7 @@
 .slogan-description {
   font-size: 1.35rem;
   color: #424242;
-  max-width: 700px;
+  /* max-width: 700px; */
   /* margin: 16px auto 016px auto; */
   margin: 14px 4px 14px 4px;
   text-align: center;
@@ -24,7 +24,10 @@
 }
 
 .slogan-section {
-  background-color: #d6d5d3;
+  /* background-color: #d6d5d3; */
+  background: #e9d9cd;
+
+  justify-content: center;
 }
 
 @media (max-width: 768px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./LessonCard.css";
 import { Link, useNavigate } from "react-router-dom";
-import { LessonCardProps } from "../types/types";
+import { LessonCardProps } from "../../types/types";
 
 const LessonCard: React.FC<LessonCardProps> = ({
   imageSrc,

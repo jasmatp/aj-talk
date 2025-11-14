@@ -41,6 +41,7 @@
 .main {
   height: 90vh;
   overflow: auto;
+  background: #e9d9cd;
 }
 
 @media (max-width: 768px) {
