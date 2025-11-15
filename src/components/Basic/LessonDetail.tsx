@@ -62,11 +62,15 @@ const LessonDetail: React.FC = () => {
     <div>
       {!start ? (
         <div className="m-2">
-          <h1 className="lesson-title-main">
-            <Badge bg="secondary"><h2> Basics for English Speaking{" "}</h2></Badge>
-           
-            <Button onClick={handleStart} className="m-2">Let's Start</Button>
-          </h1>
+          <div className="lesson-title-main">
+            <h2>
+              <Badge bg="secondary">Basics for English Speaking </Badge>
+            </h2>
+
+            <Button onClick={handleStart} className="m-2">
+              Let's Start
+            </Button>
+          </div>
           <p className="lesson-description-main">
             This section is designed for English beginners who want to build
             confidence in everyday speaking. We focus on using simple, practical
@@ -185,7 +189,7 @@ const LessonDetail: React.FC = () => {
                     onClick={() => speakText(selectedLesson.detail1)}
                     className="btn btn-info"
                   >
-                    Listen
+                    🔊 Listen
                   </button>
                 </span>
                 <span> {selectedLesson.detail1Guj}</span>
@@ -202,7 +206,7 @@ const LessonDetail: React.FC = () => {
                   }
                   className="btn btn-info"
                 >
-                  Listen
+                  🔊 Listen
                 </button>
               </p>
               {selectedLesson && (
@@ -228,7 +232,7 @@ const LessonDetail: React.FC = () => {
                         onClick={() => speakText(selectedLesson.detail2 || "")}
                         className="btn btn-info"
                       >
-                        Listen
+                        🔊 Listen
                       </button>
                     </span>
                     <span> {selectedLesson.detail2Guj}</span>
@@ -246,7 +250,7 @@ const LessonDetail: React.FC = () => {
                       }
                       className="btn btn-info"
                     >
-                      Listen
+                      🔊 Listen
                     </button>
                   </p>
                 </>

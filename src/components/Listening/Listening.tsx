@@ -8,9 +8,9 @@ const Listening = () => {
     <div className="m-2">
       {lestningLession.map((lesson, idx) => (
         <div key={idx} style={{ marginBottom: "1rem" }}>
-          <Badge bg="secondary">
-            <h2 className="mt-2">English Listening Lessons </h2>
-          </Badge>
+          <h2 className="mt-2">
+            <Badge bg="secondary">English Listening Lessons </Badge>{" "}
+          </h2>
 
           <p>Explore English listening lessons and improve your skills.</p>
           <Link

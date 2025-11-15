@@ -1,8 +1,10 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Button } from "react-bootstrap";
 import "./Header.css";
+import { useNavigate } from "react-router-dom";
 
 const Header: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <Navbar bg="dark" variant="dark" className="p-0">
       <Container className="m-2">
@@ -16,7 +18,9 @@ const Header: React.FC = () => {
           />
           <span className="slogan">English Learning and Speaking Practice</span>
         </Navbar.Brand>
-        <a href="/">Home</a>
+        <Button variant="link" onClick={() => navigate("/")}>
+          Home
+        </Button>
       </Container>
     </Navbar>
   );

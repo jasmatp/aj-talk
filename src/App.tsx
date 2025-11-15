@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
 import HeaderSection from "./components/Header/HeaderSection";
@@ -32,27 +37,34 @@ function Home() {
   );
 }
 
+function AppContent() {
+  const location = useLocation();
+
+  return (
+    <div className="main">
+      <Header />
+      <ScrollingHeading />
+      {location.pathname === "/" && (
+        <HeaderSection description="Discover exciting English sentences every day and practice real-life communication for confident speaking!" />
+      )}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/basic-I" element={<LessonDetail />} />
+        <Route path="/grammar" element={<Grammar />} />
+        <Route path="/grammar/:idx" element={<GrammarDetail />} />
+        <Route path="/listening" element={<Listening />} />
+        <Route path="/listening/:lessonId" element={<ListeningDetail />} />
+        <Route path="/contacts" element={<ContactInfo />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
+}
+
 function App() {
   return (
     <Router>
-      <div className="main">
-        <Header />
-        <ScrollingHeading />
-        <HeaderSection
-          description="Discover exciting English sentences every day and practice real-life communication for confident speaking!"
-          descriptionGuj="દરરોજ રોમાંચક અંગ્રેજી વાક્યો શોધો અને આત્મવિશ્વાસપૂર્વક વાતચીત કરવા માટે વાસ્તવિક જીવનની વાર્તાલાપ પ્રેક્ટિસ કરો!"
-        />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/basic-I" element={<LessonDetail />} />
-          <Route path="/grammar" element={<Grammar />} />
-          <Route path="/grammar/:idx" element={<GrammarDetail />} />
-          <Route path="/listening" element={<Listening />} />
-          <Route path="/listening/:lessonId" element={<ListeningDetail />} />
-          <Route path="/contacts" element={<ContactInfo />} />
-        </Routes>
-        <Footer />
-      </div>
+      <AppContent />
     </Router>
   );
 }

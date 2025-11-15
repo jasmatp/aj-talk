@@ -6,9 +6,12 @@ import { Badge } from "react-bootstrap";
 const Grammar = () => {
   return (
     <div>
-      <Badge bg="secondary" className="m-2">
-        <h2>Grammar Lessons</h2>
-      </Badge>
+      <h2>
+        <Badge bg="secondary" className="m-2">
+          Grammar Lessons
+        </Badge>
+      </h2>
+
       <ul>
         {grammarLession.map((lesson, idx) => (
           <li key={idx}>

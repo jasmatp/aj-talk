@@ -24,7 +24,7 @@ const LessonCard: React.FC<LessonCardProps> = ({
         <img src={imageSrc} alt={title} className="lesson-img" />
         <div className="lesson-info">
           <Link to={lessonUrl} className="lesson-title">
-            {title}
+            🤖{" "}{title}
           </Link>
           <p className="lesson-description">{description}</p>
         </div>

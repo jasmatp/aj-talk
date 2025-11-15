@@ -1,71 +1,130 @@
-import React from "react";
-import { useParams, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { grammarLession } from "../../mochData/grammarData";
 import { GrammarLesson } from "../../types/types";
-import { Badge } from "react-bootstrap";
+import { Badge, Button } from "react-bootstrap";
+import { practiceQuestions } from "../../mochData/grammarQuiz";
+import PracticeQuiz from "./PracticeQuiz";
 
 const GrammarDetail: React.FC = () => {
   const { idx } = useParams<{ idx: string }>();
   const lessonIndex = Number(idx);
+  const [practice, setPractice] = useState(false);
+  const navigate = useNavigate();
 
   const lesson = grammarLession[lessonIndex];
 
   if (!lesson) return <div>Lesson not found</div>;
 
+  const handlePractice = () => {
+    setPractice(true);
+  };
+
+  // Get practice questions by lesson title (fallback to empty array)
+  const questionsForLesson = practiceQuestions[lesson.title] || [];
+
   return (
-    <div className="container">
-      <Link to="/">Back</Link>
+    <>
+      {!practice ? (
+        <div className="container">
+          <Button variant="link" onClick={() => navigate(-1)}>
+            ← Back
+          </Button>
 
-      <div className="mb-2">
-        {/* <Badge bg="secondary"> */}
-        <h2>{lesson.title}</h2>
-        {/* </Badge> */}
-      </div>
+          <div className="mb-2">
+            <h2 className="text-decoration-underline">{lesson.title}</h2>
+          </div>
 
-      <Badge bg="info" className="text-start">
-        {lesson.remember && (
-          <ul className="p-1 m-0">
-            <Badge bg="dark" className="fs-5">
-              Remember
-            </Badge>
-            {lesson.remember.map((r, i) => (
-              <p className="text-decoration-none m-0 fs-6 fst-italic" key={i}>
-                {r}
-              </p>
-            ))}
-          </ul>
-        )}
-      </Badge>
-      {Object.keys(lesson).map(
-        (key) =>
-          key.startsWith("details") && (
-            <div key={key}>
-              <p className="m-0">
-                <strong>
-                  {`=>`} {lesson[key as keyof GrammarLesson]}
-                </strong>
-              </p>
-              {lesson[
-                `example${key.replace("details", "")}` as keyof GrammarLesson
-              ] && (
-                <ul>
-                  <p className="m-0">Example:</p>
-                  {(
-                    lesson[
-                      `example${key.replace(
-                        "details",
-                        ""
-                      )}` as keyof GrammarLesson
-                    ] as string[]
-                  ).map((ex, j) => (
-                    <li key={j}>{ex}</li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          )
+          <Badge bg="info" className="text-start">
+            {lesson.remember && (
+              <ul className="p-1 m-0">
+                <Badge bg="dark" className="fs-5">
+                  Remember
+                </Badge>
+                {lesson.remember.map((r, i) => (
+                  <p
+                    className="text-decoration-none m-0 fs-6 fst-italic"
+                    key={i}
+                  >
+                    {r}
+                  </p>
+                ))}
+                <div className="mt-2">
+                  {lesson?.rememberGuj &&
+                    lesson?.rememberGuj.map((r, i) => (
+                      <p
+                        className="text-decoration-none m-0 fs-6 fst-italic"
+                        key={i}
+                      >
+                        {r}
+                      </p>
+                    ))}
+                </div>
+              </ul>
+            )}
+          </Badge>
+
+          <div className="mt-3">
+            {Object.keys(lesson).map((key) => {
+              // match only English details like: details1, details2...
+              if (/^details[0-9]+$/.test(key)) {
+                const num = key.replace("details", "");
+
+                const english = lesson[key as keyof GrammarLesson];
+                const gujarati =
+                  lesson[`details${num}Guj` as keyof GrammarLesson];
+                const examples = lesson[
+                  `example${num}` as keyof GrammarLesson
+                ] as string[];
+
+                return (
+                  <div key={key} className="mb-3">
+                    {/* English detail */}
+                    <p className="m-0">
+                      <strong>⇒ {english}</strong>
+                    </p>
+
+                    {/* Gujarati detail */}
+                    {gujarati && (
+                      <p className="m-0 text-success">
+                        <strong>⇒ {gujarati}</strong>
+                      </p>
+                    )}
+
+                    {/* Examples */}
+                    {examples && (
+                      <ul className="mt-1">
+                        <p className="m-0 fw-bold">Example:</p>
+                        {examples.map((ex, j) => (
+                          <li key={j}>{ex}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                );
+              }
+              return null;
+            })}
+            <Button
+              variant="danger"
+              size="lg"
+              className="mb-4 w-2"
+              onClick={handlePractice}
+            >
+              Exercise
+            </Button>
+          </div>
+        </div>
+      ) : (
+        <div>
+          {questionsForLesson.length > 0 ? (
+            <PracticeQuiz questions={questionsForLesson} />
+          ) : (
+            <p>No practice questions available for this lesson.</p>
+          )}
+        </div>
       )}
-    </div>
+    </>
   );
 };
 
