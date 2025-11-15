@@ -7,7 +7,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2001",
     content: {
       title: "Basic usage of 'I'm'",
-      detail1: "I'm is short for I am. We use it when talking about ourselves or what we are doing right now.",
+      detail1:
+        "I'm is short for I am. We use it when talking about ourselves or what we are doing right now.",
       example1: [
         "I'm ready to start.",
         "I'm looking for my keys.",
@@ -20,14 +21,16 @@ export const lessonLinks: LessonLink[] = [
         "I'm tired, I will rest now.",
         "I'm grateful for your help.",
       ],
-      detail2: "Here is a simple set of fresh examples using descriptive words with I'm, just like you asked, in easy, everyday English sentences:",
+      detail2:
+        "Here is a simple set of fresh examples using descriptive words with I'm, just like you asked, in easy, everyday English sentences:",
       example2: [
         "I'm very happy.",
         "I'm extremely tired.",
         "I'm terribly hungry.",
       ],
       titleGuj: "I'm નો મૂળભૂત ઉપયોગ",
-      detail1Guj: "I'm એ I am નું સંક્ષિપ્ત સ્વરૂપ છે. અમે તેનો ઉપયોગ ત્યારે કરીએ છીએ જ્યારે પોતે કે હાલ શું કરી રહ્યા હોઈએ તે વિશે વાત કરીએ.",
+      detail1Guj:
+        "I'm એ I am નું સંક્ષિપ્ત સ્વરૂપ છે. અમે તેનો ઉપયોગ ત્યારે કરીએ છીએ જ્યારે પોતે કે હાલ શું કરી રહ્યા હોઈએ તે વિશે વાત કરીએ.",
       example1Guj: [
         "હું શરૂ કરવા માટે તૈયાર છું.",
         "હું મારી ચાબીઓ શોધી રહ્યો છું.",
@@ -38,15 +41,16 @@ export const lessonLinks: LessonLink[] = [
         "હું મિત્રની રાહ જોઈ રહ્યો છું.",
         "હું આ વીકએન્ડે મારા પરિવારની મુલાકાત લઉં છું.",
         "હું થાકેલો છું, હવે આરામ કરીશ.",
-        "હું તમારી મદદ માટે આભારી છું."
+        "હું તમારી મદદ માટે આભારી છું.",
       ],
-      detail2Guj: "અહીં “I’m” (હું છું) સાથેના કેટલાક સરળ અને નવા ઉદાહરણો આપેલા છે, જે વર્ણનાત્મક શબ્દોનો ઉપયોગ કરે છે અને દૈનિક બોલચાલની સરળ અંગ્રેજી વાક્યોમાં છે.",
+      detail2Guj:
+        "અહીં “I’m” (હું છું) સાથેના કેટલાક સરળ અને નવા ઉદાહરણો આપેલા છે, જે વર્ણનાત્મક શબ્દોનો ઉપયોગ કરે છે અને દૈનિક બોલચાલની સરળ અંગ્રેજી વાક્યોમાં છે.",
       example2Guj: [
         "હું ખૂબ ખુશ છું.",
         "હું અત્યંત થાકેલો છું.",
-        "હું ખૂબ ભૂખ્યો છું."
-      ]
-    }
+        "હું ખૂબ ભૂખ્યો છું.",
+      ],
+    },
   },
   {
     id: "basic-002",
@@ -54,7 +58,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2002",
     content: {
       title: "Using 'in', 'at', 'on' with I'm",
-      detail1: "'In' is used to describe being inside a place or room. 'At' is used for a general location or a specific point such as a place or building.",
+      detail1:
+        "'In' is used to describe being inside a place or room. 'At' is used for a general location or a specific point such as a place or building.",
       example1: [
         "I'm in the kitchen.",
         "I'm in my bedroom.",
@@ -65,18 +70,20 @@ export const lessonLinks: LessonLink[] = [
         "I'm at the train station.",
         "I'm at school.",
         "I'm at the hospital.",
-        "I'm at the restaurant."
+        "I'm at the restaurant.",
       ],
-      detail2: "'On' is used for surfaces, communication devices, and some types of transport.",
+      detail2:
+        "'On' is used for surfaces, communication devices, and some types of transport.",
       example2: [
         "I'm on the phone.",
         "I'm on my computer.",
         "I'm on the bus.",
         "I'm on the roof.",
-        "I'm on the internet."
+        "I'm on the internet.",
       ],
       titleGuj: "I'm માં 'in', 'at', 'on' ના વિવિધ ઉપયોગ",
-      detail1Guj: "'in' નો ઉપયોગ કોઈ જગ્યા અથવા રૂમ (શારીરિક સ્થળ)માં હોવા માટે થાય છે. જ્યારે 'at' નો ઉપયોગ સામાન્ય સ્થાન કે ચોક્કસ બિંદુ માટે થાય છે જેમ કે કોઈ જગ્યા કે બિલ્ડિંગ.",
+      detail1Guj:
+        "'in' નો ઉપયોગ કોઈ જગ્યા અથવા રૂમ (શારીરિક સ્થળ)માં હોવા માટે થાય છે. જ્યારે 'at' નો ઉપયોગ સામાન્ય સ્થાન કે ચોક્કસ બિંદુ માટે થાય છે જેમ કે કોઈ જગ્યા કે બિલ્ડિંગ.",
       example1Guj: [
         "હું રસોડામાં છું.",
         "હું મારા બેડરૂમમાં છું.",
@@ -87,17 +94,18 @@ export const lessonLinks: LessonLink[] = [
         "હું ટ્રેન સ્ટેશન પર છું.",
         "હું શાળામાં છું.",
         "હું હોસ્પિટલ ખાતે છું.",
-        "હું રેસ્ટોરન્ટમાં છું."
+        "હું રેસ્ટોરન્ટમાં છું.",
       ],
-      detail2Guj: "'on' નો ઉપયોગ સપાટીઓ, સંવાદ સાધનો અને કેટલાક પ્રકારના પરિવહનમાં થાય છે.",
+      detail2Guj:
+        "'on' નો ઉપયોગ સપાટીઓ, સંવાદ સાધનો અને કેટલાક પ્રકારના પરિવહનમાં થાય છે.",
       example2Guj: [
         "હું ફોન પર છું.",
         "હું મારા કમ્પ્યુટર પર છું.",
         "હું બસમાં છું.",
         "હું છત પર છું.",
-        "હું ઈન્ટરનેટ પર છું."
-      ]
-    }
+        "હું ઈન્ટરનેટ પર છું.",
+      ],
+    },
   },
   {
     id: "basic-003",
@@ -105,7 +113,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2003",
     content: {
       title: "I'm good at ...",
-      detail1: "'I'm good at ...' means you have skill or ability in that activity.",
+      detail1:
+        "'I'm good at ...' means you have skill or ability in that activity.",
       example1: [
         "I'm good at singing.",
         "I'm good at cooking.",
@@ -116,10 +125,11 @@ export const lessonLinks: LessonLink[] = [
         "I'm good at dancing.",
         "I'm good at writing stories.",
         "I'm good at swimming.",
-        "I'm good at playing chess."
+        "I'm good at playing chess.",
       ],
       titleGuj: "હું ... માં સારો છું",
-      detail1Guj: "'I'm good at ...' નો અર્થ છે કે તમને તે કાર્યમાં કુશળતા અથવા ક્ષમતા છે",
+      detail1Guj:
+        "'I'm good at ...' નો અર્થ છે કે તમને તે કાર્યમાં કુશળતા અથવા ક્ષમતા છે",
       example1Guj: [
         "હું ગીત ગાવામાં સારો છું.",
         "હું રસોઈમાં સારો છું.",
@@ -130,9 +140,9 @@ export const lessonLinks: LessonLink[] = [
         "હું નૃત્ય કરવામાં સારો છું.",
         "હું વાર્તાઓ લખવામાં સારો છું.",
         "હું તરવામાં સારો છું.",
-        "હું ચેસ રમવામાં સારો છું."
-      ]
-    }
+        "હું ચેસ રમવામાં સારો છું.",
+      ],
+    },
   },
   {
     id: "basic-004",
@@ -140,26 +150,28 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2005",
     content: {
       title: "I'm + (verb)",
-      detail1: "'I'm' is the short form of 'I am'. Used with a verb to describe an action or state about yourself.",
+      detail1:
+        "'I'm' is the short form of 'I am'. Used with a verb to describe an action or state about yourself.",
       example1: [
         "I'm having breakfast.",
         "I'm washing my hands.",
         "I'm happy.",
         "I'm going to school.",
         "I'm reading a book.",
-        "I'm talking to a friend."
+        "I'm talking to a friend.",
       ],
       titleGuj: "I'm + (ક્રિયા)",
-      detail1Guj: "'I'm' એ 'I am' નું સંક્ષિપ્ત સ્વરૂપ છે. ક્રિયા સાથે ઉપયોગ કરીને તે તમારા વિશે કોઇ ક્રિયા કે સ્થિતિ દર્શાવે છે.",
+      detail1Guj:
+        "'I'm' એ 'I am' નું સંક્ષિપ્ત સ્વરૂપ છે. ક્રિયા સાથે ઉપયોગ કરીને તે તમારા વિશે કોઇ ક્રિયા કે સ્થિતિ દર્શાવે છે.",
       example1Guj: [
         "હું નાસ્તો કરી રહ્યો છું.",
         "હું હાથ ધોઈ રહ્યો છું.",
         "હું ખુશ છું.",
         "હું શાળાએ જઈ રહ્યો છું.",
         "હું પુસ્તક વાંચી રહ્યો છું.",
-        "હું મિત્ર સાથે વાત કરી રહ્યો છું."
-      ]
-    }
+        "હું મિત્ર સાથે વાત કરી રહ્યો છું.",
+      ],
+    },
   },
   {
     id: "basic-005",
@@ -167,7 +179,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2006",
     content: {
       title: "I'm getting",
-      detail1: "'I'm getting' means you are currently experiencing, obtaining, or improving something. It indicates a change or process happening now or in the near future.",
+      detail1:
+        "'I'm getting' means you are currently experiencing, obtaining, or improving something. It indicates a change or process happening now or in the near future.",
       example1: [
         "I'm getting stronger every day.",
         "I'm getting ready for my trip.",
@@ -177,10 +190,11 @@ export const lessonLinks: LessonLink[] = [
         "I'm getting my hair cut tomorrow.",
         "I'm getting excited for the party.",
         "I'm getting my homework done.",
-        "I'm getting tired quickly."
+        "I'm getting tired quickly.",
       ],
       titleGuj: "I'm getting",
-      detail1Guj: "'I'm getting'નો અર્થ થાય છે કે તમે હાલમાં કંઈક અનુભવ કરી રહ્યા છો, મેળવી રહ્યા છો અથવા સુધરી રહ્યા છો. આ હાલ કે નજીકના ભવિષ્યમાં બદલાવ કે પ્રક્રિયા દર્શાવે છે.",
+      detail1Guj:
+        "'I'm getting'નો અર્થ થાય છે કે તમે હાલમાં કંઈક અનુભવ કરી રહ્યા છો, મેળવી રહ્યા છો અથવા સુધરી રહ્યા છો. આ હાલ કે નજીકના ભવિષ્યમાં બદલાવ કે પ્રક્રિયા દર્શાવે છે.",
       example1Guj: [
         "હું દરરોજ વધુ મજબૂત થઈ રહ્યો છું.",
         "હું મારી યાત્રા માટે તૈયાર થઈ રહ્યો છું.",
@@ -190,9 +204,9 @@ export const lessonLinks: LessonLink[] = [
         "હું કાલે વાળ કપાવવા જઈ રહ્યો છું.",
         "હું પાર્ટી માટે ઉત્સાહિત થઈ રહ્યો છું.",
         "હું હોમવર્ક પૂરું કરી રહ્યો છું.",
-        "હું ઝડપથી થાક્યો થઈ રહ્યો છું."
-      ]
-    }
+        "હું ઝડપથી થાક્યો થઈ રહ્યો છું.",
+      ],
+    },
   },
   {
     id: "basic-006",
@@ -200,7 +214,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2007",
     content: {
       title: "I'm trying + (verb)",
-      detail1: "'I'm trying' means you are making an effort to do something or trying to achieve a goal. It shows ongoing effort or intention.",
+      detail1:
+        "'I'm trying' means you are making an effort to do something or trying to achieve a goal. It shows ongoing effort or intention.",
       example1: [
         "I'm trying to learn a new language.",
         "I'm trying to eat healthier.",
@@ -208,18 +223,20 @@ export const lessonLinks: LessonLink[] = [
         "I'm trying to be more patient.",
         "I'm trying to exercise every day.",
         "I'm trying to improve my English.",
-        "I'm trying to quit bad habits."
+        "I'm trying to quit bad habits.",
       ],
-      detail2: "'Trying' is also used as an adjective to describe a stressful or emotionally difficult experience.",
+      detail2:
+        "'Trying' is also used as an adjective to describe a stressful or emotionally difficult experience.",
       example2: [
         "Learning new things can be trying.",
         "The marathon was very trying for me.",
         "Studying all night was trying for the whole class.",
         "The long journey was trying for everyone.",
-        "The big exam was trying my patience."
+        "The big exam was trying my patience.",
       ],
       titleGuj: "I'm trying + (ક્રિયા)",
-      detail1Guj: "'I'm trying'નો અર્થ થાય છે કે તમે કંઈક કરવાની કોશિશ કરી રહ્યા છો અથવા કોઈ લક્ષ્ય હાંસલ કરવા પ્રયાસમાં છો. આ ચાલુ પ્રયત્ન કે ઇરાદા દર્શાવે છે.",
+      detail1Guj:
+        "'I'm trying'નો અર્થ થાય છે કે તમે કંઈક કરવાની કોશિશ કરી રહ્યા છો અથવા કોઈ લક્ષ્ય હાંસલ કરવા પ્રયાસમાં છો. આ ચાલુ પ્રયત્ન કે ઇરાદા દર્શાવે છે.",
       example1Guj: [
         "હું નવી ભાષા શીખવાનો પ્રયાસ કરી રહ્યો છું.",
         "હું વધુ સ્વસ્થ ખાવાની કોશિશ કરી રહ્યો છું.",
@@ -227,17 +244,18 @@ export const lessonLinks: LessonLink[] = [
         "હું વધુ ધીરજવાન બનવાનો પ્રયાસ કરી રહ્યો છું.",
         "હું દરરોજ વ્યાયામ કરવાનો પ્રયાસ કરી રહ્યો છું.",
         "હું મારી અંગ્રેજી સુધારવાનો પ્રયાસ કરી રહ્યો છું.",
-        "હું ખરાબ આદતો છોડવાનો પ્રયાસ કરી રહ્યો છું."
+        "હું ખરાબ આદતો છોડવાનો પ્રયાસ કરી રહ્યો છું.",
       ],
-      detail2Guj: "'Trying' એક વિશેષણ તરીકે પણ વપરાય છે જે તણાવ, કષ્ટ અથવા ભાવનાત્મક કષ્ટ દર્શાવે છે. તે એવી સ્થિતિ કે અનુભવ બતાવે છે જે સહન કરવી મુશ્કેલ હોય.",
+      detail2Guj:
+        "'Trying' એક વિશેષણ તરીકે પણ વપરાય છે જે તણાવ, કષ્ટ અથવા ભાવનાત્મક કષ્ટ દર્શાવે છે. તે એવી સ્થિતિ કે અનુભવ બતાવે છે જે સહન કરવી મુશ્કેલ હોય.",
       example2Guj: [
         "નવી વસ્તુઓ શીખવી ક્યારેક મુશ્કેલ થઈ શકે છે.",
         "તે મેરેથોન મારા માટે ખૂબ જ કઠિન રહ્યું.",
         "રાતભર અભ્યાસ કરવો આખા વર્ગ માટે કષ્ટદાયક હતો.",
         "લાંબી મુસાફરી સૌ માટે કઠિન હતી.",
-        "મોટી પરીક્ષા મારી સહનશક્તિની કસોટી લઈ રહી હતી."
-      ]
-    }
+        "મોટી પરીક્ષા મારી સહનશક્તિની કસોટી લઈ રહી હતી.",
+      ],
+    },
   },
   {
     id: "basic-007",
@@ -245,7 +263,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2008",
     content: {
       title: "I'm gonna + (verb)",
-      detail1: "'Gonna' is the informal short form of 'going to', mainly used in spoken English and informal writing. It indicates intention to do something in the future.",
+      detail1:
+        "'Gonna' is the informal short form of 'going to', mainly used in spoken English and informal writing. It indicates intention to do something in the future.",
       example1: [
         "I'm gonna drink coffee.",
         "I'm gonna go to work.",
@@ -255,10 +274,11 @@ export const lessonLinks: LessonLink[] = [
         "I'm gonna invite him for dinner.",
         "I'm gonna quit smoking.",
         "I'm gonna help my friends.",
-        "I'm gonna read a book."
+        "I'm gonna read a book.",
       ],
       titleGuj: "I'm gonna + (ક્રિયા)",
-      detail1Guj: "'gonna' એ 'going to' નું અનૌપચારિક સંક્ષિપ્ત સ્વરૂપ છે જે મુખ્યત્વે બોલચાલની અંગ્રેજીમાં અને અનૌપચારિક લેખનમાં વપરાય છે. તેનો ઉપયોગ ભવિષ્યમાં કોઈ ક્રિયા કરવાના ઇરાદા દર્શાવવા માટે થાય છે.",
+      detail1Guj:
+        "'gonna' એ 'going to' નું અનૌપચારિક સંક્ષિપ્ત સ્વરૂપ છે જે મુખ્યત્વે બોલચાલની અંગ્રેજીમાં અને અનૌપચારિક લેખનમાં વપરાય છે. તેનો ઉપયોગ ભવિષ્યમાં કોઈ ક્રિયા કરવાના ઇરાદા દર્શાવવા માટે થાય છે.",
       example1Guj: [
         "હું કૉફી પીવાનો છું.",
         "હું કામ પર જઈશ.",
@@ -268,9 +288,9 @@ export const lessonLinks: LessonLink[] = [
         "હું તેને રાત્રિભોજન માટે આમંત્રિત કરવાનો છું.",
         "હું ધૂમ્રપાન છોડી દઈશ.",
         "હું મારા મિત્રોની મદદ કરવા જઇ રહ્યો છું.",
-        "હું એક પુસ્તક વાંચવાનો છું."
-      ]
-    }
+        "હું એક પુસ્તક વાંચવાનો છું.",
+      ],
+    },
   },
   {
     id: "basic-008",
@@ -285,33 +305,36 @@ export const lessonLinks: LessonLink[] = [
         "I have concert tickets.",
         "I have a computer.",
         "I have a question.",
-        "I have a job."
+        "I have a job.",
       ],
-      detail2: "'I have' with 'cannot' and 'won't' is used to show rules or limits that you don't allow.",
+      detail2:
+        "'I have' with 'cannot' and 'won't' is used to show rules or limits that you don't allow.",
       example2: [
         "I cannot smoke in my car.",
         "I won't bring dogs into the house.",
         "I don't allow my work to be stopped.",
-        "I don't allow bad behavior in school."
+        "I don't allow bad behavior in school.",
       ],
       titleGuj: "I have + (નામપદ)",
-      detail1Guj: "'I have' નો ઉપયોગ માલિકી અથવા કઈક ધરાવવાનો દર્શાવવા માટે થાય છે.",
+      detail1Guj:
+        "'I have' નો ઉપયોગ માલિકી અથવા કઈક ધરાવવાનો દર્શાવવા માટે થાય છે.",
       example1Guj: [
         "મારી પાસે નવો ફોન છે.",
         "મારા બે ભાઈઓ છે.",
         "મારી પાસે શોના ટિકિટ્સ છે.",
         "મારી પાસે કમ્પ્યુટર છે.",
         "મારા પાસે એક પ્રશ્ન છે.",
-        "મારી પાસે નોકરી છે."
+        "મારી પાસે નોકરી છે.",
       ],
-      detail2Guj: "'I have' સાથે 'cannot' અને 'won't' નો ઉપયોગ કોઈ નિયમો કે મર્યાદા દર્શાવવા માટે થાય છે કે જે તમે મંજૂર નથી કરતા.",
+      detail2Guj:
+        "'I have' સાથે 'cannot' અને 'won't' નો ઉપયોગ કોઈ નિયમો કે મર્યાદા દર્શાવવા માટે થાય છે કે જે તમે મંજૂર નથી કરતા.",
       example2Guj: [
         "હું મારી કારમાં ધુમ્રપાન કરતો નથી.",
         "હું ઘરમાં કૂતરા લાવતો નથી.",
         "હું મારી કામ અટકવા નહીં દઈશ.",
-        "હું શાળામાં ખરાબ વર્તન સહન કરતો નથી."
-      ]
-    }
+        "હું શાળામાં ખરાબ વર્તન સહન કરતો નથી.",
+      ],
+    },
   },
   {
     id: "basic-009",
@@ -319,7 +342,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2010",
     content: {
       title: "I have + (past participle)",
-      detail1: "'I have' with past participle is used to talk about actions completed or life experiences.",
+      detail1:
+        "'I have' with past participle is used to talk about actions completed or life experiences.",
       example1: [
         "I have finished my homework.",
         "I have visited many countries.",
@@ -329,10 +353,11 @@ export const lessonLinks: LessonLink[] = [
         "I have written three emails today.",
         "I have seen this movie twice.",
         "I have cleaned my room.",
-        "I have called my friend."
+        "I have called my friend.",
       ],
       titleGuj: "I have + (ભૂતકાળ participle)",
-      detail1Guj: "'I have' સાથે ભૂતકાળ participle નો ઉપયોગ અગાઉ થયેલી ક્રિયા કે જીવનનો અનુભવ બતાવવા માટે થાય છે.",
+      detail1Guj:
+        "'I have' સાથે ભૂતકાળ participle નો ઉપયોગ અગાઉ થયેલી ક્રિયા કે જીવનનો અનુભવ બતાવવા માટે થાય છે.",
       example1Guj: [
         "હું મારું હોમવર્ક પૂરું કરી દીધું છે.",
         "હું ઘણા દેશોની મુલાકાત લીધી છે.",
@@ -342,9 +367,9 @@ export const lessonLinks: LessonLink[] = [
         "મેં આજે ત્રણ ઈમેઈલ લખ્યાં છે.",
         "હું આ ફિલ્મ બે વાર જોઈ છે.",
         "હું મારું રૂમ સાફ કર્યું છે.",
-        "મેં મારા મિત્રને ફોન કર્યો છે."
-      ]
-    }
+        "મેં મારા મિત્રને ફોન કર્યો છે.",
+      ],
+    },
   },
   {
     id: "basic-010",
@@ -352,7 +377,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2011",
     content: {
       title: "I used to + (verb)",
-      detail1: "'Used to' expresses past habitual actions or habits that no longer happen.",
+      detail1:
+        "'Used to' expresses past habitual actions or habits that no longer happen.",
       example1: [
         "I used to ride a bike to school.",
         "I used to visit my grandparents every summer.",
@@ -360,10 +386,11 @@ export const lessonLinks: LessonLink[] = [
         "I used to listen to the radio in the car.",
         "I used to wear glasses.",
         "I used to drink tea, not coffee.",
-        "I used to swim in the pond."
+        "I used to swim in the pond.",
       ],
       titleGuj: "I used to + (ક્રિયા)",
-      detail1Guj: "'Used to' એ ભૂતકાળમાં વારંવાર થતી પ્રવૃત્તિઓ કે આદતો દર્શાવે છે જે હવે નથી.",
+      detail1Guj:
+        "'Used to' એ ભૂતકાળમાં વારંવાર થતી પ્રવૃત્તિઓ કે આદતો દર્શાવે છે જે હવે નથી.",
       example1Guj: [
         "હું સ્કૂલ જવા માટે સાયકલ ચલાવતા હતો.",
         "હું દરેક ઉનાળે દાદા-દાદીને મળવા જતો હતો.",
@@ -371,9 +398,9 @@ export const lessonLinks: LessonLink[] = [
         "હું કારમાં રેડિયો સાંભળતો હતો.",
         "હું ચશ્મા પહેરતો હતો.",
         "હું કૉફી નહીં, ચા પીતો હતો.",
-        "હું તળાવમાં તરતો હતો."
-      ]
-    }
+        "હું તળાવમાં તરતો હતો.",
+      ],
+    },
   },
   {
     id: "basic-011",
@@ -381,7 +408,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2012",
     content: {
       title: "I'm going to + (verb)",
-      detail1: "'I'm going to' expresses planned actions or intentions in the near future.",
+      detail1:
+        "'I'm going to' expresses planned actions or intentions in the near future.",
       example1: [
         "I'm going to travel next week.",
         "I'm going to buy a new car.",
@@ -389,10 +417,11 @@ export const lessonLinks: LessonLink[] = [
         "I'm going to meet my friends tomorrow.",
         "I'm going to cook dinner.",
         "I'm going to watch a movie.",
-        "I'm going to call my parents."
+        "I'm going to call my parents.",
       ],
       titleGuj: "I'm going to + (ક્રિયા)",
-      detail1Guj: "'I'm going to' નો અર્થ થાય છે કે તમે નજીકના ભવિષ્યમાં કોઇ યોજના કે ઈરાદો ધરાવો છો.",
+      detail1Guj:
+        "'I'm going to' નો અર્થ થાય છે કે તમે નજીકના ભવિષ્યમાં કોઇ યોજના કે ઈરાદો ધરાવો છો.",
       example1Guj: [
         "હું આવતા અઠવાડિયામાં પ્રવાસ કરવા જઈ રહ્યો છું.",
         "હું નવી ગાડી ખરીદવા જઈ રહ્યો છું.",
@@ -400,9 +429,9 @@ export const lessonLinks: LessonLink[] = [
         "હું આવતીકાલે મારા મિત્રો સાથે મળવા જઈ રહ્યો છું.",
         "હું રાત્રિભોજન બનાવવાનો છું.",
         "હું એક ફિલ્મ જોવા જઈ રહ્યો છું.",
-        "હું મારા માતાપિતાને ફોન કરવાનો છું."
-      ]
-    }
+        "હું મારા માતાપિતાને ફોન કરવાનો છું.",
+      ],
+    },
   },
   {
     id: "basic-012",
@@ -410,7 +439,8 @@ export const lessonLinks: LessonLink[] = [
     url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2013",
     content: {
       title: "I'm + adjective",
-      detail1: "'I'm' used with adjectives to describe feelings, emotions, or states.",
+      detail1:
+        "'I'm' used with adjectives to describe feelings, emotions, or states.",
       example1: [
         "I'm happy.",
         "I'm sad.",
@@ -419,10 +449,11 @@ export const lessonLinks: LessonLink[] = [
         "I'm nervous.",
         "I'm angry.",
         "I'm bored.",
-        "I'm hungry."
+        "I'm hungry.",
       ],
       titleGuj: "I'm + વિશેષણ",
-      detail1Guj: "'I'm' નું ઉપયોગ વિશેષણ સાથે થાય છે જે ભાવનાઓ, લાગણીઓ અથવા સ્થિતિઓ બતાવે છે.",
+      detail1Guj:
+        "'I'm' નું ઉપયોગ વિશેષણ સાથે થાય છે જે ભાવનાઓ, લાગણીઓ અથવા સ્થિતિઓ બતાવે છે.",
       example1Guj: [
         "હું ખુશ છું.",
         "હું દુઃખી છું.",
@@ -431,9 +462,9 @@ export const lessonLinks: LessonLink[] = [
         "હું ચિંતિત છું.",
         "હું ગુસ્સામાં છું.",
         "હું બોર થઈ ગયો છું.",
-        "હું ભૂખ્યો છું."
-      ]
-    }
+        "હું ભૂખ્યો છું.",
+      ],
+    },
   },
   {
     id: "basic-013",
@@ -449,7 +480,7 @@ export const lessonLinks: LessonLink[] = [
         "I'm not ready.",
         "I'm not sure.",
         "I'm not sleeping.",
-        "I'm not busy."
+        "I'm not busy.",
       ],
       titleGuj: "I'm not + (વિશેષણ/ક્રિયા)",
       detail1Guj: "તમારા વિશે નકારાત્મક નિવેદન કરવા માટે વપરાય છે.",
@@ -460,9 +491,9 @@ export const lessonLinks: LessonLink[] = [
         "હું તૈયાર નથી.",
         "હું નિશ્ચિત નથી.",
         "હું ઊંઘી રહ્યો નથી.",
-        "હું વ્યસ્ત નથી."
-      ]
-    }
+        "હું વ્યસ્ત નથી.",
+      ],
+    },
   },
   {
     id: "basic-014",
@@ -643,7 +674,8 @@ export const lessonLinks: LessonLink[] = [
         "I don't have time to read the news.",
         "I don't have time to exercise in the morning.",
       ],
-      detail2: "Use 'I don't' to say things you dislike, don't understand, or don't do.",
+      detail2:
+        "Use 'I don't' to say things you dislike, don't understand, or don't do.",
       example2: [
         "I don't play video games.",
         "I don't eat spicy food.",
@@ -1081,6 +1113,186 @@ export const lessonLinks: LessonLink[] = [
         "હું તમારા રેસ્ટોરન્ટમાં રિઝર્વેશન કરવા માટે કોલ કરી રહ્યો છું.",
         "હું કંઈક ફરિયાદ કરવા માટે કોલ કરી રહ્યો છું.",
         "હું ભૂલ માટે માફી માંગવા માટે કોલ કરી રહ્યો છું.",
+      ],
+    },
+  },
+  {
+    id: "basic-031",
+    title: "I'm working on + (noun)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2032",
+    content: {
+      title: "I'm working on + (noun)",
+      detail1:
+        "The phrase 'I'm working on' is used to describe putting effort—either physical or mental—into completing a task or achieving a goal.",
+      example1: [
+        "I'm working on my computer.",
+        "I'm woking on a new idea.",
+        "I'm working on painting house.",
+        "I'm working on a big project.",
+        "I'm working on educating my self.",
+        "I'm working on my homework.",
+        "I'm working on training my dog.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I'm working on' નો અર્થ થાય છે કે તમે કોઈ કાર્ય અથવા લક્ષ્યાંક પર શારીરિક કે માનસિક પ્રયત્ન કરી રહ્યા છો જેથી તેને પૂર્ણ કરી શકાય.",
+      example1Guj: [
+        "હું મારા કમ્પ્યુટરમાં કામ કરી રહી છું.",
+        "હું નવી વિચાર પર કામ કરી રહ્યો છું.",
+        "હું ઘરની રંગાઈ પર કામ કરી રહી છું.",
+        "હું એક મોટા પ્રોજેક્ટ પર કામ કરી રહ્યો છું.",
+        "હું પોતાને શિક્ષિત કરવા પર કામ કરી રહ્યો છું.",
+        "હું મારી હોમવર્ક પર કામ કરી રહી છું.",
+        "હું મારા કૂતરાને તાલીમ આપવાનો પ્રયાસ કરી રહી છું.",
+      ],
+    },
+  },
+  {
+    id: "basic-032",
+    title: "I'm sorry to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2033",
+    content: {
+      title: "I'm sorry to + (verb)",
+      detail1:
+        "The phrase 'I'm sorry to' is used to express a feeling of sympathy or regret.",
+      example1: [
+        "I'm sorry to call so late.",
+        "I'm sorry to brother you.",
+        "I'm sorry to interrupt you.",
+        "I'm sorry to miss the meeting.",
+        "I'm sorry to waste your time.",
+        "I'm sorry to disappoint you.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "''I'm sorry to' વાક્યપ્રયોગનો ઉપયોગ સહાનુભૂતિ અથવા પછાતીની લાગણી વ્યક્ત કરવા માટે થાય છે.",
+      example1Guj: [
+        "માફ કરશો, આટલું મોડું ફોન કરવા માટે.",
+        "માફ કરશો, તમને પરેશાન કરવા માટે.",
+        "માફ કરશો, તમને વિક્ષેપ કરવાને માટે.",
+        "માફ કરશો, મીટિંગ ચૂકી જવા માટે.",
+        "માફ કરશો, તમારો સમય વ્યર્થ કરવા માટે.",
+        "માફ કરશો, તમને નિરાશ કરવા માટે.",
+      ],
+    },
+  },
+  {
+    id: "basic-033",
+    title: "I'm thinking of + (verb-ing)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2034",
+    content: {
+      title: "I'm thinking of + (verb-ing)",
+      detail1:
+        "The phrase 'I'm thinking of' expresses the process of thought, forming an intention, plan, or judgment about something you may do or consider.",
+      example1: [
+        "I'm thinking of launching a new website.",
+        "I'm thinking of introducing myself to him.",
+        "I'm thinking of following a healthy diet.",
+        "I'm thinking of increasing my workload.",
+        "I'm thinking of cheking out the new movie.",
+        "I'm thinking of opening up a stote.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "‘I'm thinking of’ phrase વિચાર કરવાની પ્રક્રિયા દર્શાવે છે, જેમાં તમે કંઈક કરવા અથવા વિચારવા માટે મનમાં ઇરાદો, યોજના કે નિર્ણય બનાવો છો.",
+      example1Guj: [
+        "હું નવી વેબસાઇટ શરૂ કરવાની વિચારી રહ્યો છું.",
+        "હું મારા પરિચય આપવા વિશે વિચારી રહ્યો છું.",
+        "હું સ્વસ્થ આહારનું અનુસરણ કરવાની વિચારી રહ્યો છું.",
+        "હું મારી કામની જડબેસલાક વધારવાની વિચારી રહ્યો છું.",
+        "હું નવી મૂવી જોવાની વિચારી રહ્યો છું.",
+        "હું દુકાન ખોલવાની વિચારી રહ્યો છું.",
+      ],
+    },
+  },
+  {
+    id: "basic-034",
+    title: "I'll help you + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2035",
+    content: {
+      title: "I'll help you + (verb)",
+      detail1:
+        "The phrase 'I'll help you + (verb)' means you are offering to provide assistance with something, whether it is a physical task or a mental activity.",
+      example1: [
+        "I'll help you learn a new skill.",
+        "I'll help you fix your computer.",
+        "I'll help you park your car.",
+        "I'll help you move to your new house.",
+        "I'll help you raise money for your charity.",
+        "I'll help you cook dinner tonight.",
+        "I'll help you prevent that from happening again.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I'll help you + (ક્રિયા)' નો અર્થ થાય છે કે તમે કોઈ શારીરિક કાર્ય હોય કે માનસિક પ્રવૃત્તિ, તેમાં મદદ કરવાનું પ્રસ્તાવ આપી રહ્યા છો.",
+      example1Guj: [
+        "હું તમારી નવી કૌશલ્ય શીખવામાં મદદ કરીશ.",
+        "હું તમારું કમ્પ્યુટર ઠીક કરવા માં મદદ કરીશ.",
+        "હું તમારી કાર પાર્ક કરવામાં મદદ કરીશ.",
+        "હું તમારું નવા ઘરમાં જવા માટે મદદ કરીશ.",
+        "હું તમારી ચેરિટી માટે પૈસા ભેગા કરવામાં મદદ કરીશ.",
+        "હું આજે રાત્રે ભોજન બનાવવામાં મદદ કરીશ.",
+        "હું ફરી એ ઘટનાથી બચવા માટે મદદ કરીશ.",
+      ],
+    },
+  },
+  {
+    id: "basic-035",
+    title: "I'm dying to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2036",
+    content: {
+      title: "I'm dying to + (verb)",
+      detail1:
+        "The phrase 'I'm dying to' means that you really want or desire to do something very much.",
+      example1: [
+        "I'm dying to introduce you to my parents.",
+        "I'm dyning to learn more about you.",
+        "I'm dying to relax on the beach.",
+        "I'm dying to order some desserts.",
+        "I'm dying to move to a bigger house.",
+        "I'm dying to find out if I got the job.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I'm dying to' વાક્યનો અર્થ એ છે કે તમે ખરેખર ખૂબ ઈચ્છો છો કે કંઈક કરવું.",
+      example1Guj: [
+        "હું તમને મારા માતા-પિતા સાથે ઓળખાવવાનું ખૂબ ઇચ્છું છું.",
+        "હું તમારા વિશે વધુ જાણવા માટે આતુર છું.",
+        "હું સમુદ્રકાંઠે આરામ કરવા માટે ખુબ ઉત્સુક છું.",
+        "હું કેટલાક મીઠાઈઓનું ઓર્ડર આપવા માટે આતુર છું.",
+        "હું મોટા ઘરમાં રહેવા માટે ખૂબ ઈચ્છું છું.",
+        "હું જાણવા માટે ખૂબ ઉત્સુક છું કે મને નોકરી મળી કે નહીં.",
+      ],
+    },
+  },
+  {
+    id: "basic-036",
+    title: "It's my turn to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2037",
+    content: {
+      title: "It's my turn to + (verb)",
+      detail1:
+        "The phrase 'It's my turn to + (verb)' means that it is now your opportunity or responsibility to do something, usually after someone else has had their chance.",
+      example1: [
+        "It's my turn to choose where we eat.",
+        "It's my turn to pay for dinner.",
+        "It's my turn to roll the dice.",
+        "It's my turn to provide an answer.",
+        "It's my turn to try and play the game.",
+        "It's my turn to attempt solving the problem.",
+        "It's my turn to take out the trash.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'It's my turn to + (ક્રિયાપદ)' નો અર્થ છે કે હવે તમારું અવસર અથવા જવાબદારી છે કંઈક કરવા માટે, સામાન્ય રીતે પછી જ્યારે કોઈ બીજા વ્યક્તિને તક મળી હોય.",
+      example1Guj: [
+        "આખો વારો હવે મારો છે કે ક્યાં ખાવું તે પસંદ કરવાનું.",
+        "રાત્રીભોજન માટે પેમેન્ટ કરવાનો વારો હવે મારો છે.",
+        "ડાઇ ફેંકવાનો વારો હવે મારો છે.",
+        "જવાબ આપવાનો વારો હવે મારો છે.",
+        "ગેમ રમવાનો પ્રયાસ કરવાનો વારો હવે મારો છે",
+        "સમસ્યા ઉકેલવાનો પ્રયાસ કરવાનો વારો હવે મારો છે.",
+        "કચરો કાઢવાનો વારો હવે મારો છે.",
       ],
     },
   },

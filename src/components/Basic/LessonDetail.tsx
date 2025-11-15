@@ -192,7 +192,7 @@ const LessonDetail: React.FC = () => {
                     🔊 Listen
                   </button>
                 </span>
-                <span> {selectedLesson.detail1Guj}</span>
+                <span className="text-success"> {selectedLesson.detail1Guj}</span>
               </p>
               <p>
                 <em>Example:</em>
@@ -235,7 +235,7 @@ const LessonDetail: React.FC = () => {
                         🔊 Listen
                       </button>
                     </span>
-                    <span> {selectedLesson.detail2Guj}</span>
+                    <span className="text-success"> {selectedLesson.detail2Guj}</span>
                   </p>
 
                   <p>
