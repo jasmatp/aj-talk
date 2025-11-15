@@ -15,7 +15,7 @@ const LessonDetail: React.FC = () => {
   const [start, setStart] = useState(false);
 
   const [currentPage, setCurrentPage] = React.useState(1);
-  const [lessonsPerPage, setLessonsPerPage] = React.useState(5);
+  const [lessonsPerPage, setLessonsPerPage] = React.useState(10);
 
   const [showModal, setShowModal] = useState(false);
   const [selectedLesson, setSelectedLesson] = useState<LessonContent | null>(
@@ -144,7 +144,7 @@ const LessonDetail: React.FC = () => {
               <option value={10}>10 / page</option>
               <option value={20}>20 / page</option>
             </Form.Select>
-            <Pagination className="mt-2 pb-2">
+            {/* <Pagination className="mt-2 pb-2">
               <Pagination.First
                 onClick={() => handlePageChange(1)}
                 disabled={currentPage === 1}
@@ -162,6 +162,51 @@ const LessonDetail: React.FC = () => {
                   {i + 1}
                 </Pagination.Item>
               ))}
+              <Pagination.Next
+                onClick={() => handlePageChange(currentPage + 1)}
+                disabled={currentPage === totalPages}
+              />
+              <Pagination.Last
+                onClick={() => handlePageChange(totalPages)}
+                disabled={currentPage === totalPages}
+              />
+            </Pagination> */}
+            <Pagination className="mt-2 pb-2">
+              <Pagination.First
+                onClick={() => handlePageChange(1)}
+                disabled={currentPage === 1}
+              />
+              <Pagination.Prev
+                onClick={() => handlePageChange(currentPage - 1)}
+                disabled={currentPage === 1}
+              />
+
+              {/* Show first 2 pages */}
+              {[1, 2].map((page) => (
+                <Pagination.Item
+                  key={page}
+                  active={page === currentPage}
+                  onClick={() => handlePageChange(page)}
+                >
+                  {page}
+                </Pagination.Item>
+              ))}
+
+              {/* Show ellipsis if more than 4 pages */}
+              {totalPages > 4 && <Pagination.Ellipsis disabled />}
+
+              {/* Show last 2 pages */}
+              {totalPages > 3 &&
+                [totalPages - 1, totalPages].map((page) => (
+                  <Pagination.Item
+                    key={page}
+                    active={page === currentPage}
+                    onClick={() => handlePageChange(page)}
+                  >
+                    {page}
+                  </Pagination.Item>
+                ))}
+
               <Pagination.Next
                 onClick={() => handlePageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
@@ -192,7 +237,10 @@ const LessonDetail: React.FC = () => {
                     🔊 Listen
                   </button>
                 </span>
-                <span className="text-success"> {selectedLesson.detail1Guj}</span>
+                <span className="text-success">
+                  {" "}
+                  {selectedLesson.detail1Guj}
+                </span>
               </p>
               <p>
                 <em>Example:</em>
@@ -235,7 +283,10 @@ const LessonDetail: React.FC = () => {
                         🔊 Listen
                       </button>
                     </span>
-                    <span className="text-success"> {selectedLesson.detail2Guj}</span>
+                    <span className="text-success">
+                      {" "}
+                      {selectedLesson.detail2Guj}
+                    </span>
                   </p>
 
                   <p>

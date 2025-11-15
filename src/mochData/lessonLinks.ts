@@ -1296,4 +1296,451 @@ export const lessonLinks: LessonLink[] = [
       ],
     },
   },
+  {
+    id: "basic-037",
+    title: "It's hard for me to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2038",
+    content: {
+      title: "It's hard for me to + (verb)",
+      detail1:
+        "The phrase 'It's hard for me to + (verb)' lets someone know that what you are talking about is difficult or challenging for you.",
+      example1: [
+        "It's hard for me to accept what you are telling me.",
+        "It's hard for me to argue your point.",
+        "It's hard for me to wake up early in the morning.",
+        "It's hard for me to learn a new language quickly.",
+        "It's hard for me to keep up with deadlines.",
+        "It's hard for me to stay focused during long meetings.",
+        "It's hard for me to trust new people.",
+        "It's hard for me to express my feelings openly.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'It's hard for me to + (verb)' કહેવાનું અર્થ એ થાય છે કે તમે જે વિશે વાત કરો છો તે તમારા માટે મુશ્કેલ અથવા પડકારજનક છે.",
+      example1Guj: [
+        "તમે જે કહી રહ્યા છો તેને સ્વીકારવું મારા માટે મુશ્કેલ છે.",
+        "તમારા મુદ્દા સામે દલીલ કરવું મારા માટે મુશ્કેલ છે.",
+        "સવારે વહેલાં ઉઠવું મારા માટે મુશ્કેલ છે.",
+        "નવી ભાષા ઝડપી શીખવું મારા માટે મુશ્કેલ છે.",
+        "ડેડલાઇન પૂરી કરવાની ગતિ સાથે ચાલવું મારા માટે મુશ્કેલ છે.",
+        "લાંબી મીટિંગ દરમિયાન ધ્યાન કેન્દ્રિત રાખવું મારા માટે મુશ્કેલ છે.",
+        "નવા લોકોને વિશ્વાસ કરવું મારા માટે મુશ્કેલ છે.",
+        "મારી લાગણીઓ ખુલ્લેઆમ વ્યક્ત કરવું મારા માટે મુશ્કેલ છે.",
+      ],
+    },
+  },
+  {
+    id: "basic-038",
+    title: "I'm having a hard time + (verb-ing)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2039",
+    content: {
+      title: "I'm having a hard time + (verb-ing)",
+      detail1:
+        "The phrase 'I'm having a hard time + (verb-ing)' is used to tell someone that you are facing difficulty with an activity or task. It can be something physical or mental and typically indicates a challenge you are trying to overcome.",
+      example1: [
+        "I'm having a hard time sleeping lately.",
+        "I'm having a hard time finishing the project in time.",
+        "I'm having a hard time adapting to the new schedule.",
+        "I'm having a hard time finding a job.",
+        "I'm having a hard time agreeing to the terms.",
+        "I'm having a hard time answering your questions.",
+        "I'm having a hard time understanding you.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I'm having a hard time + (verb-ing)' વાક્યરચના તેનો ઉપયોગ ત્યારે થાય છે જ્યારે તમે કોઈ પ્રવૃત્તિ અથવા કાર્ય કરવામાં મુશ્કેલી અનુભવી રહ્યા હો એવું જણાવવું હોય. આ શારીરિક અથવા માનસિક બંને પ્રકારની મુશ્કેલી હોઈ શકે છે અને સામાન્ય રીતે તમે કોઈ પડકારને પાર કરવાનો પ્રયત્ન કરી રહ્યા છો તે દર્શાવે છે.",
+      example1Guj: [
+        "હાલમાં મને ઊંઘ આવવામાં મુશ્કેલી પડી રહી છે.",
+        "પ્રોજેક્ટ સમયસર પૂરું કરવામાં મને મુશ્કેલી પડી રહી છે.",
+        "નવા સમયપત્રકને અપનાવવામાં મને મુશ્કેલી પડી રહી છે.",
+        "નોકરી શોધવામાં મને મુશ્કેલી પડી રહી છે.",
+        "શરતો સાથે સંમત થવામાં મને મુશ્કેલી પડી રહી છે.",
+        "તમારા પ્રશ્નોના જવાબ આપવા મને મુશ્કેલી પડી રહી છે.",
+        "તમને સમજવામાં મને મુશ્કેલી પડી રહી છે.",
+      ],
+    },
+  },
+  {
+    id: "basic-039",
+    title: "I think I should + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2040",
+    content: {
+      title: "I think I should + (verb)",
+      detail1:
+        "The phrase 'I think I should + (verb)' is used to express your opinion or feeling that a particular action is necessary, important, or a good idea to do. It reflects your personal judgment or decision about what you believe you ought to do.",
+      example1: [
+        "I think I should save more money.",
+        "I think I should ask for a raise at work.",
+        "I think I should take a break from social media.",
+        "I think I should learn a new language.",
+        "I think I should apologize to her for what I said.",
+        "I think I should explain myself.",
+      ],
+      detail2:
+        "'When you add 'don't' in the phrase, it changes the meaning from considering doing something to expressing that you are against doing it or that you think it's not a good idea.'",
+      example2: [
+        "I do not think I should take that risk.",
+        "I do not think I should quit my job now.",
+        "I do not think I should go out tonight.",
+        "I do not think I should eat that dessert.",
+        "I do not think I should interrupt the meeting.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I think I should + (verb)' વાક્યરચનાનો ઉપયોગ ત્યારે થાય છે જ્યારે તમે કોઈ ખાસ કાર્ય કરવું જરૂરી, મહત્વનું અથવા સારો વિચાર છે તેવી તમારી વ્યક્તિગત માન્યતા અથવા લાગણી વ્યક્ત કરતા હો. આ તમારા નિર્ણય અથવા વિચારોને દર્શાવે છે કે તમને શું કરવું યોગ્ય લાગે છે.",
+      detail2Guj:
+        "જ્યારે તમે વાક્યમાં 'don’t' ઉમેરો છો, ત્યારે તેનો અર્થ બદલાઈ જાય છે — તે કંઈક કરવા વિશે વિચારવાનું બદલાવીને એ જણવવાનું થાય છે કે તમે એ કરવા વિરુદ્ધ છો અથવા તે સારું વિચાર નથી એવું માનતા છો.",
+      example1Guj: [
+        "મને લાગે છે કે મને વધુ પૈસા બચાવવા જોઈએ.",
+        "મને લાગે છે કે મને નોકરીમાં પગાર વધારો માંગવો જોઈએ.",
+        "મને લાગે છે કે મને સોશ્યલ મિડિયાથી વિરામ લેવું જોઈએ.",
+        "મને લાગે છે કે મને નવી ભાષા શીખવી જોઈએ.",
+        "મને લાગે છે કે મને જે કહ્યું તે માટે તેણીથી માફી માગવી જોઈએ.",
+        "મને લાગે છે કે મને પોતાનું સ્પષ્ટીકરણ કરવું જોઈએ.",
+      ],
+      example2Guj: [
+        "મને નથી લાગે કે મને એ જોખમ લેવું જોઈએ.",
+        "મને નથી લાગે કે હવે મને નોકરી છોડી દેવી જોઈએ.",
+        "મને નથી લાગે કે આજે રાત્રે મને બહાર જવું જોઈએ.",
+        "મને નથી લાગે કે મને એ ડેઝર્ટ ખાવું જોઈએ.",
+        "મને નથી લાગે કે મને મીટિંગમાં વિક્ષેપ કરવો જોઈએ.",
+      ],
+    },
+  },
+  {
+    id: "basic-040",
+    title: "I've heard that + (subject + verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2041",
+    content: {
+      title: "I've heard that + (subject + verb)",
+      detail1:
+        "The phrase 'I've heard that + (subject + verb)' is used to let someone know that you are aware of or have been informed about something. It often conveys information heard from others, whether it is happening now or has happened in the past.",
+      example1: [
+        "I've heard that the new restaurant is very good.",
+        "I've heard that your wife is a English teacher.",
+        "I've heard that there is no school next week.",
+        "I've heard that you and your boss don't get along.",
+        "I've heard that you got a new car.",
+        "I've heard that you got a new job.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I've heard that + (subject + verb)' વાક્યરચનાનો ઉપયોગ એ માટે થાય છે કે તમે કોઈ વાત વિશે જાણકારી ધરાવો છો અથવા કોઈએ તમને તે અંગે માહિતી આપી હોય. આ વાક્ય સામાન્ય રીતે એવી માહિતી પ્રગટાવે છે જે તમે બીજા પાસેથી સાંભળી હોય, તે હાલ ચાલી રહી હોય અથવા ભૂતકાળની ઘટના હોય.",
+      example1Guj: [
+        "મેં સાંભળ્યું છે કે નવું રેસ્ટોરન્ટ ખૂબ સારું છે.",
+        "મેં સાંભળ્યું છે કે તમારી પત્ની અંગ્રેજી શિક્ષિકા છે.",
+        "મેં સાંભળ્યું છે કે આવતી કાલે શાળા બંધ રહેશે.",
+        "મેં સાંભળ્યું છે કે તમે અને તમારા બોસ વચ્ચે સંબંધો સારા નથી.",
+        "મેં સાંભળ્યું છે કે તમને નવી કાર મળી છે.",
+        "મેં સાંભળ્યું છે કે તમને નવી નોકરી મળી છે.",
+      ],
+    },
+  },
+  {
+    id: "basic-041",
+    title: "It occurred to me that (subject + verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2042",
+    content: {
+      title: "It occurred to me that (subject + verb)",
+      detail1:
+        "The phrase 'It occurred to me that + (subject + verb)' means that something suddenly came to your mind or you suddenly realized or remembered something. It is used to share a spontaneous thought or insight.",
+      example1: [
+        "It occurred to me that I should start saving more money.",
+        "It occurred to me that I need to renew my driver's license soon.",
+        "It occurred to me that I haven't called my parents in a while.",
+        "It occurred to me that I should take a break and go for a walk.",
+        "It occurred to me that I left something important at home.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'It occurred to me that + (subject + verb)' નો અર્થ થાય છે કે કોઈ વાત અચાનક તમારા મનમાં આવી કે તમે અચાનક કંઈ સમજ્યા કે યાદ કર્યું. આ વાક્યનો ઉપયોગ ત્યારે થાય છે જ્યારે તમે કોઈ તાત્કાલિક વિચાર અથવા સમજણ શેર કરો છો.",
+      example1Guj: [
+        "મને અચાનક એ વિચાર આવ્યો કે મને વધુ પૈસા બચાવવાનું શરૂ કરવું જોઈએ.",
+        "મને અચાનક યાદ આવ્યું કે મને જલ્દી ડ્રાઈવિંગ લાઇસન્સ નવિન કરાવવું છે.",
+        "મને અચાનક યાદ આવ્યું કે હું થોડા સમયથી મારા માતાપિતાને ફોન નથી કર્યો.",
+        "મને અચાનક વિચાર આવ્યો કે મને વિરામ લઇને એક ફેર ફૂંકાવવો જોઈએ.",
+        "મને થયું કે મારે થોડો વિરામ લેવો જોઈએ અને ફરવા જવું જોઈએ.",
+        "મને અચાનક યાદ આવ્યું કે મેં ઘરમાં કંઈ મહત્વનું ભૂલી ચૂક્યો છું.",
+      ],
+      detail2:
+        "Using the words 'had' or 'has' in the phrase changes the meaning to represent something remembered or realized at a past time.",
+      detail2Guj:
+        "'had' અથવા 'has' શબ્દો ઉમેરવાથી વાક્યનો અર્થ બદલાઈ જાય છે અને તે કોઈ ભૂતકાળમાં યાદ કરેલી કે સમજાઈ ગયેલી વાત દર્શાવે છે.",
+      example2: [
+        "I has occurred to me that we could improve our project.",
+        "I has occurred to me that I need more practice.",
+        "I had occurred to me we should plan our trip earlier.",
+        "I had occurred to me I left my keys in the car.",
+      ],
+      example2Guj: [
+        "મને ખબર પડી છે કે આપણે અમારા પ્રોજેક્ટમાં સુધારો કરી શકીએ.",
+        "મને ખબર પડી છે કે મને વધુ પ્રેક્ટિસ કરવાની જરૂર છે.",
+        "મને પહેલા જ ખબર પડી હતી કે આપણે અમારી મુસાફરી વહેલા આયોજન કરવી જોઈએ.",
+        "મને પહેલા જ ખબર પડી હતી કે મેં મારી ચાવીઓ કારમાં છોડી દીધી છે.",
+      ],
+    },
+  },
+  {
+    id: "basic-042",
+    title: "Let me + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2043",
+    content: {
+      title: "Let me + (verb)",
+      detail1:
+        "The phrase 'Let me + (verb)' is used to ask for permission or offer to do something. It politely suggests that you want to take an action or help with something.",
+      example1: [
+        "Let me close the window for you.",
+        "Let me help you carry those  bags.",
+        "Let me check the schedule before we decide.",
+        "Let me explain rules to you.",
+        "Let me answer the phone.",
+        "Let me handle this problem.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'Let me + (verb)' વાક્યરચનાનો ઉપયોગ પરવાનગી માંગવા માટે અથવા કોઈ કાર્ય કરવા માટે આપસ્વીકાર દર્શાવવા માટે થાય છે. આ શિસ્તભર્યું રીતે સૂચવે છે કે તમે કંઈક કરવું અથવા મદદ કરવી ઇચ્છો છો.",
+      example1Guj: [
+        "ચાલો હું તમારા માટે બારી બંધ કરું છું.",
+        "ચાલો, હું તમારું બેગ ઉઠાવવામાં મદદ કરું.",
+        "ચાલો, નિર્ણય કરતા પહેલા હું સમયપત્રક તપાસી લઉં.",
+        "ચાલો, હું તમને નિયમો સમજાવું.",
+        "ચાલો, હું ફોન ઉઠાવું.",
+        "ચાલો, હું આ સમસ્યા સંભાળું.",
+      ],
+    },
+  },
+  {
+    id: "basic-043",
+    title: "Thank you for",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2044",
+    content: {
+      title: "Thank you for",
+      detail1:
+        "The phrase 'Thank you for + (verb + ing or noun)' is used to express your appreciation to someone for something they have done or provided.",
+      example1: [
+        "Thank you for your timely assistance.",
+        "Thank you for sharing your knowledge with us.",
+        "Thank you for being so understanding.",
+        "Thank you for keeping me updated.",
+        "Thank you for your continuous support.",
+        "Thank you for making time to meet with me.",
+        "Thank you for being a wonderful friend.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'Thank you for + (verb + ing or noun)' વાક્યરચનાનો ઉપયોગ તમે કોઈને તેની કરેલી મદદ કે આપવામાં આવેલી વસ્તુ માટે તમારું આભાર વ્યક્ત કરવા માટે કરો છો.",
+      example1Guj: [
+        "તમારી સમયસરની મદદ માટે આભાર.",
+        "અમારી સાથે તમારું જ્ઞાન વહેંચવા માટે આભાર.",
+        "આટલી સમજદારી બતાવવા માટે આભાર.",
+        "મને માહિતગાર રાખવા માટે આભાર.",
+        "તમારા સતત સમર્થન માટે આભાર.",
+        "મારી સાથે મળવા માટે સમય કાઢવા માટે આભાર.",
+        "શાનદાર મિત્ર બનવા માટે આભાર.",
+      ],
+    },
+  },
+  {
+    id: "basic-044",
+    title: "Can I + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2045",
+    content: {
+      title: "Can I + (verb)",
+      detail1:
+        "The phrase 'Can I + (verb)' is used to ask for permission to do something politely. It signals you want to know if it is okay to perform a particular action.",
+      example1: [
+        "Can I answer your question?",
+        "Can I see your passport, please?",
+        "Can I take a taxi from the station?",
+        "Can I have a glass of water?",
+        "Can I speak with the manager?",
+        "Can I join you for lunch?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'Can I + (verb)' વાક્યરચનાનો ઉપયોગ શિસ્તભર્યું રીતે કોઈ કાર્ય કરવા માટે પરવાનગી માંગવા માટે થાય છે. આ સૂચવે છે કે તમે કોઈ ખાસ કામ કરવા માટે 'હાં' કે 'ના' જાણવા માંગો છો.",
+      example1Guj: [
+        "શું હું તમારો પ્રશ્ન જવાબ આપી શકું?",
+        "કૃપા કરીને શું હું તમારો પાસપોર્ટ જોઈ શકું?",
+        "શું હું સ્ટેશન પરથી ટૅક્સી લઈ શકું?",
+        "શું મને એક ગ્લાસ પાણી મળી શકે?",
+        "શું હું મેનેજર સાથે વાત કરી શકું?",
+        "શું હું લંચ માટે તમારું સાથ આપી શકું?",
+      ],
+    },
+  },
+  {
+    id: "basic-045",
+    title: "Can I get + (noun)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2046",
+    content: {
+      title: "Can I get + (noun)",
+      detail1:
+        "The phrase 'Can I get + (noun)' is a polite way to ask for something, whether it is a physical item, a service, or assistance. It is used when you want to request or receive something from someone.",
+      example1: [
+        "Can I get a taxi from the station?",
+        "Can I get a glass of water?",
+        "Can I get some help with this?",
+        "Can I get a ticket to the concert?",
+        "Can I get a refund for this item?",
+        "Can I get a package delivered today?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'Can I get + (noun)' વાક્યરચનાનો ઉપયોગ શિસ્તભર્યું રીતે કંઈક માંગવા માટે થાય છે, જે કોઇ વસ્તુ, સેવા કે મદદ હોઈ શકે છે. આ વાક્ય ત્યારે વપરાય છે જ્યારે તમે કોઈ પાસેથી કંઈક મેળવવા અથવા માંગવા માંગો છો.",
+      example1Guj: [
+        "શું હું સ્ટેશન પરથી ટૅક્સી મેળવી શકું?",
+        "શું મને એક ગ્લાસ પાણી મળી શકે?",
+        "શું મને આમાં થોડી મદદ મળી શકે?",
+        "શું મને કોન્સર્ટ માટે ટિકિટ મળી શકે?",
+        "શું મને આ વસ્તુ માટે રિફંડ મળી શકે?",
+        "શું મારે પેકેજ આજે ડિલિવર થઈ શકે?",
+      ],
+    },
+  },
+  {
+    id: "basic-046",
+    title: "I'm not sure if (subject + verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2047",
+    content: {
+      title: "I'm not sure if (subject + verb)",
+      detail1:
+        "The phrase I''m not sure if + (subject + verb)'is used to express uncertainty or doubt about a situation or outcome.",
+      example1: [
+        "I'm not sure if they will offer me the job.",
+        "I'm not sure if she'll return my call.",
+        "I'm not sure if my wife will understand.",
+        "I'm not sure if I can handle it.",
+        "I'm not sure if it will  matter.",
+        "I'm not sure if my mom will notice.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I'm not sure if + (subject + verb)' વાક્યરચનાનો ઉપયોગ કોઈ પરિસ્થિતિ અથવા પરિણામ વિશે અણિશ્ચિતતા અથવા શંકા વ્યક્ત કરવા માટે થાય છે.",
+      example1Guj: [
+        "મને ખાતરી નથી કે તેઓ મને નોકરી ઓફર કરશે કે નહીં.",
+        "મને ખાતરી નથી કે તે મારી કોલ પર જવાબ આપશે કે નહીં.",
+        "મને ખાતરી નથી કે મારી પત્ની સમજશે કે નહીં.",
+        "મને ખાતરી નથી કે હું એ હાથલ કરી શકીશ કે નહીં.",
+        "મને ખાતરી નથી કે એ બાબત મહત્વની હશે કે નહીં.",
+        "મને ખાતરી નથી કે મારી માતા ધ્યાન દેશે કે નહીં.",
+      ],
+    },
+  },
+  {
+    id: "basic-047",
+    title: "Do you mind if I + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2048",
+    content: {
+      title: "Do you mind if I + (verb) OR would",
+      detail1:
+        "The phrase 'Do you mind if I + (verb) OR would' is a polite way to ask someone if they object to a specific action you want to do. You are basically asking for permission or checking if your action 'would' bother the other person.",
+      example1: [
+        "Do you mind if I borrow your pen?",
+        "Do you mind if I step outside for a moment?",
+        "Do you mind if I open the window?",
+        "Would you mind if I joined your meeting?",
+        "Would you mind if I turned off the lights?",
+        "Would you mind if I asked you a personal question?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'Do you mind if I + (verb) OR would' વાક્યરચનાનો ઉપયોગ શિસ્તભર્યું રીતે કોઈને પૂછવા માટે થાય છે કે શું તેમને તમે કોઇ ખાસ કામ કરો તો તકલીફ થશે કે નહીં. આ રીતે તમે પરવાનગી માંગતા હો કે તમારું કામ તેમને અઘરૂં ન પડે તે ચકાસતા હો.",
+      example1Guj: [
+        "શું તમને અફસોસ થશે જો હું તમારું પેન લઈ લઉં?",
+        "શું તમને તકલીફ થશે જો હું થોડા સમય માટે બહાર જઈ જાઉં?",
+        "શું તમને તકલીફ થશે જો હું ખિડકી ખોલું?",
+        "શું તમને તકલીફ થશે જો હું તમારી મિટિંગમાં જોડાઈ જાઉં?",
+        "શું તમને તકલીફ થશે જો હું બત્તીઓ બંધ કરી દઉં?",
+        "શું તમને તકલીફ થશે જો હું તમને એક અંગત પ્રશ્ન પુછું?",
+      ],
+    },
+  },
+  {
+    id: "basic-048",
+    title: "I don't know what to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2049",
+    content: {
+      title: "I don't know what to + (verb)",
+      detail1:
+        "The phrase 'I don't know what to + (verb)' is used to express uncertainty or confusion about what action to take. It means you are unsure about the right thing to do or how to respond in a situation.",
+      example1: [
+        "I don't know what to order.",
+        "I don't know what to think.",
+        "I don't know what to do for vacation.",
+        "I don't know what to do with my spare time.",
+        "I don't know what to say.",
+        "I don't know what to eat for dinner.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I don't know what to + (verb)' વાક્યરચનાનો ઉપયોગ ત્યારે થાય છે જ્યારે તમે જાણતા નથી કે કઈ ક્રિયા લેવી અથવા કેવી રીતે પ્રતિસાદ આપવો. આ એ અર્થ દર્શાવે છે કે તમે આ પરિસ્થિતિમાં યોગ્ય નિર્ણય લેવા અંગે અણિશ્ચિત કે સંશયમાં છો.",
+      example1Guj: [
+        "મને ખબર નથી કે શું ઓર્ડર કરવું.",
+        "મને ખબર નથી કે શું વિચારવું.",
+        "મને ખબર નથી કે રજાઓમાં શું કરવું.",
+        "મને ખબર નથી કે મારી ફુરસતના સમયે શું કરવું.",
+        "મને ખબર નથી કે શું કહેવું.",
+        "મને ખબર નથી કે રાત્રિભોજન માટે શું ખાવું.",
+      ],
+    },
+  },
+  {
+    id: "basic-049",
+    title: "I should have + (past participle)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2050",
+    content: {
+      title: "I should have + (past participle)",
+      detail1:
+        "The phrase 'I should have + (past participle)' is used to talk about something in the past that you believe you ought to have done differently or regret not doing. It often expresses a missed opportunity, advice, or reflection on past actions. On the other hand, 'Shall' is used for future actions or plans.",
+      example1: [
+        "I should have been nicer to her.",
+        "I should have eaten breakfast.",
+        "I should have come earlier.",
+        "I shall pay for this later.",
+        "I shall see it tomorrow.",
+        "I shall leave tomorrow.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I should have + (past participle)' વાક્યરચનાનો ઉપયોગ ભૂતકાળની એવી વસ્તુ વિશે વાત કરવા માટે થાય છે જે તમે અલગ રીતે કરવી જોઈએ હોત અથવા ન કરવાથી ખેદ થાય છે. તે ઘણીવાર ચૂકી ગયેલી તક, સલાહ, અથવા ભૂતકાળના કૃત્યો પર વિચાર દર્શાવે છે. બીજી બાજુ, 'Shall' ભવિષ્યની ક્રિયાઓ કે યોજનાઓ માટે ઉપયોગ થાય છે.",
+      example1Guj: [
+        "મને તેની સાથે વધુ ભલાઈથી વર્તવું જોઈએ હોત.",
+        "મને નાસ્તો કર્યો હોત.",
+        "મને વહેલું આવ્યો હોત.",
+        "હું આ માટે પછી પૈસા આપીશ.",
+        "હું આ કાલે જોઈશ.",
+        "હું કાલે જઈશ.",
+      ],
+    },
+  },
+  {
+    id: "basic-050",
+    title: "I wish I could + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2051",
+    content: {
+      title: "I wish I could + (verb)",
+      detail1:
+        "The phrase 'I wish I could + (verb)' is used to express a desire or wish to do something that you currently cannot do. It often conveys regret or longing for ability, opportunity, or circumstances that are not present.",
+      example1: [
+        "I wish I could write better.",
+        "I wish I could own my own business.",
+        "I wish I could speak another language fluently.",
+        "I wish I could work from anywhere.",
+        "I wish I could run a marathon.",
+        "I wish I could eat the all the chocolate without gaining weight.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "'I wish I could + (verb)' વાક્યરચનાનો ઉપયોગ ત્યારે થાય છે જ્યારે તમે કંઈક કરવા ઈચ્છો છો પરંતુ હાલમાં તે શક્ય ન હોય. તે સામાન્ય રીતે ક્ષમતા, તક કે પરિસ્થિતિ માટે મનુષ્યની ઈચ્છા અથવા અફસોસ વ્યક્ત કરે છે.",
+      example1Guj: [
+        "હું ઇચ્છું છું કે હું વધુ સારું લખી શકું.",
+        "હું ઇચ્છું છું કે મારે પોતાનું વ્યવસાય હોય.",
+        "હું ઇચ્છું છું કે હું બીજું ભાષા નિપુણ રીતે બોલી શકું.",
+        "હું ઇચ્છું છું કે હું જ્યાંથી પણ કામ કરી શકું.",
+        "હું ઇચ્છું છું કે હું મેરાથોન દોડવી શકું.",
+        "હું ઇચ્છું છું કે હું વજન વધાર્યા વિના બધુ ચોકલેટ ખાઈ શકું.",
+      ],
+    },
+  },
 ];

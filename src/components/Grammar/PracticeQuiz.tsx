@@ -91,16 +91,15 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions  = []}) => {
           Submit Answers
         </Button>
       ) : (
-        <div className="">
+        <div className="mb-4">
+          <p className="text-red text-center">
+            <strong>{getFeedbackMessage()}</strong>
+          </p>
           <Badge bg="success">
             <h4>
               Your Score: {score} / {questions.length}
             </h4>
           </Badge>
-
-          <p className="text-red text-center">
-            <strong>{getFeedbackMessage()}</strong>
-          </p>
 
         </div>
       )}
