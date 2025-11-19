@@ -35,7 +35,7 @@ const GrammarDetail: React.FC = () => {
             <h2 className="text-decoration-underline">{lesson.title}</h2>
           </div>
 
-          <Badge bg="info" className="text-start">
+          <Badge bg="info" className="text-start text-wrap">
             {lesson.remember && (
               <ul className="p-1 m-0">
                 <Badge bg="dark" className="fs-5">
