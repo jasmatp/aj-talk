@@ -521,4 +521,213 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 1,
     },
   ],
+  "ADJECTIVES Of Comparison": [
+    {
+      question: "Which sentence correctly uses a comparative adjective?",
+      options: [
+        "My house is bigger than yours.",
+        "My house is more bigger than yours.",
+        "My house is most bigger than yours.",
+        "My house is biggest than yours.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct superlative adjective sentence:",
+      options: [
+        "This is the biggest house on the street.",
+        "This is the most biggest house on the street.",
+        "This is the more biggest house on the street.",
+        "This is biggest house on the street.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "How do we form comparative adjectives for one-syllable adjectives?",
+      options: [
+        "Add 'est'",
+        "Add 'er'",
+        "Use 'more' before adjective",
+        "Use 'most' before adjective",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence correctly uses 'more' and 'most'?",
+      options: [
+        "Apartment 1A is more attractive than Apartment 1C.",
+        "Apartment 1A is more attractiver than Apartment 1C.",
+        "Apartment 1A is most attractive than Apartment 1C.",
+        "Apartment 1A is attractiver than Apartment 1C.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Identify the incorrect sentence:",
+      options: [
+        "She is more taller than her sister.",
+        "She is taller than her sister.",
+        "He is more careful than his brother.",
+        "This task is more difficult than the last one.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Identify the incorrect sentence:",
+      options: [
+        "She is the most tallest in the class.",
+        "She is the tallest in the class.",
+        "This is the most beautiful painting.",
+        "He is the most talented player.",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
+  "ADJECTIVES: Irregular adjectives, 'ed' and 'ing' endings": [
+    {
+      question: "Choose the correct irregular comparative form:",
+      options: [
+        "good → gooder",
+        "good → better",
+        "good → more good",
+        "good → bestest",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence uses an '-ing' adjective correctly?",
+      options: [
+        "I am interesting in this book.",
+        "The story is interesting.",
+        "She feels interesting.",
+        "The students are interesting by the lesson.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence uses an '-ed' adjective correctly?",
+      options: [
+        "The match was excited.",
+        "He is exciting about the trip.",
+        "The children were excited.",
+        "This is an excited movie.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Fill in the blank: The lecture was very ___. I almost fell asleep.",
+      options: ["boring", "bored", "bore", "bores"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Fill in the blank: She felt very ___ after running for an hour.",
+      options: ["tiring", "tired", "tire", "tireful"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "I am very tiring today.",
+        "This work is tired.",
+        "This work is tiring.",
+        "I feel very tiring.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which is the correct superlative form of 'bad'?",
+      options: ["badest", "worst", "most bad", "worse"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Select the sentence with the correct ‘-ing’ adjective usage:",
+      options: [
+        "The frightened movie was good.",
+        "The confusing boy is crying.",
+        "The results are surprising.",
+        "The excited news shocked us.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Select the correct ‘-ed’ adjective usage:",
+      options: [
+        "He looked surprised at the news.",
+        "The surprised story was great.",
+        "The teacher was very surprising.",
+        "This game is surprised.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct comparative sentence:",
+      options: [
+        "She is more better than before.",
+        "She is better than before.",
+        "She is betterer than before.",
+        "She is the more better.",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "ADJECTIVES Of Quantity": [
+    {
+      question: "Which adjective is used with plural countable nouns?",
+      options: ["Much", "Many", "Some", "A little"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "Much students are here.",
+        "Many students are here.",
+        "A little students are here.",
+        "Some student is here.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which adjective is used with uncountable nouns?",
+      options: ["Many", "A few", "Much", "Several"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "There is some water in the bottle.",
+        "There are some waters in the bottle.",
+        "There is some apples in the bottle.",
+        "There are some water in the bottle.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "What does 'a few' mean?",
+      options: [
+        "A small amount (uncountable)",
+        "A large number",
+        "A small number (countable)",
+        "None",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Fill in the blank: She drank ___ water.",
+      options: ["a few", "many", "a little", "several"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Identify the correct sentence:",
+      options: [
+        "Some books is missing.",
+        "Some water are spilled.",
+        "Some books are missing.",
+        "Some milks is spilled.",
+      ],
+      correctAnswerIndex: 2,
+    },
+  ],
 };

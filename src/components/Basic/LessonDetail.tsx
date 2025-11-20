@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Badge, Button, Form, Modal, Pagination, Table } from "react-bootstrap";
 import { LessonContent, LessonLink } from "../../types/types";
 import { lessonLinks } from "../../mochData/lessonLinks";
@@ -13,6 +13,7 @@ declare global {
 
 const LessonDetail: React.FC = () => {
   const [start, setStart] = useState(false);
+  const navigate = useNavigate();
 
   const [currentPage, setCurrentPage] = React.useState(1);
   const [lessonsPerPage, setLessonsPerPage] = React.useState(10);
@@ -63,6 +64,9 @@ const LessonDetail: React.FC = () => {
       {!start ? (
         <div className="m-2">
           <div className="lesson-title-main">
+            <Button variant="link" onClick={() => navigate(-1)}>
+              ← Back
+            </Button>
             <h2>
               <Badge bg="secondary">Basics for English Speaking </Badge>
             </h2>
@@ -93,7 +97,7 @@ const LessonDetail: React.FC = () => {
       ) : (
         <div className="container justify-content-start">
           <Button onClick={handleBack} className="text-start" variant="link">
-            Back
+           ← Back
           </Button>
           <Table striped bordered hover responsive="md" className="mb-0">
             <thead>

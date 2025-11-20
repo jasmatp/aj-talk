@@ -277,4 +277,88 @@ export const grammarLession: GrammarLesson[] = [
       "The dancer wore a large yellow Korean costume.",
     ],
   },
+  {
+    title: "ADJECTIVES Of Comparison",
+    details1: "When we compare two nouns, we use comparative adjectives. When we compare more than two nouns, we use superlative adjectives.",
+    details1Guj: "જ્યારે આપણે બે નામપદોની તુલના કરીએ છીએ ત્યારે અમે તુલનાત્મક વિશેષણો (comparative adjectives) નો ઉપયોગ કરીએ છીએ. જ્યારે આપણે બે કરતા વધુ નામપદોની તુલના કરીએ છીએ ત્યારે અમે સર્વોચ્ચ વિશેષણો (superlative adjectives) નો ઉપયોગ કરીએ છીએ.",
+    example1: [
+      "My house is 'bigger' than yours.",
+      "This is the 'biggest' house on the street."
+    ],
+    details2: "With one-syllable adjectives and some two-syllable adjectives, we usually add 'er' for the comparative form and 'est' for the superlative form.",
+    details2Guj: "એક અવાજવાળા વિશેષણો અને કેટલાક બે અવાજવાળા વિશેષણો માટે, અમે સામાન્ય રીતે તુલનાત્મક સ્વરૂપ માટે 'er' અને સર્વોચ્ચ સ્વરૂપ માટે 'est' ઉમેરીએ છીએ.",
+    example2: [
+      "Manan's room is cleaner than mine.",
+      "Akshit's room is the cleanest in our house.",
+    ],
+    details3: "With some two-syllable adjectives, adjectives of three or more syllables, and adjectives ending in 'ful', we use 'more' for the comparative form and 'most' for the superlative form.",
+    details3Guj: "કેટલાક બે અવાજવાળા વિશેષણો, ત્રણ કે વધુ અવાજવાળા વિશેષણો અને 'ful' પર થતા વિશેષણો માટે, અમે તુલનાત્મક સ્વરૂપ માટે 'more' અને સર્વોચ્ચ સ્વરૂપ માટે 'most' નો ઉપયોગ કરીએ છીએ.",
+    example3: [
+      "Apartment 1A is 'more attractive' than Apartment 1C.",
+      "Apartment 1D is 'the most attractive' of all.",
+    ],
+    details4: "Since the 'er' ending and 'more' are both forms of comparative adjectives, we cannot use them together in the same sentence.",
+    details4Guj: "કારણ કે 'er' અને 'more' બંને તુલનાત્મક વિશેષણના સ્વરૂપો છે, તેથી અમે તેમને સાથે સાથે એક જ વાક્યમાં વાપરી શકતા નથી.",
+    example4: [
+      "❌ She is more taller than her sister.",
+      "✅ She is taller than her sister.",
+    ],
+    details5: "Since the 'est' ending and 'most' are both forms of superlative adjectives, we cannot use them together in the same sentence.",
+    details5Guj: "કારણ કે 'est' અને 'most' બંને ઉચ્ચતમ વિશેષણના સ્વરૂપો છે, તેથી અમે તેમને સાથે સાથે એક જ વાક્યમાં વાપરી શકતા નથી.",
+    example5: [
+      "❌ She is the most tallest in the class.",
+      "✅ She is the tallest in the class.",
+    ]
+  },
+  {
+    title: "ADJECTIVES: Irregular adjectives, 'ed' and 'ing' endings",
+    details1: "Some adjectives have completely different comparative and superlative forms. We do not add 'er', 'est', 'more', or 'most' to them because their forms are irregular.",
+    details1Guj: "કેટલાક વિશેષણોના તુલનાત્મક અને સર્વોચ્ચ સ્વરૂપ અલગ જ હોય છે. અમે તેમાં 'er', 'est', 'more' અથવા 'most' ઉમેરતા નથી, કારણ કે તેમના રૂપ અનિયમિત (irregular) હોય છે.",
+    example1: [
+      "good -> better -> best",
+      "bad -> worse -> worst",
+      "many/much -> more -> most",
+    ],
+    details2: "We can form some adjectives from verbs by adding “-ing” or “-ed” to them. Adjectives ending in “-ing” have different meanings from those ending in “-ed.” (a) Adjectives ending in “-ing” : We use an -ing adjective to describe a thing, person, or situation that causes a feeling ..verb + ing → adjective...",
+    details2Guj: "અમે કેટલાક ક્રિયાપદમાં “ing” અથવા “ed” ઉમેરવાથી વિશેષણ બનાવી શકીએ છીએ. “ing” પર સમાપ્ત થતાં વિશેષણોનો અર્થ “ed” પર સમાપ્ત થતાં વિશેષણોથી અલગ હોય છે. (a) “ing” પર સમાપ્ત થતાં વિશેષણો: “ing” વિશેષણનો ઉપયોગ કોઈ વસ્તુ, વ્યક્તિ અથવા પરિસ્થિતિનું વર્ણન કરવા માટે થાય છે — જે અન્યને લાગણી અનુભવે છે તેવી સ્થિતિ બનાવે છે.",
+    example2: [
+      "The movie was 'amazing'.",
+      "The lesson is 'interesting'.",
+    ],
+    details3: "(b) We use an adjective ending in “-ed” to describe how a person or an animal feels ..verb + ed → adjective...",
+    details3Guj: "“ed” વિશેષણોનો ઉપયોગ આપણે વ્યક્તિ અથવા પ્રાણી કેવી રીતે અનુભવ કરે છે તે જણાવવા માટે કરીએ છીએ ..ક્રિયા + ed → વિશેષણ.",
+    example3: [
+      "She was 'bored' in the class.",
+      "I am 'confused' by this question.",
+    ]
+  },
+  {
+    title: "ADJECTIVES Of Quantity",
+    remember: ["'Many' means a large number of countable things", "'Much' means a large amount of uncountable things.", "'A little' means a small amount of uncountable things.", "'A few' means a small number of countable things.", "Some means an unknown number of countable things or an unknown amount of uncountable things."],
+    rememberGuj: ["Many નો અર્થ થાય છે ગણતરી કરી શકાય એવા વસ્તુઓની મોટી સંખ્યા.", "Much નો અર્થ થાય છે અગણતરી વસ્તુઓની મોટી માત્રા.", "A little નો અર્થ થાય છે અગણતરી વસ્તુઓની થોડી માત્રા.", "A few નો અર્થ થાય છે ગણતરી કરી શકાય એવા વસ્તુઓની થોડી સંખ્યા.", "Some નો અર્થ થાય છે ગણતરી કરી શકાય એવી વસ્તુઓની અજ્ઞાત સંખ્યા અથવા અગણતરી વસ્તુઓની અજ્ઞાત માત્રા."],
+    details1: "‘Many’ is used with plural countable nouns — nouns that can be counted individually. ‘Much’ is used with uncountable nouns — nouns that cannot be counted one by one.",
+    details1Guj: "‘Many’ નો ઉપયોગ બહુવચન ગણતરી કરી શકાય એવા નામપદો (countable nouns) સાથે થાય છે. ‘Much’ નો ઉપયોગ અગણ્ય નામપદો (uncountable nouns) સાથે થાય છે.",
+    example1: [
+      "Many students are in the class.",
+      "Many books are on the table.",
+      "There isn’t much water in the bottle.",
+      "She doesn’t have much money."
+    ],
+    details2: "‘A few’ is used with plural countable nouns — nouns you can count individually. It means a small number but more than none. ‘A little’ is used with uncountable nouns — nouns that cannot be counted separately. It means a small amount.",
+    details2Guj: "‘A few’ નો ઉપયોગ બહુવચન ગણતરી કરી શકાય એવા નામપદો (countable nouns) સાથે થાય છે. તેનો અર્થ થોડી સંખ્યા, પણ શૂન્યથી વધુ. ‘A little’ નો ઉપયોગ અગણતરી નામપદો (uncountable nouns) સાથે થાય છે. તેનો અર્થ થોડી માત્રા.",
+    example2: [
+      "I have a few apples.",
+      "There are a few chairs in the room.",
+      "She drank a little water.",
+      "There is a little sugar in the bowl."
+    ],
+    details3: "We use some with both countable and uncountable nouns: (a) some + plural countable noun — use with plural verb. (b) some + uncountable noun — use with singular verb.",
+    details3Guj: "અમે some નો ઉપયોગ ગણતરી કરી શકાય તેવા બહુવચન નામપદો અને અગણતરી નામપદો બંને સાથે કરીએ છીએ: (a) some + બહુવચન ગણતરી કરી શકાય તેવા નામપદ — બહુવચન ક્રિયાપદ સાથે. (b) some + અગણતરી નામપદ — એકવચન ક્રિયાપદ સાથે.",
+    example3: [
+      "Some books are missing.",
+      "Some students have arrived.",
+      "Some water is needed.",
+      "Some milk was spilled.",
+    ]
+  },
 ];

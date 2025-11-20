@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { lestningLession } from "../../mochData/lesteningData";
+import { Button } from "react-bootstrap";
 
 
 const ListeningDetail = () => {
@@ -10,6 +11,7 @@ const ListeningDetail = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<{
     [key: number]: number;
   }>({});
+  const navigate = useNavigate();
 
   if (!lesson) {
     return (
@@ -48,7 +50,9 @@ const ListeningDetail = () => {
 
   return (
     <div className="container">
-      <Link to="/listening">Back to Lessons</Link>
+      <Button variant="link" onClick={() => navigate(-1)}>
+        ← Back
+      </Button>
       <h2>{lesson.title || `Lesson ${lessonIndex + 1}`}</h2>
       <div>
         <p className="m-0">
