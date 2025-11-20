@@ -15,7 +15,7 @@ const Grammar = () => {
           Grammar Lessons
         </Badge>
       </h2>
-      <div className="row m-2 g-3">
+      <div className="row m-2 g-3 mb-5">
         {grammarLession.map((lesson, idx) => (
           // <div
           //   key={idx}
