@@ -279,105 +279,306 @@ export const grammarLession: GrammarLesson[] = [
   },
   {
     title: "ADJECTIVES Of Comparison",
-    details1: "When we compare two nouns, we use comparative adjectives. When we compare more than two nouns, we use superlative adjectives.",
-    details1Guj: "જ્યારે આપણે બે નામપદોની તુલના કરીએ છીએ ત્યારે અમે તુલનાત્મક વિશેષણો (comparative adjectives) નો ઉપયોગ કરીએ છીએ. જ્યારે આપણે બે કરતા વધુ નામપદોની તુલના કરીએ છીએ ત્યારે અમે સર્વોચ્ચ વિશેષણો (superlative adjectives) નો ઉપયોગ કરીએ છીએ.",
+    details1:
+      "When we compare two nouns, we use comparative adjectives. When we compare more than two nouns, we use superlative adjectives.",
+    details1Guj:
+      "જ્યારે આપણે બે નામપદોની તુલના કરીએ છીએ ત્યારે અમે તુલનાત્મક વિશેષણો (comparative adjectives) નો ઉપયોગ કરીએ છીએ. જ્યારે આપણે બે કરતા વધુ નામપદોની તુલના કરીએ છીએ ત્યારે અમે સર્વોચ્ચ વિશેષણો (superlative adjectives) નો ઉપયોગ કરીએ છીએ.",
     example1: [
       "My house is 'bigger' than yours.",
-      "This is the 'biggest' house on the street."
+      "This is the 'biggest' house on the street.",
     ],
-    details2: "With one-syllable adjectives and some two-syllable adjectives, we usually add 'er' for the comparative form and 'est' for the superlative form.",
-    details2Guj: "એક અવાજવાળા વિશેષણો અને કેટલાક બે અવાજવાળા વિશેષણો માટે, અમે સામાન્ય રીતે તુલનાત્મક સ્વરૂપ માટે 'er' અને સર્વોચ્ચ સ્વરૂપ માટે 'est' ઉમેરીએ છીએ.",
+    details2:
+      "With one-syllable adjectives and some two-syllable adjectives, we usually add 'er' for the comparative form and 'est' for the superlative form.",
+    details2Guj:
+      "એક અવાજવાળા વિશેષણો અને કેટલાક બે અવાજવાળા વિશેષણો માટે, અમે સામાન્ય રીતે તુલનાત્મક સ્વરૂપ માટે 'er' અને સર્વોચ્ચ સ્વરૂપ માટે 'est' ઉમેરીએ છીએ.",
     example2: [
       "Manan's room is cleaner than mine.",
       "Akshit's room is the cleanest in our house.",
     ],
-    details3: "With some two-syllable adjectives, adjectives of three or more syllables, and adjectives ending in 'ful', we use 'more' for the comparative form and 'most' for the superlative form.",
-    details3Guj: "કેટલાક બે અવાજવાળા વિશેષણો, ત્રણ કે વધુ અવાજવાળા વિશેષણો અને 'ful' પર થતા વિશેષણો માટે, અમે તુલનાત્મક સ્વરૂપ માટે 'more' અને સર્વોચ્ચ સ્વરૂપ માટે 'most' નો ઉપયોગ કરીએ છીએ.",
+    details3:
+      "With some two-syllable adjectives, adjectives of three or more syllables, and adjectives ending in 'ful', we use 'more' for the comparative form and 'most' for the superlative form.",
+    details3Guj:
+      "કેટલાક બે અવાજવાળા વિશેષણો, ત્રણ કે વધુ અવાજવાળા વિશેષણો અને 'ful' પર થતા વિશેષણો માટે, અમે તુલનાત્મક સ્વરૂપ માટે 'more' અને સર્વોચ્ચ સ્વરૂપ માટે 'most' નો ઉપયોગ કરીએ છીએ.",
     example3: [
       "Apartment 1A is 'more attractive' than Apartment 1C.",
       "Apartment 1D is 'the most attractive' of all.",
     ],
-    details4: "Since the 'er' ending and 'more' are both forms of comparative adjectives, we cannot use them together in the same sentence.",
-    details4Guj: "કારણ કે 'er' અને 'more' બંને તુલનાત્મક વિશેષણના સ્વરૂપો છે, તેથી અમે તેમને સાથે સાથે એક જ વાક્યમાં વાપરી શકતા નથી.",
+    details4:
+      "Since the 'er' ending and 'more' are both forms of comparative adjectives, we cannot use them together in the same sentence.",
+    details4Guj:
+      "કારણ કે 'er' અને 'more' બંને તુલનાત્મક વિશેષણના સ્વરૂપો છે, તેથી અમે તેમને સાથે સાથે એક જ વાક્યમાં વાપરી શકતા નથી.",
     example4: [
       "❌ She is more taller than her sister.",
       "✅ She is taller than her sister.",
     ],
-    details5: "Since the 'est' ending and 'most' are both forms of superlative adjectives, we cannot use them together in the same sentence.",
-    details5Guj: "કારણ કે 'est' અને 'most' બંને ઉચ્ચતમ વિશેષણના સ્વરૂપો છે, તેથી અમે તેમને સાથે સાથે એક જ વાક્યમાં વાપરી શકતા નથી.",
+    details5:
+      "Since the 'est' ending and 'most' are both forms of superlative adjectives, we cannot use them together in the same sentence.",
+    details5Guj:
+      "કારણ કે 'est' અને 'most' બંને ઉચ્ચતમ વિશેષણના સ્વરૂપો છે, તેથી અમે તેમને સાથે સાથે એક જ વાક્યમાં વાપરી શકતા નથી.",
     example5: [
       "❌ She is the most tallest in the class.",
       "✅ She is the tallest in the class.",
-    ]
+    ],
   },
   {
     title: "ADJECTIVES: Irregular adjectives, 'ed' and 'ing' endings",
-    details1: "Some adjectives have completely different comparative and superlative forms. We do not add 'er', 'est', 'more', or 'most' to them because their forms are irregular.",
-    details1Guj: "કેટલાક વિશેષણોના તુલનાત્મક અને સર્વોચ્ચ સ્વરૂપ અલગ જ હોય છે. અમે તેમાં 'er', 'est', 'more' અથવા 'most' ઉમેરતા નથી, કારણ કે તેમના રૂપ અનિયમિત (irregular) હોય છે.",
+    details1:
+      "Some adjectives have completely different comparative and superlative forms. We do not add 'er', 'est', 'more', or 'most' to them because their forms are irregular.",
+    details1Guj:
+      "કેટલાક વિશેષણોના તુલનાત્મક અને સર્વોચ્ચ સ્વરૂપ અલગ જ હોય છે. અમે તેમાં 'er', 'est', 'more' અથવા 'most' ઉમેરતા નથી, કારણ કે તેમના રૂપ અનિયમિત (irregular) હોય છે.",
     example1: [
       "good -> better -> best",
       "bad -> worse -> worst",
       "many/much -> more -> most",
     ],
-    details2: "We can form some adjectives from verbs by adding “-ing” or “-ed” to them. Adjectives ending in “-ing” have different meanings from those ending in “-ed.” (a) Adjectives ending in “-ing” : We use an -ing adjective to describe a thing, person, or situation that causes a feeling ..verb + ing → adjective...",
-    details2Guj: "અમે કેટલાક ક્રિયાપદમાં “ing” અથવા “ed” ઉમેરવાથી વિશેષણ બનાવી શકીએ છીએ. “ing” પર સમાપ્ત થતાં વિશેષણોનો અર્થ “ed” પર સમાપ્ત થતાં વિશેષણોથી અલગ હોય છે. (a) “ing” પર સમાપ્ત થતાં વિશેષણો: “ing” વિશેષણનો ઉપયોગ કોઈ વસ્તુ, વ્યક્તિ અથવા પરિસ્થિતિનું વર્ણન કરવા માટે થાય છે — જે અન્યને લાગણી અનુભવે છે તેવી સ્થિતિ બનાવે છે.",
-    example2: [
-      "The movie was 'amazing'.",
-      "The lesson is 'interesting'.",
-    ],
-    details3: "(b) We use an adjective ending in “-ed” to describe how a person or an animal feels ..verb + ed → adjective...",
-    details3Guj: "“ed” વિશેષણોનો ઉપયોગ આપણે વ્યક્તિ અથવા પ્રાણી કેવી રીતે અનુભવ કરે છે તે જણાવવા માટે કરીએ છીએ ..ક્રિયા + ed → વિશેષણ.",
+    details2:
+      "We can form some adjectives from verbs by adding “-ing” or “-ed” to them. Adjectives ending in “-ing” have different meanings from those ending in “-ed.” (a) Adjectives ending in “-ing” : We use an -ing adjective to describe a thing, person, or situation that causes a feeling ..verb + ing → adjective...",
+    details2Guj:
+      "અમે કેટલાક ક્રિયાપદમાં “ing” અથવા “ed” ઉમેરવાથી વિશેષણ બનાવી શકીએ છીએ. “ing” પર સમાપ્ત થતાં વિશેષણોનો અર્થ “ed” પર સમાપ્ત થતાં વિશેષણોથી અલગ હોય છે. (a) “ing” પર સમાપ્ત થતાં વિશેષણો: “ing” વિશેષણનો ઉપયોગ કોઈ વસ્તુ, વ્યક્તિ અથવા પરિસ્થિતિનું વર્ણન કરવા માટે થાય છે — જે અન્યને લાગણી અનુભવે છે તેવી સ્થિતિ બનાવે છે.",
+    example2: ["The movie was 'amazing'.", "The lesson is 'interesting'."],
+    details3:
+      "(b) We use an adjective ending in “-ed” to describe how a person or an animal feels ..verb + ed → adjective...",
+    details3Guj:
+      "“ed” વિશેષણોનો ઉપયોગ આપણે વ્યક્તિ અથવા પ્રાણી કેવી રીતે અનુભવ કરે છે તે જણાવવા માટે કરીએ છીએ ..ક્રિયા + ed → વિશેષણ.",
     example3: [
       "She was 'bored' in the class.",
       "I am 'confused' by this question.",
-    ]
+    ],
   },
   {
     title: "ADJECTIVES Of Quantity",
-    remember: ["'Many' means a large number of countable things", "'Much' means a large amount of uncountable things.", "'A little' means a small amount of uncountable things.", "'A few' means a small number of countable things.", "Some means an unknown number of countable things or an unknown amount of uncountable things."],
-    rememberGuj: ["Many નો અર્થ થાય છે ગણતરી કરી શકાય એવા વસ્તુઓની મોટી સંખ્યા.", "Much નો અર્થ થાય છે અગણતરી વસ્તુઓની મોટી માત્રા.", "A little નો અર્થ થાય છે અગણતરી વસ્તુઓની થોડી માત્રા.", "A few નો અર્થ થાય છે ગણતરી કરી શકાય એવા વસ્તુઓની થોડી સંખ્યા.", "Some નો અર્થ થાય છે ગણતરી કરી શકાય એવી વસ્તુઓની અજ્ઞાત સંખ્યા અથવા અગણતરી વસ્તુઓની અજ્ઞાત માત્રા."],
-    details1: "‘Many’ is used with plural countable nouns — nouns that can be counted individually. ‘Much’ is used with uncountable nouns — nouns that cannot be counted one by one.",
-    details1Guj: "‘Many’ નો ઉપયોગ બહુવચન ગણતરી કરી શકાય એવા નામપદો (countable nouns) સાથે થાય છે. ‘Much’ નો ઉપયોગ અગણ્ય નામપદો (uncountable nouns) સાથે થાય છે.",
+    remember: [
+      "'Many' means a large number of countable things",
+      "'Much' means a large amount of uncountable things.",
+      "'A little' means a small amount of uncountable things.",
+      "'A few' means a small number of countable things.",
+      "Some means an unknown number of countable things or an unknown amount of uncountable things.",
+    ],
+    rememberGuj: [
+      "Many નો અર્થ થાય છે ગણતરી કરી શકાય એવા વસ્તુઓની મોટી સંખ્યા.",
+      "Much નો અર્થ થાય છે અગણતરી વસ્તુઓની મોટી માત્રા.",
+      "A little નો અર્થ થાય છે અગણતરી વસ્તુઓની થોડી માત્રા.",
+      "A few નો અર્થ થાય છે ગણતરી કરી શકાય એવા વસ્તુઓની થોડી સંખ્યા.",
+      "Some નો અર્થ થાય છે ગણતરી કરી શકાય એવી વસ્તુઓની અજ્ઞાત સંખ્યા અથવા અગણતરી વસ્તુઓની અજ્ઞાત માત્રા.",
+    ],
+    details1:
+      "‘Many’ is used with plural countable nouns — nouns that can be counted individually. ‘Much’ is used with uncountable nouns — nouns that cannot be counted one by one.",
+    details1Guj:
+      "‘Many’ નો ઉપયોગ બહુવચન ગણતરી કરી શકાય એવા નામપદો (countable nouns) સાથે થાય છે. ‘Much’ નો ઉપયોગ અગણ્ય નામપદો (uncountable nouns) સાથે થાય છે.",
     example1: [
       "Many students are in the class.",
       "Many books are on the table.",
       "There isn’t much water in the bottle.",
-      "She doesn’t have much money."
+      "She doesn’t have much money.",
     ],
-    details2: "‘A few’ is used with plural countable nouns — nouns you can count individually. It means a small number but more than none. ‘A little’ is used with uncountable nouns — nouns that cannot be counted separately. It means a small amount.",
-    details2Guj: "‘A few’ નો ઉપયોગ બહુવચન ગણતરી કરી શકાય એવા નામપદો (countable nouns) સાથે થાય છે. તેનો અર્થ થોડી સંખ્યા, પણ શૂન્યથી વધુ. ‘A little’ નો ઉપયોગ અગણતરી નામપદો (uncountable nouns) સાથે થાય છે. તેનો અર્થ થોડી માત્રા.",
+    details2:
+      "‘A few’ is used with plural countable nouns — nouns you can count individually. It means a small number but more than none. ‘A little’ is used with uncountable nouns — nouns that cannot be counted separately. It means a small amount.",
+    details2Guj:
+      "‘A few’ નો ઉપયોગ બહુવચન ગણતરી કરી શકાય એવા નામપદો (countable nouns) સાથે થાય છે. તેનો અર્થ થોડી સંખ્યા, પણ શૂન્યથી વધુ. ‘A little’ નો ઉપયોગ અગણતરી નામપદો (uncountable nouns) સાથે થાય છે. તેનો અર્થ થોડી માત્રા.",
     example2: [
       "I have a few apples.",
       "There are a few chairs in the room.",
       "She drank a little water.",
-      "There is a little sugar in the bowl."
+      "There is a little sugar in the bowl.",
     ],
-    details3: "We use some with both countable and uncountable nouns: (a) some + plural countable noun — use with plural verb. (b) some + uncountable noun — use with singular verb.",
-    details3Guj: "અમે some નો ઉપયોગ ગણતરી કરી શકાય તેવા બહુવચન નામપદો અને અગણતરી નામપદો બંને સાથે કરીએ છીએ: (a) some + બહુવચન ગણતરી કરી શકાય તેવા નામપદ — બહુવચન ક્રિયાપદ સાથે. (b) some + અગણતરી નામપદ — એકવચન ક્રિયાપદ સાથે.",
+    details3:
+      "We use some with both countable and uncountable nouns: (a) some + plural countable noun — use with plural verb. (b) some + uncountable noun — use with singular verb.",
+    details3Guj:
+      "અમે some નો ઉપયોગ ગણતરી કરી શકાય તેવા બહુવચન નામપદો અને અગણતરી નામપદો બંને સાથે કરીએ છીએ: (a) some + બહુવચન ગણતરી કરી શકાય તેવા નામપદ — બહુવચન ક્રિયાપદ સાથે. (b) some + અગણતરી નામપદ — એકવચન ક્રિયાપદ સાથે.",
     example3: [
       "Some books are missing.",
       "Some students have arrived.",
       "Some water is needed.",
       "Some milk was spilled.",
-    ]
+    ],
   },
   {
     title: "Present Tense: Simple and Continuous",
-    details1: "We use the Simple Present Tense to show: 'Habits and regular actions' — things we do again and again, 'Current situations' — things that are true now, 'General truths or facts' — things that are always true.",
-    details1Guj: "Simple Present Tense નો ઉપયોગ થાય છે: દૈનિક અને નિયમિત ક્રિયાઓ બતાવવા માટે — જે આપણે વારંવાર કરીએ છીએ, વર્તમાન પરિસ્થિતિ બતાવવા માટે — હાલ જે સત્ય છે તે માટે, સ્થાયી સત્ય કે હકીકત જણાવવા માટે — જે હંમેશાં સાચું હોય છે.",
+    details1:
+      "We use the Simple Present Tense to show: 'Habits and regular actions' — things we do again and again, 'Current situations' — things that are true now, 'General truths or facts' — things that are always true.",
+    details1Guj:
+      "Simple Present Tense નો ઉપયોગ થાય છે: દૈનિક અને નિયમિત ક્રિયાઓ બતાવવા માટે — જે આપણે વારંવાર કરીએ છીએ, વર્તમાન પરિસ્થિતિ બતાવવા માટે — હાલ જે સત્ય છે તે માટે, સ્થાયી સત્ય કે હકીકત જણાવવા માટે — જે હંમેશાં સાચું હોય છે.",
     example1: [
       "He walks to school every day.",
       "She lives in Mumbai.",
       "The sun rises in the east.",
     ],
-    details2: "We use the present continuous tense to show: 'An action happening right now' — at the time of speaking or writing, 'A planned action for the near future'. Note: Some verbs do not take the continuous tense. These are usually state verbs (verbs that show feelings, thoughts, possession, or senses).",
-    details2Guj: "Present Continuous Tense નો ઉપયોગ થાય છે: હમણાં ચાલી રહેલી ક્રિયા બતાવવા માટે — જ્યારે આપણે બોલી રહ્યા છીએ અથવા લખી રહ્યા છીએ ત્યારે ક્રિયા ચાલુ હોય, ભવિષ્યમાં થનાર આયોજનિત ક્રિયા બતાવવા માટે. નોંધ: કેટલાક ક્રિયાપદો continuous tense માં વાપરી શકાતા નથી. આ સામાન્ય રીતે સ્થિતિ દર્શાવતાં verbs હોય છે — જેમ કે લાગણીઓ, વિચારો, માલિકી અથવા ઇન્દ્રિયોથી સંબંધિત verbs.",
+    details2:
+      "We use the present continuous tense to show: 'An action happening right now' — at the time of speaking or writing, 'A planned action for the near future'. Note: Some verbs do not take the continuous tense. These are usually state verbs (verbs that show feelings, thoughts, possession, or senses).",
+    details2Guj:
+      "Present Continuous Tense નો ઉપયોગ થાય છે: હમણાં ચાલી રહેલી ક્રિયા બતાવવા માટે — જ્યારે આપણે બોલી રહ્યા છીએ અથવા લખી રહ્યા છીએ ત્યારે ક્રિયા ચાલુ હોય, ભવિષ્યમાં થનાર આયોજનિત ક્રિયા બતાવવા માટે. નોંધ: કેટલાક ક્રિયાપદો continuous tense માં વાપરી શકાતા નથી. આ સામાન્ય રીતે સ્થિતિ દર્શાવતાં verbs હોય છે — જેમ કે લાગણીઓ, વિચારો, માલિકી અથવા ઇન્દ્રિયોથી સંબંધિત verbs.",
     example2: [
       "She is reading a book.",
       "They are playing outside.",
       "We are meeting the teacher tomorrow.",
       "I know the answer.",
-      "She loves chocolate."
-    ]
+      "She loves chocolate.",
+    ],
+  },
+  {
+    title: "Simple Past Tense: Regular and irregular verbs",
+    details1:
+      "We use the Simple Past Tense to show that an action happened in the past. It tells us about an action that is already completed. We often use time expressions such as earlier, just now, last night, yesterday, three days ago, a week ago, in 2010, etc",
+    details1Guj:
+      "Simple Past Tense નો ઉપયોગ તે બતાવવા માટે થાય છે કે કોઈ ક્રિયા ભૂતકાળમાં થઈ હતી — એટલે કે, હવે પૂરી થઈ ગઈ છે. આ tense સાથે આપણે ઘણી વખત સમય દર્શાવતાં શબ્દો વાપરીએ છીએ જેમ કે: earlier, just now, last night, yesterday, three days ago, a week ago, in 2010, વગેરે.",
+    example1: [
+      "He visited his friend yesterday.",
+      "I finished my homework just now.",
+      "They played football three days ago.",
+      "She cooked dinner last night.",
+    ],
+    details2:
+      "We add “-ed” to regular verbs to form the simple past tense. Irregular verbs do not follow this rule — they change into different forms. (a) Base form of verb + “-ed”: This is the most common pattern.",
+    details2Guj: "(a) ક્રિયાપદના મૂળરૂપ પાછળ “ed” ઉમેરવામાં આવે છે.",
+    example2: ["clean + ed = cleaned", "pick + ed = picked"],
+    details3:
+      "(b) Verbs ending in y → i + “-ed” : If a verb ends with consonant + y, we change y → i and then add “-ed”",
+    details3Guj:
+      "(b) જે ક્રિયાપદ consonant + y પર સમાપ્ત થાય છે, તેમાં y ને i માં બદલી “ed” ઉમેરવામાં આવે છે.",
+    example3: ["carry -> i + ed = carried", "hurry -> i + ed = hurried"],
+    details4:
+      "(c) Verbs ending in a consonant → double the consonant + “-ed”: If a verb ends in a single vowel + single consonant, we double the final consonant and add “-ed”.",
+    details4Guj:
+      "(c) જો ક્રિયાપદ એક vowel + એક consonant સાથે સમાપ્ત થાય, તો અંતિમ consonant ને બમણો કરીને “ed” ઉમેરવામાં આવે છે.",
+    example4: ["drag + g + ed = dragged", "stop + p + ed = stopped"],
+    details5:
+      "Some irregular verbs do not change their spelling in the simple past tense. They keep the same base form for both present and past. These verbs are often called non-changing irregular verbs.",
+    details5Guj:
+      "કેટલાક અનિયમિત (irregular) ક્રિયાપદો simple past tense માં બદલાતા નથી. તેમનું વર્તમાન અને ભૂતકાલ બંનેમાં એકસરખું રૂપ રહે છે. આવા verbs ને non-changing irregular verbs કહેવામાં આવે છે.",
+    example5: ["put", "cut", "hit", "shut", "let"],
+  },
+  {
+    title: "Past Continuous Tense",
+    remember: [
+      "For singular nouns and the pronouns I/he/she/it : was + base form of verb + -ing",
+      "For plural nouns and the pronouns you/we/they : were + base form of verb + -ing",
+    ],
+    rememberGuj: [
+      "એકવચન સંજ્ઞા અને સર્વનામો I/he/she/it માટે : was + ક્રિયાપદનો મૂળરૂપ + ing",
+      "બહુવચન સંજ્ઞા અને સર્વનામો you/we/they માટે : were + ક્રિયાપદનો મૂળરૂપ + ing",
+    ],
+    details1:
+      "We use the Past Continuous Tense to show that an action was going on or was in progress at a specific time in the past. It describes an action that was happening for some time, but not yet completed at that moment. We often use words like: while, when, at that time, yesterday at 5 pm, last night at 8 pm, etc.",
+    details1Guj:
+      "Past Continuous Tense નો ઉપયોગ બતાવવા માટે થાય છે કે કોઈ ક્રિયા ભૂતકાળમાં કોઈ ચોક્કસ સમયે ચાલુ હતી — એટલે કે, તે સમય દરમિયાન ક્રિયા પ્રગતિમાં હતી પણ પૂર્ણ થઈ નહોતી. આ tense સાથે આપણે ઘણી વખત while, when, at that time, yesterday at 5 pm, last night at 8 pm જેવા શબ્દો વાપરીએ છીએ.",
+    example1: [
+      "She was cooking dinner at 8 pm last night.",
+      "I was reading a book while he was sleeping.",
+      "They were playing cricket when it started raining.",
+    ],
+    details2:
+      "To show that two actions were going on at the same time in the past, we can use the past continuous tense for both actions or use the simple past tense for both actions.",
+    details2Guj:
+      "ભૂતકાળમાં એકસાથે બે ક્રિયાઓ ચાલી રહી હતી તે બતાવવા માટે, આપણે બંને ક્રિયાઓ માટે past continuous tense નો ઉપયોગ કરી શકીએ છીએ અથવા બંને માટે simple past tense નો ઉપયોગ કરી શકીએ છીએ.",
+    example2: [
+      "She was cooking while he was cleaning the house.",
+      "I was studying when they were playing outside.",
+      "He cooked dinner and she cleaned the room.",
+    ],
+    details3:
+      "To show that something happened while a longer action was going on, we use: a. Past continuous tense for the first or longer action. b. Simple past tense for the second, shorter action.",
+    details3Guj:
+      "જ્યારે કોઈ લાંબી ક્રિયા ચાલતી હોય અને તેની વચ્ચે બીજી ક્રિયા બને ત્યારે: a. પહેલી અથવા લાંબી ક્રિયા માટે past continuous tense નો ઉપયોગ કરીએ છીએ. b. બીજી અથવા ટૂંકી ક્રિયા માટે simple past tense નો ઉપયોગ કરીએ છીએ.",
+    example3: [
+      "She was reading a book when the phone rang.",
+      "I was walking home when it started to rain.",
+      "He was cooking dinner when the doorbell rang",
+    ],
+    details4:
+      "Certain verbs, usually called stative verbs, do not normally take the past continuous tense. These verbs describe states, feelings, thoughts, possession, or senses.",
+    details4Guj:
+      "કેટલાક ક્રિયાપદો (જેને stative verbs કહે છે) સામાન્ય રીતે past continuous tense માં વાપરાતા નથી. આ ક્રિયાપદો સ્થિતિ, લાગણીઓ, વિચારો, માલિકી અથવા ઇન્દ્રિયો બતાવે છે.",
+    example4: [
+      "I knew the answer.",
+      "She loved the movie.",
+      "own, wish, want, fit",
+    ],
+  },
+  {
+    title: "Present Perfect Tense",
+    remember: [
+      "We form the Present Perfect Tense using has or have + the past participle form of the verb.",
+      "We often use words like already, before, for (a week, a month, several days), and since (last year, last month, 1980) with the Present Perfect Tense.",
+    ],
+    rememberGuj: [
+      "અમે Present Perfect Tense બનાવીએ છીએ has અથવા have + ક્રિયાપદના past participle સ્વરૂપ સાથે.",
+      "અમે Present Perfect Tense સાથે આમણે 'already', 'before', 'for' (એક અઠવાડિયો, એક મહિનો, કેટલાક દિવસો), અને 'since' (ગયા વર્ષ, ગયા મહિને, ૧૯૮૦થી) જેવા શબ્દોનો ઉપયોગ કરીએ છીએ",
+    ],
+    details1:
+      "We use the Present Perfect Tense to talk about an action that happened in the past without stating the exact time of the action. When the exact time of the action is mentioned, we use the Simple Past Tense.",
+    details1Guj:
+      "અમે Present Perfect Tense નો ઉપયોગ ભૂતકાળમાં થયેલી ક્રિયા માટે કરીએ છીએ જ્યારે ક્રિયાનો ચોક્કસ સમય ન જણાવવામાં આવે. જ્યારે ક્રિયાનો ચોક્કસ સમય જણાવવામાં આવે ત્યારે Simple Past Tense નો ઉપયોગ કરીએ છીએ.",
+    example1: [
+      "I have visited London. (Exact time not mentioned)",
+      "She has finished her homework.",
+      "I visited London last year. (Exact time mentioned)",
+      "She finished her homework yesterday.",
+    ],
+    details2:
+      "We use the Present Perfect Tense to talk about an action that started in the past and is still continuing now.",
+    details2Guj:
+      "અમે Present Perfect Tense નો ઉપયોગ એવા કાર્ય માટે કરીએ છીએ જે ભૂતકાળમાં શરૂ થયું હતું અને હવે પણ ચાલુ છે.",
+    example2: [
+      "I have lived here for five years.",
+      "She has worked at this company since 2010.",
+      "They have studied English for three months.",
+    ],
+  },
+  {
+    title: "Simple Future Tense",
+    remember: [
+      "In the simple future tense, we use 'shall' with I and we, and 'will' with other pronouns and nouns. Both forms express future actions or intentions.",
+    ],
+    rememberGuj: [
+      "Simple future tense માં, અમે I અને we સાથે 'shall' નો ઉપયોગ કરીએ છીએ, અને અન્ય સર્વનામો અને નામપદો સાથે 'will' નો ઉપયોગ કરીએ છીએ. બંને future action અથવા ઈરાદા દર્શાવે છે.",
+    ],
+    details1:
+      "We form the Simple Future Tense using will in the following ways: a. will + base form of the verb (e.g., will go, will eat), b. will + base form of the verb 'to be' (will be).",
+    details1Guj:
+      "અમે Simple Future Tense બનાવીએ છીએ will નો ઉપયોગ કરીને, નીચે પ્રમાણે: a. will + ક્રિયાપદનો મૂળ સ્વરૂપ (જેમ કે, will go, will eat), will + ક્રિયાપદ 'to be' નો મૂળ સ્વરૂપ (will be).",
+    example1: [
+      "I will go to the market tomorrow.",
+      "She will eat dinner at 8 PM.",
+      "They will be happy to see you.",
+      "He will be a doctor one day.",
+    ],
+    details2:
+      "We can also use the 'going to' form to talk about future actions that are planned earlier or events that we think are likely to happen in the future. We form the simple future tense using 'going to' like this: present tense of the verb 'to be' + going to + base form of verb.",
+    details2Guj:
+      "અમે ભવિષ્યની એવી ક્રિયાઓ માટે પણ 'going to' ફોર્મનો ઉપયોગ કરીએ છીએ જે પહેલા થી યોજિત હોય અથવા એવી ઘટનાઓ માટે જે ભવિષ્યમાં થવા સંભાવિત હોય. અમે simple future tense બનાવવા માટે going to નો ઉપયોગ આ રીતે કરીએ છીએ: ક્રિયાપદ 'to be' નું વર્તમાન કાલ + going to + ક્રિયાપદનું મૂળ સ્વરૂપ.",
+    example2: [
+      "I am going to meet my friend tomorrow.",
+      "She is going to travel next week.",
+      "They are going to play football this evening.",
+      "He is going to be a teacher someday.",
+    ],
+  },
+  {
+    title: "Future Continuous Tense",
+    remember: [
+      "We form the future continuous tense using: will be + base form of verb + -ing.",
+    ],
+    rememberGuj: [
+      "Future continuous tense બનાવવાનો નિયમ છે: will be + ક્રિયાપદનો મૂળ સ્વરૂપ + ing.",
+    ],
+    details1:
+      "We use the future continuous tense to show that an action will be going on at a specific time in the future. It emphasizes the ongoing nature of the action during that future time.",
+    details1Guj:
+      "અમે future continuous tense નો ઉપયોગ આવનારા ભવિષ્યમાં કોઈ ચોક્કસ સમયે ચાલી રહી હોય તેવી ક્રિયા બતાવવા માટે કરીએ છીએ. આ ક્રિયા ભવિષ્યમાં કોઈ સમય દરમિયાન ચાલુ રહેશે તે દર્શાવે છે.",
+    example1: [
+      "She will be studying at 8 PM tomorrow.",
+      "They will be playing football when you arrive.",
+      "I will be working late tonight.",
+    ],
+    details2:
+      "Some verbs are not usually used in the future continuous tense because they describe states or events that do not have a continuous or ongoing action. These verbs include forget, hear, last, reach, remember, see, want, and wish.",
+    details2Guj:
+      "કેટલાક ક્રિયાપદો future continuous tense માં સામાન્ય રીતે વાપરાતા નથી, કારણ કે તેઓ એવી સ્થિતિઓ કે ઘટનાઓ દર્શાવે છે જે સતત ચાલતી ન હોઈ શકે. આવા ક્રિયાપદોમાં forget, hear, last, reach, remember, see, want, અને wish શામેલ છે.",
+    example2: [
+      "❌ I will be forgetting your name.",
+      "✔️ I will forget your name.",
+      "❌ She will be hearing the news.",
+      "✔️ She will hear the news.",
+    ],
   },
 ];

@@ -819,4 +819,297 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 1,
     },
   ],
+  "Simple Past Tense: Regular and irregular verbs": [
+    {
+      question: "What does the Simple Past Tense show?",
+      options: [
+        "An action happening now",
+        "An action that will happen later",
+        "An action that happened in the past",
+        "A general truth",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which sentence is in the Simple Past Tense?",
+      options: [
+        "He is visiting his friend.",
+        "He visits his friend.",
+        "He visited his friend yesterday.",
+        "He will visit his friend tomorrow.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which is a regular verb in the past tense?",
+      options: ["cut", "put", "cleaned", "hit"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Choose the correct past tense form of 'carry':",
+      options: ["carried", "carryed", "carrieded", "carrid"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct past tense form of 'stop':",
+      options: ["stoped", "stopped", "stoppedd", "stopid"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which verb does NOT change in the past tense?",
+      options: ["jump", "play", "cut", "wash"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which of the following is an irregular verb?",
+      options: ["picked", "carried", "stopped", "put"],
+      correctAnswerIndex: 3,
+    },
+    {
+      question: "Which sentence uses a non-changing irregular verb?",
+      options: [
+        "He cleaned his room.",
+        "She carried the bag.",
+        "They put the books on the shelf.",
+        "He stopped the car.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Select the correctly formed past tense verb:",
+      options: ["hurryed", "hurried", "hurryied", "hurryd"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which verb follows the rule: base form + 'ed'?",
+      options: ["hit", "clean", "cut", "let"],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Past Continuous Tense": [
+    {
+      question: "What does the Past Continuous Tense show?",
+      options: [
+        "An action completed in the past",
+        "An action going on at a specific time in the past",
+        "An action that will happen in the future",
+        "A general truth",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which word is commonly used with the Past Continuous Tense?",
+      options: ["Yesterday", "While", "Tomorrow", "Often"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "She was cooking dinner at 8 pm last night.",
+        "She cooked dinner at 8 pm last night.",
+        "She cooking dinner at 8 pm last night.",
+        "She will cook dinner at 8 pm last night.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "How do we show two actions happening at the same time in the past?",
+      options: [
+        "Use Past Continuous for both actions or Simple Past for both actions",
+        "Use Present Continuous for both actions",
+        "Use Past Continuous for one and Present Continuous for the other",
+        "Use Simple Present for both actions",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "How do we show that a shorter action happened during a longer action in the past?",
+      options: [
+        "Use Simple Past for both actions",
+        "Use Past Continuous for the shorter action and Simple Past for the longer action",
+        "Use Past Continuous for the longer action and Simple Past for the shorter action",
+        "Use Present Perfect for both actions",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Which type of verbs usually do NOT take the Past Continuous Tense?",
+      options: [
+        "Action verbs",
+        "Stative verbs",
+        "Transitive verbs",
+        "Modal verbs",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Identify the sentence with a stative verb not in Past Continuous:",
+      options: [
+        "I was knowing the answer.",
+        "I knew the answer.",
+        "She was loving the movie.",
+        "They were owning a house.",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Present Perfect Tense": [
+    {
+      question: "When do we use the Present Perfect Tense?",
+      options: [
+        "To talk about actions that happened at a specific time in the past.",
+        "To talk about actions that happened in the past without mentioning the exact time.",
+        "To talk about future plans.",
+        "To describe habits.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence correctly uses the Present Perfect Tense?",
+      options: [
+        "I visited London last year.",
+        "I have visited London.",
+        "I will visit London.",
+        "I am visiting London.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "We use the Present Perfect Tense to talk about an action that started in the past and _____.",
+      options: [
+        "happened once and ended.",
+        "is still continuing now.",
+        "will happen in the future.",
+        "happens regularly.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct Present Perfect sentence:",
+      options: [
+        "She has finished her homework.",
+        "She finished her homework yesterday.",
+        "She will finish her homework.",
+        "She finishes her homework.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which sentence uses Simple Past Tense instead of Present Perfect Tense?",
+      options: [
+        "They have studied English for three months.",
+        "She has worked at this company since 2010.",
+        "I visited London last year.",
+        "I have lived here for five years.",
+      ],
+      correctAnswerIndex: 2,
+    },
+  ],
+  "Simple Future Tense": [
+    {
+      question:
+        "Which pronouns do we use with 'shall' in the simple future tense?",
+      options: ["He and she", "I and we", "You and they", "All pronouns"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "I will goes to school tomorrow.",
+        "She will eat dinner at 8 PM.",
+        "They will be happy to seeing you.",
+        "He will be doctor one day.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "How do we form the simple future tense using 'going to'?",
+      options: [
+        "Past tense of 'to be' + going to + base form of verb",
+        "Present tense of 'to be' + going to + base form of verb",
+        "Future tense of 'to be' + going to + past participle",
+        "Present participle of 'to be' + going to + base form of verb",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence shows a planned future action?",
+      options: [
+        "He will be a doctor one day.",
+        "I am going to meet my friend tomorrow.",
+        "They will play football sometimes.",
+        "She eats dinner at 8 PM.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Select the correct form of simple future tense:",
+      options: [
+        "She going to travel next week.",
+        "She is going to travel next week.",
+        "She will traveling next week.",
+        "She is going travel next week.",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Future Continuous Tense": [
+    {
+      question: "How do we form the future continuous tense?",
+      options: [
+        "will + base form of verb",
+        "will be + base form of verb + -ing",
+        "have + past participle",
+        "am/is/are + verb + -ing",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence is correct?",
+      options: [
+        "She will be studying at 8 PM tomorrow.",
+        "She will studying at 8 PM tomorrow.",
+        "She will be study at 8 PM tomorrow.",
+        "She will study at 8 PM tomorrow.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which verbs are usually NOT used in the future continuous tense?",
+      options: [
+        "verbs of action like 'run', 'play'",
+        "state verbs like 'want', 'remember'",
+        "verbs ending in -ing",
+        "all verbs are used",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "I will be forgetting your name.",
+        "I will forget your name.",
+        "I will be forget your name.",
+        "I forgetting your name.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "What does the future continuous tense show?",
+      options: [
+        "A completed action in the past",
+        "An action happening at a specific time in the future",
+        "A habit or routine",
+        "A fact or truth",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
 };

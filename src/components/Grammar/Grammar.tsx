@@ -32,8 +32,8 @@ const Grammar = () => {
           // </div>
           <div key={idx} className="col-sm-6 col-md-6 col-lg-4">
             <div
-              key={idx}
               className="card rounded-lg shadow p-2 d-flex h-100 w-100 align-items-center"
+              style={{ backgroundColor: idx % 2 === 0 ? "#bff2c6" : "#e9ecef" }}
             >
               <div
                 className="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center mb-2"
