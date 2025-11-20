@@ -730,4 +730,93 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 2,
     },
   ],
+  "Present Tense: Simple and Continuous": [
+    {
+      question: "Which sentence shows a habit (Simple Present)?",
+      options: [
+        "She is cooking dinner.",
+        "She cooks dinner every day.",
+        "She is going to cook dinner tomorrow.",
+        "She cooked dinner yesterday.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence is in the Present Continuous Tense?",
+      options: [
+        "He plays football every evening.",
+        "He is playing football now.",
+        "He played football yesterday.",
+        "He will play football tomorrow.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence expresses a general truth?",
+      options: [
+        "The sun rises in the east.",
+        "They are rising early today.",
+        "He rises at 7 a.m. tomorrow.",
+        "She is rising the flag.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which of the following verbs cannot be used in continuous tense?",
+      options: ["eat", "know", "write", "run"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which sentence shows a planned future action (Present Continuous)?",
+      options: [
+        "We meet the teacher every week.",
+        "We met the teacher yesterday.",
+        "We are meeting the teacher tomorrow.",
+        "We meet the teacher tomorrow.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Select the correct form: She ______ a book right now.",
+      options: ["reads", "is reading", "read", "is read"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Select the correct form: They ______ to school every day.",
+      options: ["are going", "go", "goes", "are go"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Identify the tense: 'They are playing outside.'",
+      options: [
+        "Simple Present Tense",
+        "Present Continuous Tense",
+        "Past Continuous Tense",
+        "Future Tense",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Identify the tense: 'He lives in Ahmedabad.'",
+      options: [
+        "Simple Present Tense",
+        "Present Continuous Tense",
+        "Past Tense",
+        "Future Tense",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct sentence:",
+      options: [
+        "She is knowing the answer.",
+        "She knows the answer.",
+        "She knowing the answer.",
+        "She is know the answer.",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
 };

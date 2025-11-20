@@ -361,4 +361,23 @@ export const grammarLession: GrammarLesson[] = [
       "Some milk was spilled.",
     ]
   },
+  {
+    title: "Present Tense: Simple and Continuous",
+    details1: "We use the Simple Present Tense to show: 'Habits and regular actions' — things we do again and again, 'Current situations' — things that are true now, 'General truths or facts' — things that are always true.",
+    details1Guj: "Simple Present Tense નો ઉપયોગ થાય છે: દૈનિક અને નિયમિત ક્રિયાઓ બતાવવા માટે — જે આપણે વારંવાર કરીએ છીએ, વર્તમાન પરિસ્થિતિ બતાવવા માટે — હાલ જે સત્ય છે તે માટે, સ્થાયી સત્ય કે હકીકત જણાવવા માટે — જે હંમેશાં સાચું હોય છે.",
+    example1: [
+      "He walks to school every day.",
+      "She lives in Mumbai.",
+      "The sun rises in the east.",
+    ],
+    details2: "We use the present continuous tense to show: 'An action happening right now' — at the time of speaking or writing, 'A planned action for the near future'. Note: Some verbs do not take the continuous tense. These are usually state verbs (verbs that show feelings, thoughts, possession, or senses).",
+    details2Guj: "Present Continuous Tense નો ઉપયોગ થાય છે: હમણાં ચાલી રહેલી ક્રિયા બતાવવા માટે — જ્યારે આપણે બોલી રહ્યા છીએ અથવા લખી રહ્યા છીએ ત્યારે ક્રિયા ચાલુ હોય, ભવિષ્યમાં થનાર આયોજનિત ક્રિયા બતાવવા માટે. નોંધ: કેટલાક ક્રિયાપદો continuous tense માં વાપરી શકાતા નથી. આ સામાન્ય રીતે સ્થિતિ દર્શાવતાં verbs હોય છે — જેમ કે લાગણીઓ, વિચારો, માલિકી અથવા ઇન્દ્રિયોથી સંબંધિત verbs.",
+    example2: [
+      "She is reading a book.",
+      "They are playing outside.",
+      "We are meeting the teacher tomorrow.",
+      "I know the answer.",
+      "She loves chocolate."
+    ]
+  },
 ];
