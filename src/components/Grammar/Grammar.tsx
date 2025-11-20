@@ -48,7 +48,7 @@ const Grammar = () => {
               </div>
               <div className="text-center">
                 <h5 className="card-title text-center">{lesson.title}</h5>
-                <a href="/grammar/0" className="btn btn-link">
+                <a href={`/grammar/${idx}`} className="btn btn-link">
                   Learn More
                 </a>
               </div>
