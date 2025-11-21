@@ -581,4 +581,150 @@ export const grammarLession: GrammarLesson[] = [
       "✔️ She will hear the news.",
     ],
   },
+  {
+    title: "Question Tags: isn't, aren't, doesn't, don't",
+    details1:
+      "We use negative question tags with positive statements to confirm information, ask for agreement, or check if something is true. When the main sentence contains the verb “to be” (am/is/are), the question tag uses the negative form of the same verb (isn’t, aren’t).",
+    details1Guj:
+      "અમે positive statement પછી negative question tag નો ઉપયોગ માહિતીની પુષ્ટિ કરવા, સહમતિ પૂછવા, અથવા કોઈ વાત સાચી છે કે નહીં તે તપાસવા કરીએ છીએ. જો વાક્યમાં “to be” (am/is/are) આવે છે, તો question tag માં એ જ verb નું negative form (isn’t, aren’t) વપરાય છે.",
+    example1: [
+      "She is smart, isn’t she?",
+      "They are ready, aren’t they?",
+      "You like ice cream, don’t you?",
+      "He doesn’t like coffee, does he? (Opposite meaning)",
+    ],
+    details2:
+      "We use pronouns, not nouns or noun phrases, in question tags. The pronoun must match the subject of the statement in number (singular/plural), gender, and person.",
+    details2Guj:
+      "Question tag માં noun અથવા noun phrase નો ઉપયોગ કરાતો નથી, તેની જગ્યાએ pronoun વાપરવું પડે છે. Pronoun ને વાક્યના subject પ્રમાણે જ વાપરવું પડે — એટલે કે, number, gender અને person મુજબ તે subject ને match કરવું જોઈએ.",
+    example2: [
+      "Riya is coming, isn’t she?",
+      "The boy plays well, doesn’t he?",
+      "The students are ready, aren’t they?",
+      "Your friends will come, won’t they?",
+      "The tall man in the blue shirt is your uncle, isn’t he?",
+      "My brother and sister live in Mumbai, don’t they?",
+    ],
+  },
+  {
+    title: "Wh-Questions",
+    details1:
+      "We always begin a wh-question with a wh-word. These words are used to ask for specific information such as a person, place, reason, time, thing, method, or belonging. The common wh-words are: Who, Whom, Whose, What, Which, Where, When, Why, How.",
+    details1Guj:
+      "અમે wh-question હંમેશાં wh-word થી શરૂ કરીએ છીએ. આ wh-words નો ઉપયોગ કોઈ વ્યક્તિ, સ્થળ, વસ્તુ, સમય, કારણ, રીત અથવા માલિકી વિશે ચોક્કસ માહિતી પૂછવા માટે થાય છે. સામાન્ય wh-words આ છે: Who, Whom, Whose, What, Which, Where, When, Why, How.",
+    example1: [
+      "Who is your teacher?",
+      "Whom did you meet yesterday?",
+      "Whose book is this?",
+      "What are you doing?",
+      "Which color do you like?",
+      "Where do you live?",
+      "When is your birthday?",
+      "Why are you late?",
+      "How do you make this?",
+    ],
+    details2:
+      "Every wh-question must have a finite verb to make it complete. A finite verb shows tense (past, present, future) and agrees with the subject. Without a finite verb, the question is incomplete or grammatically incorrect.",
+    details2Guj:
+      "દરેક wh-question માં એક finite verb હોવું જરૂરી છે જેથી વાક્ય પૂર્ણ બને. finite verb સમય (ભૂતકાળ, વર્તમાનકાળ, ભવિષ્યકાળ) દર્શાવે છે અને વિષય સાથે મેળ ખાતો હોય છે. finite verb વગર પ્રશ્ન અધુરો અથવા વ્યાકરણ દ્રષ્ટિએ ખોટો થાય છે.",
+    example2: [
+      "What 'is' your name?",
+      "Where 'did' you go yesterday?",
+      "Who 'can' help me?",
+      "Why 'are' they late?",
+    ],
+    details3:
+      "We use the verb 'to do' with wh-words in these ways: a. Wh-word + do + noun/pronoun + base form of main verb (for positive questions),b. Wh-word + do not/does not/did not + noun/pronoun + base form of main verb (for negative questions).",
+    details3Guj:
+      "અમે wh-words સાથે ક્રિયા 'to do' નો ઉપયોગ આ રીતે કરીએ છીએ: a. Wh-word + do + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ (સકારાત્મક પ્રશ્ન માટે), b. Wh-word + do not/does not/did not + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ (નકારાત્મક પ્રશ્ન માટે).",
+    example3: [
+      "What do you want?",
+      "Where does she live?",
+      "Why don't you come to the party?",
+      "Who doesn't like chocolate?",
+    ],
+  },
+  {
+    title: "Wh-Questions : Who",
+    details1:
+      "In a Who question, the verb to be must agree in tense and number with the noun or pronoun it refers to. This means if the subject is singular, use is or was, and if plural, use are or were.",
+    details1Guj:
+      "Who પ્રશ્નમાં, verb to be (હવે/છે/હતો) તે નામપદ કે સર્વનામ સાથે સંખ્યામાં અને કાળમાં મેળ ખાય તેવું હોવું જોઈએ. જો વિષય એકવચન હોય તો is અથવા was વાપરો, અને બહુવચન હોય તો are અથવા were વાપરો.",
+    example1: [
+      "Who is your teacher?",
+      "Who are those people?",
+      "Who was at the door?",
+      "Who were invited to the party?",
+    ],
+    details2:
+      "We usually use the singular form of the main verb with a Who question in the present tense, because Who is treated as singular unless the context clearly indicates plural.",
+    details2Guj:
+      "અમે સામાન્ય રીતે વર્તમાન કાળમાં Who પ્રશ્ન સાથે મુખ્ય ક્રિયાનો એકવચન સ્વરૂપ વાપરતા હોઈએ છીએ, કારણ કે Who ને એકવચન માનવામાં આવે છે જો સુધી સંદર્ભ સ્પષ્ટપણે બહુવચન ન બતાવે.",
+    example2: [
+      "Who 'works' here?",
+      "Who 'lives' in that house?",
+      "Who 'knows' the answer?",
+    ],
+    details3:
+      "In a Who question, we must use the verb ‘to be’ together with the ‘-ing’ form of the main verb (present continuous tense) to show an ongoing action.",
+    details3Guj:
+      "Who પ્રશ્નમાં, ચાલતી ક્રિયા બતાવવા માટે, મુખ્ય ક્રિયાના ‘ing’ સ્વરૂપ સાથે ‘to be’ ક્રિયાનો ઉપયોગ કરવો જરૂરી છે (Present Continuous Tense).",
+    example3: [
+      "Who is reading the book?",
+      "Who are playing outside?",
+      "Who is coming to the party?",
+    ],
+    details4:
+      "We can use the negative form of the verb ‘to do’ with Who in this way: Who + negative form of ‘to do’ (doesn’t, don’t, didn’t) + base form of the main verb.",
+    details4Guj:
+      "અમે Who સાથે ક્રિયા ‘to do’ નો નકારાત્મક સ્વરૂપ આ રીતે ઉપયોગ કરી શકીએ છીએ: Who + ‘to do’ નું નકારાત્મક સ્વરૂપ (doesn’t, don’t, didn’t) + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ.",
+    example4: [
+      "Who doesn’t like chocolate?",
+      "Who don’t know the answer?",
+      "Who didn’t come to the meeting?",
+    ],
+  },
+  {
+    title: "Wh-Questions : What",
+    details1:
+      "In a What question, we use the verb 'to do' in these ways: a. What + the verb 'to do' + noun/pronoun + base form of main verb (for asking about actions), b. What + noun + the verb 'to do' + noun/pronoun + base form of main verb (for asking about actions related to a noun)",
+    details1Guj:
+      "What પ્રશ્નમાં, ક્રિયા 'to do' નો ઉપયોગ નીચે મુજબ થાય છે: a. What + 'to do' ક્રિયા + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ (ક્રિયા વિશે પૂછવા માટે), b. What + નામપદ + 'to do' ક્રિયા + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ (નામપદ સાથે સંકળાયેલી ક્રિયાઓ વિશે પૂછવા માટે).",
+    example1: [
+      "What do you want?",
+      "What work does he do?",
+      "What does she like?",
+      "What job do they do?",
+    ],
+    details2:
+      "We use the verb ‘to be’ with the ‘-ing’ form of the main verb in this way: What + the verb ‘to be’ + noun/pronoun + base form of main verb + -ing (This structure is used to ask about an ongoing action.)",
+    details2Guj:
+      "અમે ‘to be’ ક્રિયાને મુખ્ય ક્રિયાના ‘-ing’ સ્વરૂપ સાથે નીચે મુજબ વાપરીએ છીએ: What + verb ‘to be’ + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ + ing (આ રચના ચાલતી ક્રિયાઓ વિશે પ્રશ્ન કરવા માટે વપરાય છે.)",
+    example2: [
+      "What is she doing?",
+      "What are they playing?",
+      "What is he reading?",
+      "What are you watching?",
+    ],
+    details3:
+      "We usually use the singular form of a main verb with a 'What' question in the present tense. This type of question is often seen in riddles and quizzes.",
+    details3Guj:
+      "અમે સામાન્ય રીતે વર્તમાન કાળમાં What પ્રશ્ન સાથે મુખ્ય ક્રિયાનો એકવચન સ્વરૂપ વાપરીએ છીએ. આ પ્રકારના પ્રશ્નો વધુને વધુ પઝલ્સ અને ક્વિઝમાં જોવા મળે છે.",
+    example3: [
+      "What is the capital of India?",
+      "What was the answer to the riddle?",
+      "What is your favorite color?",
+      "What does he want?",
+    ],
+    details4:
+      "We sometimes use 'What' with a noun to ask for details about that noun. When 'What' is followed by a noun, the word after the noun must be a finite verb. The structure is: What + noun + the verb 'to be' + noun/pronoun",
+    details4Guj:
+      "અમે ક્યારેક 'What' સાથે નામપદનો ઉપયોગ કરીએ છીએ તે નામપદ વિશે વધુ માહિતી પૂછવા માટે. જ્યારે 'What' પછી નામપદ આવે, ત્યારે નામપદ પછીનું શબ્દ finite verb હોવું જરૂરી છે. તેનો બંધારણ છે: What + નામપદ + verb 'to be' + નામપદ/સર્વનામ.",
+    example4: [
+      "What 'time is' it?",
+      "What 'color is' your car?",
+      "What 'kind of music is' popular?",
+      "What 'book is' on the table?",
+    ],
+  },
 ];

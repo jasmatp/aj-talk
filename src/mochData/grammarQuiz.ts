@@ -1112,4 +1112,219 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 1,
     },
   ],
+  "Question Tags: isn't, aren't, doesn't, don't": [
+    {
+      question: "She is your teacher, ________?",
+      options: ["is she", "isn't she", "aren't she", "doesn't she"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "They are playing outside, ________?",
+      options: ["aren't they", "are they", "don't they", "isn't they"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "You don’t like coffee, ________?",
+      options: ["don't you", "do you", "doesn't you", "won't you"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "He doesn’t eat meat, ________?",
+      options: ["does he", "doesn't he", "is he", "isn't he"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Riya sings well, ________?",
+      options: ["does she", "doesn't she", "isn't she", "will she"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "The boys are late, ________?",
+      options: ["aren't they", "are they", "don't they", "won't they"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Your friends will help us, ________?",
+      options: ["won't they", "will they", "don't they", "aren't they"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "The weather is nice today, ________?",
+      options: ["is it", "isn't it", "aren't it", "doesn't it"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "He is not busy, ________?",
+      options: ["is he", "isn't he", "does he", "won't he"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "They like cricket, ________?",
+      options: ["don't they", "do they", "aren't they", "won't they"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "The tall man is a doctor, ________?",
+      options: ["is he", "isn't he", "doesn't he", "aren't he"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "The students are ready, ________?",
+      options: ["aren't they", "are they", "don't they", "won't they"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "The girl is crying, isn’t ________?",
+      options: ["she", "he", "it", "they"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "The books are on the table, aren’t ________?",
+      options: ["they", "them", "it", "those"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "My brother will come soon, won’t ________?",
+      options: ["he", "him", "they", "it"],
+      correctAnswerIndex: 0,
+    },
+  ],
+  "Wh-Questions": [
+    {
+      question: "Which word do we always start a wh-question with?",
+      options: ["A noun", "A pronoun", "A wh-word", "An adjective"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "What must every wh-question have to be complete?",
+      options: [
+        "A finite verb",
+        "An infinitive verb",
+        "A noun phrase",
+        "An adjective",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct wh-question: ",
+      options: [
+        "What you want?",
+        "What do you want?",
+        "What want you?",
+        "What does you want?",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Select the correct negative wh-question:",
+      options: [
+        "Who does not likes chocolate?",
+        "Who don't like chocolate?",
+        "Who doesn't like chocolate?",
+        "Who does not like chocolates?",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Which sentence correctly uses the verb 'to do' with a wh-word?",
+      options: [
+        "Where she live?",
+        "Where does she live?",
+        "Where do she live?",
+        "Where does she lives?",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Wh-Questions : Who": [
+    {
+      question: "In a Who question, which verb agrees with a singular subject?",
+      options: ["are", "is", "were", "am"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which verb form do we usually use with Who in the present tense?",
+      options: ["Plural form", "Singular form", "Past form", "Future form"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Complete the sentence: Who _____ reading the book?",
+      options: ["are", "is", "were", "am"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "How do we form a negative Who question using the verb 'to do'?",
+      options: [
+        "Who + base verb",
+        "Who + doesn’t/don’t/didn’t + base verb",
+        "Who + is + verb-ing",
+        "Who + was + verb-ing",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which sentence is correct?",
+      options: [
+        "Who doesn’t like chocolate?",
+        "Who don’t likes chocolate?",
+        "Who didn’t likes chocolate?",
+        "Who doesn’t likes chocolate?",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
+  "Wh-Questions : What": [
+    {
+      question: "How do we use the verb 'to do' with 'What' questions?",
+      options: [
+        "What + the verb 'to do' + noun/pronoun + base form of main verb",
+        "What + noun + the verb 'to be' + base form of main verb",
+        "What + verb 'to be' + noun/pronoun + main verb + -ing",
+        "What + noun + the verb 'to do' + noun/pronoun + base form of main verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which structure is used to ask about an ongoing action with 'What'?",
+      options: [
+        "What + verb 'to do' + noun + base form of verb",
+        "What + verb 'to be' + noun/pronoun + base form of main verb + -ing",
+        "What + noun + the verb 'to do' + noun/pronoun + base form of main verb",
+        "What + noun + verb 'to be' + noun/pronoun",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "What do we use with 'What' questions to ask about details of a noun?",
+      options: [
+        "What + noun + the verb 'to be' + noun/pronoun",
+        "What + verb 'to do' + noun/pronoun + base form of main verb",
+        "What + verb 'to be' + noun/pronoun + base form + -ing",
+        "What + noun + verb 'to do' + noun/pronoun + base form of main verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "In present tense 'What' questions, which form of the main verb do we usually use?",
+      options: ["Plural form", "Past form", "Singular form", "Continuous form"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Choose the correct example of 'What' with a noun followed by a finite verb.",
+      options: [
+        "What color is your car?",
+        "What doing she is?",
+        "What does she doing?",
+        "What is your doing car?",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
 };
