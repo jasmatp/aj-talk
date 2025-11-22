@@ -1659,4 +1659,130 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 0,
     },
   ],
+  "Prepositions Of Position": [
+    {
+      question: "When do we use 'beside'?",
+      options: [
+        "When there are only two persons or things involved",
+        "When there are three persons or things involved",
+        "When there are more than three persons or things involved",
+        "When something is in front",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which preposition is used when something is in the middle of three persons or things?",
+      options: ["Beside", "Between", "Among", "Behind"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "'Below' means:",
+      options: [
+        "Lower and covered by the thing above",
+        "Higher than and touching the surface",
+        "Lower but not necessarily directly underneath",
+        "At the back of something",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "What is the difference between 'above' and 'on'?",
+      options: [
+        "'Above' means touching the surface, 'on' means not touching",
+        "'Above' means higher but not touching, 'on' means higher and touching",
+        "'Above' means below, 'on' means behind",
+        "'Above' and 'on' mean the same",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "When do we use 'at the back of'?",
+      options: [
+        "To indicate something behind but not related to a large object",
+        "To indicate the rear part of a large object like a building or vehicle",
+        "To indicate something in front of a building",
+        "To indicate something above a person",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct example using 'behind':",
+      options: [
+        "The garden is behind the school.",
+        "The garden is at the back of the school.",
+        "The garden is on the school.",
+        "The garden is above the school.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which preposition would you use to say something is 'next to' another thing?",
+      options: ["Between", "Beside", "Among", "Behind"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "'Among' is used when:",
+      options: [
+        "There are exactly two persons or things",
+        "There are three persons or things",
+        "There are more than three persons or things considered as a group",
+        "Something is at the back of another thing",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Which preposition describes a position directly underneath and covered by something else?",
+      options: ["Below", "Under", "Above", "On"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Select the correct sentence using 'below':",
+      options: [
+        "The painting is below the clock but not touching it.",
+        "The painting is under the clock and touching it.",
+        "The painting is on the clock.",
+        "The painting is at the back of the clock.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "When is 'behind' generally used?",
+      options: [
+        "To indicate a position in front of something",
+        "To indicate a position directly at the rear or further back relative to something else",
+        "To indicate a position on top of something",
+        "To indicate something touching the surface below",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "What is the main difference between 'below' and 'under'?",
+      options: [
+        "'Below' means covered, 'under' means not covered",
+        "'Below' means not necessarily vertical or covered, 'under' means directly beneath and covered",
+        "'Below' means higher position, 'under' means lower position",
+        "'Below' and 'under' mean the same",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which preposition would you use to describe a position higher than something but not touching it?",
+      options: ["On", "Under", "Above", "Behind"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Choose the correct example using 'at the back of':",
+      options: [
+        "The kitchen is at the back of the house.",
+        "The kitchen is behind the house but not part of it.",
+        "The kitchen is on the house.",
+        "The kitchen is above the house.",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
 };

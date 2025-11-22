@@ -995,4 +995,52 @@ export const grammarLession: GrammarLesson[] = [
       "Must he wear a uniform?",
     ],
   },
+  {
+    title: "Prepositions Of Position",
+    details1:
+      "'Beside' is used when there are only two persons or things involved, meaning “next to” or “at the side of.”, 'Between' is used when there are three persons or things involved, referring to something in the middle of them. 'Among' is used when there are more than three persons or things, and they are considered as a group.",
+    details1Guj:
+      "Beside નો ઉપયોગ ત્યારે થાય છે જ્યારે માત્ર બે વ્યક્તિઓ અથવા વસ્તુઓ હોય, એટલે “બાજુમાં” અથવા “સાથે” નું અર્થ થાય છે. Between નો ઉપયોગ ત્રણ વ્યક્તિઓ અથવા વસ્તુઓ વચ્ચે કંઈક હોય ત્યારે થાય છે, જેમાં તે મધ્યમાં હોય. Among નો ઉપયોગ ત્રીંથી વધુ વ્યક્તિઓ અથવા વસ્તુઓના જૂથમાં હોય ત્યારે થાય છે.",
+    example1: [
+      "She sat beside me.",
+      "The park is between the school and the library.",
+      "She was happy to be among friends.",
+    ],
+    details2:
+      "We use below and under to show that a person or thing is in a lower position than someone or something else.",
+    details2Guj:
+      "અમે below અને under નો ઉપયોગ કરીએ છીએ જ્યારે કોઈ વ્યક્તિ અથવા વસ્તુ બીજી વ્યક્તિ અથવા વસ્તુ કરતા નીચે હોય.",
+    details3:
+      "Below means lower, but not necessarily directly underneath (not always vertical). Under means lower than and covered by the thing in a higher position (directly beneath).",
+    details3Guj:
+      "Below નો અર્થ છે નીચા સ્થાન પર હોવું, પણ જરૂરી નથી કે સીધા નીચે હોવું (અટકાયેલું નહીં). Under નો અર્થ છે નીચે હોવું અને ઉપરની વસ્તુ દ્વારા ઢંકાયેલું હોવું (સીધા નીચે).",
+    example3: [
+      "The temperature is below zero today.",
+      "The cat is hiding under the table.",
+    ],
+    details4:
+      "We use above and on to show that a person or thing is in a higher position than someone or something else.",
+    details4Guj:
+      "અમે above અને on નો ઉપયોગ કરીએ છીએ જ્યારે કોઈ વ્યક્તિ અથવા વસ્તુ બીજી વ્યક્તિ અથવા વસ્તુ કરતા ઊંચા સ્થાન પર હોય.",
+    details5:
+      "'Above' means higher than but not touching the surface of the thing below. 'On' means higher than and touching the surface of the thing below.",
+    details5Guj:
+      "Above નો અર્થ છે ઊંચા હોવું પણ નીચેની વસ્તુની સપાટી સાથે સ્પર્શ ન થવું. On નો અર્થ છે ઊંચા હોવું અને નીચેની વસ્તુની સપાટી સાથે સ્પર્શમાં હોવું.",
+    example5: [
+      "The picture hangs above the fireplace.",
+      "The book is on the table.",
+    ],
+    details6:
+      "The prepositions behind and at the back of both refer to something located to the rear of another object or person.",
+    details6Guj:
+      "Behind અને at the back of બંને એ વસ્તુઓની પાછળની જગ્યાને દર્શાવે છે. ",
+    details7:
+      "'Behind' is used generally to indicate the position directly at the rear or somewhere further back relative to something else. 'At the back of' is more specific, often referring to a position at the rear part or section of something larger (like a building, room, or vehicle).",
+    details7Guj:
+      "Behind સામાન્ય રીતે પાછળની સીધી જગ્યાને અથવા પાછળના વિસ્તારને જણાવે છે. At the back of ખાસ કરીને કોઈ મોટી વસ્તુ (જેમ કે બિલ્ડિંગ, રૂમ, વાહન) ના પાછળના ભાગમાં હોવાને દર્શાવે છે.",
+    example7: [
+      "The car is parked behind the house.",
+      "The garden is at the back of the school.",
+    ],
+  },
 ];
