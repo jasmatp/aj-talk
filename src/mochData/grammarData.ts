@@ -727,4 +727,272 @@ export const grammarLession: GrammarLesson[] = [
       "What 'book is' on the table?",
     ],
   },
+  {
+    title: "Wh-Questions : Where and When",
+    remember: [
+      "Where is used to ask questions about places, directions and locations.",
+      "When is used to ask uestions about dates and time.",
+    ],
+    rememberGuj: [
+      "Where નો ઉપયોગ સ્થળો, દિશાઓ અને સ્થાન વિશે પ્રશ્ન પૂછવા માટે થાય છે.",
+      "When નો ઉપયોગ તારીખો અને સમય વિશે પ્રશ્ન પૂછવા માટે થાય છે.",
+    ],
+    details1:
+      "a. Where/When + the verb 'to be' + noun/pronoun: This structure is used to ask about the location (Where) or time (When) of a person, place, or thing.",
+    details1Guj:
+      "a. Where/When + the verb 'to be' + નામપદ/સર્વનામ : આ રચના કોઈ વ્યક્તિ, સ્થળ અથવા વસ્તુ ક્યાં છે (Where) અથવા ક્યારે છે (When) તે પૂછવા માટે વપરાય છે.",
+    details2:
+      "b. Where/When + the verb 'to be' + noun/pronoun + base form of main verb + ing : This structure is used to ask about the location or time of an ongoing action (present continuous tense).",
+    details2Guj:
+      "b. Where/When + the verb 'to be' + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ + ing : આ રચના કોઈ ચાલુ ક્રિયા ક્યાં અથવા ક્યારે થઈ રહી છે તે પૂછવા માટે વપરાય છે. (Present Continuous)",
+    example1: [
+      "Where is he?",
+      "Where are your books?",
+      "When is the meeting?",
+      "When are they free?",
+    ],
+    example2: [
+      "Where is she going?",
+      "Where are the children playing?",
+      "When is he coming home?",
+      "When are you leaving?",
+    ],
+    details3:
+      "We use ‘will’ with Where and When questions to ask about future actions — where they will happen or when they will happen. The structure is: Where/When + will + noun/pronoun + base form of main verb.",
+    details3Guj:
+      "અમે Where અને When પ્રશ્નોમાં ‘will’ નો ઉપયોગ ભવિષ્યની ક્રિયાઓ વિશે પૂછવા માટે કરીએ છીએ — એટલે કે ક્યાં અથવા ક્યારે કોઈ ક્રિયા થશે. બંધારણ છે: Where/When + will + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ",
+    example3: [
+      "Where will you go tomorrow?",
+      "Where will they stay?",
+      "When will he arrive?",
+      "When will you finish your homework?",
+    ],
+    details4:
+      "We use the verb ‘to do’ (do/does/did) with Where and When questions to ask about actions connected to place (Where) or time (When). The structure is: Where/When + do/does/did + noun/pronoun + base form of main verb",
+    details4Guj:
+      "અમે Where અને When પ્રશ્નોમાં ‘to do’ (do/does/did) નો ઉપયોગ ક્રિયા વિશે પૂછવા માટે કરીએ છીએ — એટલે કે ક્રિયા ક્યાં થાય છે અથવા ક્રિયા ક્યારે થાય છે તે પૂછવા માટે. બંધારણ છે: Where/When + do/does/did + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ",
+    example4: [
+      "Where do you live?",
+      "When do they study?",
+      "Where did you go yesterday?",
+      "When did he arrive?",
+    ],
+  },
+  {
+    title: "Wh-Questions : Which and Whose",
+    remember: [
+      "Which is used to ask the listener to identify or choose a specific item from a list that is known to both the listener and the speaker.",
+      "Whose is used to identify the person who owns something or the animal that has something.",
+    ],
+    rememberGuj: [
+      "Which નો ઉપયોગ કરવાથી શ्रोતા (listener) ને એ સ્પષ્ટ વસ્તુ શોધવા અથવા પસંદ કરવા માટે પૂછવામાં આવે છે, જે યાદી બંને, શ्रोતા અને વક્તા, ને જાણીતી હોય.",
+      "Whose નો ઉપયોગ માલિકની ઓળખ માટે થાય છે કે એ વ્યક્તિ કે પ્રાણી કે જેના પાસે કોઈ વસ્તુ છે.",
+    ],
+    details1:
+      "a. We use Which/Whose + the verb 'to be' to ask questions about identity, possession, or choice when the subject is clear and no noun follows immediately.",
+    details1Guj:
+      "a. જ્યારે વિષય સ્પષ્ટ હોય અને પછી સીધો નામપદ ન આવે, ત્યારે ઓળખ, માલિકી કે પસંદગી માટે પ્રશ્ન પૂછવા માટે Which/Whose + verb 'to be' નો ઉપયોગ કરીએ છીએ.",
+    example1: ["Which is yours?", "Whose is this?"],
+    details2:
+      "b. We use Which/Whose + noun + the verb 'to be' when we want to ask questions about a specific noun and identify or specify something related to it.",
+    details2Guj:
+      "b. જ્યારે ખાસ નામપદ સાથે સંબંધિત પ્રશ્ન પૂછવો હોય અને તે વિશે ઓળખ કરવી હોય, ત્યારે Which/Whose + નામપદ + verb 'to be' નો ઉપયોગ કરીએ છીએ.",
+    example2: ["Which book is yours?", "Whose bag is this?"],
+    details3:
+      "We use main verbs with Which and Whose questions in this way: Which/Whose + noun + main verb : This structure is used to ask about actions related to a specific noun, focusing on what the noun does or what happens to it.",
+    details3Guj:
+      "અમે Which અને Whose પ્રશ્નો સાથે મુખ્ય ક્રિયાઓ આ રીતે વાપરતા હોઈએ છીએ: Which/Whose + નામપદ + મુખ્ય ક્રિયા : આ રચનાનો ઉપયોગ ખાસ નામપદ સાથે સંકળાયેલી ક્રિયાઓ વિશે પૂછવા માટે થાય છે, કે નામપદ શું કરે છે અથવા તેના વિષે શું થાય છે તે જાણવા માટે.",
+    example3: [
+      "Which player scored the goal?",
+      "Whose dog barks loudly?",
+      "Which student answered the question?",
+      "Whose phone rang during the class?",
+    ],
+    details4:
+      "We use the verb ‘to be’ together with the ‘-ing’ form of the main verb in Which and Whose questions in this way: Which/Whose + noun + the verb ‘to be’ + noun/pronoun + base form of main verb + -ing, This structure is used to ask about ongoing actions related to a specific noun.",
+    details4Guj:
+      "અમે Which અને Whose પ્રશ્નોમાં મુખ્ય ક્રિયાના ‘-ing’ સ્વરૂપ સાથે ‘to be’ ક્રિયા આ રીતે વાપરીએ છીએ: Which/Whose + નામપદ + verb ‘to be’ + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ + ‘ing’, આ રચનાનો ઉપયોગ કોઈ ખાસ નામપદ સાથે સંકળાયેલ ચાલી રહેલી ક્રિયાઓ વિશે પૂછવા માટે થાય છે.",
+    example4: [
+      "Which player is scoring the goal?",
+      "Whose dog is barking loudly?",
+      "Which student is answering the question?",
+    ],
+    details5:
+      "We use the verb ‘to do’ in Which and Whose questions in these ways: a. Which/Whose + the verb ‘to do’ + noun/pronoun + base form of main verb, ",
+    details5Guj:
+      "અમે Which અને Whose પ્રશ્નોમાં ક્રિયા ‘to do’ નો ઉપયોગ આ રીતે કરીએ છીએ: a. Which/Whose + ‘to do’ ક્રિયા + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ",
+    example5: ["Which do you prefer?", "Whose do they want?"],
+    details6:
+      "b. Which/Whose + noun + the verb ‘to do’ + noun/pronoun + base form of main verb",
+    details6Guj:
+      "b. Which/Whose + નામપદ + ‘to do’ ક્રિયા + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ, આ બંધારણો ખાસ નામપદ કે સર્વનામ સાથે સંકળાયેલી ક્રિયાઓ વિશે પ્રશ્ન કરવા માટે વપરાય છે.",
+    example6: ["Which book do you like?", "Whose car does he drive?"],
+  },
+  {
+    title: "Wh-Questions: How, How Many, How Much",
+    remember: [
+      "How is usually used with certain adjectives to ask for different types of information, for example, distance, age, and size.",
+      "How many and How much are used to ask questions about quantity or amount.",
+      "How many is used with plural countable nouns, and How much with uncountable nouns.",
+    ],
+    rememberGuj: [
+      "How સામાન્ય રીતે કેટલાક વિશેષણો સાથે વિવિધ પ્રકારની માહિતી માટે પૂછવામાં આવે છે, જેમ કે, અંતર, ઉંમર અને આકાર.",
+      "How many અને How much માત્રા અથવા માત્રા વિશે પ્રશ્ન કરવા માટે વપરાય છે.",
+      "How many બહુવચન ગણતરી કરી શકાય એવા નામપદો સાથે અને How much અનગણતરીય નામપદો સાથે વાપરાય છે.",
+    ],
+    details1:
+      "We use How with adjectives in this way: How + adjective + the verb 'to be' + noun/pronoun, This structure is used to ask about the degree or quality of something.",
+    details1Guj:
+      "અમે How ને વિશેષણ (adjective) સાથે આ રીતે ઉપયોગ કરીએ છીએ: How + adjective + verb 'to be' + નામપદ/સર્વનામ, આ રચનાનો ઉપયોગ કોઈ વસ્તુની ગુણવત્તા કે સ્તર વિશે પ્રશ્ન કરવા માટે થાય છે.",
+    example1: [
+      "How tall is he?",
+      "How expensive is the car?",
+      "How difficult is the exam?",
+      "How old are you?",
+    ],
+    details2:
+      "We use How many or How much with the verb 'to do' in these ways: a. How many / How much + noun + the verb 'to do' + noun/pronoun + base form of main verb (to ask about actions related to the noun) b. How many / How much + noun + the verb 'to be' (to ask about the state or condition of the noun)",
+    details2Guj:
+      "અમે How many અથવા How much ને ક્રિયા 'to do' સાથે આ રીતે વાપરીએ છીએ: a. How many / How much + નામપદ + verb 'to do' + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ (નામપદ સાથે સંકળાયેલી ક્રિયાઓ વિશે પ્રશ્ન કરવા માટે) b. How many / How much + નામપદ + verb 'to be' (નામપદની સ્થિતિ અથવા અવસ્થા વિશે પ્રશ્ન કરવા માટે)",
+    example2: [
+      "How many books do you read every month?",
+      "How many cars does he own?",
+      "How much water do they drink daily?",
+      "How much money do you have?",
+      "How many students are there in the class?",
+      "How much milk is left in the bottle?",
+      "How many apples are on the table?",
+      "How much sugar is in this tea?",
+    ],
+    details3:
+      "We use How many with main verbs in this way: How many + plural noun + main verb (This structure is used to ask about the quantity of countable things and what actions they perform.)",
+    details3Guj:
+      "અમે How many ને મુખ્ય ક્રિયાઓ સાથે આ રીતે વાપરીએ છીએ: How many + બહુવચન નામપદ + મુખ્ય ક્રિયા (આ બંધારણ ગણતરી કરી શકાય તેવી વસ્તુઓની સંખ્યા અને તે શું કરે છે તે જાણવા માટે ઉપયોગમાં આવે છે.)",
+    example3: [
+      "How many students attend the class daily?",
+      "How many birds fly over the lake?",
+    ],
+    details4:
+      "We use How much with the verb ‘to be’ or the verb ‘to do’ to find out the cost of something in these ways: a. How much + the verb ‘to be’ + noun, b. How much + the verb ‘to do’ + noun + base form of main verb (cost)",
+    details4Guj:
+      "અમે How much ને ક્રિયા ‘to be’ અથવા ‘to do’ સાથે કોઈ વસ્તુની કિંમત જાણવા માટે આ રીતે વાપરીએ છીએ: a. How much + verb ‘to be’ + નામપદ, b. How much + verb ‘to do’ + નામપદ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ (cost)",
+    example4: [
+      "How much is the book?",
+      "How much is this dress?",
+      "How much does the laptop cost?",
+      "How much does the ticket cost?",
+    ],
+  },
+  {
+    title: "Wh-Questions : Why",
+    remember: [
+      "Why is used to ask questions about the cause, reason, or purpose for something.",
+      "Why questions can usually be answered by giving the reason straightaway. However, this is not acceptable in certain situations.",
+    ],
+    rememberGuj: [
+      "Why નો ઉપયોગ કોઈ વસ્તુના કારણ, કારણ કે હેતુ વિશે પ્રશ્ન કરવા માટે થાય છે.",
+      "Why પ્રશ્નોનો સામાન્ય રીતે સીધા કારણ આપી જવાબ આપી શકાય છે. છતાં, કેટલીક પરિસ્થિતિઓમાં આ યોગ્ય માનવામાં આવતું નથી.",
+    ],
+    details1:
+      "We use the verb ‘to be’ with Why questions in these ways: a. Why + the verb ‘to be’ + noun/pronoun + adjective — to ask about reasons related to a state or condition. b. Why + the verb ‘to be’ + noun/pronoun + base form of main verb + ‘ing’ — to ask about reasons related to an ongoing action.",
+    details1Guj:
+      "અમે Why પ્રશ્નમાં verb ‘to be’ નો ઉપયોગ આ રીતે કરીએ છીએ: a. Why + verb ‘to be’ + નામપદ/સર્વનામ + વિશેષણ — કોઈ સ્થિતિ કે અવસ્થા વિશે કારણ પૂછવા માટે. b. Why + verb ‘to be’ + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ + ‘ing’ — કોઈ ચાલી રહેલી ક્રિયા વિશે કારણ પૂછવા માટે.",
+    example1: [
+      "Why is she happy?",
+      "Why are they late?",
+      "Why is he crying?",
+      "Why are you studying so hard?",
+    ],
+    details2:
+      "We use the verb ‘to do’ with Why questions in this way: Why + the verb ‘to do’ + noun/pronoun + base form of main verb — used to ask about reasons for actions.",
+    details2Guj:
+      "અમે Why પ્રશ્નમાં verb ‘to do’ નો ઉપયોગ આ રીતે કરીએ છીએ: Why + verb ‘to do’ + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ — કોઈ ક્રિયાના કારણ વિશે પૂછવા માટે.",
+    example2: [
+      "Why do you study English?",
+      "Why does she leave early?",
+      "Why did they cancel the meeting?",
+    ],
+    details3:
+      "We use prepositions after the verb ‘to be’ in Why questions in these ways: a. Why + the verb ‘to be’ + noun/pronoun + preposition — to ask about the reason related to a state or situation. b. Why + the verb ‘to be’ + noun/pronoun + base form of main verb + ‘-ing’ — to ask about the reason for an ongoing action.",
+    details3Guj:
+      "અમે Why પ્રશ્નોમાં verb ‘to be’ પછી preposition નો ઉપયોગ આ રીતે કરીએ છીએ: a. Why + verb ‘to be’ + નામપદ/સર્વનામ + preposition — કોઈ સ્થિતિ અથવા પરિસ્થિતિ સાથે સંબંધિત કારણ માટે. b. Why + verb ‘to be’ + નામપદ/સર્વનામ + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ + ‘-ing’ — ચાલતી ક્રિયા માટે કારણ પૂછવા માટે.",
+    example3: [
+      "Why is he in a hurry?",
+      "Why is she interested in music?",
+      "Why is he leaving so early?",
+      "Why are they waiting outside?",
+    ],
+  },
+  {
+    title: "Modals : Can and May",
+    remember: [
+      "Can and May are used to ask for permission and give permission. May is usually considered more formal and polite than Can.",
+      "Can is used to refer to the ability to do something.",
+      "Can and May are also used to express the possibility of an action or event. May usually refers to a less likely possibility than Can.",
+      "May is also used to suggest that the speaker or writer is not very certain about something.",
+    ],
+    rememberGuj: [
+      "Can અને May નો ઉપયોગ પરવાનગી માંગવા અને આપવા માટે થાય છે. May સામાન્ય રીતે Can કરતા વધારે શિસ્તભર્યું અને ભદ્ર માનવામાં આવે છે.",
+      "Can નો ઉપયોગ કોઈ કાર્ય કરવાની ક્ષમતા દર્શાવવા માટે થાય છે.",
+      "Can અને May નો ઉપયોગ શક્યતા બતાવવા માટે પણ થાય છે. May સામાન્ય રીતે Can કરતા ઓછા સંભાવ્ય શક્યતાને દર્શાવે છે.",
+      "May નો ઉપયોગ ત્યારે થાય છે જ્યારે વાત કરનાર અથવા લેખક કંઈક અંગે ખૂબ નિશ્ચિત નથી.",
+    ],
+    details1:
+      "In a statement, we use can or may in this way: Subject + can/may + base form of the main verb / the verb 'to be'. This structure is used to express ability, permission, or possibility.",
+    details1Guj:
+      "વાક્યમાં, અમે can અથવા may નો ઉપયોગ આ રીતે કરીએ છીએ: વિષય + can/may + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ / verb 'to be'. આ બંધારણ ક્ષમતા, પરવાનગી અથવા શક્યતા દર્શાવવા માટે વપરાય છે.",
+    example1: [
+      "She can swim very fast.",
+      "They may be at home now.",
+      "I can speak three languages.",
+      "He may be late today.",
+    ],
+    details2:
+      "In questions, we use can or may at the beginning in this way: Can/May + subject + base form of main verb / the verb 'to be'. This structure is used to ask about ability, permission, or possibility.",
+    details2Guj:
+      "પ્રશ્નમાં, અમે can અથવા may વાક્યની શરૂઆતમાં આ રીતે વાપરતા હોઈએ: Can/May + વિષય + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ / verb 'to be'. આ બંધારણ ક્ષમતા, પરવાનગી અથવા શક્યતા વિશે પૂછવા માટે વપરાય છે.",
+    example2: [
+      "Can you help me?",
+      "May I come in?",
+      "Can she be at home now?",
+      "May they leave early today?",
+    ],
+  },
+  {
+    title: "Modals: Must",
+    remember: [
+      "Must is used in these ways:",
+      "a. To say that something is a law or a rule.",
+      "b. To say that something is necessary.",
+      "c. To say that something is sure to be true.",
+      "d. To ask if something has to be done.",
+    ],
+    rememberGuj: [
+      "Must નો ઉપયોગ આ રીતે થાય છે:",
+      "a. કોઇ કાયદો અથવા નિયમ બતાવવા માટે.",
+      "b. કંઈક જરૂરી હોવાનું કહેવા માટે.",
+      "c. કંઈક સાચું હોવું ખાતરી માટે.",
+      "પૂછવા માટે કે શું કંઈક કરવું જરૂરી છે કે નહીં.",
+    ],
+    details1:
+      "In a statement, we use must in this way: Subject + must + base form of main verb / the verb 'to be'. This structure is used to express obligation, necessity, or strong recommendation.",
+    details1Guj:
+      "વાક્યમાં, અમે must નો ઉપયોગ આ રીતે કરીએ છીએ: વિષય + must + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ / verb 'to be'. આ બંધારણ ફરજ, આવશ્યકતા અથવા મજબૂત સલાહ દર્શાવવા માટે વપરાય છે.",
+    example1: [
+      "You must finish your homework.",
+      "She must be at the office now.",
+      "They must attend the meeting.",
+      "He must be careful while driving.",
+    ],
+    details2:
+      "In questions, we use must in this way: Must + subject + base form of main verb / the verb 'to be'. This structure is used to ask about obligation, necessity, or strong recommendation.",
+    details2Guj:
+      "પ્રશ્નોમાં, અમે must નો ઉપયોગ આ રીતે કરીએ છીએ: Must + વિષય + મુખ્ય ક્રિયાનો મૂળ સ્વરૂપ / verb 'to be'. આ બંધારણ ફરજ, આવશ્યકતા કે મજબૂત સલાહ વિશે પૂછવા માટે વપરાય છે.",
+    example2: [
+      "Must I finish this report today?",
+      "Must she be at the meeting?",
+      "Must they leave now?",
+      "Must he wear a uniform?",
+    ],
+  },
 ];

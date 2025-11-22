@@ -1327,4 +1327,336 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 0,
     },
   ],
+  "Wh-Questions : Where and When": [
+    {
+      question:
+        "How do we use the verb 'to be' with 'Where' or 'When' questions?",
+      options: [
+        "Where/When + the verb 'to be' + noun/pronoun",
+        "Where/When + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Where/When + will + noun/pronoun + base form of main verb",
+        "Where/When + the verb 'to be' + noun/pronoun + base form of main verb + -ing",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which structure is used to ask about ongoing actions with 'Where' or 'When'?",
+      options: [
+        "Where/When + the verb 'to be' + noun/pronoun",
+        "Where/When + the verb 'to be' + noun/pronoun + base form of main verb + -ing",
+        "Where/When + will + noun/pronoun + base form of main verb",
+        "Where/When + the verb 'to do' + noun/pronoun + base form of main verb",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "How do we form future questions with 'Where' or 'When'?",
+      options: [
+        "Where/When + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Where/When + will + noun/pronoun + base form of main verb",
+        "Where/When + the verb 'to be' + noun/pronoun",
+        "Where/When + do/does/did + noun/pronoun + base form of main verb",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "How do we ask about actions connected to place or time using 'Where' or 'When'?",
+      options: [
+        "Where/When + will + noun/pronoun + base form of main verb",
+        "Where/When + do/does/did + noun/pronoun + base form of main verb",
+        "Where/When + the verb 'to be' + noun/pronoun + base form of main verb + -ing",
+        "Where/When + the verb 'to be' + noun/pronoun",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct example of a 'When' question using 'will':",
+      options: [
+        "When does you arrive?",
+        "When will he arrive?",
+        "When is he arrives?",
+        "When do he arrives?",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Wh-Questions : Which and Whose": [
+    {
+      question: "When do we use 'Which/Whose + the verb 'to be'' in questions?",
+      options: [
+        "To ask about ongoing actions related to a noun",
+        "To ask about identity, possession, or choice when the subject is clear and no noun follows immediately",
+        "To ask about actions related to a specific noun",
+        "To ask about the past events",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "What structure is used to ask questions about a specific noun in 'Which' or 'Whose' questions?",
+      options: [
+        "Which/Whose + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Which/Whose + noun + the verb 'to be'",
+        "Which/Whose + the verb 'to be' + noun/pronoun",
+        "Which/Whose + noun + base form of verb",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "How do we use main verbs with 'Which' and 'Whose' questions?",
+      options: [
+        "Which/Whose + noun + main verb",
+        "Which/Whose + verb 'to be' + noun/pronoun",
+        "Which/Whose + noun + the verb 'to do' + noun/pronoun",
+        "Which/Whose + noun + verb 'to be' + main verb + ing",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "What is the structure to ask about ongoing actions in 'Which' and 'Whose' questions?",
+      options: [
+        "Which/Whose + noun + main verb",
+        "Which/Whose + noun + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Which/Whose + noun + the verb 'to be' + noun/pronoun + base form of main verb + ing",
+        "Which/Whose + the verb 'to be' + noun/pronoun",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "How is the verb 'to do' used in 'Which' and 'Whose' questions?",
+      options: [
+        "Which/Whose + noun + the verb 'to be' + noun/pronoun + base form of main verb + ing",
+        "Which/Whose + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Which/Whose + noun + main verb",
+        "Which/Whose + verb 'to be' + noun/pronoun",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Choose the correct example of 'Which/Whose' with the verb 'to do':",
+      options: [
+        "Which player is scoring the goal?",
+        "Whose dog is barking loudly?",
+        "Which do you prefer?",
+        "Whose is this?",
+      ],
+      correctAnswerIndex: 2,
+    },
+  ],
+  "Wh-Questions: How, How Many, How Much": [
+    {
+      question:
+        "Which structure is used to ask about the degree or quality of something with 'How'?",
+      options: [
+        "How + noun + verb 'to do' + noun/pronoun + base form of verb",
+        "How + adjective + the verb 'to be' + noun/pronoun",
+        "How + verb 'to be' + noun/pronoun + base form + ing",
+        "How + noun + verb 'to be' + noun/pronoun",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "How do we ask about actions related to a noun using 'How many' or 'How much'?",
+      options: [
+        "How many/much + noun + the verb 'to do' + noun/pronoun + base form of main verb",
+        "How many/much + noun + the verb 'to be' + noun/pronoun",
+        "How many/much + adjective + noun",
+        "How many/much + noun + base form of verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Which sentence correctly uses 'How many' with a main verb?",
+      options: [
+        "How many students attends the class?",
+        "How many student attend the class?",
+        "How many students attend the class daily?",
+        "How much students attend the class daily?",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "How do we ask about the cost of something using 'How much'?",
+      options: [
+        "How much + the verb 'to do' + noun + base form of main verb",
+        "How much + noun + the verb 'to be'",
+        "Both a and b",
+        "Neither a nor b",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Choose the correct example using 'How much' to ask about price.",
+      options: [
+        "How much is the book?",
+        "How much are the books?",
+        "How many is this dress?",
+        "How much do the laptop cost?",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
+  "Wh-Questions : Why": [
+    {
+      question:
+        "How do we use the verb 'to be' with Why questions to ask about reasons related to a state or condition?",
+      options: [
+        "Why + the verb 'to be' + noun/pronoun + adjective",
+        "Why + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Why + the verb 'to be' + noun/pronoun + base form of main verb + ing",
+        "Why + noun + verb 'to do' + base form of verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "Which structure is used to ask about reasons related to an ongoing action in Why questions?",
+      options: [
+        "Why + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Why + the verb 'to be' + noun/pronoun + adjective",
+        "Why + the verb 'to be' + noun/pronoun + base form of main verb + ing",
+        "Why + noun + verb 'to be' + base form of verb",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "How do we use the verb 'to do' with Why questions?",
+      options: [
+        "Why + the verb 'to do' + noun/pronoun + base form of main verb",
+        "Why + the verb 'to be' + noun/pronoun + adjective",
+        "Why + the verb 'to be' + noun/pronoun + base form of main verb + ing",
+        "Why + noun + verb 'to be' + base form of verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "What do we use after the verb 'to be' in Why questions to ask about reasons related to a state or situation?",
+      options: [
+        "Adjective",
+        "Preposition",
+        "Base form of main verb",
+        "Past tense verb",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Choose the correct example of a Why question using the verb 'to do'.",
+      options: [
+        "Why do you study English?",
+        "Why is she happy?",
+        "Why are they late?",
+        "Why is he crying?",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
+  "Modals : Can and May": [
+    {
+      question:
+        "What is the usual difference between 'Can' and 'May' when asking for permission?",
+      options: [
+        "Can is more formal and polite than May",
+        "May is more formal and polite than Can",
+        "Can and May have the same level of formality",
+        "May is informal and Can is formal",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which modal verb is used to express ability?",
+      options: ["May", "Can", "Must", "Should"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "How do we form a statement using 'Can' or 'May'?",
+      options: [
+        "Subject + can/may + past form of main verb",
+        "Subject + can/may + base form of main verb / verb 'to be'",
+        "Subject + can/may + -ing form of main verb",
+        "Subject + can/may + noun",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Where do we place 'Can' or 'May' in a question?",
+      options: [
+        "At the end of the question",
+        "After the noun/pronoun",
+        "At the beginning of the question",
+        "After the main verb",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which sentence correctly uses 'May' to express uncertainty?",
+      options: [
+        "She can be at the party tonight.",
+        "He may be late today.",
+        "Can you swim?",
+        "May you help me?",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Modals: Must": [
+    {
+      question: "Which structure is used to form a statement with 'must'?",
+      options: [
+        "Subject + must + base form of main verb / verb 'to be'",
+        "Must + subject + base form of main verb / verb 'to be'",
+        "Subject + can + base form of main verb",
+        "Must + base form of main verb + subject",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "What is 'must' used to express?",
+      options: [
+        "Ability",
+        "Obligation, necessity, or strong recommendation",
+        "Possibility",
+        "Permission",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "How do we form questions with 'must'?",
+      options: [
+        "Must + subject + base form of main verb / verb 'to be'",
+        "Subject + must + base form of main verb",
+        "Do + subject + must + base form of main verb",
+        "Subject + can + base form of main verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct example of a 'must' statement.",
+      options: [
+        "You must finish your homework.",
+        "Must you finish your homework.",
+        "Must homework finish you.",
+        "Finish must you homework.",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Which sentence correctly uses 'must' in a question?",
+      options: [
+        "Must they leave now?",
+        "They must leave now?",
+        "Must leave they now?",
+        "Must now they leave?",
+      ],
+      correctAnswerIndex: 0,
+    },
+  ],
 };
