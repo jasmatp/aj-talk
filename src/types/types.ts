@@ -69,4 +69,7 @@ export interface GrammarLesson {
   details8?: string;
   details8Guj?: string;
   example8?: string[];
+  details9?: string;
+  details9Guj?: string;
+  example9?: string[];
 }

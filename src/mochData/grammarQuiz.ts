@@ -1785,4 +1785,287 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 0,
     },
   ],
+  "Prepositions of Time": [
+    {
+      question: "Which preposition is used to point to an exact time?",
+      options: ["Before", "After", "At", "During"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "What does the preposition 'before' indicate?",
+      options: [
+        "An action happening at the exact time",
+        "An action happening later than the time mentioned",
+        "An action happening earlier than the time mentioned",
+        "An action happening during a period",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "When do we use the preposition 'after'?",
+      options: [
+        "To show an action happened before the mentioned time",
+        "To show an action happened later than the mentioned time",
+        "To point to a specific day",
+        "To show a time limit",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which preposition is used to show exact minutes before the stated hour?",
+      options: ["To", "Past", "By", "On"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct meaning of 'past' in telling time:",
+      options: [
+        "Minutes before the hour",
+        "Minutes after the hour",
+        "A time limit",
+        "A specific date",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which preposition points to a specific day or date?",
+      options: ["In", "By", "On", "During"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "When do we use 'in' as a preposition of time?",
+      options: [
+        "For exact times like 5 PM",
+        "For specific days",
+        "For a month, year, or period of a day",
+        "To show a time limit",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "What is the use of 'by' as a preposition of time?",
+      options: [
+        "To show something happens after the mentioned time",
+        "To point to a specific day",
+        "To indicate something happens before or not later than a specified time",
+        "To indicate an ongoing action",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Which preposition do we use to talk about something happening between the start and end of a period?",
+      options: ["At", "During", "On", "Before"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Fill in the blank: 'She finished her work ___ 5 PM.'",
+      options: ["on", "in", "at", "by"],
+      correctAnswerIndex: 3,
+    },
+  ],
+  "The Sentences": [
+    {
+      question: "Which type of sentence makes a statement?",
+      options: ["Declarative", "Interrogative", "Imperative", "Exclamatory"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Which sentence expresses a command or request?",
+      options: ["Declarative", "Imperative", "Interrogative", "Exclamatory"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which type of sentence is used to ask questions?",
+      options: ["Imperative", "Declarative", "Interrogative", "Exclamatory"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Which sentence expresses strong feelings such as surprise or admiration?",
+      options: ["Interrogative", "Exclamatory", "Imperative", "Declarative"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Identify the affirmative declarative sentence:",
+      options: [
+        "She is happy.",
+        "Are you coming?",
+        "Please help me.",
+        "Wow, that is great!",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Which sentence is an example of an imperative sentence?",
+      options: [
+        "What is your name?",
+        "Close the door.",
+        "She is not happy.",
+        "How amazing!",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "What type of sentence is: 'Where do you live?'",
+      options: ["Interrogative", "Declarative", "Imperative", "Exclamatory"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Choose the correct negative declarative sentence:",
+      options: [
+        "She is happy.",
+        "She is not happy.",
+        "Please help me.",
+        "Wow!",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Phrasese and Clauses": [
+    {
+      question: "What is a phrase?",
+      options: [
+        "A group of words that makes complete sense by itself",
+        "A group of words that does not make complete sense by itself",
+        "A sentence with a subject and predicate",
+        "A single word",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which of the following is an example of a phrase?",
+      options: [
+        "She sings a song.",
+        "In the morning",
+        "He is running fast.",
+        "Because she sings well",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "What is the main word (head) of a noun phrase?",
+      options: ["Verb", "Noun or pronoun", "Adjective", "Adverb"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which phrase begins with a preposition and shows relationships like time or place?",
+      options: [
+        "Adjective phrase",
+        "Verb phrase",
+        "Prepositional phrase",
+        "Noun phrase",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "An adjective phrase primarily modifies which part of speech?",
+      options: ["Noun or pronoun", "Verb", "Adverb", "Preposition"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "A clause must contain which two parts?",
+      options: [
+        "Noun and adjective",
+        "Subject and predicate",
+        "Preposition and object",
+        "Adverb and verb",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which of the following is an example of an independent clause?",
+      options: [
+        "Because she sings well.",
+        "She sings.",
+        "In the morning.",
+        "Very quickly.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "What type of clause cannot stand alone as a sentence?",
+      options: [
+        "Independent clause",
+        "Dependent clause",
+        "Noun phrase",
+        "Verb phrase",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "The Noun": [
+    {
+      question: "What is a noun?",
+      options: [
+        "A naming word",
+        "An action word",
+        "A describing word",
+        "A helping verb",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Which question do countable nouns answer?",
+      options: ["How much?", "How many?", "When?", "Where?"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which of these is an uncountable noun?",
+      options: ["Book", "Milk", "Chair", "Pen"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which noun type always starts with a capital letter?",
+      options: ["Common noun", "Proper noun", "Material noun", "Abstract noun"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which of these is a proper noun?",
+      options: ["City", "River", "Mumbai", "Mountain"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "What type of noun is 'team'?",
+      options: [
+        "Collective noun",
+        "Material noun",
+        "Abstract noun",
+        "Proper noun",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "Which noun names substances or materials?",
+      options: [
+        "Common noun",
+        "Material noun",
+        "Collective noun",
+        "Abstract noun",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which noun represents ideas, qualities, or feelings?",
+      options: [
+        "Proper noun",
+        "Collective noun",
+        "Abstract noun",
+        "Material noun",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Choose the correct example of a collective noun:",
+      options: ["Happiness", "Class", "Water", "John"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which noun is countable?",
+      options: ["Sugar", "Rice", "Apple", "Air"],
+      correctAnswerIndex: 2,
+    },
+  ],
 };

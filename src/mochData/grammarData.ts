@@ -2,6 +2,134 @@ import { GrammarLesson } from "../types/types";
 
 export const grammarLession: GrammarLesson[] = [
   {
+    title: "The Sentences",
+    remember: [
+      "Declarative Sentences(વિધાન વાક્યો)",
+      "Interrogative Sentences(પ્રશ્નાર્થ વાક્યો)",
+      "Imperative Sentences(આજ્ઞાર્થ વાક્યો)",
+      "Exclamatory Sentences(ઉદ્દગાર વાક્યો)",
+    ],
+    details1:
+      "A sentence is a group of words that makes complete sense by itself.",
+    details1Guj: "વાક્ય એ શબ્દોના સમૂહ છે જે પોતે પૂરતું અર્થપૂર્ણ હોય છે.",
+    example1: ["She is reading a book."],
+    details2:
+      "Declarative Sentences: Declarative sentences are sentences that make a statement. They are also called assertive sentences. Declarative sentences can be of two types: affirmative (positive) and negative.",
+    details2Guj:
+      "વાક્ય જેવું નિવેદન આપે તે Declarative અથવા Assertive વાક્ય કહેવાય છે. Declarative વાક્યો બે પ્રકારના હોય છે - Affirmative (સકારાત્મક) અને Negative (નકારાત્મક).",
+    example2: ["Affirmative: She is happy.", "Negative: She is not happy."],
+    details3:
+      "Imperative Sentences: Imperative sentences are sentences that express a command, request, advice, order, suggestion, and so on.",
+    details3Guj:
+      "વાક્ય જે આદેશ, વિનંતી, સલાહ, કમાન્ડ, સૂચન વગેરે વ્યક્ત કરે તે Imperative વાક્ય કહેવાય છે.",
+    example3: [
+      "Command: Close the door.",
+      "Request: Please help me.",
+      "Advice: Take rest.",
+    ],
+    details4:
+      "Interrogative Sentences: Interrogative sentences are used to ask questions.",
+    details4Guj:
+      "પ્રશ્ન પૂછવા માટે વપરાતા વાક્યોને Interrogative Sentences કહેવાય છે.",
+    example4: [
+      "What is your name?",
+      "Are you coming tomorrow?",
+      "Where do you live?",
+    ],
+    details5:
+      "Exclamatory Sentences: Exclamatory sentences are used to express strong feelings such as surprise, admiration, appreciation, and so on.",
+    details5Guj:
+      "Exclamatory Sentences નો ઉપયોગ તીવ્ર ભાવનાઓ જેવા કે આશ્ચર્ય, પ્રશંસા, કદર વગેરે દર્શાવવા માટે થાય છે.",
+    example5: [
+      "What a beautiful day!",
+      "How amazing this is!",
+      "Wow, that was fantastic!",
+    ],
+  },
+  {
+    title: "Phrasese and Clauses",
+    details1:
+      "A phrase is a group of words that does not make complete sense by itself. It cannot stand alone as a sentence.",
+    details1Guj:
+      "શબ્દોના સમૂહને Phrase કહેવાય જે પોતે પૂરતું અર્થપૂર્ણ ન હોય અને વાક્ય તરીકે ન ઉભરી શકે.",
+    example1: ["In the morning", "After the rain"],
+    details2:
+      "Types Of Phrases: Noun Phrase, Verb Phrase, Prepositional Phrase, Adjective Phrase, and Adverbial Phrase.",
+    example2: [
+      "A noun phrase is a phrase that has a noun or pronoun as its main word (head). It functions as a noun in a sentence. For Example, my brother, the cat, a good student.",
+      "A verb phrase is a phrase that has a verb, or more than one verb, as the main word (head). It expresses an action, occurrence, or state of being. For Example, can sing, will do, is going.",
+      "A prepositional phrase is a phrase that begins with a preposition and usually includes the object of the preposition and any modifiers of that object. It shows relationships of time, place, direction, cause, manner, etc. For Example, at home, in the room, on the table.",
+      "An adjective phrase is a phrase that has an adjective as its main word. It describes or modifies a noun or pronoun in a sentence by providing more information about it. For Example, very poor, extremely good, too difficult.",
+      "An adverbial phrase is a phrase that has an adverb as its main word. It modifies a verb, adjective, or another adverb by providing more information about how, when, where, why, or to what extent something happens. For Example, very quickly, quite happily.",
+      "",
+      "Noun Phrase એ એવો phrase છે જેમાં મુખ્ય શબ્દ નામપદ (noun) કે સર્વનામ (pronoun) હોય. આ phrase વાક્યમાં નામપદ જેવો કામ કરે છે.",
+      "Verb Phrase એ એવો phrase છે જેમાં મુખ્ય શબ્દ તરીકે એક અથવા વધુ ક્રિયા (verb) હોય. આ phrase ક્રિયા, ઘટના કે સ્થિતિ દર્શાવે છે.",
+      "Prepositional Phrase એ એવો phrase છે જે preposition થી શરૂ થાય છે અને સામાન્ય રીતે preposition નો объект અને તેના વિશેષણોને સમાવિષ્ટ કરે છે. આ phrase સમય, જગ્યા, દિશા, કારણ, રીત વગેરે સંબંધ બતાવે છે.",
+      "Adjective Phrase એ એવો phrase છે જેમાં મુખ્ય શબ્દ વિશેષણ (adjective) હોય. આ phrase વાક્યમાં નામપદ અથવા સર્વનામને વધુ વિગતવાર વર્ણન કરે છે.",
+      "Adverbial Phrase એ એવો phrase છે જેમાં મુખ્ય શબ્દ ક્રિયાવિશેષણ (adverb) હોય. આ phrase ક્રિયા, વિશેષણ અથવા અન્ય ક્રિયાવિશેષણને વધુ વિગતવાર માહિતી આપે છે કે તે કેવી રીતે, ક્યારે, ક્યા, કેમ કેવા હદ સુધી થાય છે.",
+    ],
+    details4:
+      "Clause: A clause is a group of words that contains a subject and a predicate (verb). It usually forms part of a sentence. Clauses can be independent (can stand alone as a sentence) or dependent (cannot stand alone).",
+    details4Guj:
+      "Clause એ શબ્દોના સમૂહને કહેવામાં આવે છે જેમાં વિષય (subject) અને કર્મ/ક્રિયા (predicate) હોય. સામાન્ય રીતે તે વાક્યનો ભાગ હોય છે. Clause સ્વતંત્ર (Independent) અથવા અવલંબિત (Dependent) હોઈ શકે છે.",
+    example4: [
+      "Independent clause: She sings.",
+      "Dependent clause: Because she sings well.",
+    ],
+  },
+  {
+    title: "The Noun",
+    details1:
+      "A noun is a naming word. It is a word we use to name persons and other living beings, objects, places, ideas, and feelings. Nouns can be countable or uncountable.",
+    details1Guj:
+      "નામપદ એ નામ આપનારો શબ્દ છે. તે એવો શબ્દ છે જેને અમે વ્યક્તિઓ, જીવિત પ્રાણીઓ, વસ્તુઓ, સ્થળો, વિચારધારાઓ અને ભાવનાઓના નામ માટે વાપરીએ છીએ.",
+    example1: [
+      "Person: teacher, Ram",
+      "Living being: cat, dog",
+      "Object: book, table",
+      "Place: school, park",
+      "Idea: freedom, honesty",
+      "Feeling: happiness, sadness",
+    ],
+    details2:
+      "Countable nouns are nouns that can be counted. These nouns can be used to answer the question 'How many?'",
+    details2Guj:
+      "ગણતરી કરી શકાય તેવા નામપદ એવા નામપદ છે જેને આપણે ગણી શકીએ. આ નામપદોનો ઉપયોગ 'કેટલા?' એ પ્રશ્નનો જવાબ આપવા માટે થાય છે.",
+    example2: ["apple, book, car, student, chair"],
+    details3:
+      "Uncountable nouns are nouns that cannot be counted. These nouns can be used to answer the question 'How much?'",
+    details3Guj:
+      "અગણતરીય નામપદ એવા નામપદ છે જેને આપણે ગણી શકીએ નહીં. આ નામપદોનો ઉપયોગ 'કેટલો?' એ પ્રશ્નનો જવાબ આપવા માટે થાય છે.",
+    example3: ["water, sugar, rice, milk, air"],
+    details4:
+      "There are different types of nouns - proper, common, material, collective, and abstract.",
+    details5:
+      "Proper Noun: A proper noun is the name of a particular person, place, or object. A proper noun always begins with a capital letter.",
+    details5Guj:
+      "Proper Noun એ ખાસ વ્યક્તિ, સ્થળ કે વસ્તુનું નામ હોય છે. Proper Noun હંમેશા મોટા અક્ષરથી શરૂ થાય છે.",
+    example5: ["Mumbai, John, Taj Mahal, Everest, Monday"],
+    details6:
+      "Common Noun: A common noun is the general name of persons, animals, things, or objects. Common in Latin means general, that is, belonging to all.",
+    details6Guj:
+      "Common Noun એ વ્યક્તિઓ, પ્રાણીઓ, વસ્તુઓ કે વસ્તુઓના સામાન્ય નામ હોય છે. Latin માં Common નો અર્થ સામાન્ય કે સર્વસામાન્ય છે.",
+    example6: ["boy, dog, city, table, teacher"],
+    details7:
+      "Material Noun: A material noun is the name of substances or materials from which things are made.",
+    details7Guj:
+      "Material Noun એ પદાર્થો કે દ્રવ્યોના નામ હોય છે, જેમથી વસ્તુઓ બનાવાય છે.",
+    example7: ["gold, water, wood, iron, sugar"],
+    details8:
+      "Collective Noun: A collective noun is the name given to a group or a class of persons, animals, or things.",
+    details8Guj:
+      "Collective Noun એ વ્યક્તિઓ, જાનવર કે વસ્તુઓના જૂથ અથવા વર્ગને આપવામાં આવેલું નામ છે.",
+    example8: ["team, family, herd, flock, class"],
+    details9:
+      "Abstract Noun: An abstract noun is the name of qualities, ideas, emotions, actions, feelings, and conditions. These nouns represent things that cannot be seen, touched, heard, smelled, or tasted.",
+    details9Guj:
+      "Abstract Noun એ ગુણો, વિચારધારાઓ, ભાવનાઓ, ક્રિયાઓ, લાગણીઓ અને પરિસ્થિતિઓના નામો છે. આ નામપદ એવી વસ્તુઓના નામ છે જે જોઈ શકાય, સ્પર્શી શકાય, સાંભળી શકાય, સુઘી શકાય કે ચાખી શકાય નહીં.",
+    example9: ["love, courage, happiness, freedom, anger, kindness"],
+  },
+  {
     title: "Articles",
     remember: [
       "The words a, an, and the are called articles.",
@@ -1042,5 +1170,41 @@ export const grammarLession: GrammarLesson[] = [
       "The car is parked behind the house.",
       "The garden is at the back of the school.",
     ],
+  },
+  {
+    title: "Prepositions of Time",
+    details1:
+      "At, Before, After: At - We use at to talk about exact times. Before - We use before to say that an action happened earlier than the time mentioned. After - We use after to say that an action happened later than the time mentioned.",
+    details1Guj:
+      "At, Before, After: At - At નો ઉપયોગ ચોક્કસ સમય બતાવવા માટે થાય છે. Before - Before નો ઉપયોગ ત્યારે થાય છે જ્યારે કોઈ ક્રિયા બતાવેલા સમય કરતા પહેલા થઈ હોય. After - After નો ઉપયોગ ત્યારે થાય છે જ્યારે કોઈ ક્રિયા બતાવેલા સમય પછી થઈ હોય.",
+    example1: [
+      "The class starts at 9 a.m.",
+      "Finish your homework before dinner.",
+      "We will meet after lunch.",
+    ],
+    details2:
+      "To, Past: To - We use to to show the exact minutes before the next hour. Past - We use past to show the exact minutes after the hour.",
+    details2Guj:
+      "To, Past: To નો ઉપયોગ આપણે ત્યારે કરીએ છીએ જ્યારે બતાવેલા કલાક પહેલાંના મિનિટ જણાવવા હોય. Past નો ઉપયોગ બતાવેલા કલાક પછી કેટલા મિનિટ થયા છે તે બતાવવા થાય છે.",
+    example2: [
+      "It is 20 to 6. (6:00 થી 20 મિનિટ પહેલા → 5:40)",
+      "It is 10 past 5. (5:10)",
+      "It is 10 to 3. (2:50)",
+      "It is 25 past 7. (7:25)",
+    ],
+    details3:
+      "On, In, By: On - We use on to point to a specific day or a specific. IN - We use in to point to a month, year, or a period of the day. BY - We use by to show a time limit — meaning before or not later than the mentioned time.",
+    details3Guj:
+      "On નો ઉપયોગ ચોક્કસ દિવસ અથવા તારીખ માટે થાય છે. In નો ઉપયોગ મહિનો, વર્ષ, અથવા દિવસના સમયગાળા માટે થાય છે. Byનો ઉપયોગ સમયની મર્યાદા બતાવવા થાય છે — તે સમય પહેલાં અથવા વધુમાં વધુ તે સમય સુધી.",
+    example3: [
+      "The meeting is on Monday.",
+      "We will travel in June.",
+      "Finish the work by 5 PM.",
+    ],
+    details4:
+      "During: We use during to point to a time between the start and the end of a period. It tells us when something happens within a longer event or time period.",
+    details4Guj:
+      "During નો ઉપયોગ ત્યારે કરીએ છીએ જ્યારે કોઈ ક્રિયા કોઈ સમયગાળા ના શરૂઆત અને અંત વચ્ચે થાય છે. એ કોઈ મોટા સમયગાળા દરમિયાન કંઈક થવાનું દર્શાવે છે.",
+    example4: ["She slept during the movie.", "No talking during the exam."],
   },
 ];
