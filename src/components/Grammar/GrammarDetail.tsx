@@ -108,7 +108,7 @@ const GrammarDetail: React.FC = () => {
             <Button
               variant="danger"
               size="lg"
-              className="mb-4 w-2"
+              className="mb-4 w-2 check-prog"
               onClick={handlePractice}
             >
               Check Your Progress

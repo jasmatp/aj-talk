@@ -2068,4 +2068,184 @@ export const practiceQuestions: Record<string, Question[]> = {
       correctAnswerIndex: 2,
     },
   ],
+  "Noun: Number(Singular and Plural)": [
+    {
+      question: "Which of the following nouns forms its plural by adding -es?",
+      options: ["bus", "cat", "dog", "pen"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "What is the plural form of 'leaf'?",
+      options: ["leafs", "leaves", "leafes", "leafe"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the correct plural form of the noun 'baby'.",
+      options: ["babys", "babies", "babyes", "babyes"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "How do we make the plural of the noun 'photo'?",
+      options: ["photoes", "photos", "photies", "photis"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which of the following nouns changes its middle vowel to form the plural?",
+      options: ["man", "table", "bus", "girl"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "What is the plural form of 'child'?",
+      options: ["childs", "childes", "children", "childrens"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which plural form is correct for 'father-in-law'?",
+      options: [
+        "father-in-laws",
+        "fathers-in-law",
+        "fathers-in-laws",
+        "father-in-lawes",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which of these nouns has the same form in both singular and plural?",
+      options: ["dog", "deer", "cat", "child"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which noun is a foreign plural that changes from singular to plural?",
+      options: [
+        "cactus → cacti",
+        "dog → dogs",
+        "child → children",
+        "book → books",
+      ],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "What type of noun is 'scissors' based on its plural usage?",
+      options: ["Singular", "Uncountable", "Plural only", "Countable"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which of these is an uncountable noun?",
+      options: ["sugar", "dog", "cat", "chair"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question:
+        "How do you form the plural of numbers and letters such as 1, 2, or a, b?",
+      options: ["Add s", "Add es", "Add ’s (apostrophe + s)", "No plural form"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Which collective noun takes a plural verb despite looking singular?",
+      options: ["people", "table", "book", "car"],
+      correctAnswerIndex: 0,
+    },
+    {
+      question: "The plural form of 'wife' is:",
+      options: ["wifes", "wifes", "wives", "wifes"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "If a noun ends in -y and the letter before y is a vowel, how do you form the plural?",
+      options: ["Change y to ies", "Add s", "Add es", "Remove y"],
+      correctAnswerIndex: 1,
+    },
+  ],
+  "Conjunctions": [
+    {
+      question: "What is the main function of conjunctions?",
+      options: [
+        "To describe nouns",
+        "To join words, phrases, and clauses",
+        "To show possession",
+        "To ask questions",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which conjunction is used to add two or more things or sentences?",
+      options: ["but", "and", "or", "because"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Choose the sentence that correctly uses the conjunction 'and':",
+      options: [
+        "She likes apples but oranges.",
+        "He is rich or he is happy.",
+        "She studies hard and plays well.",
+        "It is raining unless it is cold.",
+      ],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which conjunction is used to join contrasting ideas?",
+      options: ["and", "or", "but", "because"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question:
+        "Select the sentence with correct use of a contrast conjunction:",
+      options: [
+        "He is tired and he keeps working.",
+        "She is tired, but she keeps working.",
+        "She will come or she will stay.",
+        "He didn’t study so he failed.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Which conjunction shows a choice?",
+      options: ["and", "but", "or", "because"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Complete the sentence: 'You can come with us ___ stay here.'",
+      options: ["and", "but", "or", "because"],
+      correctAnswerIndex: 2,
+    },
+    {
+      question: "Which conjunction is used to show reasoning or cause?",
+      options: ["if", "so", "or", "unless"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Identify the sentence that uses conjunction of reasoning correctly:",
+      options: [
+        "She stayed home but she was sick.",
+        "It was raining, so we postponed the picnic.",
+        "He is tired or he went to bed early.",
+        "She likes tea unless coffee.",
+      ],
+      correctAnswerIndex: 1,
+    },
+    {
+      question:
+        "Which conjunction marks a condition and is used in positive statements?",
+      options: ["unless", "if", "because", "and"],
+      correctAnswerIndex: 1,
+    },
+    {
+      question: "Choose the sentence that uses 'unless' correctly:",
+      options: [
+        "If you hurry, you will miss the train.",
+        "Unless you hurry, you will miss the train.",
+        "Unless you hurry, you will be early.",
+        "If you don’t hurry, you will be early.",
+      ],
+      correctAnswerIndex: 1,
+    },
+  ],
 };

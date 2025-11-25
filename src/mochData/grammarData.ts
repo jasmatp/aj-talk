@@ -130,6 +130,77 @@ export const grammarLession: GrammarLesson[] = [
     example9: ["love, courage, happiness, freedom, anger, kindness"],
   },
   {
+    title: "Noun: Number(Singular and Plural)",
+    details1:
+      "Nouns can be either singular or plural in number. A noun is singular when it refers to only one person, object, or thing. A noun is plural when it refers to more than one person, object, or thing.",
+    details1Guj:
+      "નામપદ સંખ્યાના હિસાબથી એકવચન અથવા બહુવચન હોઈ શકે છે. જ્યારે નામપદ એક વ્યક્તિ, વસ્તુ અથવા પ્રાણી માટે હોય ત્યારે તેને એકવચન નામપદ કહેવામાં આવે છે. જ્યારે નામપદ એકથી વધુ વ્યક્તિઓ, વસ્તુઓ અથવા પ્રાણીઓ માટે હોય ત્યારે તેને બહુવચન નામપદ કહેવામાં આવે છે.",
+    example1: ["child, children, dog, dogs"],
+    details2:
+      "For nouns ending in -s, -ss, -ch, -sh, -dge, and -x, we usually add -es to make the plural form. For some nouns ending in -f or -fe, the plural is formed by changing -f / -fe to -ves.",
+    details2Guj:
+      "જે નામપદો -s, -ss, -ch, -sh, -dge, -x પર પૂર્ણ થાય છે, તેમના બહુવચન માટે સામાન્ય રીતે -es જોડાય છે. કેટલાક નામપદો જે -f કે -fe પર પૂર્ણ થાય છે, તેમના બહુવચનમાં -f / -fe ને -ves થી બદલે છે.",
+    example2: [
+      "bus → buses",
+      "watch → watches",
+      "box → boxes",
+      "leaf → leaves",
+      "wife → wives",
+    ],
+    details3:
+      "For some nouns ending in -o, we add -es to make the plural. But for some nouns ending in -o, we just add -s. If a noun ends with -y and the letter before y is a consonant, we change -y to -ies in the plural form. If the letter before -y is a vowel, we simply add -s.",
+    details3Guj:
+      "કેટલાક નામપદો જે -o પર પૂર્ણ થાય છે, તેમનો બહુવચન બનાવવા માટે -es ઉમેરાય છે. કેટલાંક નામપદો -o સાથે ફક્ત -s ઉમેરે છે. જો નામપદ -y પર પૂર્ણ થાય અને y પહેલાંનો અક્ષર વ્યંજક (consonant) હોય, તો બહુવચનમાં -y ને -ies માં બદલી નાખી દેવામાં આવે છે. જો y પહેલાંનો અક્ષર સ્વર (vowel) હોય, તો ફક્ત -s ઉમેરાય છે.",
+    example3: [
+      "potato → potatoes",
+      "tomato → tomatoes",
+      "photo → photos",
+      "piano → pianos",
+      "baby → babies",
+      "city → cities",
+      "boy → boys",
+      "day → days",
+    ],
+    details4: "Irregular Plural Forms:",
+    details5:
+      "A. Some nouns add -en or -ren to form their plurals (These are old English forms and are very rare.). B. Some nouns change their middle vowels to form their plural forms. C. The plural ending -s is added to the principal word in compound nouns. c. The plural ending -s is added to the principal word in compound nouns.",
+    details5Guj:
+      "A. થોડા નામપદો તેમના બહુવચન બનાવવા માટે -en અથવા -ren ઉમેરે છે. આ બહુ જૂના અંગ્રેજી રૂપો છે અને ખૂબ જ ઓછા વપરાય છે. B. કેટલાક નામપદો તેમના બહુવચન બનાવવા માટે શબ્દના મધ્યમાં આવેલ સ્વર બદલી દે છે. C. સંયુક્ત નામપદોમાં, બહુવચન બનાવવા માટે મુખ્ય શબ્દ (principal word) પર -s ઉમેરવામાં આવે છે.",
+    example5: [
+      "A. ox → oxen",
+      "A. child → children",
+      "B. man → men",
+      "B. foot → feet",
+      "C. father-in-law → fathers-in-law",
+      "C. commander-in-chief → commanders-in-chief",
+    ],
+    details6:
+      "D. Some nouns have the same singular and plural forms. E. Foreign Plurals: Some English words are borrowed from other languages. Their plural forms follow the rules of the original language, not the usual English rules.",
+    details6Guj:
+      "D. કેટલાક નામપદો બહુવચનમાં બદલાતા નથી. એકવચન અને બહુવચન બંને એકસરખાં રહે છે. E. અંગ્રેજીમાં કેટલાક શબ્દો અન્ય ભાષાઓમાંથી લીધેલા છે (loan words). આ શબ્દોના બહુવચન તેમના મૂળ ભાષાના નિયમો પ્રમાણે બને છે, સામાન્ય અંગ્રેજી નિયમો પ્રમાણે નહીં.",
+    example6: [
+      "D. deer → deer, sheep → sheep, fish → fish, aircraft → aircraft, species → species, thousand → thousand",
+      "E. radius → radii, datum → data, cactus → cacti, phenomenon → phenomena, criterion → criteria, analysis → analyses, spaghetti → spaghetti, bureau → bureaux / bureaus",
+    ],
+    details7:
+      "F. Some objects have two essential parts, so their names are always used in the plural form. These nouns do not have a singular form and always take plural verbs. G. Some nouns that end in -s or -ics look plural but are singular uncountable nouns. They do not have plural forms and usually take singular verbs.",
+    details7Guj:
+      "F. કેટલીક વસ્તુઓમાં બે મહત્વનાં ભાગો હોય છે, તેથી તેમના નામો હંમેશા બહુવચનમાં વપરાય છે. આ શબ્દોનું એકવચન રૂપ નથી અને તેમની સાથે plural verb (બહુવચન ક્રિયા) વાપરવી પડે છે. G. કેટલાક શબ્દો જે -s અથવા -ics પરથી સમાપ્ત થાય છે, દેખાતાં બહુવચન લાગે છે પણ વાસ્તવમાં એકવચન અગણતરીય નામપદ છે. આ શબ્દોના બહુવચન રૂપ નથી અને એ સાથે singular verb વાપરાય છે.",
+    example7: [
+      "F. scissors, trousers, spectacles / glasses, binoculars, shorts, jeans, pliers etc.",
+      "G. Mathematics, Economics, News etc.",
+    ],
+    details8:
+      "H. Uncountable nouns such as advice, furniture, information do not have plural forms. We cannot say advices, furnitures, or informations. I. Abstract nouns (qualities, feelings, ideas) such as admiration, affection, hatred, love and Material nouns such as iron, sugar, silk, wood are uncountable nouns. Because they cannot be counted, they do not have plural forms.",
+    details8Guj:
+      "H. અગણતરીય નામપદ જેમ કે advice, furniture, information ના બહુવચન રૂપ નથી. અમે advices, furnitures અથવા informations કહી શકતા નથી. I. Abstract nouns (ગુણ, ભાવનાઓ, વિચારો) જેમ કે admiration, affection, hatred, love અને Material nouns જેમ કે iron, sugar, silk, wood અગણતરીય છે. આને ગણવામાં નહિ આવે, તેથી આ શબ્દોના બહુવચન રૂપ નથી.",
+    details9:
+      "J. To form the plural of figures (numbers) such as 1, 2, 3 and letters such as a, b, c, we add ’s (apostrophe + s). This is done to avoid confusion in reading. K. Some collective nouns like people and cattle look singular but represent many individuals. So, they take plural verbs.",
+    details9Guj:
+      "J. આંકડા (1, 2, 3…) અથવા અક્ષરો (a, b, c…) ના બહુવચન દર્શાવવા માટે ’s (apostrophe + s) ઉમેરવામાં આવે છે. એવું વાંચવામાં ગેરસમજ ટાળવા માટે કરવામાં આવે છે. K. કેટલાક Collective nouns જેમ કે people અને cattle દેખાવામાં એકવચન લાગે છે, પરંતુ ઘણા લોકો અથવા પ્રાણીઓને દર્શાવે છે. આથી આ શબ્દો સાથે plural verb વપરાય છે.",
+    example9: ["J. 1’s, 2’s, a’s, q’s etc.", "K. People, Cattle, Police etc."],
+  },
+  {
     title: "Articles",
     remember: [
       "The words a, an, and the are called articles.",
@@ -1206,5 +1277,67 @@ export const grammarLession: GrammarLesson[] = [
     details4Guj:
       "During નો ઉપયોગ ત્યારે કરીએ છીએ જ્યારે કોઈ ક્રિયા કોઈ સમયગાળા ના શરૂઆત અને અંત વચ્ચે થાય છે. એ કોઈ મોટા સમયગાળા દરમિયાન કંઈક થવાનું દર્શાવે છે.",
     example4: ["She slept during the movie.", "No talking during the exam."],
+  },
+  {
+    title: "Conjunctions",
+    details1:
+      "Conjunctions are words which join together words, phrases, and clauses. They help connect ideas smoothly in sentences.",
+    details1Guj:
+      "Conjunctions એ એવા શબ્દો છે જે શબ્દો, phrase અને clauses ને જોડે છે. તેઓ વાક્યમાં વિચારોને સરળતાથી જોડવામાં મદદ કરે છે.",
+    example1: [
+      "She likes tea 'and' coffee.",
+      "I wanted to go, 'but' I was tired.",
+      "He didn’t come to the party 'because' he was sick.",
+    ],
+    details2: "Funtions of Conjunctions:",
+    details3:
+      "Conjunction of Addition: The conjunction 'and' is used to join:- a. Two or more things, ideas, or elements of a similar type. b. Two sentences.",
+    details3Guj:
+      "યોજક conjunction (Addition): 'and' conjunction નો ઉપયોગ થાય છે: a. બે કે વધુ સમાન પ્રકારની વસ્તુઓ, વિચાર અથવા તત્વોને જોડવા માટે. b. બે વાક્યોને જોડવા માટે.",
+    example3: [
+      "I like apples and oranges.",
+      "She studies hard and plays well.",
+      "The sun is shining, and the birds are singing.",
+      "He bought a book and a pen.",
+    ],
+    details4:
+      "Conjunction of Contrast: Conjunctions such as but, although, though, and still are used to join contrasting ideas.",
+    details4Guj:
+      "વિરોધ દર્શાવતી જોડણી (Conjunction of Contrast): but, although, though, અને still જેવી conjunctions વિરોધાભાસી વિચારોને જોડવા માટે વપરાય છે.",
+    example4: [
+      "She is tired, but she keeps working.",
+      "Although it was raining, we went out.",
+      "He is rich, though he is not happy.",
+      "The task was hard, still he completed it on time.",
+    ],
+    details5:
+      "Conjunction of Choice: Conjunctions such as or and otherwise are used to denote choice.",
+    details5Guj:
+      "પસંદગી દર્શાવતી જોડણી (Conjunction of Choice): or અને otherwise જેવી conjunctions પસંદગી બતાવવા માટે વપરાય છે.",
+    example5: [
+      "Would you like tea or coffee?",
+      "Hurry up, otherwise you will miss the bus.",
+      "You can stay here or come with us.",
+    ],
+    details6:
+      "Conjunction of Reasoning and Logical Deduction: Conjunctions like as, because, so, and therefore are used to join sentences when there is a logical connection between two arguments or ideas.",
+    details6Guj:
+      "કારણ દર્શાવતી અને તર્કસંગત જોડણી (Conjunction of Reasoning and Logical Deduction): as, because, so, અને therefore જેવી conjunctions તેનો ઉપયોગ ત્યારે થાય છે જ્યારે બે દલીલો અથવા વિચાર વચ્ચે તર્કસંગત સંબંધ હોય.",
+    example6: [
+      "She stayed at home because she was feeling sick.",
+      "It was raining, so we postponed the picnic.",
+      "As he was tired, he went to bed early.",
+      "He didn’t study; therefore, he failed the exam.",
+    ],
+    details7:
+      "Conjunction of Condition: Conjunctions such as if and unless are used to mark a condition. Usually, we use if in positive statements and unless for negative statements.",
+    details7Guj:
+      "શરત દર્શાવતી જોડણી (Conjunction of Condition): if અને unless જેવી conjunctions શરત બતાવવા માટે વપરાય છે. સામાન્ય રીતે, ifનો ઉપયોગ સકારાત્મક વાક્યમાં થાય છે અને unless નો ઉપયોગ નકારાત્મક વાક્યમાં થાય છે.",
+    example7: [
+      "If it rains, we will cancel the trip.",
+      "You will pass the exam if you study hard.",
+      "She won’t come unless you invite her.",
+      "Unless you hurry, you will miss the train.",
+    ],
   },
 ];
