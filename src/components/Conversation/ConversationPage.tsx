@@ -9,7 +9,7 @@ const ConversationPage: React.FC = () => {
 
   return (
     <div>
-      <Button variant="link" onClick={() => navigate(-1)}>
+      <Button variant="link" onClick={() => navigate('/')}>
         ← Back
       </Button>
       <h2>
