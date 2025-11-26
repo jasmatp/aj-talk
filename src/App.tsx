@@ -18,6 +18,8 @@ import LessonCard from "./components/Basic/LessonCard";
 import LessonDetail from "./components/Basic/LessonDetail";
 import ListeningDetail from "./components/Listening/ListeningDetail";
 import Grammar from "./components/Grammar/Grammar";
+import ConvertionPage from "./components/Conversation/ConversationPage";
+import ConversationDetails from "./components/Conversation/ConversationDetails";
 
 function Home() {
   return (
@@ -55,6 +57,8 @@ function AppContent() {
         <Route path="/listening" element={<Listening />} />
         <Route path="/listening/:lessonId" element={<ListeningDetail />} />
         <Route path="/contacts" element={<ContactInfo />} />
+        <Route path="/convertion" element={<ConvertionPage />} />
+        <Route path="/convertion/:id" element={<ConversationDetails />} />
       </Routes>
       <Footer />
     </div>

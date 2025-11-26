@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { grammarLession } from "../../mochData/grammarData";
-import { Badge, Button } from "react-bootstrap";
+import { Badge, Button, Form } from "react-bootstrap";
+import { useDebounce } from "../../hooks/useDebounce";
 
 const Grammar = () => {
   const navigate = useNavigate();
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const debouncedSearch = useDebounce(searchTerm, 400);
+
+  // Filter lessons by title based on debounced search
+  const filteredLessons = useMemo(() => {
+    if (!debouncedSearch) return grammarLession;
+    const lower = debouncedSearch.toLowerCase();
+    return grammarLession.filter((l) => l.title.toLowerCase().includes(lower));
+  }, [debouncedSearch]);
   return (
     <div>
       <Button variant="link" onClick={() => navigate(-1)}>
@@ -15,21 +26,19 @@ const Grammar = () => {
           Grammar Lessons
         </Badge>
       </h2>
+
+      {/* Search by title */}
+      <Form.Group className="w-50 m-3 my-0" controlId="lessonSearch">
+        <Form.Control
+          type="search"
+          placeholder="Search grammar lesson by title..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </Form.Group>
+
       <div className="row m-2 g-3 mb-5">
-        {grammarLession.map((lesson, idx) => (
-          // <div
-          //   key={idx}
-          //   className="rounded-lg shadow-md p-2 flex flex-col items-center"
-          // >
-          //   <h4 className="mb-2">{lesson.title}</h4>
-          //   <Link
-          //     to={`/grammar/${idx}`}
-          //     className="text-blue-600 hover:underline"
-          //   >
-          //     Learn More
-          //   </Link>
-          //   <hr />
-          // </div>
+        {filteredLessons.map((lesson, idx) => (
           <div key={idx} className="col-sm-6 col-md-6 col-lg-4">
             <div
               className="card rounded-lg shadow p-2 d-flex h-100 w-100 align-items-center"
@@ -48,9 +57,12 @@ const Grammar = () => {
               </div>
               <div className="text-center">
                 <h5 className="card-title text-center">{lesson.title}</h5>
-                <a href={`/grammar/${idx}`} className="btn btn-link">
+                <Button
+                  variant="link"
+                  onClick={() => navigate(`/grammar/${idx}`)}
+                >
                   Tap to Learn
-                </a>
+                </Button>
               </div>
             </div>
           </div>

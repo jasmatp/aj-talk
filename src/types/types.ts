@@ -29,17 +29,16 @@ export interface HeaderSectionProps {
   description: string;
 }
 
-export interface Question  {
+export interface Question {
   question: string;
   options: string[];
   correctAnswerIndex: number;
-};
+}
 
 export interface PracticeQuizProps {
   articles?: Question[];
   questions?: Question[];
-};
-
+}
 
 export interface GrammarLesson {
   title: string;
@@ -72,4 +71,16 @@ export interface GrammarLesson {
   details9?: string;
   details9Guj?: string;
   example9?: string[];
+}
+
+export interface ConversationLine {
+  id: string;
+  lines: string[];
+  linesGuj?: string[];
+}
+
+export interface ConversationGroup {
+  title: string;
+  conversations: ConversationLine[];
+  image?: string;
 }
