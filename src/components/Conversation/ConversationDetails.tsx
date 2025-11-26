@@ -27,7 +27,7 @@ const ConversationDetails: React.FC = () => {
           <Card.Header>{`Conversation ${conv.id}`}</Card.Header>
           <Card.Body>
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 text-center">
                     <img src={group.image} alt="conversation" className="lesson-img" />
                 </div>
               {/* English */}
