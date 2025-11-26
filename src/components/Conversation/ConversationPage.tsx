@@ -28,11 +28,11 @@ const ConversationPage: React.FC = () => {
         {conversations.map((group, index) => (
           <div className="col-sm-6 col-md-4 col-lg-3" key={index}>
             <div
-              className="lesson-card"
+              className="conversation-card"
               onClick={() => navigate(`/convertion/${index}`)}
             >
-              <img src={group.image} alt={group.title} className="lesson-img" />
-              <div className="lesson-info">
+              <img src={group.image} alt={group.title} className="conversation-img" />
+              <div className="conversation-info">
                 <Link to={`/convertion/${index}`} className="lesson-title">
                   {group.title}
                 </Link>

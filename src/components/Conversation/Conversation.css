@@ -1,6 +1,25 @@
-.lesson-card {
+.conversation-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    margin: 16px 0px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
     height: 215px;
 }
-.lesson-info{
+
+.conversation-info {
+    justify-items: center;
     margin-top: 8px;
+}
+
+.conversation-img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
