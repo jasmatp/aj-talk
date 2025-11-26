@@ -325,4 +325,409 @@ export const conversations: ConversationGroup[] = [
       },
     ],
   },
+  {
+    title: "Asking about Activities",
+    image: "/images/conversation/asking.png",
+    conversations: [
+      {
+        id: "A",
+        lines: [
+          "S1: When did you eat lunch today?",
+          "S2: I ate from twelve to one.",
+          "S1: Where did you have your lunch?",
+          "S2: I had it at Pete's Restaurant today.",
+        ],
+        linesGuj: [
+          "S1: તમે આજે બપોરના જમવાનું ક્યારે ખાધું?",
+          "S2: હું બારથી એક વાગ્યા સુધી ખાધું.",
+          "S1: તમારે જમવાનું ક્યાં ખાધું?",
+          "S2: હું આજે પીટના રેસ્ટોરેન્ટમાં ખાધું.",
+        ],
+      },
+      {
+        id: "B",
+        lines: [
+          "S1: Did you have a good time at the party?",
+          "S2: We had a wonderful time.",
+          "S1: It was really a lot of fun.",
+          "S2: We ought to have another party like that soon.",
+        ],
+        linesGuj: [
+          "S1: પાર્ટીમાં તમારું સમય સારો ગયો?",
+          "S2: અમે ખૂબ જ મોજ કર્યો",
+          "S1: તે ખરેખર ખૂબ મજાનું હતું",
+          "S2: અમે એવી જ બીજી પાર્ટી ટૂંક સમયમાં રાખવી જોઈએ",
+        ],
+      },
+      {
+        id: "C",
+        lines: [
+          "S1: Did you work at home last night?",
+          "S2: Yes. I washed the dishes and cleaned the house.",
+          "S1: Did you do anything else?",
+          "S2: Yes. I listened to the radio for a while.",
+        ],
+        linesGuj: [
+          "S1: તમે ગઈકાલે રાત્રે ઘરે કામ કર્યુ?",
+          "S2: હા. મેં વાસણો ધોયા અને ઘર સાફ કર્યું.",
+          "S1: બીજી કંઈ કર્યું?",
+          "S2: હાં. થોડો સમય માટે રેડિયો સાંભળ્યો.",
+        ],
+      },
+      {
+        id: "D",
+        lines: [
+          "S1: Did you have a good time last night?",
+          "S2: Yes. I had a wonderful time.",
+          "S1: You'll probably have fun tomorrow too.",
+          "S2: I'm sure I'll have an excellent time.",
+        ],
+        linesGuj: [
+          "S1: ગઈકાલે તારો સમય સારો ગયો?",
+          "S2: હા. મને ઘણું મોજ આવ્યું.",
+          "S1: શાઈદ તને કાલ પણ મજાનું થશે.",
+          "S2: હું નિશ્ચિત છું કે મને ઉત્તમ મોજ આવશે.",
+        ],
+      },
+      {
+        id: "E",
+        lines: [
+          "S1: Where did you go?",
+          "S2: We went to a beautiful beach.",
+          "S1: Did you swim in the ocean?",
+          "S2: Yes, but we swam close to the shore!",
+        ],
+        linesGuj: [
+          "S1: તમે ક્યાં ગયા?",
+          "S2: અમે એક સુંદર દરિયાકિનારે ગયા.",
+          "S1: શું તમે સમુદ્રમાં તર્યા?",
+          "S2: હા, પણ અમે કિનારા પાસે તર્યાં.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "What Did You Do?",
+    image: "/images/conversation/what-did-you-do.png",
+    conversations: [
+      {
+        id: "A",
+        lines: [
+          "S1: Where did you go after lunch?",
+          "S2: I went to the public library.",
+          "S1: Which one did you go to?",
+          "S2: I went to the one at 42nd Street.",
+        ],
+        linesGuj: [
+          "S1: તમે બપોરના જમ્યાં પછી ક્યાં ગયા?",
+          "S2: હું પબ્લિક લાઇબ્રેરી ગયો હતો.",
+          "S1: કઈ લાઇબ્રેરી ગયા હતા?",
+          "S2: હું 42મી સ્ટ્રીટ પર આવેલી લાઇબ્રેરી ગયો હતો.",
+        ],
+      },
+      {
+        id: "B",
+        lines: [
+          "S1: What did you do last night?",
+          "S2: I watched television.",
+          "S1: Where did you watch it?",
+          "S2: I watched it here in the recreation room.",
+        ],
+        linesGuj: [
+          "S1: ગઈકાલે રાત્રે તમે શું કર્યું?",
+          "S2: મેં ટેલિવિઝન જોયું.",
+          "S1: તમે ક્યાં જોઈ હતી?",
+          "S2: હું અહીં રિક્રીએશન રૂમમાં જોયું.",
+        ],
+      },
+      {
+        id: "C",
+        lines: [
+          "S1: Was that television program interesting?",
+          "S2: I thought it was very boring.",
+          "S1: What did your friends think of it?",
+          "S2: They were bored too.",
+        ],
+        linesGuj: [
+          "S1: શું તે ટેલિવિઝન કાર્યક્રમ રસપ્રદ હતો?",
+          "S2: મને તે બહુ નિરાશાજનક લાગ્યું.",
+          "S1: તમારા મિત્રો તેને કેવો લાગ્યું?",
+          "S2: મિત્રો પણ બોર થયાં.",
+        ],
+      },
+      {
+        id: "D",
+        lines: [
+          "S1: I went to a lecture last night.",
+          "S2: What was it about?",
+          "S1: Society and modern art.",
+          "S2: I wish I'd gone with you.",
+        ],
+        linesGuj: [
+          "S1: હું ગઈકાલે રાત્રે એક લેકચર પર ગયો હતો.",
+          "S2: તે કયા વિશે હતું?",
+          "S1: સમાજ અને આધુનિક કળા વિશે.",
+          "S2: હું ઈચ્છું કે હું તારા સાથે ગયો હોત.",
+        ],
+      },
+      {
+        id: "E",
+        lines: [
+          "S1: We went to the movies the night before last.",
+          "S2: What did you see?",
+          "S1: We saw a film about cowboys and Indians.",
+          "S2: Don't you ever get tired of those westerns?",
+        ],
+        linesGuj: [
+          "S1: અમે એક દિવસ પહેલાંની રાત્રે મૂવી જોયી.",
+          "S2: શું જોયું?",
+          "S1: અમે કોવબોય અને ઇન્ડિયન વિશે એક ફિલ્મ જોઈ.",
+          "S2: શું તને તે પશ્ચિમી ફિલ્મોથી કદી થાક લાગ્યો નથી?",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Talking about Activities",
+    image: "/images/conversation/talking-activities.png",
+    conversations: [
+      {
+        id: "A",
+        lines: [
+          "S1: Where have you been?",
+          "S2: I've been to the movies.",
+          "S1: What did you see?",
+          "S2: I saw an Italian movie about life in Sicily.",
+        ],
+        linesGuj: [
+          "S1: તમે ક્યાં ગયા હતા?",
+          "S2: હું મૂવી પર ગયો હતો.",
+          "S1: તમને શું જોયું?",
+          "S2: મેં સિસિલી જીવન વિશે એક ઈટાલિયન મૂવી જોઈ.",
+        ],
+      },
+      {
+        id: "B",
+        lines: [
+          "S1: What places have you seen so far?",
+          "S2: I've been to almost all the museums.",
+          "S1: Have you gone to any parks yet?",
+          "S2: No, I haven't. I haven't had enough time for that.",
+        ],
+        linesGuj: [
+          "S1: અત્યારે સુધી તમે કયા સ્થળો જોયા છે?",
+          "S2: હું લગભગ બધાં મ્યુઝિયમો ગયા છું.",
+          "S1: શું તમે કોઈ પાર્ક ગયા છો?",
+          "S2: ના, હું નથી ગયો. મને માટે પૂરતો સમય મળ્યો નથી.",
+        ],
+      },
+      {
+        id: "C",
+        lines: [
+          "S1: Let's meet at your house tonight.",
+          "S2: O.K. That sounds fine.",
+          "S1: I've forgotten how to get to your house.",
+          "S2: Just take the Tenth Street bus to Third Avenue.",
+        ],
+        linesGuj: [
+          "S1: ચાલો આજે રાત્રે તમારા ઘરમાં મળીશું.",
+          "S2: ઠીક છે. તે સારું લાગે છે.",
+          "S1: મને ભૂલી ગયું કે તમારા ઘરના માર્ગ પર કેવી રીતે જવું.",
+          "S2: કેવળ ત્રીજા એવન્યૂ તરફ દસમી માર્ગની બસ લો.",
+        ],
+      },
+      {
+        id: "D",
+        lines: [
+          "S1: Let's watch television for a while.",
+          "S2: All right, but let's finish this work first.",
+          "S1: Oh, let's not do the work right now.",
+          "S2: You're just lazy, in my opinion.",
+        ],
+        linesGuj: [
+          "S1: ચાલો થોડા સમય માટે ટેલિવિઝન જોયા જઇએ",
+          "S2: ઠીક છે, પણ પહેલા આ કામ પૂરૂં કરીએ",
+          "S1: અરે, ચાલો હવે કામ ના કરીએ",
+          "S2: મારી opinion પ્રમાણે તમે ફક્ત આળસુ છો",
+        ],
+      },
+      {
+        id: "E",
+        lines: [
+          "S1: I can't hear the television set.",
+          "S2: Why don't you sit closer?",
+          "S1: I'm right beside it now.",
+          "S2: Why don't you turn up the volume?",
+        ],
+        linesGuj: [
+          "S1: હું ટેલિવિઝનનું અવાજ સાંભળી શકતો નથી",
+          "S2: તું નજીક કેમ નથી બેસતો?",
+          "S1: હું હવે તેના બાજુમાં જ બેઠો છું",
+          "S2: તમે અવાજ કેમ વધારતા નથી?",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Evening Activities",
+    image: "/images/conversation/evening-activities.png",
+    conversations: [
+      {
+        id: "A",
+        lines: [
+          "S1: Let's go the movies tonight.",
+          "S2: Fine. I don't have anything else to do.",
+          "S1: What would you like to see?",
+          "S2: Why don't we look in the movie section of the newspaper?",
+        ],
+        linesGuj: [
+          "S1: ચાલો આજે રાત્રે મૂવી પર જઈએ.",
+          "S2: ઠીક છે. મને બીજું કંઈ કરવાનું નથી.",
+          "S1: શું જોવા માંગો છો?",
+          "S2: ચાલો અખબારના મૂવી વિભાગમાં જોયા લઈએ.",
+        ],
+      },
+      {
+        id: "B",
+        lines: [
+          "S1: Where are you going tonight?",
+          "S2: I'm going to the political rally for Senator Smith.",
+          "S1: Sounds interesting. Can we go with you?",
+          "S2: Certainly. Meet me here at eight fifteen.",
+        ],
+        linesGuj: [
+          "S1: તમે આજે રાત્રે ક્યાં જઈ રહ્યા છો?",
+          "S2: હું સેનેટર સ્મિથ માટે રાજકીય રેલી પર જઈ રહ્યો છું.",
+          "S1: આ રસપ્રદ લાગે છે. શું અમે સાથે જઈ શકીએ?",
+          "S2: બિલકુલ. આઠ પંદર મિનિટે અહીં મળો.",
+        ],
+      },
+      {
+        id: "C",
+        lines: [
+          "S1: Would you like to go to the concert with me tonight?",
+          "S2: Yes. Thank you very much.",
+          "S1: Would you like to go at about eight o'clock?",
+          "S2: That would be fine.",
+        ],
+        linesGuj: [
+          "S1: શું તમે આજ રાત્રે મારી સાથે કન્સર્ટ માટે જશો?",
+          "S2: હા. ખૂબ આભાર.",
+          "S1: શું તમે લગભગ આઠ વાગ્યે જવા માંગો છો?",
+          "S2: તે તો સારું રહેશે.",
+        ],
+      },
+      {
+        id: "D",
+        lines: [
+          "S1: What are you going to do tonight?",
+          "S2: I haven't decided yet.",
+          "S1: Would you like to go to the movies?",
+          "S2: Can I call you and tell you later?",
+        ],
+        linesGuj: [
+          "S1: તમે આજે રાત્રે શું કરવાનું છે?",
+          "S2: હજુ નિર્ધારિત નથી કર્યો.",
+          "S1: શું તમારે મૂવી પર જવાનું ગમે?",
+          "S2: શું હું તમને ફોન કરીને પછી કહી શકું?",
+        ],
+      },
+      {
+        id: "E",
+        lines: [
+          "S1: Would you like to go to the movies tonight?",
+          "S2: I'd rather stay home and watch television.",
+          "S1: Are there going to be any good programs tonight?",
+          "S2: Yes. There's going to be a good play on channel 4.",
+        ],
+        linesGuj: [
+          "S1: શું તમે આજે રાત્રે મૂવી પર જવા માંગો છો?",
+          "S2: હું ઘરે રહીને ટેલિવિઝન જોવાનું પસંદ કરીશ.",
+          "S1: શું આજે રાત્રે કોઈ સારા કાર્યક્રમો થશે?",
+          "S2: હા. ચેનલ પર એક સારું નાટક આવવાનું છે.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Meeting at the Train Station",
+    image: "/images/conversation/train-station.png",
+    conversations: [
+      {
+        id: "A",
+        lines: [
+          "S1: I've got to go to the train station.",
+          "S2: What do you have to go for?",
+          "S1: To meet my cousin from Washington.",
+          "S2: Let me take you in my car.",
+        ],
+        linesGuj: [
+          "S1: મને ટ્રેન સ્ટેશન જવું છે.",
+          "S2: તમને શું માટે જવું છે?",
+          "S1: વોશિંગ્ટનથી આવેલા મારા કઝિનને મળવા.",
+          "S2: હું તમને મારી કારમાં લઈ જાઉં?",
+        ],
+      },
+      {
+        id: "B",
+        lines: [
+          "S1: Did you get to the station on time?",
+          "S2: We did, but we were almost late.",
+          "S1: How close was it?",
+          "S2: We got on the train just as it was starting.",
+        ],
+        linesGuj: [
+          "S1: શું તમે સ્ટેશન પર સમયસર પહોંચી ગયા?",
+          "S2: હા, પરંતુ અમે લગભગ મોડા થઈ ગયા.",
+          "S1: કેટલું નજીક હતું?",
+          "S2: ટ્રેન ચાલુ થતી જ હતી ત્યારે અમે ચડી ગયા.",
+        ],
+      },
+      {
+        id: "C",
+        lines: [
+          "S1: Did your cousin arrive on time?",
+          "S2: No. He was an hour late.",
+          "S1: Did you meet him at the station?",
+          "S2: I was right there on the platform when the train came.",
+        ],
+        linesGuj: [
+          "S1: તમારા કઝિન સમયસર આવ્યા?",
+          "S2: ના, તે એક કલાક મોડો આવ્યો.",
+          "S1: શું તમે તેને સ્ટેશન પર મળ્યા?",
+          "S2: ટ્રેન આવી ત્યારે હું પ્લેટફોર્મ પર જ હતો.",
+        ],
+      },
+      {
+        id: "D",
+        lines: [
+          "S1: Where's my bag?",
+          "S2: Here it is.",
+          "S1: Where's my briefcase?",
+          "S2: There it is—over there.",
+        ],
+        linesGuj: [
+          "S1: મારું બેગ ક્યાં છે?",
+          "S2: અહીં છે.",
+          "S1: મારું બ્રીફકેસ ક્યાં છે?",
+          "S2: ત્યાં છે — એ તરફ.",
+        ],
+      },
+      {
+        id: "E",
+        lines: [
+          "S1: Do you have your suitcases?",
+          "S2: I've got one of them with me.",
+          "S1: Where are the rest of them?",
+          "S2: I checked my two other ones at the baggage room.",
+        ],
+        linesGuj: [
+          "S1: શું તમારા સૂટકેસ છે?",
+          "S2: મારા પાસે એક છે.",
+          "S1: બાકીના ક્યાં છે?",
+          "S2: મેં બાકીના બે બેગેજ રૂમમાં ચેક કરાવી દીધા છે.",
+        ],
+      },
+    ],
+  },
 ];

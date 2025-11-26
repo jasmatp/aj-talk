@@ -14,7 +14,7 @@ const ConversationDetails: React.FC = () => {
 
   return (
     <div style={{ flex: 1, padding: "10px" }}>
-      <Button variant="link" onClick={() => navigate(-1)}>
+      <Button variant="link" onClick={() => navigate('/convertion')}>
         ← Back
       </Button>
       <h2>
@@ -32,17 +32,17 @@ const ConversationDetails: React.FC = () => {
                 </div>
               {/* English */}
               <div className="col-md-4">
-                <h6>English</h6>
+                <h6 className="text-decoration-underline">English</h6>
                 {conv.lines.map((line, i) => (
                   <Card.Text key={i}>{line}</Card.Text>
                 ))}
               </div>
 
               {/* Gujarati */}
-              <div className="col-md-4">
+              <div className="col-md-4 text-success">
                 {conv.linesGuj && (
                   <>
-                    <h6>Gujarati</h6>
+                    <h6 className="text-decoration-underline">Gujarati</h6>
                     {conv.linesGuj.map((line, i) => (
                       <Card.Text key={i}>{line}</Card.Text>
                     ))}
