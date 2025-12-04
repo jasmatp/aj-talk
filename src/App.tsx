@@ -20,6 +20,11 @@ import ListeningDetail from "./components/Listening/ListeningDetail";
 import Grammar from "./components/Grammar/Grammar";
 import ConvertionPage from "./components/Conversation/ConversationPage";
 import ConversationDetails from "./components/Conversation/ConversationDetails";
+import WordMatchApp from "./components/Games/components/WordMatchQuiz/WordMatch";
+import SentenceBuilderApp from "./components/Games/components/SentenceBuilder/SentenceBuilderApp";
+import PictureWordApp from "./components/Games/components/PictureWord/PictureWordApp";
+import GamesHome from "./components/Games/components/Home";
+import { ThemeProvider } from "./components/context/ThemeContext";
 
 function Home() {
   return (
@@ -59,6 +64,14 @@ function AppContent() {
         <Route path="/contacts" element={<ContactInfo />} />
         <Route path="/convertion" element={<ConvertionPage />} />
         <Route path="/convertion/:id" element={<ConversationDetails />} />
+
+        <Route path="/games" element={<GamesHome />} />
+        <Route path="/games/word-match" element={<WordMatchApp />} />
+        <Route
+          path="/games/sentence-builder"
+          element={<SentenceBuilderApp />}
+        />
+        <Route path="/games/picture-word" element={<PictureWordApp />} />
       </Routes>
       <Footer />
     </div>
@@ -67,9 +80,11 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
-      <AppContent />
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <AppContent />
+      </Router>
+    </ThemeProvider>
   );
 }
 

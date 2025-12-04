@@ -1,0 +1,26 @@
+.game-card {
+    /* background: #fff; */
+    border-radius: 10px;
+    /* border: 1.5px solid #ddd; */
+    margin: 16px 0px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    height: 235px;
+}
+
+.game-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.lesson-title {
+    font-weight: bold !important;
+    font-size: 1.3rem !important;
+    margin-bottom: 4px;
+}
