@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -25,6 +25,7 @@ import SentenceBuilderApp from "./components/Games/components/SentenceBuilder/Se
 import PictureWordApp from "./components/Games/components/PictureWord/PictureWordApp";
 import GamesHome from "./components/Games/components/Home";
 import { ThemeProvider } from "./components/context/ThemeContext";
+import EnglishTutorChat from "./components/AI/EnglishTutorChat";
 
 function Home() {
   return (
@@ -46,6 +47,7 @@ function Home() {
 
 function AppContent() {
   const location = useLocation();
+  const [showChat, setShowChat] = useState(false);
 
   return (
     <div className="main">
@@ -74,6 +76,26 @@ function AppContent() {
         <Route path="/games/picture-word" element={<PictureWordApp />} />
       </Routes>
       <Footer />
+      {!showChat && (
+        <>
+          <button className="chatbot-btn" onClick={() => setShowChat(true)}>
+            A💬J
+          </button>
+        </>
+      )}
+
+      {showChat && (
+        <div className="chatbot-popup">
+          <button
+            className="chatbot-close-btn"
+            onClick={() => setShowChat(false)}
+          >
+            ✖
+          </button>
+
+          <EnglishTutorChat onClose={() => setShowChat(false)} />
+        </div>
+      )}
     </div>
   );
 }

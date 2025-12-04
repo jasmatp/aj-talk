@@ -61,3 +61,106 @@
 .check-prog {
   font-weight: bold !important;
 }
+
+/* Floating Chatbot Button */
+.chatbot-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  background: linear-gradient(135deg, #4c8cff, #1d5cff);
+  color: #fff;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+/* Hover Effect */
+.chatbot-btn:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
+/* Small pulse animation */
+.chatbot-btn::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(76, 140, 255, 0.3);
+  animation: pulse 2s infinite;
+  z-index: -1;
+}
+
+/* Pulse animation keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Chatbot Popup Container */
+.chatbot-popup {
+  position: fixed;
+  bottom: 0;
+  right: 25px;
+
+  width: 360px;
+  height: auto;
+
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  animation: fadeInUp 0.3s ease;
+  z-index: 99999;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Close Button for Chat Window */
+.chatbot-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #444;
+}

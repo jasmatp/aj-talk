@@ -6,7 +6,7 @@ export const lessons = [
     lessonUrl: "/basic-I",
   },
   {
-    imageSrc: "/images/grammar.png",
+    imageSrc: "/images/english-grammar.png",
     title: "Basics of English Grammar",
     description: "Improve your English speaking with strong grammar basics.",
     lessonUrl: "/grammar",
