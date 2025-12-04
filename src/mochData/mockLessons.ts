@@ -24,6 +24,13 @@ export const lessons = [
       "Practice everyday English dialogues to build confidence and communication skills.",
     lessonUrl: "/convertion",
   },
+  {
+    imageSrc: "/images/english-playroom.jpg",
+    title: "English Playroom",
+    description:
+      "Enjoy learning English with fun, fast, bite-sized challenges.",
+    lessonUrl: "/games",
+  },
   // {
   //   imageSrc: "/images/grammar-fun.png",
   //   title: "Funny Frames for Grammar Gains",
