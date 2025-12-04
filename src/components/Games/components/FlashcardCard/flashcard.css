@@ -1,0 +1,56 @@
+/* --- Flip animation container --- */
+.flashcard-container {
+  perspective: 1200px;
+}
+
+.flashcard-inner {
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.flashcard-flipped {
+  transform: rotateY(180deg);
+}
+
+/* --- Front & Back sides --- */
+.flashcard-side {
+  position: relative;
+  backface-visibility: hidden;
+  min-height: 220px;
+  border-radius: 14px;
+  padding: 25px;
+}
+
+/* --- Word Styling (Front Side) --- */
+.flashcard-word {
+  display: inline-block;
+  padding: 15px 25px;
+  min-width: 190px;
+  border-radius: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #005fff, #008cff);
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  letter-spacing: 2px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.flashcard-word:hover {
+  transform: scale(1.07);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* --- Back Side Styling --- */
+.flashcard-meaning-box {
+  border-left: 4px solid #008cff;
+  padding-left: 12px;
+  margin-bottom: 15px;
+}
+
+.flashcard-example {
+  font-style: italic;
+  opacity: 0.9;
+}
+

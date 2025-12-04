@@ -6,9 +6,13 @@
     padding: 8px 12px;
     width: 100%;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
     height: 235px;
+}
+
+.game-card:hover {
+    transform: translateY(-4px) scale(1.02);
 }
 
 .game-img {
@@ -17,10 +21,16 @@
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    border: 2px dotted red;
 }
 
 .lesson-title {
     font-weight: bold !important;
     font-size: 1.3rem !important;
     margin-bottom: 4px;
+}
+
+.game-info {
+    justify-items: center;
+    margin-top: -15px;
 }

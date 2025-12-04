@@ -19,7 +19,7 @@ const Header: React.FC = () => {
           <span className="slogan">English Learning and Speaking Practice</span>
         </Navbar.Brand>
         <Button variant="link" onClick={() => navigate("/")}>
-          Home
+          <i className="bi bi-house-heart-fill"></i>
         </Button>
       </Container>
     </Navbar>

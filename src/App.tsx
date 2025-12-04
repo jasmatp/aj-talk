@@ -26,6 +26,14 @@ import PictureWordApp from "./components/Games/components/PictureWord/PictureWor
 import GamesHome from "./components/Games/components/Home";
 import { ThemeProvider } from "./components/context/ThemeContext";
 import EnglishTutorChat from "./components/AI/EnglishTutorChat";
+import SpellingChallengeApp from "./components/Games/components/SpellingChallenge/SpellingChallengeApp";
+import ListeningChallengeApp from "./components/Games/components/ListeningChallenge/ListeningChallengeApp";
+import WordUnscrambleApp from "./components/Games/components/WordUnscramble/WordUnscrambleApp";
+import GrammarFixerApp from "./components/Games/components/GrammarFixer/GrammarFixerApp";
+import ClozeTestApp from "./components/Games/components/ClozeTestCard/ClozeTestApp";
+import EmojiGuessApp from "./components/Games/components/EmojiGuessCard/EmojiGuessApp";
+import FlashcardFlipApp from "./components/Games/components/FlashcardCard/FlashcardFlipApp";
+import WordSortingApp from "./components/Games/components/WordSortingBoard/WordSortingApp";
 
 function Home() {
   return (
@@ -52,7 +60,7 @@ function AppContent() {
   return (
     <div className="main">
       <Header />
-      <ScrollingHeading />
+      {/* <ScrollingHeading /> */}
       {location.pathname === "/" && (
         <HeaderSection description="Discover exciting English sentences every day and practice real-life communication for confident speaking!" />
       )}
@@ -74,6 +82,20 @@ function AppContent() {
           element={<SentenceBuilderApp />}
         />
         <Route path="/games/picture-word" element={<PictureWordApp />} />
+        <Route
+          path="/games/spelling-challenge"
+          element={<SpellingChallengeApp />}
+        />
+        <Route
+          path="/games/listening-challenge"
+          element={<ListeningChallengeApp />}
+        />
+        <Route path="/games/word-unscramble" element={<WordUnscrambleApp />} />
+        <Route path="/games/gramma-fixer" element={<GrammarFixerApp />} />
+        <Route path="/games/cloze-test" element={<ClozeTestApp />} />
+        <Route path="/games/emoji-guess" element={<EmojiGuessApp />} />
+        <Route path="/games/flashcard-flip" element={<FlashcardFlipApp />} />
+        <Route path="/games/word-sorting" element={<WordSortingApp />} />
       </Routes>
       <Footer />
       {!showChat && (

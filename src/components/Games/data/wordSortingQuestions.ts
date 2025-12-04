@@ -1,0 +1,319 @@
+// src/data/wordSortingQuestions.ts
+import { WordSortingSet } from "../types/quiz";
+
+export const wordSortingSets: WordSortingSet[] = [
+  // ------------------------------------
+  //          BEGINNER – SET 1
+  // ------------------------------------
+  {
+    id: 1,
+    level: "beginner",
+    words: [
+      { id: "b1-n1", word: "bird", category: "noun" },
+      { id: "b1-n2", word: "tree", category: "noun" },
+      { id: "b1-n3", word: "water", category: "noun" },
+
+      { id: "b1-v1", word: "walk", category: "verb" },
+      { id: "b1-v2", word: "talk", category: "verb" },
+      { id: "b1-v3", word: "jump", category: "verb" },
+
+      { id: "b1-a1", word: "warm", category: "adjective" },
+      { id: "b1-a2", word: "slow", category: "adjective" },
+      { id: "b1-a3", word: "funny", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //          BEGINNER – SET 2
+  // ------------------------------------
+  {
+    id: 2,
+    level: "beginner",
+    words: [
+      { id: "b2-n1", word: "cup", category: "noun" },
+      { id: "b2-n2", word: "rain", category: "noun" },
+      { id: "b2-n3", word: "street", category: "noun" },
+
+      { id: "b2-v1", word: "open", category: "verb" },
+      { id: "b2-v2", word: "wash", category: "verb" },
+      { id: "b2-v3", word: "smile", category: "verb" },
+
+      { id: "b2-a1", word: "bright", category: "adjective" },
+      { id: "b2-a2", word: "warm", category: "adjective" },
+      { id: "b2-a3", word: "cute", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //          BEGINNER – SET 3
+  // ------------------------------------
+  {
+    id: 3,
+    level: "beginner",
+    words: [
+      { id: "b3-n1", word: "fish", category: "noun" },
+      { id: "b3-n2", word: "balloon", category: "noun" },
+      { id: "b3-n3", word: "shoe", category: "noun" },
+
+      { id: "b3-v1", word: "push", category: "verb" },
+      { id: "b3-v2", word: "pull", category: "verb" },
+      { id: "b3-v3", word: "call", category: "verb" },
+
+      { id: "b3-a1", word: "soft", category: "adjective" },
+      { id: "b3-a2", word: "strong", category: "adjective" },
+      { id: "b3-a3", word: "clean", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //          BEGINNER – SET 4
+  // ------------------------------------
+  {
+    id: 4,
+    level: "beginner",
+    words: [
+      { id: "b4-n1", word: "flower", category: "noun" },
+      { id: "b4-n2", word: "river", category: "noun" },
+      { id: "b4-n3", word: "sun", category: "noun" },
+
+      { id: "b4-v1", word: "write", category: "verb" },
+      { id: "b4-v2", word: "clap", category: "verb" },
+      { id: "b4-v3", word: "draw", category: "verb" },
+
+      { id: "b4-a1", word: "kind", category: "adjective" },
+      { id: "b4-a2", word: "wide", category: "adjective" },
+      { id: "b4-a3", word: "light", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //          BEGINNER – SET 5
+  // ------------------------------------
+  {
+    id: 5,
+    level: "beginner",
+    words: [
+      { id: "b5-n1", word: "chair", category: "noun" },
+      { id: "b5-n2", word: "wall", category: "noun" },
+      { id: "b5-n3", word: "ice", category: "noun" },
+
+      { id: "b5-v1", word: "cook", category: "verb" },
+      { id: "b5-v2", word: "wave", category: "verb" },
+      { id: "b5-v3", word: "listen", category: "verb" },
+
+      { id: "b5-a1", word: "cold", category: "adjective" },
+      { id: "b5-a2", word: "happy", category: "adjective" },
+      { id: "b5-a3", word: "busy", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       INTERMEDIATE – SET 1
+  // ------------------------------------
+  {
+    id: 6,
+    level: "intermediate",
+    words: [
+      { id: "i1-n1", word: "moment", category: "noun" },
+      { id: "i1-n2", word: "problem", category: "noun" },
+      { id: "i1-n3", word: "planet", category: "noun" },
+
+      { id: "i1-v1", word: "describe", category: "verb" },
+      { id: "i1-v2", word: "promise", category: "verb" },
+      { id: "i1-v3", word: "prepare", category: "verb" },
+
+      { id: "i1-a1", word: "serious", category: "adjective" },
+      { id: "i1-a2", word: "rare", category: "adjective" },
+      { id: "i1-a3", word: "helpful", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       INTERMEDIATE – SET 2
+  // ------------------------------------
+  {
+    id: 7,
+    level: "intermediate",
+    words: [
+      { id: "i2-n1", word: "memory", category: "noun" },
+      { id: "i2-n2", word: "culture", category: "noun" },
+      { id: "i2-n3", word: "service", category: "noun" },
+
+      { id: "i2-v1", word: "remind", category: "verb" },
+      { id: "i2-v2", word: "explore", category: "verb" },
+      { id: "i2-v3", word: "borrow", category: "verb" },
+
+      { id: "i2-a1", word: "creative", category: "adjective" },
+      { id: "i2-a2", word: "sharp", category: "adjective" },
+      { id: "i2-a3", word: "brave", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       INTERMEDIATE – SET 3
+  // ------------------------------------
+  {
+    id: 8,
+    level: "intermediate",
+    words: [
+      { id: "i3-n1", word: "system", category: "noun" },
+      { id: "i3-n2", word: "energy", category: "noun" },
+      { id: "i3-n3", word: "nation", category: "noun" },
+
+      { id: "i3-v1", word: "interrupt", category: "verb" },
+      { id: "i3-v2", word: "deliver", category: "verb" },
+      { id: "i3-v3", word: "expand", category: "verb" },
+
+      { id: "i3-a1", word: "difficult", category: "adjective" },
+      { id: "i3-a2", word: "gentle", category: "adjective" },
+      { id: "i3-a3", word: "formal", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       INTERMEDIATE – SET 4
+  // ------------------------------------
+  {
+    id: 9,
+    level: "intermediate",
+    words: [
+      { id: "i4-n1", word: "traffic", category: "noun" },
+      { id: "i4-n2", word: "concept", category: "noun" },
+      { id: "i4-n3", word: "direction", category: "noun" },
+
+      { id: "i4-v1", word: "compliment", category: "verb" },
+      { id: "i4-v2", word: "attend", category: "verb" },
+      { id: "i4-v3", word: "collect", category: "verb" },
+
+      { id: "i4-a1", word: "basic", category: "adjective" },
+      { id: "i4-a2", word: "common", category: "adjective" },
+      { id: "i4-a3", word: "proud", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       INTERMEDIATE – SET 5
+  // ------------------------------------
+  {
+    id: 10,
+    level: "intermediate",
+    words: [
+      { id: "i5-n1", word: "ability", category: "noun" },
+      { id: "i5-n2", word: "region", category: "noun" },
+      { id: "i5-n3", word: "arrival", category: "noun" },
+
+      { id: "i5-v1", word: "notice", category: "verb" },
+      { id: "i5-v2", word: "realise", category: "verb" },
+      { id: "i5-v3", word: "compete", category: "verb" },
+
+      { id: "i5-a1", word: "friendly", category: "adjective" },
+      { id: "i5-a2", word: "modern", category: "adjective" },
+      { id: "i5-a3", word: "active", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       ADVANCED – SET 1
+  // ------------------------------------
+  {
+    id: 11,
+    level: "advanced",
+    words: [
+      { id: "a1-n1", word: "obstacle", category: "noun" },
+      { id: "a1-n2", word: "agenda", category: "noun" },
+      { id: "a1-n3", word: "reputation", category: "noun" },
+
+      { id: "a1-v1", word: "accelerate", category: "verb" },
+      { id: "a1-v2", word: "clarify", category: "verb" },
+      { id: "a1-v3", word: "investigate", category: "verb" },
+
+      { id: "a1-a1", word: "precise", category: "adjective" },
+      { id: "a1-a2", word: "intense", category: "adjective" },
+      { id: "a1-a3", word: "significant", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       ADVANCED – SET 2
+  // ------------------------------------
+  {
+    id: 12,
+    level: "advanced",
+    words: [
+      { id: "a2-n1", word: "foundation", category: "noun" },
+      { id: "a2-n2", word: "symptom", category: "noun" },
+      { id: "a2-n3", word: "analysis", category: "noun" },
+
+      { id: "a2-v1", word: "illustrate", category: "verb" },
+      { id: "a2-v2", word: "modify", category: "verb" },
+      { id: "a2-v3", word: "acquire", category: "verb" },
+
+      { id: "a2-a1", word: "rigid", category: "adjective" },
+      { id: "a2-a2", word: "optimal", category: "adjective" },
+      { id: "a2-a3", word: "accurate", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       ADVANCED – SET 3
+  // ------------------------------------
+  {
+    id: 13,
+    level: "advanced",
+    words: [
+      { id: "a3-n1", word: "ethics", category: "noun" },
+      { id: "a3-n2", word: "paradox", category: "noun" },
+      { id: "a3-n3", word: "criteria", category: "noun" },
+
+      { id: "a3-v1", word: "sustain", category: "verb" },
+      { id: "a3-v2", word: "revise", category: "verb" },
+      { id: "a3-v3", word: "resolve", category: "verb" },
+
+      { id: "a3-a1", word: "ambitious", category: "adjective" },
+      { id: "a3-a2", word: "comprehensive", category: "adjective" },
+      { id: "a3-a3", word: "rational", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       ADVANCED – SET 4
+  // ------------------------------------
+  {
+    id: 14,
+    level: "advanced",
+    words: [
+      { id: "a4-n1", word: "innovation", category: "noun" },
+      { id: "a4-n2", word: "infrastructure", category: "noun" },
+      { id: "a4-n3", word: "hypothesis", category: "noun" },
+
+      { id: "a4-v1", word: "formulate", category: "verb" },
+      { id: "a4-v2", word: "coordinate", category: "verb" },
+      { id: "a4-v3", word: "interpret", category: "verb" },
+
+      { id: "a4-a1", word: "versatile", category: "adjective" },
+      { id: "a4-a2", word: "ambiguous", category: "adjective" },
+      { id: "a4-a3", word: "strategic", category: "adjective" },
+    ],
+  },
+
+  // ------------------------------------
+  //       ADVANCED – SET 5
+  // ------------------------------------
+  {
+    id: 15,
+    level: "advanced",
+    words: [
+      { id: "a5-n1", word: "transaction", category: "noun" },
+      { id: "a5-n2", word: "transition", category: "noun" },
+      { id: "a5-n3", word: "framework", category: "noun" },
+
+      { id: "a5-v1", word: "allocate", category: "verb" },
+      { id: "a5-v2", word: "simulate", category: "verb" },
+      { id: "a5-v3", word: "facilitate", category: "verb" },
+
+      { id: "a5-a1", word: "robust", category: "adjective" },
+      { id: "a5-a2", word: "sustainable", category: "adjective" },
+      { id: "a5-a3", word: "efficient", category: "adjective" },
+    ],
+  },
+];
