@@ -10,11 +10,22 @@ const ConversationDetails: React.FC = () => {
   const index = Number(id);
   const group = conversations[index];
 
+  const speakText = (text: string) => {
+    if (!window.speechSynthesis) {
+      alert("Speech synthesis not supported in this browser.");
+      return;
+    }
+    speechSynthesis.cancel();
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    speechSynthesis.speak(utterance);
+  };
+
   if (!group) return <div>Conversation group not found</div>;
 
   return (
     <div style={{ flex: 1, padding: "10px" }}>
-      <Button variant="link" onClick={() => navigate('/convertion')}>
+      <Button variant="link" onClick={() => navigate("/convertion")}>
         ← Back
       </Button>
       <h2>
@@ -22,17 +33,27 @@ const ConversationDetails: React.FC = () => {
           {group.title}
         </Badge>
       </h2>
-      {group.conversations.map((conv) => (
+      {group.conversations.map((conv, i) => (
         <Card key={conv.id} className="mb-3">
           <Card.Header>{`Conversation ${conv.id}`}</Card.Header>
           <Card.Body>
             <div className="row">
-                <div className="col-md-4 text-center">
-                    <img src={group.image} alt="conversation" className="lesson-img" />
-                </div>
+              <div className="col-md-4 text-center">
+                <img
+                  src={group.image}
+                  alt="conversation"
+                  className="lesson-img"
+                />
+              </div>
               {/* English */}
               <div className="col-md-4">
                 <h6 className="text-decoration-underline">English</h6>
+                <button
+                  onClick={() => speakText(conv.lines.join(" "))}
+                  className="btn btn-info"
+                >
+                  🔊 Listen
+                </button>
                 {conv.lines.map((line, i) => (
                   <Card.Text key={i}>{line}</Card.Text>
                 ))}
