@@ -1,11 +1,13 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level } from "../../types/quiz";
-import { sentenceQuestions } from "../../data/sentences";
+// import { sentenceQuestions } from "../../data/sentences";
 import LevelSelector from "../LevelSelector";
 import SentenceBuilderCard from "./SentenceBuilderCard";
 import { useTheme } from "../../../context/ThemeContext";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
+import { SentenceQuestion } from "../../types/sentence";
 
 const SentenceBuilderApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -18,14 +20,45 @@ const SentenceBuilderApp: React.FC = () => {
   const [score, setScore] = useState<number>(0);
   const [finished, setFinished] = useState<boolean>(false);
   const [bestScore, setBestScore] = useState<number | null>(null);
+  const [sentenceBuilder, setSentenceBuilder] = useState<SentenceQuestion[]>(
+    []
+  );
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   const levelQuestions = useMemo(
     () =>
       selectedLevel
-        ? sentenceQuestions.filter((q) => q.level === selectedLevel)
+        ? sentenceBuilder.filter((q) => q.level === selectedLevel)
         : [],
     [selectedLevel]
   );
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/sentenceBuilder.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setSentenceBuilder(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   const totalQuestions = levelQuestions.length;
   const currentQuestion =

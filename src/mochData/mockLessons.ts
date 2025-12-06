@@ -1,4 +1,6 @@
-export const lessons = [
+import { HomeLesson } from "../types/types";
+
+export const lessons: HomeLesson[] = [
   {
     imageSrc: "/images/english-basic.png",
     title: "English Speaking Basics",

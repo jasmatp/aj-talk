@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Badge, Button, Form, Modal, Pagination, Table } from "react-bootstrap";
 import { LessonContent, LessonLink } from "../../types/types";
-import { lessonLinks } from "../../mochData/lessonLinks";
+import MultiCircleSpinner from "../MultiCircleSpinner";
+// import { lessonLinks } from "../../mochData/lessonLinks";
 
 declare global {
   interface Window {
@@ -22,6 +23,9 @@ const LessonDetail: React.FC = () => {
   const [selectedLesson, setSelectedLesson] = useState<LessonContent | null>(
     null
   );
+
+  const [lessonLinks, setLessonLinks] = useState<LessonLink[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const indexOfLastLesson = currentPage * lessonsPerPage;
   const indexOfFirstLesson = indexOfLastLesson - lessonsPerPage;
@@ -45,6 +49,19 @@ const LessonDetail: React.FC = () => {
     setSelectedLesson(lessionContent);
     setShowModal(true);
   };
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/basic-englis/basicEnglish.json"
+    )
+      .then((res) => res.json())
+      .then((data) => setLessonLinks(data))
+      .finally(() => setLoading(false));
+  }, []);
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
 
   const handleClose = () => setShowModal(false);
 
@@ -97,7 +114,7 @@ const LessonDetail: React.FC = () => {
       ) : (
         <div className="container justify-content-start">
           <Button onClick={handleBack} className="text-start" variant="link">
-           ← Back
+            ← Back
           </Button>
           <Table striped bordered hover responsive="md" className="mb-0">
             <thead>

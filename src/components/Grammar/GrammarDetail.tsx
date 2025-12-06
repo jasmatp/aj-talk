@@ -1,18 +1,42 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { grammarLession } from "../../mochData/grammarData";
-import { GrammarLesson } from "../../types/types";
+// import { grammarLession } from "../../mochData/grammarData";
+import { GrammarLesson, Question } from "../../types/types";
 import { Badge, Button } from "react-bootstrap";
-import { practiceQuestions } from "../../mochData/grammarQuiz";
+// import { practiceQuestions } from "../../mochData/grammarQuiz";
 import PracticeQuiz from "./PracticeQuiz";
+import { useGrammar } from "../../hooks/useGrammar";
+import MultiCircleSpinner from "../MultiCircleSpinner";
+
+type GrammarQuizMap = Record<string, Question[]>;
 
 const GrammarDetail: React.FC = () => {
   const { idx } = useParams<{ idx: string }>();
   const lessonIndex = Number(idx);
+  const { grammarData, loading } = useGrammar();
+  const [grammarQuiz, setGrammarQuiz] = useState<GrammarQuizMap>({});
+  const [quizLoading, setQuizLoading] = useState(true);
   const [practice, setPractice] = useState(false);
   const navigate = useNavigate();
 
-  const lesson = grammarLession[lessonIndex];
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/grammar/grammarQuiz.json"
+    )
+      .then((res) => res.json())
+      .then((data) => setGrammarQuiz(data[0]))
+      .finally(() => setQuizLoading(false));
+  }, []);
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (quizLoading) {
+    return <MultiCircleSpinner fullScreen size={80} />;
+  }
+
+  const lesson = grammarData[lessonIndex];
 
   if (!lesson) return <div>Lesson not found</div>;
 
@@ -21,7 +45,7 @@ const GrammarDetail: React.FC = () => {
   };
 
   // Get practice questions by lesson title (fallback to empty array)
-  const questionsForLesson = practiceQuestions[lesson.title] || [];
+  const questionsForLesson = grammarQuiz[lesson.title] ?? [];
 
   return (
     <>

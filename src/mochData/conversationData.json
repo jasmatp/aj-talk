@@ -1,0 +1,2912 @@
+[
+  {
+    "title": "Meeting | Conversations",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/meeting.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Hello. How are you?",
+          "S2: Pretty well, thanks. And you?",
+          "S1: I'm fine, thanks.",
+          "S2: It's good to see you again."
+        ],
+        "linesGuj": [
+          " S1: હેલો. તમે કેમ છો?",
+          "S2: બહુ સારું, આભાર. અને તમે?",
+          "S1: હું મજા માં છું, આભાર.",
+          "S2: તમને ફરી મળીને આનંદ થયો."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Where have you been lately?",
+          "S2: I've been busy with extra work.",
+          "S1: I've had a lot of work to do too.",
+          "S2: Yes. I haven't seen you for quite a while either."
+        ],
+        "linesGuj": [
+          "S1: તમે આજકાલ ક્યાં હતા?",
+          "S2: હું વધારાના કામથી વ્યસ્ત હતો.",
+          "S1: મને પણ ઘણું કામ કરવાનું હતું.",
+          "S2: હા. મેં પણ તમને ઘણા સમયથી જોયા નથી."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Hello. How's everything?",
+          "S2: Fine, thanks. How's everything with you?",
+          "S1: Just fine. What's new?",
+          "S2: Nothing much."
+        ],
+        "linesGuj": [
+          "S1: હેલો. બધું કેવી રીતે છે?",
+          "S2: સારું છે, આભાર. તમારા બધું કેવી રીતે છે?",
+          "S1: બધું બરાબર છે. શું નવું છે?",
+          "S2: ખાસ કંઈ નથી."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: I'm pleased to meet you.",
+          "S2: The pleasure is mine.",
+          "S1: I've heard John speak about you often.",
+          "S2: Only good things, I hope."
+        ],
+        "linesGuj": [
+          "S1: તમને મળીને આનંદ થયો.",
+          "S2: આનંદ મને પણ છે.",
+          "S1: મેં જ્હોનને તમારા વિશે ઘણી વાર વાત કરતાં સાંભળી છે.",
+          "S2: આશા છે કે સારા જ શબ્દો હશે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Look who's here!",
+          "S2: Are you surprised to see me?",
+          "S1: Sure. I thought you were in Europe.",
+          "S2: I was, but I got back yesterday."
+        ],
+        "linesGuj": [
+          "S1: જુઓ, કોણ અહીં છે!",
+          "S2: તમને મને જોઈને આશ્ચર્ય થયું?",
+          "S1: હા. મને લાગ્યું કે તમે યુરોપમાં છો.",
+          "S2: હુ્ ત્યાં હતો, પણ ગઈકાલે પરત આવી ગયો."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Parting | Conversations",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/parting.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Well, I have an appointment now.",
+          "S2: I'm in quite a hurry too.",
+          "S1: Good to see you. Goodbye.",
+          "S2: Goodbye. Take care of yourself."
+        ],
+        "linesGuj": [
+          "S1: હવે મારી પાસે મળવાનું નિયુક્ત સમય છે.",
+          "S2: હું પણ ખૂબ જ તાત્કાલિકમાં છું.",
+          "S1: તમને જોઈને આનંદ થયો. અલવિદા.",
+          "S2: અલવિદા. તમારું ધ્યાન રાખજો."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: I guess I'd better go now.",
+          "S2: I've got to be going now too.",
+          "S1: In that case, I'll be seeing you.",
+          "S2: So long. See you later."
+        ],
+        "linesGuj": [
+          "S1: મને લાગે છે હવે જવું જોઈએ.",
+          "S2: મને પણ હવે જવું છે.",
+          "S1: તો પછી, ફરી મળશું.",
+          "S2: અલવિદા. પછી મળશું."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: It's getting late, and I have to go now.",
+          "S2: We're sorry you have to leave.",
+          "S1: Please excuse me, won't you?",
+          "S2: Certainly. Come back soon."
+        ],
+        "linesGuj": [
+          "S1: હવે મોડું થઈ રહ્યું છે, મને જવું જ છે.",
+          "S2: તમને જવું પડે તેવા માટે અમે દુઃખી છીએ.",
+          "S1: કૃપા કરી મને માફ કરો, નહિ કે?",
+          "S2: જરૂર. વહેલું પાછા આવજો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: I'm glad to have met you.",
+          "S2: Thank you. It was nice to have seen you.",
+          "S1: I hope we can get together again.",
+          "S2: Yes. I'll be looking forward to it."
+        ],
+        "linesGuj": [
+          "S1: તમને મળીને મને આનંદ થયો.",
+          "S2: આભાર. તમને જોઈને સારું લાગ્યું.",
+          "S1: આશા છે કે અમે ફરી મળશું.",
+          "S2: હા. હું તેનો આતુરતાથી ઇંતઝાર કરીશ."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: I think I have to leave now.",
+          "S2: Must you go so soon?",
+          "S1: I'm afraid I really have to.",
+          "S2: Well, it was fun to get together again."
+        ],
+        "linesGuj": [
+          "S1: મને લાગે છે કે હવે જવું પડશે.",
+          "S2: તમને એટલો વહેલું જવું જ છે?",
+          "S1: મને ખરેખર જવું જ પડશે.",
+          "S2: હા, ફરી મળીને મજા આવી."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Do You Speak English?",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/speaking.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Do you speak English?",
+          "S2: Only a little, and not very well.",
+          "S1: Do you know many words?",
+          "S2: No, I don't. Only the important words."
+        ],
+        "linesGuj": [
+          "S1: તમે અંગ્રેજી બોલો છો?",
+          "S2: ફક્ત થોડું અને એટલું સારું નથી.",
+          "S1: તમે ઘણા શબ્દો જાણો છો?",
+          "S2: ના, હું નથી જાણતો. ફક્ત મહત્વપૂર્ણ શબ્દો."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Does your brother speak English?",
+          "S2: Well, he speaks a little English.",
+          "S1: Do your sisters speak English?",
+          "S2: Yes, they do. They speak it very well."
+        ],
+        "linesGuj": [
+          "S1: તમારા ભાઇ અંગ્રેજી બોલે છે?",
+          "S2: હા, તે થોડું અંગ્રેજી બોલે છે.",
+          "S1: તમારી બહેનો અંગ્રેજી બોલે છે?",
+          "S2: હા, તે ખૂબ સારું બોલે છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Can I help you?",
+          "S2: Yes. I speak only French.",
+          "S1: I'm sorry, but I don't understand French.",
+          "S2: Please find someone who speaks French."
+        ],
+        "linesGuj": [
+          "S1: શું હું તમારી મદદ કરી શકું?",
+          "S2: હું ફક્ત ફ્રેંચ બોલું છું.",
+          "S1: માફ કરશો, પરંતુ હું ફ્રેંચ નથી સમજો.",
+          "S2: કૃપા કરીને કોઇ ફ્રેંચ બોલનાર શોધો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What's the matter?",
+          "S2: I don't speak English.",
+          "S1: Do you need some kind of help?",
+          "S2: Yes, but I can't explain it in English."
+        ],
+        "linesGuj": [
+          "S1: સમસ્યા શું છે?",
+          "S2: હું અંગ્રેજી નથી બોલતો.",
+          "S1: શું તમને મદદ જોઈએ?",
+          "S2: હા, પણ હું તેને અંગ્રેજીમાં સમજાવી શકતો નથી."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Do you think English is easy?",
+          "S2: No, I don't.",
+          "S1: Why don't you think so?",
+          "S2: Because I don't understand it."
+        ],
+        "linesGuj": [
+          "S1: તમે શું માનો છો કે અંગ્રેજી સહેલી છે?",
+          "S2: ના, હું એવું નથી માનતો.",
+          "S1: તમે શું માટે એવું નથી માનતા?",
+          "S2: કારણ કે હું તેને સમજી શકતો નથી."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Daily Activities",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/daily.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What time do you get up?",
+          "S2: I get up about seven fifteen.",
+          "S1: What time is breakfast at your house?",
+          "S2: Breakfast is always at a quarter to eight."
+        ],
+        "linesGuj": [
+          "S1: તમે ક્યારે ઊઠો છો?",
+          "S2: હું લગભગ સાત પંદર પર ઊઠું છું.",
+          "S1: તમારા ઘરમાં નાસ્તો કેટલા વાગ્યાનો હોય છે?",
+          "S2: નાસ્તો હંમેશા આઠ કલાકના પંદર મિનિટ પહેલા હોય છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What do you usually do in the afternoon?",
+          "S2: We usually study or read.",
+          "S1: What do you generally do over the weekend?",
+          "S2: We generally enjoy sports and visit friends."
+        ],
+        "linesGuj": [
+          "S1: બપોરે તમે સામાન્ય રીતે શું કરો છો?",
+          "S2: અમે સામાન્ય રીતે અભ્યાસ કરીએ છીએ અથવા વાંચીએ છીએ.",
+          "S1: છૂટ્ટીના દિવસોમાં તમે સામાન્ય રીતે શું કરો છો?",
+          "S2: અમે સામાન્ય રીતે રમત ગમતમાં આનંદ માણીએ છીએ અને મિત્રોનો મુલાકાત લઈએ છીએ."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Do you ever go to museums?",
+          "S2: I go every now and then.",
+          "S1: What kinds of things do you like to see?",
+          "S2: I enjoy seeing statues and old paintings."
+        ],
+        "linesGuj": [
+          "S1: શું તમે ક્યારેક મ્યુઝિયમ જાઓ છો?",
+          "S2: હું ક્યારેક ક્યારેક જાઉં છું.",
+          "S1: તમે કયા પ્રકારની વસ્તુઓ જોવી પસંદ કરો છો?",
+          "S2: મને પ્રતિમાઓ અને જૂની ચિત્રકળાઓ જોવી ગમેછે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Do you watch television very often?",
+          "S2: Well, I sometimes watch it in the evening.",
+          "S1: Did you watch television last night?",
+          "S2: Yes, I did. I saw several good programs."
+        ],
+        "linesGuj": [
+          "S1: શું તમે ટેલિવિઝન ઘણીવાર જુઓ છો?",
+          "S2: હું ક્યારેક સાંજે જોવુ છું.",
+          "S1: તમને ગઈકાલે રાત્રે ટેલિવિઝન જોયું હતું?",
+          "S2: હા, મેં જોયું. મેં ઘણા સારા કાર્યક્રમો જોયા."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Do you ever listen to the radio?",
+          "S2: Certainly. In fact, I listen practically every night.",
+          "S1: What’s your favorite program?",
+          "S2: I like the Eleven O’clock Theater best of all."
+        ],
+        "linesGuj": [
+          "S1: શું તમે ક્યારેક રેડિયો સાંભળો છો?",
+          "S2: હા, હું દરરોજ રાત્રે લગભગ રેડિયો સાંભળું છું.",
+          "S1: તમારો મનપસંદ કાર્યક્રમ કયો છે?",
+          "S2: મને અગિયાર વાગ્યાનું થિયેટર સૌથી વધુ ગમે છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asking about Activities",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/asking.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: When did you eat lunch today?",
+          "S2: I ate from twelve to one.",
+          "S1: Where did you have your lunch?",
+          "S2: I had it at Pete's Restaurant today."
+        ],
+        "linesGuj": [
+          "S1: તમે આજે બપોરના જમવાનું ક્યારે ખાધું?",
+          "S2: હું બારથી એક વાગ્યા સુધી ખાધું.",
+          "S1: તમારે જમવાનું ક્યાં ખાધું?",
+          "S2: હું આજે પીટના રેસ્ટોરેન્ટમાં ખાધું."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Did you have a good time at the party?",
+          "S2: We had a wonderful time.",
+          "S1: It was really a lot of fun.",
+          "S2: We ought to have another party like that soon."
+        ],
+        "linesGuj": [
+          "S1: પાર્ટીમાં તમારું સમય સારો ગયો?",
+          "S2: અમે ખૂબ જ મોજ કર્યો",
+          "S1: તે ખરેખર ખૂબ મજાનું હતું",
+          "S2: અમે એવી જ બીજી પાર્ટી ટૂંક સમયમાં રાખવી જોઈએ"
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Did you work at home last night?",
+          "S2: Yes. I washed the dishes and cleaned the house.",
+          "S1: Did you do anything else?",
+          "S2: Yes. I listened to the radio for a while."
+        ],
+        "linesGuj": [
+          "S1: તમે ગઈકાલે રાત્રે ઘરે કામ કર્યુ?",
+          "S2: હા. મેં વાસણો ધોયા અને ઘર સાફ કર્યું.",
+          "S1: બીજી કંઈ કર્યું?",
+          "S2: હાં. થોડો સમય માટે રેડિયો સાંભળ્યો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Did you have a good time last night?",
+          "S2: Yes. I had a wonderful time.",
+          "S1: You'll probably have fun tomorrow too.",
+          "S2: I'm sure I'll have an excellent time."
+        ],
+        "linesGuj": [
+          "S1: ગઈકાલે તારો સમય સારો ગયો?",
+          "S2: હા. મને ઘણું મોજ આવ્યું.",
+          "S1: શાઈદ તને કાલ પણ મજાનું થશે.",
+          "S2: હું નિશ્ચિત છું કે મને ઉત્તમ મોજ આવશે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Where did you go?",
+          "S2: We went to a beautiful beach.",
+          "S1: Did you swim in the ocean?",
+          "S2: Yes, but we swam close to the shore!"
+        ],
+        "linesGuj": [
+          "S1: તમે ક્યાં ગયા?",
+          "S2: અમે એક સુંદર દરિયાકિનારે ગયા.",
+          "S1: શું તમે સમુદ્રમાં તર્યા?",
+          "S2: હા, પણ અમે કિનારા પાસે તર્યાં."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "What Did You Do?",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/what-did-you-do.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where did you go after lunch?",
+          "S2: I went to the public library.",
+          "S1: Which one did you go to?",
+          "S2: I went to the one at 42nd Street."
+        ],
+        "linesGuj": [
+          "S1: તમે બપોરના જમ્યાં પછી ક્યાં ગયા?",
+          "S2: હું પબ્લિક લાઇબ્રેરી ગયો હતો.",
+          "S1: કઈ લાઇબ્રેરી ગયા હતા?",
+          "S2: હું 42મી સ્ટ્રીટ પર આવેલી લાઇબ્રેરી ગયો હતો."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What did you do last night?",
+          "S2: I watched television.",
+          "S1: Where did you watch it?",
+          "S2: I watched it here in the recreation room."
+        ],
+        "linesGuj": [
+          "S1: ગઈકાલે રાત્રે તમે શું કર્યું?",
+          "S2: મેં ટેલિવિઝન જોયું.",
+          "S1: તમે ક્યાં જોઈ હતી?",
+          "S2: હું અહીં રિક્રીએશન રૂમમાં જોયું."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Was that television program interesting?",
+          "S2: I thought it was very boring.",
+          "S1: What did your friends think of it?",
+          "S2: They were bored too."
+        ],
+        "linesGuj": [
+          "S1: શું તે ટેલિવિઝન કાર્યક્રમ રસપ્રદ હતો?",
+          "S2: મને તે બહુ નિરાશાજનક લાગ્યું.",
+          "S1: તમારા મિત્રો તેને કેવો લાગ્યું?",
+          "S2: મિત્રો પણ બોર થયાં."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: I went to a lecture last night.",
+          "S2: What was it about?",
+          "S1: Society and modern art.",
+          "S2: I wish I'd gone with you."
+        ],
+        "linesGuj": [
+          "S1: હું ગઈકાલે રાત્રે એક લેકચર પર ગયો હતો.",
+          "S2: તે કયા વિશે હતું?",
+          "S1: સમાજ અને આધુનિક કળા વિશે.",
+          "S2: હું ઈચ્છું કે હું તારા સાથે ગયો હોત."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: We went to the movies the night before last.",
+          "S2: What did you see?",
+          "S1: We saw a film about cowboys and Indians.",
+          "S2: Don't you ever get tired of those westerns?"
+        ],
+        "linesGuj": [
+          "S1: અમે એક દિવસ પહેલાંની રાત્રે મૂવી જોયી.",
+          "S2: શું જોયું?",
+          "S1: અમે કોવબોય અને ઇન્ડિયન વિશે એક ફિલ્મ જોઈ.",
+          "S2: શું તને તે પશ્ચિમી ફિલ્મોથી કદી થાક લાગ્યો નથી?"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Talking about Activities",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/talking-activities.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where have you been?",
+          "S2: I've been to the movies.",
+          "S1: What did you see?",
+          "S2: I saw an Italian movie about life in Sicily."
+        ],
+        "linesGuj": [
+          "S1: તમે ક્યાં ગયા હતા?",
+          "S2: હું મૂવી પર ગયો હતો.",
+          "S1: તમને શું જોયું?",
+          "S2: મેં સિસિલી જીવન વિશે એક ઈટાલિયન મૂવી જોઈ."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What places have you seen so far?",
+          "S2: I've been to almost all the museums.",
+          "S1: Have you gone to any parks yet?",
+          "S2: No, I haven't. I haven't had enough time for that."
+        ],
+        "linesGuj": [
+          "S1: અત્યારે સુધી તમે કયા સ્થળો જોયા છે?",
+          "S2: હું લગભગ બધાં મ્યુઝિયમો ગયા છું.",
+          "S1: શું તમે કોઈ પાર્ક ગયા છો?",
+          "S2: ના, હું નથી ગયો. મને માટે પૂરતો સમય મળ્યો નથી."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Let's meet at your house tonight.",
+          "S2: O.K. That sounds fine.",
+          "S1: I've forgotten how to get to your house.",
+          "S2: Just take the Tenth Street bus to Third Avenue."
+        ],
+        "linesGuj": [
+          "S1: ચાલો આજે રાત્રે તમારા ઘરમાં મળીશું.",
+          "S2: ઠીક છે. તે સારું લાગે છે.",
+          "S1: મને ભૂલી ગયું કે તમારા ઘરના માર્ગ પર કેવી રીતે જવું.",
+          "S2: કેવળ ત્રીજા એવન્યૂ તરફ દસમી માર્ગની બસ લો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Let's watch television for a while.",
+          "S2: All right, but let's finish this work first.",
+          "S1: Oh, let's not do the work right now.",
+          "S2: You're just lazy, in my opinion."
+        ],
+        "linesGuj": [
+          "S1: ચાલો થોડા સમય માટે ટેલિવિઝન જોયા જઇએ",
+          "S2: ઠીક છે, પણ પહેલા આ કામ પૂરૂં કરીએ",
+          "S1: અરે, ચાલો હવે કામ ના કરીએ",
+          "S2: મારી opinion પ્રમાણે તમે ફક્ત આળસુ છો"
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: I can't hear the television set.",
+          "S2: Why don't you sit closer?",
+          "S1: I'm right beside it now.",
+          "S2: Why don't you turn up the volume?"
+        ],
+        "linesGuj": [
+          "S1: હું ટેલિવિઝનનું અવાજ સાંભળી શકતો નથી",
+          "S2: તું નજીક કેમ નથી બેસતો?",
+          "S1: હું હવે તેના બાજુમાં જ બેઠો છું",
+          "S2: તમે અવાજ કેમ વધારતા નથી?"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Evening Activities",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/evening-activities.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Let's go the movies tonight.",
+          "S2: Fine. I don't have anything else to do.",
+          "S1: What would you like to see?",
+          "S2: Why don't we look in the movie section of the newspaper?"
+        ],
+        "linesGuj": [
+          "S1: ચાલો આજે રાત્રે મૂવી પર જઈએ.",
+          "S2: ઠીક છે. મને બીજું કંઈ કરવાનું નથી.",
+          "S1: શું જોવા માંગો છો?",
+          "S2: ચાલો અખબારના મૂવી વિભાગમાં જોયા લઈએ."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Where are you going tonight?",
+          "S2: I'm going to the political rally for Senator Smith.",
+          "S1: Sounds interesting. Can we go with you?",
+          "S2: Certainly. Meet me here at eight fifteen."
+        ],
+        "linesGuj": [
+          "S1: તમે આજે રાત્રે ક્યાં જઈ રહ્યા છો?",
+          "S2: હું સેનેટર સ્મિથ માટે રાજકીય રેલી પર જઈ રહ્યો છું.",
+          "S1: આ રસપ્રદ લાગે છે. શું અમે સાથે જઈ શકીએ?",
+          "S2: બિલકુલ. આઠ પંદર મિનિટે અહીં મળો."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Would you like to go to the concert with me tonight?",
+          "S2: Yes. Thank you very much.",
+          "S1: Would you like to go at about eight o'clock?",
+          "S2: That would be fine."
+        ],
+        "linesGuj": [
+          "S1: શું તમે આજ રાત્રે મારી સાથે કન્સર્ટ માટે જશો?",
+          "S2: હા. ખૂબ આભાર.",
+          "S1: શું તમે લગભગ આઠ વાગ્યે જવા માંગો છો?",
+          "S2: તે તો સારું રહેશે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What are you going to do tonight?",
+          "S2: I haven't decided yet.",
+          "S1: Would you like to go to the movies?",
+          "S2: Can I call you and tell you later?"
+        ],
+        "linesGuj": [
+          "S1: તમે આજે રાત્રે શું કરવાનું છે?",
+          "S2: હજુ નિર્ધારિત નથી કર્યો.",
+          "S1: શું તમારે મૂવી પર જવાનું ગમે?",
+          "S2: શું હું તમને ફોન કરીને પછી કહી શકું?"
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Would you like to go to the movies tonight?",
+          "S2: I'd rather stay home and watch television.",
+          "S1: Are there going to be any good programs tonight?",
+          "S2: Yes. There's going to be a good play on channel 4."
+        ],
+        "linesGuj": [
+          "S1: શું તમે આજે રાત્રે મૂવી પર જવા માંગો છો?",
+          "S2: હું ઘરે રહીને ટેલિવિઝન જોવાનું પસંદ કરીશ.",
+          "S1: શું આજે રાત્રે કોઈ સારા કાર્યક્રમો થશે?",
+          "S2: હા. ચેનલ પર એક સારું નાટક આવવાનું છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Meeting at the Train Station",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/train-station.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: I've got to go to the train station.",
+          "S2: What do you have to go for?",
+          "S1: To meet my cousin from Washington.",
+          "S2: Let me take you in my car."
+        ],
+        "linesGuj": [
+          "S1: મને ટ્રેન સ્ટેશન જવું છે.",
+          "S2: તમને શું માટે જવું છે?",
+          "S1: વોશિંગ્ટનથી આવેલા મારા કઝિનને મળવા.",
+          "S2: હું તમને મારી કારમાં લઈ જાઉં?"
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Did you get to the station on time?",
+          "S2: We did, but we were almost late.",
+          "S1: How close was it?",
+          "S2: We got on the train just as it was starting."
+        ],
+        "linesGuj": [
+          "S1: શું તમે સ્ટેશન પર સમયસર પહોંચી ગયા?",
+          "S2: હા, પરંતુ અમે લગભગ મોડા થઈ ગયા.",
+          "S1: કેટલું નજીક હતું?",
+          "S2: ટ્રેન ચાલુ થતી જ હતી ત્યારે અમે ચડી ગયા."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Did your cousin arrive on time?",
+          "S2: No. He was an hour late.",
+          "S1: Did you meet him at the station?",
+          "S2: I was right there on the platform when the train came."
+        ],
+        "linesGuj": [
+          "S1: તમારા કઝિન સમયસર આવ્યા?",
+          "S2: ના, તે એક કલાક મોડો આવ્યો.",
+          "S1: શું તમે તેને સ્ટેશન પર મળ્યા?",
+          "S2: ટ્રેન આવી ત્યારે હું પ્લેટફોર્મ પર જ હતો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Where's my bag?",
+          "S2: Here it is.",
+          "S1: Where's my briefcase?",
+          "S2: There it is—over there."
+        ],
+        "linesGuj": [
+          "S1: મારું બેગ ક્યાં છે?",
+          "S2: અહીં છે.",
+          "S1: મારું બ્રીફકેસ ક્યાં છે?",
+          "S2: ત્યાં છે — એ તરફ."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Do you have your suitcases?",
+          "S2: I've got one of them with me.",
+          "S1: Where are the rest of them?",
+          "S2: I checked my two other ones at the baggage room."
+        ],
+        "linesGuj": [
+          "S1: શું તમારા સૂટકેસ છે?",
+          "S2: મારા પાસે એક છે.",
+          "S1: બાકીના ક્યાં છે?",
+          "S2: મેં બાકીના બે બેગેજ રૂમમાં ચેક કરાવી દીધા છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asking Questions at the Train Station",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/train-questions.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: How do you get home every day?",
+          "S2: I take the commuter train to Westport.",
+          "S1: Isn't it rather expensive going by train?",
+          "S2: No. I buy a twenty-trip commuter ticket each month."
+        ],
+        "linesGuj": [
+          "S1: તમે દરરોજ ઘરે કેવી રીતે જાઓ છો?",
+          "S2: હું વેસ્ટપોર્ટ સુધી કમ્યુટર ટ્રેન પકડું છું.",
+          "S1: ટ્રેન દ્વારા જવું થોડું મોંઘું નથી?",
+          "S2: ના. હું દર મહિને વીસ-ટ્રિપનું કમ્યુટર ટિકિટ ખરીદું છું."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Can you give me some information?",
+          "S2: You're at the right place.",
+          "S1: I want to go to Washington.",
+          "S2: The next train leaves at four thirty."
+        ],
+        "linesGuj": [
+          "S1: તમે મને થોડું માહિતી આપી શકો?",
+          "S2: તમે સાચી જગ્યાએ છો.",
+          "S1: મને વોશિંગ્ટન જવું છે.",
+          "S2: આગળની ટ્રેન સાડા ચાર વાગ્યે નીકળે છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: How soon does the train leave?",
+          "S2: It leaves in ten minutes.",
+          "S1: Do I have time to check my bags?",
+          "S2: I don't think you do."
+        ],
+        "linesGuj": [
+          "S1: ટ્રેન ક્યારે નીકળશે?",
+          "S2: દસ મિનિટમાં નીકળશે.",
+          "S1: શું મને મારા બેગ ચેક કરાવવા માટે સમય છે?",
+          "S2: મને નથી લાગતું કે સમય મળશે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: At what time does the next train leave for the city?",
+          "S2: There's one at four and another at four forty-five.",
+          "S1: What's the fare?",
+          "S2: It's eight fifty including tax."
+        ],
+        "linesGuj": [
+          "S1: શહેર માટે આગળની ટ્રેન ક્યારે નીકળે છે?",
+          "S2: એક ચાર વાગ્યે છે અને બીજી ચાર પેઠાલીસે.",
+          "S1: ભાડું કેટલું છે?",
+          "S2: ટેક્સ સહિત આઠ પચાસ છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: How much is the fare to Miami?",
+          "S2: A hundred fifty dollars round trip.",
+          "S1: What time does the next train leave?",
+          "S2: The next one leaves at six thirty on track 31."
+        ],
+        "linesGuj": [
+          "S1: મિયામીનું ભાડું કેટલું છે?",
+          "S2: રાઉન્ડ ટ્રિપ માટે એકસો પચાસ ડોલર.",
+          "S1: આગળની ટ્રેન ક્યારે નીકળે છે?",
+          "S2: આગળની ટ્રેન સાડા છ વાગ્યે ટ્રેક ૩૧ પરથી નીકળે છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Meeting at the Airport",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/airport-meeting.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where will you meet your friends?",
+          "S2: I'll meet them at the airport.",
+          "S1: When will they get there?",
+          "S2: I don't know yet."
+        ],
+        "linesGuj": [
+          "S1: તમે તમારા મિત્રો ને ક્યાં મળશો?",
+          "S2: હું તેમને એરપોર્ટ પર મળિશ.",
+          "S1: તેઓ ત્યાં ક્યારે પહોંચશે?",
+          "S2: હજુ મને ખબર નથી."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: When are you meeting your friends?",
+          "S2: I'm meeting them at eight o'clock tomorrow night.",
+          "S1: How are they getting here?",
+          "S2: They're coming by air."
+        ],
+        "linesGuj": [
+          "S1: તમે તમારા મિત્રો ને ક્યારે મળી રહ્યા છો?",
+          "S2: હું તેમને આવતી કાલે રાત્રે આઠ વાગ્યે મળિશ.",
+          "S1: તેઓ અહીં કેવી રીતે આવી રહ્યા છે?",
+          "S2: તેઓ પ્લેન દ્વારા આવી રહ્યા છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Is this Southwestern Airlines?",
+          "S2: Yes. May I help you?",
+          "S1: Can you tell me when flight 439 will arrive?",
+          "S2: One moment, please. I'll check."
+        ],
+        "linesGuj": [
+          "S1: શું આ સાઉથવેસ્ટર્ન એરલાઇન છે?",
+          "S2: હા. હું તમારી કેવી મદદ કરી શકું?",
+          "S1: ફ્લાઇટ 439 ક્યારે પહોંચશે તે તમે કહી શકો?",
+          "S2: એક મિનિટ, કૃપા કરીને. હું તપાસું છું."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: All the incoming flights are listed on that board.",
+          "S2: I see they expect Bill's flight to be twenty minutes late.",
+          "S1: Do they have an arrival gate listed?",
+          "S2: No. They'll probably list it about ten minutes before arrival."
+        ],
+        "linesGuj": [
+          "S1: બધી આવતી ફ્લાઇટ્સ એ બોર્ડ પર દર્શાવવામાં આવી છે.",
+          "S2: મને દેખાય છે કે બિલની ફ્લાઇટ અંદાજે વીસ મિનિટ મોડે આવશે.",
+          "S1: શું તેઓએ આગમન ગેટ દર્શાવ્યો છે?",
+          "S2: ના. તેઓ કદાચ આગમનના લગભગ દસ મિનિટ પહેલાં તે દર્શાવશે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Well! How was your trip?",
+          "S2: It was very smooth and fast.",
+          "S1: Could you see the mountains from the plane?",
+          "S2: Yes. The visibility was excellent all the way."
+        ],
+        "linesGuj": [
+          "S1: અરે! તમારો પ્રવાસ કેવો હતો?",
+          "S2: ખૂબ જ સરળ અને ઝડપથી પૂરો થયો.",
+          "S1: શું તમે પ્લેનમાંથી પહાડો જોઈ શક્યા?",
+          "S2: હા. આખો રસ્તો દેખાવ ખૂબ જ ઉત્તમ હતો."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Getting Information at the Airport",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/airport-information.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: At what time does the next plane to London leave?",
+          "S2: The next one is flight 12 at eleven fifty-five.",
+          "S1: What's the next one after that?",
+          "S2: Flight 21 at one oh-five."
+        ],
+        "linesGuj": [
+          "S1: લંડન જતું આગળનું વિમાન કેટલા વાગ્યે જશે?",
+          "S2: આગામી ફ્લાઇટ ૧૨, અગિયાર પંચાવન વાગ્યે છે.",
+          "S1: તેના પછીનું કયું છે?",
+          "S2: ફ્લાઇટ 21, એક પાંચે જાય છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: How often is there a flight to Paris?",
+          "S2: We have flights to Paris every hour.",
+          "S1: Are they nonstop flights?",
+          "S2: Yes. Direct to Paris."
+        ],
+        "linesGuj": [
+          "S1: પેરિસ માટે કેટલા વખત ફ્લાઇટ મળે છે?",
+          "S2: પેરિસ માટે દર કલાકે ફ્લાઇટ છે.",
+          "S1: શું એ નૉનસ્ટોપ ફ્લાઇટ છે?",
+          "S2: હા. સીધી પેરિસ જાય છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Could I make a reservation for flight 10 to Tokyo?",
+          "S2: I'm sorry, but everything is taken.",
+          "S1: Tomorrow at two o'clock—how about the next flight?",
+          "S2: Yes. I can give you a reservation on that."
+        ],
+        "linesGuj": [
+          "S1: શું હું ટોકિયો જતી ફ્લાઇટ 10 માટે રિઝર્વેશન કરી શકું?",
+          "S2: માફ કરશો, પરંતુ બધી બેઠકો ભરાઈ ગઈ છે.",
+          "S1: આવતી કાલે બે વાગ્યાની ફ્લાઇટનું શું?",
+          "S2: હા. હું તમને એ ફ્લાઇટમાં રિઝર્વેશન આપી શકું."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: I'd like to check in for the flight to New York.",
+          "S2: Fine. Do you have your ticket and passport?",
+          "S1: Yes. Here's my ticket, and I'll get out my passport.",
+          "S2: Would you please put your baggage on the scales?"
+        ],
+        "linesGuj": [
+          "S1: હું ન્યૂ યોર્ક જતી ફ્લાઇટ માટે ચેક-ઇન કરવું છે.",
+          "S2: સારું. તમારા પાસે ટિકિટ અને પાસપોર્ટ છે?",
+          "S1: હા. અહીં મારી ટિકિટ છે, અને હું પાસપોર્ટ બહાર કાઢું છું.",
+          "S2: કૃપા કરીને તમારું સામાન તોલ પર મૂકશો?"
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: How long is the flight from New York to Washington?",
+          "S2: Well, supposedly an hour, but it's sometimes longer.",
+          "S1: How often are there flights to Washington from New York?",
+          "S2: There's one every hour."
+        ],
+        "linesGuj": [
+          "S1: ન્યૂ યોર્કથી વોશિંગ્ટન સુધીની ફ્લાઇટ કેટલો સમય લે છે?",
+          "S2: સામાન્ય રીતે એક કલાક, પરંતુ ક્યારેક વધારે સમય લાગે છે.",
+          "S1: ન્યૂ યોર્કથી વોશિંગ્ટન માટે ફ્લાઇટ્સ કેટલી વાર મળે છે?",
+          "S2: દર કલાકે એક ફ્લાઇટ છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Getting to the Hotel",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/getting-to-hotel.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What's a good hotel in this town?",
+          "S2: The Jefferson Hotel is good.",
+          "S1: How far is it from here?",
+          "S2: It's quite close—about four blocks."
+        ],
+        "linesGuj": [
+          "S1: આ શહેરમાં કયું સારું હોટેલ છે?",
+          "S2: જેફરસન હોટેલ સારું છે.",
+          "S1: અહીંથી તે કેટલું દૂર છે?",
+          "S2: ખૂબ નજીક છે—લગભગ ચાર બ્લોક દૂર."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Where are you staying?",
+          "S2: We're staying at an excellent hotel.",
+          "S1: What's the name of the hotel?",
+          "S2: The Eastern Hotel."
+        ],
+        "linesGuj": [
+          "S1: તમે ક્યાં રોકાયા છો?",
+          "S2: અમે એક ઉત્તમ હોટેલમાં રોકાયા છીએ.",
+          "S1: હોટેલનું નામ શું છે?",
+          "S2: ઈસ્ટર્ન હોટેલ."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: How long will you be in New York?",
+          "S2: I'll be here about two weeks.",
+          "S1: Where are you going to stay?",
+          "S2: I'm going to stay at the Madison Hotel."
+        ],
+        "linesGuj": [
+          "S1: તમે ન્યૂયોર્કમાં કેટલા દિવસ રહેશો?",
+          "S2: હું અહીં લગભગ બે અઠવાડિયા રહીશ.",
+          "S1: તમે ક્યાં રોકાવાના છો?",
+          "S2: હું મેડિસન હોટેલમાં રોકાઈશ."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: I'd like a single room, please.",
+          "S2: Do you want a room with a bath?",
+          "S1: Yes, please. Do you have one?",
+          "S2: Yes. We have one at ten dollars a day."
+        ],
+        "linesGuj": [
+          "S1: મને એક સિંગલ રૂમ જોઈએ, કૃપા કરીને.",
+          "S2: શું તમને નાહવાની સુવિધાવાળું રૂમ જોઈએ છે?",
+          "S1: હા, કૃપા કરીને. તમારા પાસે છે?",
+          "S2: હા. અમારે પાસે દસ ડોલર દિનદીઠ એક રૂમ છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: I have a reservation for a room here.",
+          "S2: Yes. You're in room 341 on the third floor.",
+          "S1: Can I take the elevator over there?",
+          "S2: Yes, and turn right when you get off the elevator."
+        ],
+        "linesGuj": [
+          "S1: મારી પાસે અહીં રૂમ માટે રિઝર્વેશન છે.",
+          "S2: હા. તમે ત્રીજા માળ પર રૂમ નંબર 341માં છો.",
+          "S1: શું હું ત્યાંનો એલિવેટર લઈ શકું?",
+          "S2: હા, અને એલિવેટરમાંથી ઉતરો ત્યારે જમણી બાજુ વળી જશો."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Finding One's Hotel",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/getting-to-hotel.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where's the hotel, please?",
+          "S2: It's on Main Street.",
+          "S1: Where's that?",
+          "S2: It's the next street straight ahead."
+        ],
+        "linesGuj": [
+          "S1: કૃપા કરીને હોટેલ ક્યાં છે?",
+          "S2: તે મેઇન સ્ટ્રીટ પર છે.",
+          "S1: મેઇન સ્ટ્રીટ ક્યાં છે?",
+          "S2: આગળની જ ગલી સીધી આગળ છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Can you tell me where the hotel is?",
+          "S2: It's in the next block.",
+          "S1: On this side or the other side?",
+          "S2: This side. Straight ahead of you."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મને કહી શકો કે હોટેલ ક્યાં છે?",
+          "S2: તે આગળના બ્લોકમાં છે.",
+          "S1: આ બાજુ છે કે બીજી બાજુ?",
+          "S2: આ બાજુ. સીધી તમારા આગળ છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: I want to go to the Beachside Hotel.",
+          "S2: Do you have a map?",
+          "S1: Yes, I do. Here it is.",
+          "S2: The hotel is right there—at that intersection."
+        ],
+        "linesGuj": [
+          "S1: મને બીચસાઇડ હોટેલમાં જવું છે.",
+          "S2: તમારી પાસે નકશો છે?",
+          "S1: હા, છે. લો, અહીં છે.",
+          "S2: હોટેલ અહિં જ છે—તે ચોરાહે પર."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Excuse me. I'm lost.",
+          "S2: Where do you live?",
+          "S1: I live at the Royal Hotel.",
+          "S2: The Royal Hotel is two blocks that way."
+        ],
+        "linesGuj": [
+          "S1: માફ કરશો. હું રસ્તો ભૂલી ગયો છું.",
+          "S2: તમે ક્યાં રહે છો?",
+          "S1: હું રોયલ હોટેલમાં રહું છું.",
+          "S2: રોયલ હોટેલ ત્યાંથી બે બ્લોક દૂર છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Can you help me, please?",
+          "S2: What's the matter?",
+          "S1: Where's the Grand Hotel on this map?",
+          "S2: It's right here—right next to the train station."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મારી મદદ કરી શકો, કૃપા કરીને?",
+          "S2: શું થયું છે?",
+          "S1: આ નકશામાં ગ્રાન્ડ હોટેલ ક્યાં છે?",
+          "S2: અહીં જ છે—ટ્રેન સ્ટેશનની બાજુમાં જ."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asking Directions",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/asking-directions.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where's the airlines office?",
+          "S2: It's near the bus terminal—the Central Terminal.",
+          "S1: How far is that from here?",
+          "S2: About a half a mile, I think."
+        ],
+        "linesGuj": [
+          "S1: એરલાઇનનું ઓફિસ ક્યાં છે?",
+          "S2: તે બસ ટર્મિનલની પાસે છે—સેન્ટ્રલ ટર્મિનલ.",
+          "S1: અહીંથી ત્યાં કેટલું દૂર છે?",
+          "S2: લગભગ અડધો માઈલ હશે, એમ લાગે છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Where's the post office?",
+          "S2: It's three blocks that way.",
+          "S1: What did you say?",
+          "S2: Three blocks up that street."
+        ],
+        "linesGuj": [
+          "S1: પોસ્ટ ઓફિસ ક્યાં છે?",
+          "S2: તે ત્યાંથી ત્રણ બ્લોક દૂર છે.",
+          "S1: તમે શું કહ્યું?",
+          "S2: આ રસ્તા પર ત્રણ બ્લોક આગળ છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Where's the airport?",
+          "S2: It's north of the city.",
+          "S1: What's the best way to get there?",
+          "S2: Take Highway 15 to the north."
+        ],
+        "linesGuj": [
+          "S1: એરપોર્ટ ક્યાં છે?",
+          "S2: તે શહેરના ઉત્તરમાં છે.",
+          "S1: ત્યાં પહોંચવાનો સારો રસ્તો કયો છે?",
+          "S2: હાઇવે 15 ઉત્તર તરફ લો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What street is the local library on?",
+          "S2: I don't know.",
+          "S1: How can I find out?",
+          "S2: Why don't you ask a policeman?"
+        ],
+        "linesGuj": [
+          "S1: લોકલ લાઇબ્રેરી કઈ ગલીમાં છે?",
+          "S2: મને ખબર નથી.",
+          "S1: હું કેવી રીતે જાણું?",
+          "S2: તમે કોઈ પોલીસને પૂછો ને?"
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Where's the nearest telephone?",
+          "S2: There's one in that drugstore.",
+          "S1: Do you mean that store over there?",
+          "S2: Yes. That's the one."
+        ],
+        "linesGuj": [
+          "S1: સૌથી નજીકનો ટેલિફોન ક્યાં છે?",
+          "S2: તે દવાનાની દુકાનમાં એક છે.",
+          "S1: તમે ત્યાંની દુકાનની વાત કરો છો?",
+          "S2: હા, એ જ દુકાન છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Getting Information",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/talking-activities.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What's the matter?",
+          "S2: I need some information.",
+          "S1: Go to that desk over there.",
+          "S2: Thank you very much."
+        ],
+        "linesGuj": [
+          "S1: શું થયું છે?",
+          "S2: મને થોડું માહિતી જોઈએ છે.",
+          "S1: અહીંથી આગળ જે ડેસ્ક છે ત્યાં જાઓ.",
+          "S2: ખૂબ ખૂબ આભાર."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Can you help me, please?",
+          "S2: I'll try to.",
+          "S1: What's the best way to get to this address?",
+          "S2: I'm sorry, but I really don't know."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મારી મદદ કરી શકો, કૃપા કરીને?",
+          "S2: હું કોશિશ કરીશ.",
+          "S1: આ સરનામે પહોંચવાનો સારો રસ્તો કયો છે?",
+          "S2: માફ કરશો, પણ મને ખરેખર ખબર નથી."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: How can I get to that address?",
+          "S2: You can go by taxi.",
+          "S1: Isn't there any other way?",
+          "S2: Yes, by bus, but it's complicated."
+        ],
+        "linesGuj": [
+          "S1: હું તે સરનામે કેવી રીતે જઈ શકું?",
+          "S2: તમે ટેક્સી દ્વારા જઈ શકો છો.",
+          "S1: બીજો કોઈ રસ્તો નથી?",
+          "S2: હા, બસથી પણ જઈ શકો, પણ થોડું મુશ્કેલ છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: How do I get to the nearest subway station?",
+          "S2: It's two blocks up that street.",
+          "S1: Do you mean the street running that way?",
+          "S2: Yes. That's the one."
+        ],
+        "linesGuj": [
+          "S1: સૌથી નજીકની સબવે સ્ટેશન પર હું કેવી રીતે પહોંચી શકું?",
+          "S2: આ રસ્તા પર બે બ્લોક આગળ છે.",
+          "S1: તમે આ દિશામાં જતી ગલીની વાત કરો છો?",
+          "S2: હા, એ જ ગલી છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Is this the right way to Grand Central Station?",
+          "S2: No. You're going the wrong way.",
+          "S1: Which way should I be going then?",
+          "S2: It's in that direction—about six blocks."
+        ],
+        "linesGuj": [
+          "S1: ગ્રાન્ડ સેન્ટ્રલ સ્ટેશન માટે આ સાચો રસ્તો છે?",
+          "S2: ના, તમે ખોટી દિશામાં જઈ રહ્યા છો.",
+          "S1: તો પછી હું કઈ દિશામાં જાઉં?",
+          "S2: તે આ દિશામાં છે—લગભગ છ બ્લોક દૂર."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Finding One's Way ",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/finding-way.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Pardon me. Where's the Central Theater?",
+          "S2: It's in the next block—straight ahead.",
+          "S1: Thank you very much.",
+          "S2: That's all right."
+        ],
+        "linesGuj": [
+          "S1: માફ કરશો. સેન્ટ્રલ થિયેટર ક્યાં છે?",
+          "S2: તે આગળના બ્લોકમાં છે—સીધા આગળ.",
+          "S1: ખૂબ ખૂબ આભાર.",
+          "S2: કોઈ વાત નહીં."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Where's the National Department Store?",
+          "S2: It's downtown—on Brown Street.",
+          "S1: Do you know the exact address?",
+          "S2: Yes. It's 521 Brown Street."
+        ],
+        "linesGuj": [
+          "S1: નેશનલ ડિપાર્ટમેન્ટ સ્ટોર ક્યાં છે?",
+          "S2: તે ડાઉનટાઉનમાં છે—બ્રાઉન સ્ટ્રીટ પર.",
+          "S1: શું તમને ચોક્કસ સરનામું ખબર છે?",
+          "S2: હા. તે 521 બ્રાઉન સ્ટ્રીટ છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Can you tell me where the library is located?",
+          "S2: Yes. Do you see that church down the street?",
+          "S1: Yes. It's quite easy to see with such a tall spire.",
+          "S2: Just turn left there and walk three blocks."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મને કહી શકો કે લાઈબ્રેરી ક્યાં છે?",
+          "S2: હા. તમને રસ્તા પર આગળનું ચર્ચ દેખાય છે?",
+          "S1: હા. ઊંચા શિખરથી તેને સરળતાથી જોઈ શકાય છે.",
+          "S2: ત્યાં ડાબી બાજુ વળો અને ત્રણ બ્લોક ચાલો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Are the instructions too complicated for you?",
+          "S2: Well, would you mind repeating them?",
+          "S1: I'd be glad to.",
+          "S2: I'd like to write them down this time."
+        ],
+        "linesGuj": [
+          "S1: શું આ સૂચનાઓ તમારા માટે બહુ મુશ્કેલ છે?",
+          "S2: શું તમે ફરી એક વાર કહી શકશો?",
+          "S1: હા, મને ખુશી થશે.",
+          "S2: આ વખતે હું તેને લખી રાખવા માંગુ છું."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Can you tell me where the station is?",
+          "S2: Turn right and go four blocks.",
+          "S1: Would you mind repeating that?",
+          "S2: I'd be glad to."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મને કહી શકો કે સ્ટેશન ક્યાં છે?",
+          "S2: જમણી બાજુ વળો અને ચાર બ્લોક જાઓ.",
+          "S1: શું તમે ફરી કહી શકશો?",
+          "S2: હા, મને ખુશી થશે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asking about Buses",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/asking.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where do I get the downtown bus?",
+          "S2: Walk straight ahead one block.",
+          "S1: Thanks very much.",
+          "S2: Don't mention it."
+        ],
+        "linesGuj": [
+          "S1: મને ડાઉનલાઉન જતી બસ ક્યાંથી મળશે?",
+          "S2: સીધા એક બ્લોક આગળ ચાલો.",
+          "S1: ખૂબ ખૂબ આભાર.",
+          "S2: એમાં શું આભારનું?"
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Where does the bus stop?",
+          "S2: At the next corner.",
+          "S1: Does it go downtown?",
+          "S2: Only the number 5 bus goes downtown."
+        ],
+        "linesGuj": [
+          "S1: બસ ક્યાં ઉભી રહે છે?",
+          "S2: આગળના ત્રાંસા પર.",
+          "S1: શું આ બસ ડાઉનલાઉન જાય છે?",
+          "S2: ફક્ત નંબર 5 બસ જ ડાઉનલાઉન જાય છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Are there many bus stops along this street?",
+          "S2: Yes, there are. There are quite a few.",
+          "S1: Are they located at the corners?",
+          "S2: Most of them are, but a few aren't."
+        ],
+        "linesGuj": [
+          "S1: આ રસ્તા પર ઘણી બસ સ્ટોપ્સ છે?",
+          "S2: હા, છે. ઘણા બધા છે.",
+          "S1: શું તેઓ ખૂણા પર સ્થિત છે?",
+          "S2: તેમાંના મોટાભાગના છે, પરંતુ થોડા નથી."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: How do I get to the station?",
+          "S2: Take the bus at the next corner.",
+          "S1: Do you know which bus I take?",
+          "S2: Watch for number 32."
+        ],
+        "linesGuj": [
+          "S1: હું સ્ટેશન પર કેવી રીતે જઈ શકું?",
+          "S2: આગળના ખૂણા પર બસ પકડો.",
+          "S1: મારે કઈ નંબરની બસ લેવી છે, તમને ખબર છે?",
+          "S2: નંબર 32 માટે જુઓ."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: How much is the fare on this bus?",
+          "S2: It's fifteen cents.",
+          "S1: Do I give the money to you?",
+          "S2: No. Just drop it in this machine."
+        ],
+        "linesGuj": [
+          "S1: આ બસમાં ભાડું કેટલું છે?",
+          "S2: પંદર સેન્ટ છે.",
+          "S1: શું હું પૈસા તમને આપું?",
+          "S2: ના. ફક્ત આ મશીનમાં નાખી દો."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Traveling by Bus",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/traveling-by-bus.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Does this bus go into the city?",
+          "S2: Yes. Where do you want to go?",
+          "S1: I want to go to Harbor Heights.",
+          "S2: This is the right bus then."
+        ],
+        "linesGuj": [
+          "S1: શું આ બસ શહેરની અંદર જાય છે?",
+          "S2: હા. તમે ક્યાં જવા માંગો છો?",
+          "S1: હું હાર્બર હાઇટ્સ જવું માંગુ છું.",
+          "S2: તો પછી આ જ સાચી બસ છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Does this bus go as far as Washington Square?",
+          "S2: No. You'll have to transfer.",
+          "S1: Where can I do it?",
+          "S2: You can get the Washington Square bus at the next corner."
+        ],
+        "linesGuj": [
+          "S1: શું આ બસ વોશિંગ્ટન સ્ક્વેર સુધી જાય છે?",
+          "S2: ના. તમને બીજી બસમાં બદલાવું પડશે.",
+          "S1: હું ક્યાં બદલી શકું?",
+          "S2: આગળના ખૂણા પર વોશિંગ્ટન સ્ક્વેરની બસ મળશે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Is this where I get off the bus?",
+          "S2: No, not here—at the next stop.",
+          "S1: Can I catch a taxi right there?",
+          "S2: Yes. There's a taxi stand right by the bus stop."
+        ],
+        "linesGuj": [
+          "S1: શું મને અહીં બસમાંથી ઉતરવું છે?",
+          "S2: ના, અહીં નહીં—આગળના સ્ટોપ પર.",
+          "S1: શું હું ત્યાં જ ટૅક્સી પકડી શકું?",
+          "S2: હા. બસ સ્ટોપની બાજુમાં જ ટેક્સી સ્ટેન્ડ છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Excuse me, but how do I get to this address?",
+          "S2: Get off the bus at Water Street and Main.",
+          "S1: Thanks very much for your help.",
+          "S2: Don't mention it."
+        ],
+        "linesGuj": [
+          "S1: માફ કરશો, હું આ સરનામે કેવી રીતે જઈ શકું?",
+          "S2: વોટર સ્ટ્રીટ અને મેઇનના ખૂણા પર બસમાંથી ઉતરી જશો.",
+          "S1: તમારી મદદ માટે ખૂબ ખૂબ આભાર.",
+          "S2: આમાં આભાર શું?"
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Is West Street the next stop?",
+          "S2: I'm sorry, but I didn't understand you.",
+          "S1: Does the bus stop at West Street next?",
+          "S2: Yes. Right at the next corner."
+        ],
+        "linesGuj": [
+          "S1: પછીનો સ્ટોપ વેસ્ટ સ્ટ્રીટ છે?",
+          "S2: માફ કરશો, હું સમજી શક્યો નથી.",
+          "S1: શું બસ હવે વેસ્ટ સ્ટ્રીટ પર અટકશે?",
+          "S2: હા. આગળના જ ખૂણા પર."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Going by Taxi",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/going-by-taxi.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where are you going now?",
+          "S2: To the hotel.",
+          "S1: Are you going by bus or by taxi?",
+          "S2: Probably by taxi if I can get one."
+        ],
+        "linesGuj": [
+          "S1: તમે હવે ક્યાં જઈ રહ્યા છો?",
+          "S2: હોટેલ પર જઈ રહ્યો છું.",
+          "S1: તમે બસથી જશો કે ટેક્સીથી?",
+          "S2: શાયદ ટેક્સીથી, જો ટેક્સી મળી જાય તો."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: I need a taxi.",
+          "S2: The taxis are by the entrance.",
+          "S1: Thank you very much.",
+          "S2: You're welcome."
+        ],
+        "linesGuj": [
+          "S1: મને એક ટેક્સી જોઈએ.",
+          "S2: ટેક્સીઓ પ્રવેશદ્વાર પાસે ઊભી છે.",
+          "S1: ખૂબ ખૂબ આભાર.",
+          "S2: આપનું સ્વાગત છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Is this taxi taken?",
+          "S2: No. Where are you going?",
+          "S1: I'm going to the University Student Center.",
+          "S2: O.K. I know right where it is."
+        ],
+        "linesGuj": [
+          "S1: શું આ ટેક્સીમાં કોઈ બેઠું છે?",
+          "S2: ના. તમે ક્યાં જવાના છો?",
+          "S1: હું યુનિવર્સિટી સ્ટુડન્ટ સેન્ટર પર જાઉં છું.",
+          "S2: બરાબર. મને બરાબર ખબર છે કે તે ક્યાં છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: How much is the fare?",
+          "S2: Two dollars and fifty cents.",
+          "S1: Here. Keep the change.",
+          "S2: Thank you very much."
+        ],
+        "linesGuj": [
+          "S1: ભાડું કેટલું થશે?",
+          "S2: બે ડોલર અને પચાસ સેન્ટ.",
+          "S1: આ લો. બાકી તમારા માટે.",
+          "S2: ખૂબ ખૂબ આભાર."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: It's raining very hard right now.",
+          "S2: Why don't we get a taxi?",
+          "S1: That's a good idea.",
+          "S2: Now, I only hope we can find one."
+        ],
+        "linesGuj": [
+          "S1: હાલ ખૂબ જોરથી વરસાદ પડી રહ્યો છે.",
+          "S2: અપણે ટેક્સી કેમ ના લઈએ?",
+          "S1: એ સારી વિચાર છે.",
+          "S2: હવે ફક્ત આશા છે કે ટેક્સી મળી જાય."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Taking a Trip by Car ",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/going-by-taxi.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Are you taking a trip today?",
+          "S2: Yes. We're going to Boston.",
+          "S1: It's a good day for the trip.",
+          "S2: I'm glad the sun is shining."
+        ],
+        "linesGuj": [
+          "S1: શું તમે આજે સફરે જઈ રહ્યા છો?",
+          "S2: હા. અમે બોસ્ટન જઈ રહ્યા છીએ.",
+          "S1: આ સફર માટે સારો દિવસ છે.",
+          "S2: મને આનંદ છે કે સૂરજ ચમકી રહ્યો છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: How far is it from here to the coast?",
+          "S2: It's about 250 miles.",
+          "S1: How long does it take to get there by car?",
+          "S2: It takes about five hours."
+        ],
+        "linesGuj": [
+          "S1: અહીંથી દરિયાકિનારો કેટલો દૂર છે?",
+          "S2: લગભગ 250 માઈલ છે.",
+          "S1: કારથી ત્યાં પહોંચવામાં કેટલો સમય લાગે?",
+          "S2: લગભગ પાંચ કલાક લાગે છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: How far is it to the next gas station?",
+          "S2: It's one two miles from here.",
+          "S1: Is there a place to eat there?",
+          "S2: Yes. There's a restaurant next to the station."
+        ],
+        "linesGuj": [
+          "S1: અગામી પેટ્રોલ પંપ કેટલો દૂર છે?",
+          "S2: અહીંથી એક-બે માઈલ દૂર છે.",
+          "S1: ત્યાં ખાવાની કોઈ જગ્યા છે?",
+          "S2: હા. સ્ટેશનની બાજુમાં જ એક રેસ્ટોરન્ટ છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What's the best way to Ocean City?",
+          "S2: The superhighway, but it's also the longest way.",
+          "S1: How much longer is it that way?",
+          "S2: About 10 or 12 miles."
+        ],
+        "linesGuj": [
+          "S1: ઓશન સિટી જવાનું સારો રસ્તો કયો છે?",
+          "S2: સુપરહાઈવે, પરંતુ એ સૌથી લાંબો રસ્તો પણ છે.",
+          "S1: એ રસ્તાથી કેટલું વધારે અંતર પડે છે?",
+          "S2: લગભગ 10 કે 12 માઈલ વધારે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Are they going by way of North Plains?",
+          "S2: No. They aren't taking that route.",
+          "S1: How are they traveling then?",
+          "S2: They're driving directly to Ocean City."
+        ],
+        "linesGuj": [
+          "S1: શું તેઓ નોર્થ પ્લેન્સ તરફથી જઈ રહ્યા છે?",
+          "S2: ના. તેઓ એ રસ્તો લઈ રહ્યા નથી.",
+          "S1: તો પછી તેઓ કેવી રીતે જઈ રહ્યા છે?",
+          "S2: તેઓ સીધા ઓશન સિટી તરફ કારથી જઈ રહ્યા છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Travel Plans",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/evening-activities.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: I have to take a trip by air next week.",
+          "S2: Do you like to fly?",
+          "S1: I don't know because I've never flown before.",
+          "S2: You'll probably like it very much."
+        ],
+        "linesGuj": [
+          "S1: આવતા અઠવાડિયે મને હવાઈ મુસાફરી પર જવું છે.",
+          "S2: શું તમને વિમાનમાં મુસાફરી કરવી ગમે છે?",
+          "S1: મને ખબર નથી, કારણ કે મેં ક્યારેય ઉડાન ભરી નથી.",
+          "S2: શાયદ તમને બહુ ગમશે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: I have to go home next week.",
+          "S2: How will you go—by car?",
+          "S1: I'll probably go by air.",
+          "S2: You'll get there very fast then."
+        ],
+        "linesGuj": [
+          "S1: મારે આવતો અઠવાડિયે ઘરે જવું છે.",
+          "S2: તમે કેવી રીતે જશો—કારથી?",
+          "S1: શાયદ હું વિમાનથી જઈશ.",
+          "S2: તો પછી તમે ત્યાં બહુ જલ્દી પહોંચી જશો."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Are you going on a trip next Saturday?",
+          "S2: Yes. We're going to Boston.",
+          "S1: Are you flying or going by train?",
+          "S2: We're traveling by car."
+        ],
+        "linesGuj": [
+          "S1: શું તમે આવતા શનિવારે સફરે જઇ રહ્યા છો?",
+          "S2: હા. અમે બોસ્ટન જઇ રહ્યા છીએ.",
+          "S1: તમે વિમાનથી જશો કે ટ્રેનથી?",
+          "S2: અમે કારથી મુસાફરી કરી રહ્યા છીએ."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: How will you travel to Los Angeles?",
+          "S2: We'll go by plane.",
+          "S1: How long will it take?",
+          "S2: It'll take about five or six hours to get there."
+        ],
+        "linesGuj": [
+          "S1: તમે લોસ એન્જેલસ કેવી રીતે જશો?",
+          "S2: અમે વિમાનથી જશું.",
+          "S1: તેમાં કેટલો સમય લાગશે?",
+          "S2: ત્યાં પહોંચવામાં લગભગ પાંચ કે છ કલાક લાગશે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: What time will you leave your house?",
+          "S2: I'll leave around seven thirty.",
+          "S1: How are you going to go—by train or by bus?",
+          "S2: Neither. I'm going to drive."
+        ],
+        "linesGuj": [
+          "S1: તમે તમારા ઘરમાંથી ક્યારે નીકળશો?",
+          "S2: હું લગભગ સાતત્રીસે નીકળી જઇશ.",
+          "S1: તમે કેવી રીતે જવાના છો—ટ્રેનથી કે બસથી?",
+          "S2: બન્નેથી નહીં. હું પોતે કાર હંકાલીને જાઉં છું."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asking the Time",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/speaking.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What time do you have?",
+          "S2: It's ten o'clock sharp.",
+          "S1: Thanks a lot.",
+          "S2: Don't mention it."
+        ],
+        "linesGuj": [
+          "S1: તમારી પાસે કેટલો સમય થયો છે?",
+          "S2: તકરાર દસ વાગ્યા છે.",
+          "S1: ખૂબ ખૂબ આભાર.",
+          "S2: એમાં આભાર શું?"
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What's the time?",
+          "S2: It's almost eight.",
+          "S1: Do you have the exact time?",
+          "S2: Yes, it's two minutes to eight."
+        ],
+        "linesGuj": [
+          "S1: સમય કેટલો થયો છે?",
+          "S2: લગભગ આઠ વાગ્યા છે.",
+          "S1: તમારી પાસે ચોક્કસ સમય છે?",
+          "S2: હા, આઠ વાગવા બે મિનિટ બાકી છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Excuse me. What time is it?",
+          "S2: It's a quarter of two.",
+          "S1: I guess my watch is slow then.",
+          "S2: Well, I know mine isn't fast."
+        ],
+        "linesGuj": [
+          "S1: માફ કરશો, કેટલો સમય થયો છે?",
+          "S2: પોણા બે વાગ્યા છે.",
+          "S1: તો મારી ઘડિયાળ થોડું ધીમી ચાલે છે એમ લાગે છે.",
+          "S2: હા, મારી ઘડિયાળ તો ફાસ્ટ નથી."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What time is it right now?",
+          "S2: It's five twenty-five.",
+          "S1: I've got five thirty-five.",
+          "S2: You're ten minutes fast then."
+        ],
+        "linesGuj": [
+          "S1: હમણાં કેટલો સમય છે?",
+          "S2: પાંચ વાગીને પચ્ચીસ મિનિટ છે.",
+          "S1: મારી પાસે પાંચ પાંત્રીસ છે.",
+          "S2: તો તમારી ઘડિયાળ દસ મિનિટ ફાસ્ટ છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Do you have the correct time?",
+          "S2: Yes. It's two minutes to three.",
+          "S1: Are you sure your watch is right?",
+          "S2: It may be a few minutes slow."
+        ],
+        "linesGuj": [
+          "S1: તમારી પાસે સાચો સમય છે?",
+          "S2: હા. ત્રણ વાગવા બે મિનિટ બાકી છે.",
+          "S1: શું તમને ખાતરી છે કે તમારી ઘડિયાળ ઠીક છે?",
+          "S2: કદાચ થોડા મિનિટ ધીમી હોય."
+        ]
+      },
+      {
+        "id": "F",
+        "lines": [
+          "S1: What time is it now?",
+          "S2: I don't have my watch on right now.",
+          "S1: Is there a clock around here?",
+          "S2: There's one in the next room."
+        ],
+        "linesGuj": [
+          "S1: હમણાં કેટલો સમય થયો છે?",
+          "S2: હમણાં મેં ઘડિયાળ પહેરી નથી.",
+          "S1: અહીં આસપાસ ક્યાંક ઘડિયાળ છે?",
+          "S2: આગળના રૂમમાં એક છે."
+        ]
+      },
+      {
+        "id": "G",
+        "lines": [
+          "S1: Do you have the right time?",
+          "S2: I was just going to ask you the same question.",
+          "S1: My watch has stopped.",
+          "S2: I forgot to wear mine."
+        ],
+        "linesGuj": [
+          "S1: તમારી પાસે સાચો સમય છે?",
+          "S2: હું તો એ જ પ્રશ્ન તમને પૂછવા જતો હતો.",
+          "S1: મારી ઘડિયાળ બંધ પડી ગઈ છે.",
+          "S2: હું તો મારી ઘડિયાળ પહેરવી જ ભૂલી ગયો."
+        ]
+      },
+      {
+        "id": "H",
+        "lines": [
+          "S1: Do you have any idea of the time?",
+          "S2: I don't know exactly, but it's after nine.",
+          "S1: It was nine o'clock when I got here.",
+          "S2: Well, I'm sorry I can't help you."
+        ],
+        "linesGuj": [
+          "S1: તમને સમયનો થોડો અંદાજ છે?",
+          "S2: ખરેખર તો ખબર નથી, પણ નવ પછીનો સમય છે.",
+          "S1: હું અહીં આવ્યો ત્યારે નવ વાગ્યા હતા.",
+          "S2: બરાબર, માફ કરશો, હું વધારે મદદ નથી કરી શકતો."
+        ]
+      },
+      {
+        "id": "I",
+        "lines": [
+          "S1: At what time is the meeting?",
+          "S2: Eight o'clock.",
+          "S1: Be there at eight o'clock sharp, then.",
+          "S2: I'll try to get there before eight."
+        ],
+        "linesGuj": [
+          "S1: મીટિંગ કેટલા વાગે છે?",
+          "S2: આઠ વાગે.",
+          "S1: તો પછી બરાબર આઠ વાગે ત્યાં પહોંચી જજો.",
+          "S2: હું કોશિશ કરીશ કે આઠ પહેલાં જ પહોંચી જાઉં."
+        ]
+      },
+      {
+        "id": "J",
+        "lines": [
+          "S1: How often does this station give the news?",
+          "S2: Every hour on the hour.",
+          "S1: When do they announce the weather?",
+          "S2: Ten minutes to and ten minutes after the hour."
+        ],
+        "linesGuj": [
+          "S1: આ સ્ટેશન કેટલાં વખત સમાચાર આપે છે?",
+          "S2: દરેક કલાકે, બરાબર કલાક પર.",
+          "S1: હવામાનના સમાચાર ક્યારે કહે છે?",
+          "S2: દરેક કલાકથી દસ મિનિટ પહેલાં અને દસ મિનિટ પછી."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Going by the Clock",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/daily.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: When is your first class?",
+          "S2: At ten after nine.",
+          "S1: When do you get back here, then?",
+          "S2: About ten to twelve."
+        ],
+        "linesGuj": [
+          "S1: તમારો પહેલો ક્લાસ ક્યારે છે?",
+          "S2: નવ વાગીને દસ મિનિટે.",
+          "S1: તો પછી તમે અહીં પાછા ક્યારે આવો છો?",
+          "S2: લગભગ દસથી બાર."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Alice will be back in ten or fifteen minutes.",
+          "S2: How long has she been out of the office?",
+          "S1: She's been out since ten o'clock.",
+          "S2: Then she's been out for an hour or more."
+        ],
+        "linesGuj": [
+          "S1: એલિસ દસ કે પંદર મિનિટમાં પાછી આવી જશે.",
+          "S2: તે કેટલા સમયથી ઓફિસની બહાર છે?",
+          "S1: તે દસ વાગ્યાથી બહાર છે.",
+          "S2: તો તેને એક કલાક કરતાં વધુ સમય થયો છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: I got to the cafeteria around noon.",
+          "S2: I was there, but I didn't see you.",
+          "S1: I think I left a few minutes after twelve.",
+          "S2: I must have just missed you, then."
+        ],
+        "linesGuj": [
+          "S1: હું કેન્ટીનમાં બપોરના બાર વાગ્યે આસપાસ પહોંચ્યો હતો.",
+          "S2: હું પણ ત્યાં હતો, પણ મને તમે ન દેખાયા.",
+          "S1: લાગે છે કે હું બાર વાગ્યા પછી થોડા મિનિટમાં નીકળી ગયો હતો.",
+          "S2: તો પછી હું તમને થોડી જ ક્ષણે ચૂકી ગયો હોઉં છું."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Our friends will meet us here.",
+          "S2: Will they come here rght after lunch?",
+          "S1: No. They won't be here until three o'clock.",
+          "S2: Then I'll come a little before three."
+        ],
+        "linesGuj": [
+          "S1: અમારા મિત્રો અમને અહીં મળશે.",
+          "S2: શું તેઓ લંચ કર્યા પછી તરત જ અહીં આવશે?",
+          "S1: ના. તેઓ ત્રણ વાગ્યા સુધી આવી શકશે નહીં.",
+          "S2: તો પછી હું ત્રણ વાગતાં થોડા સમય પહેલાં આવી જઈશ."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Let's call Mary.",
+          "S2: Let's not call her right now.",
+          "S1: Maybe this is a bad time to call.",
+          "S2: Let's wait until seven or seven thirty."
+        ],
+        "linesGuj": [
+          "S1: ચાલો મેરીને ફોન કરીએ.",
+          "S2: અત્યારે તેને ફોન ના કરીએ.",
+          "S1: કદાચ હમણાં ફોન કરવા માટે સારો સમય નથી.",
+          "S2: ચાલો સાત કે સાડા સાત વાગ્યા સુધી રાહ જોઈએ."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Arriving Early or Late",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/parting.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: I'm afraid we're going to be late.",
+          "S2: How much time do we have?",
+          "S1: I'm not sure. Maybe half an hour.",
+          "S2: That should be plenty of time."
+        ],
+        "linesGuj": [
+          "S1: મને ડર છે કે આપણે મોડા પડી જશું.",
+          "S2: અપણા પાસે કેટલો સમય છે?",
+          "S1: ખાત્રી નથી. કદાચ અડધો કલાક.",
+          "S2: એટલો સમય પૂરતો થશે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Whom are you waiting for?",
+          "S2: We're waiting for our friend.",
+          "S1: What are you looking so angry for?",
+          "S2: Because she's twenty minutes late already."
+        ],
+        "linesGuj": [
+          "S1: તમે કોની રાહ જુઓ છો?",
+          "S2: અમે અમારા મિત્રની રાહ જોઈ રહ્યા છીએ.",
+          "S1: તમે આમ ગુસ્સે કેમ દેખાઈ રહ્યા છો?",
+          "S2: કારણ કે તેને આવીને વીસ મિનિટ મોડું થઈ ગયું છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Am I going to be late for the meeting?",
+          "S2: No, I think we'll be on time.",
+          "S1: I want to be there in time to get a good seat.",
+          "S2: The meeting doesn't start for another twenty minutes."
+        ],
+        "linesGuj": [
+          "S1: શું હું મિટિંગ માટે મોડો પડીશ?",
+          "S2: ના, લાગે છે કે આપણે સમયસર પહોંચી જઈશું.",
+          "S1: મને ત્યાં સારી બેઠક મેળવવા સમયસર પહોંચવું છે.",
+          "S2: મિટિંગને શરૂ થવા હજી વીસ મિનિટ બાકી છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Isn't Harry here yet?",
+          "S2: No, not yet.",
+          "S1: Eight forty-five, like usual.",
+          "S2: Well, we can still get to school on time."
+        ],
+        "linesGuj": [
+          "S1: હેરી હજી આવ્યો નથી?",
+          "S2: ના, હજી સુધી નથી આવ્યો.",
+          "S1: સામાન્ય રીતે તો તે આઠ પિસ્તાલીસે આવે છે.",
+          "S2: બરાબર, છતાં પણ આપણે સ્કૂલ સમયસર પહોંચી જઈશું."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Are we late or not?",
+          "S2: No. In fact, we're early.",
+          "S1: I hadn't better go inside.",
+          "S2: All right, but we're really about a half an hour early."
+        ],
+        "linesGuj": [
+          "S1: અપણે મોડા છીએ કે નહીં?",
+          "S2: ના. ખરેખર તો આપણે વહેલા આવ્યા છીએ.",
+          "S1: હું હજી અંદર ના જાઉં તો સારું.",
+          "S2: બરાબર, પણ આપણે ખરેખર લગભગ અડધો કલાક વહેલા છીએ."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Time and the Calendar",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/time-and-calendar.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: When does February have twenty-nine days?",
+          "S2: In leap year.",
+          "S1: How often does that happen?",
+          "S2: Every fourth year."
+        ],
+        "linesGuj": [
+          "S1: ફેબ્રુઆરીમાં ક્યારે ઉગણત્રીસ દિવસ હોય છે?",
+          "S2: લીપ યરમાં.",
+          "S1: એવું કેટલાં સમયમાં એક વાર થાય છે?",
+          "S2: દર ચાર વર્ષે એક વખત."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: How many days are there in a leap year?",
+          "S2: Three hundred and sixty-six days.",
+          "S1: How many weeks are there in a year?",
+          "S2: Exactly fifty-two weeks in a year."
+        ],
+        "linesGuj": [
+          "S1: લીપ યરમાં કુલ કેટલા દિવસ હોય છે?",
+          "S2: ત્રણસો છાસઠ દિવસ.",
+          "S1: એક વર્ષમાં કેટલા અઠવાડિયા હોય છે?",
+          "S2: એક વર્ષમાં બરાબર બાવન અઠવાડિયા હોય છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: What are the seasons in this country?",
+          "S2: Winter, spring, summer, and fall.",
+          "S1: How many months are there in each season?",
+          "S2: There are three months in each season."
+        ],
+        "linesGuj": [
+          "S1: આ દેશમાં ઋતુઓ કઈ કઈ છે?",
+          "S2: શિયાળો, વસંત, ઉનાળો અને પાનખર.",
+          "S1: દરેક ઋતુમાં કેટલા મહિના હોય છે?",
+          "S2: દરેક ઋતુમાં ત્રણ મહિના હોય છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: It's the first day of spring.",
+          "S2: I didn't realize that.",
+          "S1: Aren't you glad it's here?",
+          "S2: In a way, glad when winter is over."
+        ],
+        "linesGuj": [
+          "S1: આજે વસંત ઋતુનો પહેલો દિવસ છે.",
+          "S2: મને તો ખબર જ ન પડી.",
+          "S1: શું તમને આનંદ નથી કે હવે વસંત આવી છે?",
+          "S2: હા, એક રીતે તો હા, શિયાળો પૂરું થાય ત્યારે આનંદ થાય છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: The weather is perfect today, isn't it?",
+          "S2: Yes, I wish this season could last all year.",
+          "S1: Not many people like this season very much.",
+          "S2: Well, I'm sure a lot of people do, don't they?"
+        ],
+        "linesGuj": [
+          "S1: આજે હવામાન બહુ સરસ છે, નથી?",
+          "S2: હા, કાશ આ ઋતુ આખું વર્ષ ચાલે.",
+          "S1: ઘણા લોકોની આ ઋતુ બહુ પસંદ નથી.",
+          "S2: ખેર, મને ખાતરી છે કે ઘણાને તો ગમે છે, નહીં શું?"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Living in an Apartment",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/meeting.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What floor is your apartment on?",
+          "S2: The eleventh floor.",
+          "S1: Is the building a walk-up?",
+          "S2: No. It has a small elevator."
+        ],
+        "linesGuj": [
+          "S1: તમારું અપાર્ટમેન્ટ કયા માળે છે?",
+          "S2: અગિયારમા માળે.",
+          "S1: શું આ બિલ્ડિંગમાં સીઢીથી જ ચડવું પડે છે?",
+          "S2: ના. તેમાં નાનું એલિવેટર છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: How big is your apartment?",
+          "S2: It has four rooms and a bath.",
+          "S1: That really is big, isn't it?",
+          "S2: Right. A living room, a kitchen, two bedrooms, and a bath."
+        ],
+        "linesGuj": [
+          "S1: તમારું અપાર્ટમેન્ટ કેટલું મોટું છે?",
+          "S2: તેમાં ચાર રૂમ અને એક બાથરૂમ છે.",
+          "S1: ખરેખર મોટું છે, નથી?",
+          "S2: હા. એક લિવિંગ રૂમ, રસોડું, બે શયનખંડ અને એક બાથરૂમ."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Is this your apartment?",
+          "S2: Yes, it is.",
+          "S1: How many bedrooms do you have?",
+          "S2: Two big bedrooms and one small one."
+        ],
+        "linesGuj": [
+          "S1: શું આ તમારું અપાર્ટમેન્ટ છે?",
+          "S2: હા, આ જ મારું છે.",
+          "S1: તમારા પાસે કેટલાં બેડરૂમ છે?",
+          "S2: બે મોટા બેડરૂમ અને એક નાનું બેડરૂમ."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Is that a cooperative apartment?",
+          "S2: Yes, that's right.",
+          "S1: How much would you have to pay for it?",
+          "S2: Just a $30,000 initial fee to buy the apartment."
+        ],
+        "linesGuj": [
+          "S1: શું એ કો-ઓપરેટિવ અપાર્ટમેન્ટ છે?",
+          "S2: હા, બરાબર.",
+          "S1: તે માટે તમને કેટલું ચૂકવવું પડે?",
+          "S2: અપાર્ટમેન્ટ ખરીદવા માટે ફક્ત 30,000 ડોલરનો પહેલો ફી."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Do you like your new apartment?",
+          "S2: Yes, I like the service very much.",
+          "S1: Are there doormen at the building, too?",
+          "S2: Yes, and the building is close to the shopping areas."
+        ],
+        "linesGuj": [
+          "S1: શું તમને તમારું નવું અપાર્ટમેન્ટ ગમે છે?",
+          "S2: હા, અહીંની સર્વિસ મને બહુ ગમે છે.",
+          "S1: શું આ બિલ્ડિંગમાં દરબાન પણ છે?",
+          "S2: હા, અને બિલ્ડિંગ શોપિંગ વિસ્તારમાંથી ખુબ નજીક છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Living in a House",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/talking-activities.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: How much did you pay for your house?",
+          "S2: It cost eighteen thousand dollars, and we've spent another two thousand on repairs.",
+          "S1: Did you have trouble getting a mortgage?",
+          "S2: No. We paid four thousand dollars, and the bank lent us the rest."
+        ],
+        "linesGuj": [
+          "S1: તમે તમારું ઘર લેવા કેટલા પૈસા ચૂકવ્યા?",
+          "S2: તે માટે અઢાર હજાર ડોલર લાગ્યા, અને અમે દુરસ્તી માટે બે હજાર વધુ ખર્ચ્યા.",
+          "S1: શું તમને મોર્ટગેજ મેળવવામાં કોઈ મુશ્કેલી પડી?",
+          "S2: ના. અમે ચાર હજાર ડોલર ભરી અને બાકી બેંકે લોન આપી."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Do you prefer a one-story or a two-story house?",
+          "S2: One-story, I think.",
+          "S1: I do too, because there are no stairs to climb.",
+          "S2: But one-story houses take more land."
+        ],
+        "linesGuj": [
+          "S1: તમને એક માળનું ઘર વધારે ગમે છે કે બે માળનું?",
+          "S2: મને તો એક માળનું ઘર ગમે છે.",
+          "S1: મને પણ, કારણ કે તેમાં સીડીઓ ચઢવી પડતી નથી.",
+          "S2: પણ એક માળના ઘર માટે વધારે જમીન જોઈએ."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Your house is very large.",
+          "S2: Yes. We have enough room for guests now.",
+          "S1: Our house is too small.",
+          "S2: You don't have enough room, do you?"
+        ],
+        "linesGuj": [
+          "S1: તમારું ઘર બહુ મોટું છે.",
+          "S2: હા. હવે અમારા પાસે મહેમાનો માટે પૂરતી જગ્યા છે.",
+          "S1: અમારું ઘર તો ખુબ નાનું છે.",
+          "S2: તમારા પાસે પૂરતી જગ્યા નથી, છે ને?"
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Where's the bathroom?",
+          "S2: The bathroom is opposite that big bedroom.",
+          "S1: Is this the kitchen?",
+          "S2: Yes. It's a big kitchen, isn't it?"
+        ],
+        "linesGuj": [
+          "S1: બાથરૂમ ક્યાં છે?",
+          "S2: આ મોટાં બેડરૂમની સામે બાથરૂમ છે.",
+          "S1: શું આ રસોડું છે?",
+          "S2: હા. મોટું રસોડું છે, નથી?"
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: I enjoy having a house in the suburbs.",
+          "S2: It's wonderful to have trees and a big yard.",
+          "S1: The children can play outside most of the time.",
+          "S2: And it's so much cleaner here than in the city."
+        ],
+        "linesGuj": [
+          "S1: મને શહેરની બહાર ઘર હોવું બહુ ગમે છે.",
+          "S2: વૃક્ષો અને મોટું આંગણું હોવું અદ્ભુત છે.",
+          "S1: બાળકો વધારે ભાગે બહાર રમી શકે છે.",
+          "S2: અને અહીં શહેર કરતા ઘણું વધારે સ્વચ્છ છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Using the Telephone",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/using-telephone.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Could you give me the number of the East Ridge Company?",
+          "S2: In the city or in the suburbs?",
+          "S1: In the city. On Tenth Street.",
+          "S2: Just a moment, please."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મને ઈસ્ટ રિજ કંપનીનો નંબર આપી શકો છો?",
+          "S2: શહેરનો કે ઉપનગરનો?",
+          "S1: શહેરનો. ટેન્થ સ્ટ્રીટ પરનો.",
+          "S2: એક મિનિટ, કૃપા કરીને."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What's the telephone number of Pan-Eastern Airways?",
+          "S2: Just a moment, please.",
+          "S1: That number is Hillside 6-7600.",
+          "S2: Thank you."
+        ],
+        "linesGuj": [
+          "S1: પેન-ઈસ્ટર્ન એરવેઝનો ટેલિફોન નંબર શું છે?",
+          "S2: એક મિનિટ, કૃપા કરીને.",
+          "S1: એ નંબર હિલસાઇડ 6-7600 છે.",
+          "S2: આભાર."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: I'd like to speak to Bob, please.",
+          "S2: What number are you calling?",
+          "S1: Mur-0407, the Crescent.",
+          "S2: Sorry, you've got the wrong number."
+        ],
+        "linesGuj": [
+          "S1: મને બોબ સાથે વાત કરવી છે, કૃપા કરીને.",
+          "S2: તમે ક્યા નંબર પર ફોન કરી રહ્યા છો?",
+          "S1: મુર-0407, ક્રેસન્ટ.",
+          "S2: માફ કરશો, તમે ખોટા નંબર પર ફોન કર્યો છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: May I speak to the director, please?",
+          "S2: I'm sorry. He's out to lunch.",
+          "S1: When do you expect him back?",
+          "S2: About two o'clock."
+        ],
+        "linesGuj": [
+          "S1: શું હું ડિરેક્ટર સાથે વાત કરી શકું, કૃપા કરીને?",
+          "S2: માફ કરશો. તે લંચ માટે બહાર ગયા છે.",
+          "S1: તમે તેમને પાછા ક્યારે આવવાની અપેક્ષા રાખો છો?",
+          "S2: લગભગ બે વાગ્યે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: I'd like to speak to Mr. Bush, please.",
+          "S2: May I ask who's calling, please?",
+          "S1: Tell him his assistant is calling.",
+          "S2: Please hold the line while I see if he's in."
+        ],
+        "linesGuj": [
+          "S1: મને મિસ્ટર બુષ સાથે વાત કરવી છે, કૃપા કરીને.",
+          "S2: કોણ બોલી રહ્યા છે કહી શકશો, કૃપા કરીને?",
+          "S1: તેમને કહો કે તેમનો આસિસ્ટન્ટ ફોન પર છે.",
+          "S2: હું જોવું છું કે તેઓ અંદર છે કે નહીં, ત્યા સુધી કૃપા કરીને લાઇન પર રહો."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Getting Help in Stores",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/talking-activities.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Do you wish some assistance?",
+          "S2: Yes. How much is that pen?",
+          "S1: This one or that one?",
+          "S2: The one next to the black one."
+        ],
+        "linesGuj": [
+          "S1: શું તમને કોઈ મદદ જોઈએ છે?",
+          "S2: હા. એ પેનનું કિંમંત કેટલું છે?",
+          "S1: આ પેન કે એ પેન?",
+          "S2: કાળી પેનની બાજુમાં જે છે તે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: May I help you?",
+          "S2: Yes. I'd like to look at pens.",
+          "S1: Certainly. Fountain pens or ball-point pens?",
+          "S2: I'm looking for a good fountain pen."
+        ],
+        "linesGuj": [
+          "S1: શું હું તમારી મદદ કરી શકું?",
+          "S2: હા. મને પેન જોવા છે.",
+          "S1: ખરેખર. ફાઉન્ટન પેન કે બોલપોઈન્ટ પેન?",
+          "S2: હું સારી ફાઉન્ટન પેન શોધું છું."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: Could you help me, please?",
+          "S2: What can I do for you?",
+          "S1: Could I look at the wristwatch in this case?",
+          "S2: Just one moment, please, while I get the key."
+        ],
+        "linesGuj": [
+          "S1: શું તમે મારી મદદ કરી શકો, કૃપા કરીને?",
+          "S2: હું તમારા માટે શું કરી શકું?",
+          "S1: શું હું આ શોકેસમાં રહેલી હાથની ઘડિયાળ જોઈ શકું?",
+          "S2: એક મિનિટ, હું કી લઈને આવું ત્યાં સુધી રાહ જુવો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Hello. Are you waited on?",
+          "S2: No. I'd like a ream of typing paper, please.",
+          "S1: Will there be anything else?",
+          "S2: No. I believe that's all, thank you."
+        ],
+        "linesGuj": [
+          "S1: નમસ્તે. શું તમે રાહ જોઈ રહ્યા છો?",
+          "S2: ના. મને ટાઈપિંગ પેપરની એક રીમ જોઈએ, કૃપા કરીને.",
+          "S1: અન્ય કંઈ જોઈએ?",
+          "S2: ના. બસ એટલું જ, આભાર."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Is someone helping you?",
+          "S2: I beg your pardon?",
+          "S1: Could I help you with anything?",
+          "S2: No, thanks. Someone is already waiting on me."
+        ],
+        "linesGuj": [
+          "S1: શું કોઈ તમારી મદદ કરી રહ્યું છે?",
+          "S2: માફ કરશો, શું કહ્યું?",
+          "S1: શું હું તમારી કોઈ રીતે મદદ કરી શકું?",
+          "S2: ના, આભાર. કોઈ મારી રાહ જોઈ રહ્યું છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Going Shopping",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/going-by-taxi.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What store did you go to yesterday?",
+          "S2: I went to the Central Department Store.",
+          "S1: Do they have a good variety of things to choose from?",
+          "S2: They have lots to choose from, but it's all very expensive."
+        ],
+        "linesGuj": [
+          "S1: કાલે તમે કઈ દુકાન પર ગયા હતા?",
+          "S2: હું સેન્ટ્રલ ડિપાર્ટમેન્ટ સ્ટોર પર ગયો હતો.",
+          "S1: તેમની પાસે પસંદ કરવા માટે ઘણી ચીજો છે?",
+          "S2: પસંદ કરવા માટે ઘણું બધું છે, પરંતુ બધું જ બહુ મોંઘું છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What were you doing at that department store?",
+          "S2: I was shopping for a new suitcase.",
+          "S1: What was your friend doing there?",
+          "S2: She was trying to find a coat."
+        ],
+        "linesGuj": [
+          "S1: તમે એ ડિપાર્ટમેન્ટ સ્ટોરમાં શું કરતા હતા?",
+          "S2: હું નવો સુટકેસ ખરીદવા ગયો હતો.",
+          "S1: તમારા મિત્ર ત્યાં શું કરી રહ્યા હતા?",
+          "S2: તે એક કોટ શોધવાનો પ્રયાસ કરતી હતી."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: I have to go shopping.",
+          "S2: Do you know what you're going to buy?",
+          "S1: Not yet, but I hope to after shopping.",
+          "S2: I hate to go shopping, but I guess it's necessary."
+        ],
+        "linesGuj": [
+          "S1: મને શોપિંગ પર જવું છે.",
+          "S2: તમે શું ખરીદવાના છો તે જાણો છો?",
+          "S1: હજૂ નહીં, પરંતું ખરીદી કર્યા પછી ખબર પડશે એવી આશા છે.",
+          "S2: મને શોપિંગ પર જવું ન ગમે, પણ લાગે છે જરૂરી છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What time do the stores close?",
+          "S2: Most of them close at six o'clock.",
+          "S1: Do we still have time to go shopping?",
+          "S2: Yes. It's only four fifteen now."
+        ],
+        "linesGuj": [
+          "S1: દુકાનો કેટલા વાગે બંધ થાય છે?",
+          "S2: બહુ ભાગની દુકાનો છ વાગે બંધ થાય છે.",
+          "S1: શું આપણા પાસે હજુ શોપિંગ કરવા માટે સમય છે?",
+          "S2: હા. હમણાં ફક્ત ચાર પંદર થયા છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: It seems I always have to buy a lot of things.",
+          "S2: It always seems that way to me too.",
+          "S1: I always need so many little things.",
+          "S2: They add up to a lot of money, don't they?"
+        ],
+        "linesGuj": [
+          "S1: મને લાગે છે મને હંમેશા ઘણી ચીજો ખરીદવી પડે છે.",
+          "S2: મને પણ હંમેશા એવું જ લાગે છે.",
+          "S1: મને હંમેશા ઘણી નાનીછોટી ચીજો જોઈએ છે.",
+          "S2: સાૂથી ભેગી કરીને ઘણાં પૈસા થઈ જાય છે, છે ને?"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Talking about Shopping",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/going-shopping.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: Where do you do your shopping?",
+          "S2: I always go to the Central Department Store.",
+          "S1: What do you think of their selection?",
+          "S2: They have a good selection, and their prices are low, too."
+        ],
+        "linesGuj": [
+          "S1: તમે તમારું શોપિંગ ક્યા કરો છો?",
+          "S2: હું હંમેશાં સેન્ટ્રલ ડિપાર્ટમેન્ટ સ્ટોર પર જાઉં છું.",
+          "S1: તેમની ચીજોની પસંદગી વિશે તમને શું લાગે છે?",
+          "S2: તેમની પસંદગી સારી છે અને ભાવ પણ ઓછા છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: They're having a big sale at the Greenfield Shopping Center.",
+          "S2: What kind of sale?",
+          "S1: Well, the advertised items are house furnishings.",
+          "S2: I suppose there'll be crowds of people in the store."
+        ],
+        "linesGuj": [
+          "S1: ગ્રીનફિલ્ડ શોપિંગ સેન્ટરમાં મોટું સેલ લાગી છે.",
+          "S2: કયું સેલ?",
+          "S1: જાહેરાત મુજબ ઘર માટેની વસ્તુઓ પર સેલ છે.",
+          "S2: લાગે છે દુકાનમાં લોકોની ભીડ હશે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: I spent the afternoon shopping for clothes.",
+          "S2: Were you able to find anything you liked?",
+          "S1: Well, I found an excellent raincoat, and I bought some shoes.",
+          "S2: That reminds me that I have to go shopping soon."
+        ],
+        "linesGuj": [
+          "S1: મેં બપોરનો સમય કપડાંની ખરીદીમાં પસાર કર્યો.",
+          "S2: શું તમને તમારી પસંદની કંઈક મળી?",
+          "S1: હા, સરસ રેઇનકોટ મળ્યો અને થોડાં જૂતાં પણ લીધાં.",
+          "S2: એથી મને યાદ આવ્યું કે મને પણ જલ્દી શોપિંગ પર જવું જોઈએ."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: Where did you buy your coat?",
+          "S2: I bought it at the May Company.",
+          "S1: About how much did it cost?",
+          "S2: At the moment, I've forgotten how much it cost."
+        ],
+        "linesGuj": [
+          "S1: તમે તમારો કોટ ક્યાંથી લીધો?",
+          "S2: મેં તે મે કંપનીમાંથી લીધો હતો.",
+          "S1: લગભગ કેટલા રૂપિયાનો આવ્યો?",
+          "S2: હમણાં મને યાદ નથી કે કેટલા નો હતો."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Why did you choose the green one?",
+          "S2: They didn't have very much choice in my size.",
+          "S1: Excuse my asking, but how much did you pay for it?",
+          "S2: It was on sale, and I paid only forty-five dollars."
+        ],
+        "linesGuj": [
+          "S1: તમે લીલો વાળો જ કેમ પસંદ કર્યો?",
+          "S2: મારા સાઈઝમાં વધારે વિકલ્પ નહોતા.",
+          "S1: માફ કરશો, પણ તમે તેની કેટલો ભાવ ચૂકવ્યો?",
+          "S2: તે સેલમાં હતો, અને મેં ફક્ત પાંતાલીસ ડોલર ચૂકવ્યા."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Shopping for Clothes",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/going-shopping.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: What would you like to see?",
+          "S2: I'd like to see overcoats, please.",
+          "S1: What kind of overcoat would you like to see?",
+          "S2: I'd like to see your winter overcoats—probably wool."
+        ],
+        "linesGuj": [
+          "S1: તમે શું જોવા માંગો છો?",
+          "S2: મને ઓવરકોટ્સ જોવા છે, કૃપા કરીને.",
+          "S1: ક્યા પ્રકારનો ઓવરકોટ જોવા માંગો છો?",
+          "S2: મને તમારા શિયાળાના ઓવરકોટ્સ જોવા છે—શાયદ ઊનના."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: Could I look at your sweaters, if I could?",
+          "S2: Certainly. Any particular style?",
+          "S1: Could you show me the newest styles, please?",
+          "S2: Of course. Please step right this way."
+        ],
+        "linesGuj": [
+          "S1: શું હું તમારા સ્વેટર્સ જોઈ શકું?",
+          "S2: ખરેખર. કોઈ ખાસ પ્રકાર જોઈએ છે?",
+          "S1: શું તમે મને નવા સ્ટાઇલ બતાવી શકો, કૃપા કરીને?",
+          "S2: અવશ્ય. કૃપા કરીને આ તરફ આવો."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: I'm interested in seeing your summer suits.",
+          "S2: What color do you have in mind?",
+          "S1: Well, I'd like a light color, but not too light.",
+          "S2: Step over to the other room with me, would you please?"
+        ],
+        "linesGuj": [
+          "S1: મને તમારા સમર સૂટ્સ જોવા માં રસ છે.",
+          "S2: તમે કયો રંગ વિચાર્યો છે?",
+          "S1: હું થોડો હળવો રંગ ઈચ્છું છું, પણ બહુ ફિક્કો નહિ.",
+          "S2: કૃપા કરીને મારી સાથે બીજા રૂમમાં ચાલો."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: I did have one, but now it seems to fit you very well.",
+          "S2: How much would it cost?",
+          "S1: What material is this?",
+          "S2: It's a mixture—cotton and wool."
+        ],
+        "linesGuj": [
+          "S1: એ પહેલે મારું હતું, પણ હવે તમને સારી રીતે ફિટ થાય છે એવું લાગે છે.",
+          "S2: તેની કિંમત કેટલા પડશે?",
+          "S1: આ કયા કાપડનું છે?",
+          "S2: આ મિક્સ કાપડ છે—કોટન અને ઊનનું."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: Here's a very popular kind of sport coat—the most recent thing.",
+          "S2: I notice there isn't much padding in the shoulders.",
+          "S1: No, it's the natural shoulder line.",
+          "S2: I like the narrow lapels and the stitching on them."
+        ],
+        "linesGuj": [
+          "S1: આ સ્પોર્ટ કોટનો બહુ લોકપ્રિય નવો મોડલ છે.",
+          "S2: હું જોઉં છું કે ખભામાં વધારે પેડિંગ નથી.",
+          "S1: હા, આ નેચરલ શોલ્ડર લાઇન છે.",
+          "S2: મને તેની પાતળી લપેલ્સ અને ઉપરનું સ્ટિચિંગ ગમે છે."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Asking about Prices",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/what-did-you-do.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: How much does this pen cost?",
+          "S2: I beg your pardon?",
+          "S1: How much is this pen?",
+          "S2: It's four dollars and fifty cents."
+        ],
+        "linesGuj": [
+          "S1: આ પેનનું કિંમત કેટલું છે?",
+          "S2: માફ કરશો, શું કહ્યું?",
+          "S1: આ પેન કેટલાની છે?",
+          "S2: તે ચાર ડોલર અને પચાસ સેન્ટની છે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: How much is this leather billfold?",
+          "S2: Twelve seventy-five.",
+          "S1: Does that include the tax?",
+          "S2: It's twelve forty, including tax."
+        ],
+        "linesGuj": [
+          "S1: આ ચામડાનું બિલફોલ્ડ કેટલાનું છે?",
+          "S2: બાર ડોલર પચોતેર.",
+          "S1: શું તેમાં ટેક્સ પણ સામેલ છે?",
+          "S2: ટેક્સ સહિત તે બાર ડોલર ચાળીસ સેન્ટનું છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: This briefcase costs five fifty.",
+          "S2: Is there a penalty for paying by check?",
+          "S1: I don't believe so.",
+          "S2: Then I'll take it, thank you."
+        ],
+        "linesGuj": [
+          "S1: આ બ્રીફકેસ પાંચ ડોલર પચાસ સેન્ટનો છે.",
+          "S2: ચેકથી ચુકવણી કરીએ તો કોઈ વધારું ફી લાગે છે?",
+          "S1: મને લાગે છે નહિ.",
+          "S2: તો પછી હું આ લઈ લઉં છું, આભાર."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: We're having a sale on leather goods today.",
+          "S2: Are these supplies on sale too?",
+          "S1: Yes. Briefcases and wallets.",
+          "S2: Fine. Thank you very much."
+        ],
+        "linesGuj": [
+          "S1: આજે અમારી પાસે ચામડાની વસ્તુઓ પર સેલ છે.",
+          "S2: શું આ સપ્લાયઝ ઉપર પણ સેલ છે?",
+          "S1: હા. બ્રીફકેસ અને વોલેટ્સ પર.",
+          "S2: સારું. ખુબ ખુબ આભાર."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: How much are these things, all together?",
+          "S2: Let's see. That'll be twenty-one fifty.",
+          "S1: I'd like to charge them to my account, please.",
+          "S2: Fine. Could you give me your name and address?"
+        ],
+        "linesGuj": [
+          "S1: એક સાથે આ બધી વસ્તુઓ કેટલાની થશે?",
+          "S2: જોઈએ... કુલ એકવીસ ડોલર પચાસ સેન્ટ થશે.",
+          "S1: મારે આ મારા એકાઉન્ટમાં ચાર્જ કરાવવું છે, કૃપા કરીને.",
+          "S2: સારું. કૃપા કરીને તમારું નામ અને સરનામું આપશો?"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "How Much Does It Cost?",
+    "image": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/conversation/images/going-shopping.png",
+    "conversations": [
+      {
+        "id": "A",
+        "lines": [
+          "S1: How much are your potatoes, sir?",
+          "S2: Twenty-five cents a pound.",
+          "S1: How many pounds shall I take?",
+          "S2: Five pounds would be two dollars and a quarter."
+        ],
+        "linesGuj": [
+          "S1: સાહેબ, તમારા બટાટા કેટલાના છે?",
+          "S2: એક પાઉન્ડ પચ્ચીસ સેન્ટ.",
+          "S1: હું કેટલા પાઉન્ડ લઈ લઉં?",
+          "S2: પાંચ પાઉન્ડ લેશો તો બે ડોલર અને સવા ડોલર થશે."
+        ]
+      },
+      {
+        "id": "B",
+        "lines": [
+          "S1: What does this gold pin cost?",
+          "S2: It's twenty-one dollars plus tax.",
+          "S1: What about the small one next to it?",
+          "S2: That one costs twelve-fifty."
+        ],
+        "linesGuj": [
+          "S1: આ સોનાની પિન કેટલાની છે?",
+          "S2: એકવીસ ડોલર છે, ટેક્સ ઉપરાંત.",
+          "S1: તેની બાજુમાં જે નાની છે તે કેટલાની?",
+          "S2: એ બાર ડોલર પચાસ સેન્ટની છે."
+        ]
+      },
+      {
+        "id": "C",
+        "lines": [
+          "S1: What's the regular price for that refrigerator?",
+          "S2: The list price is two hundred forty-five dollars.",
+          "S1: Is that the best price you can give me?",
+          "S2: Yes. Those are the lowest prices we have."
+        ],
+        "linesGuj": [
+          "S1: એ રેફ્રિજરેટરનો નિયમિત ભાવ કેટલો છે?",
+          "S2: લિસ્ટ પ્રાઈસ બે સો પૈતાલીસ ડોલર છે.",
+          "S1: શું એથી ઓછી કિંમત ન મળે?",
+          "S2: ના. અમારા પાસે આ જ સૌથી ઓછો ભાવ છે."
+        ]
+      },
+      {
+        "id": "D",
+        "lines": [
+          "S1: What are you asking for that antique mirror?",
+          "S2: The price on that one is one hundred fifty dollars.",
+          "S1: Isn't that rather expensive?",
+          "S2: Not really. Mirrors of that type are quite rare."
+        ],
+        "linesGuj": [
+          "S1: આ એન્ટિક અરીસાનો તમે કેટલો ભાવ માંગો છો?",
+          "S2: એનો ભાવ એકસો પચાસ ડોલર છે.",
+          "S1: થોડું મોંઘુ નથી લાગતું?",
+          "S2: ખાસ નથી. આવી પ્રકારનાં અરીસા ઘણાં દુર્લભ છે."
+        ]
+      },
+      {
+        "id": "E",
+        "lines": [
+          "S1: What would it cost to have this chair repaired?",
+          "S2: I'd estimate seventy or eighty dollars.",
+          "S1: How much would it cost to replace it with a new one?",
+          "S2: Probably around a hundred dollars."
+        ],
+        "linesGuj": [
+          "S1: આ ખુરશી દુરસ્ત કરાવવાની કેટલો ખર્ચ આવશે?",
+          "S2: હું અંદાજે સિત્તેર કે એંશી ડોલર કહું.",
+          "S1: નવી ખુરશી લઈએ તો કેટલો ખર્ચ આવશે?",
+          "S2: શાયદ લગભગ સો ડોલર આસપાસ આવશે."
+        ]
+      }
+    ]
+  }
+]

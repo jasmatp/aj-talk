@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level, EmojiQuestion } from "../../types/quiz";
 import LevelSelector from "../LevelSelector";
 import EmojiGuessCard from "./EmojiGuessCard";
 import { useTheme } from "../../../context/ThemeContext";
-import { emojiQuestions } from "../../data/emojiQuestions";
+// import { emojiQuestions } from "../../data/emojiQuestions";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const QUESTIONS_PER_SESSION = 10;
 
@@ -22,6 +23,10 @@ const EmojiGuessApp: React.FC = () => {
   const { isDark } = useTheme();
   const navigate = useNavigate();
 
+  const [emojiData, setEmojiData] = useState<EmojiQuestion[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [sessionId, setSessionId] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,9 +39,7 @@ const EmojiGuessApp: React.FC = () => {
   // Filter by level
   const levelQuestions: EmojiQuestion[] = useMemo(
     () =>
-      selectedLevel
-        ? emojiQuestions.filter((q) => q.level === selectedLevel)
-        : [],
+      selectedLevel ? emojiData.filter((q) => q.level === selectedLevel) : [],
     [selectedLevel]
   );
 
@@ -105,6 +108,32 @@ const EmojiGuessApp: React.FC = () => {
 
   const isShortSet =
     selectedLevel !== null && sessionQuestions.length < QUESTIONS_PER_SESSION;
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/emojiQuestions.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setEmojiData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   // No level selected yet
   if (!selectedLevel) {
@@ -183,9 +212,16 @@ const EmojiGuessApp: React.FC = () => {
       <div className="container py-4">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
-            <div className="text-center mb-4">
-              <h2 className="fw-bold">Emoji Guess Game</h2>
-              <p className="text-muted mb-0">
+            <div className="mb-2">
+              <Button variant="link" onClick={() => navigate("/games")}>
+                ← Back
+              </Button>
+              <h2>
+                <Badge bg="secondary" className="m-2">
+                  Emoji Guess Game
+                </Badge>
+              </h2>
+              <p className="text-muted m-2">
                 Fun way to learn <strong>phrases</strong> and{" "}
                 <strong>vocabulary</strong> using emojis. 🎭
               </p>

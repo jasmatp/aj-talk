@@ -21,7 +21,7 @@
     object-fit: cover;
     border-radius: 8px;
     transition: transform 0.3s ease;
-    border: 2px dotted red;
+    border: 2px dotted #049aff;
 }
 
 .lesson-title {

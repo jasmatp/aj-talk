@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level, WordCategory, WordSortingSet } from "../../types/quiz";
 import LevelSelector from "../LevelSelector";
 import WordSortingBoard from "./WordSortingBoard";
 import { useTheme } from "../../../context/ThemeContext";
-import { wordSortingSets } from "../../data/wordSortingQuestions";
+// import { wordSortingSets } from "../../data/wordSortingQuestions";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const WordSortingApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -22,11 +23,33 @@ const WordSortingApp: React.FC = () => {
     total: 0,
   });
 
+  const [wordSortingSet, setWordSortingSet] = useState<WordSortingSet[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/wordSortingSets.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setWordSortingSet(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   // All sets for the current level
   const levelSets = useMemo(
     () =>
       selectedLevel
-        ? wordSortingSets.filter((s) => s.level === selectedLevel)
+        ? wordSortingSet.filter((s) => s.level === selectedLevel)
         : [],
     [selectedLevel]
   );
@@ -47,7 +70,7 @@ const WordSortingApp: React.FC = () => {
   const handleSelectLevel = (level: Level) => {
     setSelectedLevel(level);
     setCurrentSetIndex(0);
-    const sets = wordSortingSets.filter((s) => s.level === level);
+    const sets = wordSortingSet.filter((s) => s.level === level);
     const first = sets[0] ?? null;
     resetForSet(first);
   };
@@ -98,6 +121,14 @@ const WordSortingApp: React.FC = () => {
     selectedLevel !== null &&
     levelSets.length > 0 &&
     currentSetIndex === levelSets.length - 1;
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   return (
     <div

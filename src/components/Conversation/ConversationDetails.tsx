@@ -1,14 +1,21 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { conversations } from "../../mochData/conversationData";
+// import { conversations } from "../../mochData/conversationData";
 import { Badge, Button, Card } from "react-bootstrap";
+import { useConversation } from "../../hooks/useConversation";
+import MultiCircleSpinner from "../MultiCircleSpinner";
 
 const ConversationDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
+  const { conversationData, loading } = useConversation();
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
 
   const index = Number(id);
-  const group = conversations[index];
+  const group = conversationData[index];
 
   const speakText = (text: string) => {
     if (!window.speechSynthesis) {

@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level, ClozeQuestion } from "../../types/quiz";
 import LevelSelector from "../LevelSelector";
 import ClozeTestCard from "./ClozeTestCard";
 import { useTheme } from "../../../context/ThemeContext";
-import { clozeQuestions } from "../../data/clozeQuestions";
+// import { clozeQuestions } from "../../data/clozeQuestions";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const QUESTIONS_PER_SESSION = 10;
 
@@ -31,12 +32,34 @@ const ClozeTestApp: React.FC = () => {
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
 
+  const [clozeData, setClozeData] = useState<ClozeQuestion[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/clozeQuestion.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        console.log(data, "cloze");
+
+        setClozeData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   // Filter by level
   const levelQuestions: ClozeQuestion[] = useMemo(
     () =>
-      selectedLevel
-        ? clozeQuestions.filter((q) => q.level === selectedLevel)
-        : [],
+      selectedLevel ? clozeData.filter((q) => q.level === selectedLevel) : [],
     [selectedLevel]
   );
 
@@ -105,6 +128,14 @@ const ClozeTestApp: React.FC = () => {
 
   const isShortSet =
     selectedLevel !== null && sessionQuestions.length < QUESTIONS_PER_SESSION;
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   // If no level selected
   if (!selectedLevel) {
@@ -183,10 +214,17 @@ const ClozeTestApp: React.FC = () => {
       <div className="container py-4">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
-            <div className="text-center mb-4">
-              <h2 className="fw-bold">Cloze Test (Fill in the Blank)</h2>
-              <p className="text-muted mb-0">
-                Practice <strong>grammar</strong> and <strong>tenses</strong> by
+            <div className="mb-2">
+              <Button variant="link" onClick={() => navigate("/games")}>
+                ← Back
+              </Button>
+              <h2>
+                <Badge bg="secondary" className="m-2">
+                  Cloze Test (Fill in the Blank)
+                </Badge>
+              </h2>
+              <p className="text-muted m-2">
+                 Practice <strong>grammar</strong> and <strong>tenses</strong> by
                 choosing the right word. 🧠
               </p>
             </div>

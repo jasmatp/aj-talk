@@ -1,11 +1,13 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level } from "../../types/quiz";
 import LevelSelector from "../LevelSelector";
 import PictureWordCard from "./PictureWordCard";
-import { pictureWordQuestions } from "../../data/pictureWords";
+// import { pictureWordQuestions } from "../../data/pictureWords";
 import { useTheme } from "../../../context/ThemeContext";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
+import { PictureWordQuestion } from "../../types/pictureWord";
 
 const PictureWordApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -18,11 +20,31 @@ const PictureWordApp: React.FC = () => {
   const [score, setScore] = useState<number>(0);
   const [finished, setFinished] = useState<boolean>(false);
 
+  const [pictureWord, setPictureWord] = useState<PictureWordQuestion[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/pictureWords.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setPictureWord(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   const levelQuestions = useMemo(
     () =>
-      selectedLevel
-        ? pictureWordQuestions.filter((q) => q.level === selectedLevel)
-        : [],
+      selectedLevel ? pictureWord.filter((q) => q.level === selectedLevel) : [],
     [selectedLevel]
   );
 
@@ -83,6 +105,14 @@ const PictureWordApp: React.FC = () => {
     setSelectedLevel(null);
     resetLevelState();
   };
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   return (
     <div

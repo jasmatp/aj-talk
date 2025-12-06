@@ -1,18 +1,19 @@
 import React, { FormEvent, useEffect, useMemo, useState } from "react";
 import { Level, SpellingQuestion } from "../../types/quiz";
-import { spellingQuestions } from "../../data/spellingQuestions";
+// import { spellingQuestions } from "../../data/spellingQuestions";
 import LevelSelector from "../LevelSelector";
 import SpellingCard from "./SpellingCard";
 import { useTheme } from "../../../context/ThemeContext";
 import { useSpeechSynthesis } from "../../../../hooks/useSpeechSynthesis";
 import { Badge, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const normalize = (value: string) => value.trim().toLowerCase();
 
 const SpellingChallengeApp: React.FC = () => {
   const { isDark } = useTheme();
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,10 +25,34 @@ const SpellingChallengeApp: React.FC = () => {
 
   const { speak, cancel, isSpeaking, supported } = useSpeechSynthesis();
 
+  const [spellingQuestion, setSpellingQuestion] = useState<SpellingQuestion[]>(
+    []
+  );
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/spellingQuestions.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setSpellingQuestion(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   const levelQuestions: SpellingQuestion[] = useMemo(
     () =>
       selectedLevel
-        ? spellingQuestions.filter((q) => q.level === selectedLevel)
+        ? spellingQuestion.filter((q) => q.level === selectedLevel)
         : [],
     [selectedLevel]
   );
@@ -70,8 +95,7 @@ const SpellingChallengeApp: React.FC = () => {
     e.preventDefault();
     if (!currentQuestion || isLocked || !userAnswer.trim()) return;
 
-    const correct =
-      normalize(userAnswer) === normalize(currentQuestion.word);
+    const correct = normalize(userAnswer) === normalize(currentQuestion.word);
     setIsCorrect(correct);
     setIsLocked(true);
 
@@ -113,6 +137,14 @@ const SpellingChallengeApp: React.FC = () => {
     };
   }, [cancel]);
 
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
+
   return (
     <div
       className={`min-vh-100 d-flex align-items-center ${
@@ -132,7 +164,7 @@ const SpellingChallengeApp: React.FC = () => {
                 </Badge>
               </h2>
               <p className="text-muted m-2">
-                 Choose a level, listen to the word, and{" "}
+                Choose a level, listen to the word, and{" "}
                 <strong>type the correct spelling</strong>. ✍️
               </p>
             </div>

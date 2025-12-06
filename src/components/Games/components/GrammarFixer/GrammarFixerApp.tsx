@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level, GrammarFixerQuestion } from "../../types/quiz";
 import LevelSelector from "../LevelSelector";
 import GrammarFixerCard from "./GrammarFixerCard";
 import { useTheme } from "../../../context/ThemeContext";
-import { grammarFixerQuestions } from "../../data/grammarFixerQuestions";
+// import { grammarFixerQuestions } from "../../data/grammarFixerQuestions";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const GrammarFixerApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -21,11 +22,33 @@ const GrammarFixerApp: React.FC = () => {
   const [score, setScore] = useState<number>(0);
   const [finished, setFinished] = useState<boolean>(false);
 
+  const [grammarFixer, setGrammarFixer] = useState<GrammarFixerQuestion[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/grammarFixer.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setGrammarFixer(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   // Filter questions for selected level
   const levelQuestions: GrammarFixerQuestion[] = useMemo(
     () =>
       selectedLevel
-        ? grammarFixerQuestions.filter((q) => q.level === selectedLevel)
+        ? grammarFixer.filter((q) => q.level === selectedLevel)
         : [],
     [selectedLevel]
   );
@@ -85,6 +108,14 @@ const GrammarFixerApp: React.FC = () => {
     setSelectedLevel(null);
     resetLevelState();
   };
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   return (
     <div

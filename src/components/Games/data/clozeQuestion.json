@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "level": "beginner",
+    "sentence": "He ___ going to school.",
+    "options": ["is", "are", "am", "were"],
+    "correctOption": "is",
+    "explanation": "Use 'is' with he/she/it in present continuous."
+  },
+  {
+    "id": 2,
+    "level": "beginner",
+    "sentence": "They ___ playing in the park.",
+    "options": ["is", "are", "am", "was"],
+    "correctOption": "are",
+    "explanation": "Use 'are' with plural subjects like 'they'."
+  },
+  {
+    "id": 3,
+    "level": "beginner",
+    "sentence": "I ___ reading a book.",
+    "options": ["is", "are", "am", "was"],
+    "correctOption": "am",
+    "explanation": "Use 'am' only with 'I' in present continuous."
+  },
+  {
+    "id": 4,
+    "level": "beginner",
+    "sentence": "She ___ a new phone.",
+    "options": ["have", "has", "had", "having"],
+    "correctOption": "has",
+    "explanation": "Use 'has' with he/she/it in present simple."
+  },
+  {
+    "id": 5,
+    "level": "beginner",
+    "sentence": "They ___ from India.",
+    "options": ["is", "are", "am", "be"],
+    "correctOption": "are",
+    "explanation": "Use 'are' with plural subjects."
+  },
+  {
+    "id": 6,
+    "level": "beginner",
+    "sentence": "It ___ raining now.",
+    "options": ["is", "are", "am", "be"],
+    "correctOption": "is",
+    "explanation": "Use 'is' with 'it' in present continuous."
+  },
+  {
+    "id": 7,
+    "level": "beginner",
+    "sentence": "We ___ late for school yesterday.",
+    "options": ["is", "are", "was", "were"],
+    "correctOption": "were",
+    "explanation": "Use 'were' with 'we/you/they' in past tense."
+  },
+  {
+    "id": 8,
+    "level": "beginner",
+    "sentence": "She ___ not like milk.",
+    "options": ["do", "does", "did", "done"],
+    "correctOption": "does",
+    "explanation": "Use 'does not' with he/she/it in present simple."
+  },
+  {
+    "id": 9,
+    "level": "beginner",
+    "sentence": "I ___ breakfast every morning.",
+    "options": ["has", "have", "had", "having"],
+    "correctOption": "have",
+    "explanation": "Use 'have' with 'I/you/we/they' in present simple."
+  },
+  {
+    "id": 10,
+    "level": "beginner",
+    "sentence": "They ___ to the market last Sunday.",
+    "options": ["go", "goes", "went", "gone"],
+    "correctOption": "went",
+    "explanation": "'Last Sunday' needs past tense: 'went'."
+  },
+
+  {
+    "id": 11,
+    "level": "intermediate",
+    "sentence": "If it ___ tomorrow, we will stay at home.",
+    "options": ["rains", "will rain", "rain", "rained"],
+    "correctOption": "rains",
+    "explanation": "First conditional: 'If' + present simple, 'will' + base verb."
+  },
+  {
+    "id": 12,
+    "level": "intermediate",
+    "sentence": "She is interested ___ learning French.",
+    "options": ["in", "on", "at", "for"],
+    "correctOption": "in",
+    "explanation": "Use 'interested in' for interests."
+  },
+  {
+    "id": 13,
+    "level": "intermediate",
+    "sentence": "I look forward to ___ you soon.",
+    "options": ["meet", "meeting", "met", "meets"],
+    "correctOption": "meeting",
+    "explanation": "After 'look forward to', use a gerund (-ing)."
+  },
+  {
+    "id": 14,
+    "level": "intermediate",
+    "sentence": "He ___ finished his homework before dinner.",
+    "options": ["has", "have", "had", "having"],
+    "correctOption": "had",
+    "explanation": "Past perfect: 'had' + past participle for earlier past action."
+  },
+  {
+    "id": 15,
+    "level": "intermediate",
+    "sentence": "We ___ here since 2010.",
+    "options": ["live", "lived", "have lived", "had lived"],
+    "correctOption": "have lived",
+    "explanation": "Use present perfect for 'since/for' + time up to now."
+  },
+  {
+    "id": 16,
+    "level": "intermediate",
+    "sentence": "The movie ___ by many people.",
+    "options": ["has seen", "was seen", "saw", "is see"],
+    "correctOption": "was seen",
+    "explanation": "Passive past simple: 'was' + past participle."
+  },
+  {
+    "id": 17,
+    "level": "intermediate",
+    "sentence": "She said she ___ busy the next day.",
+    "options": ["is", "was", "will be", "has been"],
+    "correctOption": "was",
+    "explanation": "Reported speech: present 'am/is' → past 'was'."
+  },
+  {
+    "id": 18,
+    "level": "intermediate",
+    "sentence": "I ___ my keys. I can’t find them.",
+    "options": ["lost", "have lost", "had lost", "lose"],
+    "correctOption": "have lost",
+    "explanation": "Present perfect: a recent event with present result."
+  },
+  {
+    "id": 19,
+    "level": "intermediate",
+    "sentence": "By the time we arrived, the show ___.",
+    "options": ["starts", "started", "had started", "has started"],
+    "correctOption": "had started",
+    "explanation": "Past perfect for the action that happened before another past action."
+  },
+  {
+    "id": 20,
+    "level": "intermediate",
+    "sentence": "Neither of the answers ___ correct.",
+    "options": ["is", "are", "were", "be"],
+    "correctOption": "is",
+    "explanation": "With 'neither', we usually use a singular verb."
+  },
+
+  {
+    "id": 21,
+    "level": "advanced",
+    "sentence": "If I ___ you, I would apologize.",
+    "options": ["am", "was", "were", "had been"],
+    "correctOption": "were",
+    "explanation": "Second conditional (subjunctive): 'If I were you...'."
+  },
+  {
+    "id": 22,
+    "level": "advanced",
+    "sentence": "She suggested that he ___ earlier next time.",
+    "options": ["comes", "come", "came", "will come"],
+    "correctOption": "come",
+    "explanation": "After 'suggest that', use base verb (subjunctive): 'come'."
+  },
+  {
+    "id": 23,
+    "level": "advanced",
+    "sentence": "Had I known, I ___ you.",
+    "options": ["will tell", "would tell", "would have told", "told"],
+    "correctOption": "would have told",
+    "explanation": "Third conditional: 'Had I known, I would have told you.'"
+  },
+  {
+    "id": 24,
+    "level": "advanced",
+    "sentence": "The results of the experiment ___ surprising.",
+    "options": ["was", "were", "has been", "is being"],
+    "correctOption": "were",
+    "explanation": "'Results' is plural, so use 'were'."
+  },
+  {
+    "id": 25,
+    "level": "advanced",
+    "sentence": "Each of the students ___ a different topic.",
+    "options": ["choose", "chooses", "have chosen", "are choosing"],
+    "correctOption": "chooses",
+    "explanation": "After 'each of', use singular verb form."
+  },
+  {
+    "id": 26,
+    "level": "advanced",
+    "sentence": "The project ___ by the time you arrive.",
+    "options": [
+      "will finish",
+      "will have been finished",
+      "is finishing",
+      "has finished"
+    ],
+    "correctOption": "will have been finished",
+    "explanation": "Future perfect passive: 'will have been finished'."
+  },
+  {
+    "id": 27,
+    "level": "advanced",
+    "sentence": "Rarely ___ such a beautiful view.",
+    "options": ["I have seen", "have I seen", "I saw", "did I saw"],
+    "correctOption": "have I seen",
+    "explanation": "After negative adverb 'rarely', use inversion: 'have I seen'."
+  },
+  {
+    "id": 28,
+    "level": "advanced",
+    "sentence": "By next year, she ___ here for a decade.",
+    "options": ["will work", "will have worked", "has worked", "had worked"],
+    "correctOption": "will have worked",
+    "explanation": "Future perfect: 'will have worked' for duration up to a future point."
+  },
+  {
+    "id": 29,
+    "level": "advanced",
+    "sentence": "No sooner ___ the bell rang than the students ran out.",
+    "options": ["had", "had had", "has", "have"],
+    "correctOption": "had",
+    "explanation": "Structure: 'No sooner had X happened than Y'."
+  },
+  {
+    "id": 30,
+    "level": "advanced",
+    "sentence": "Scarcely ___ the train left when it started raining.",
+    "options": ["has", "had", "have", "was"],
+    "correctOption": "had",
+    "explanation": "Structure: 'Scarcely had X happened when Y'."
+  }
+]

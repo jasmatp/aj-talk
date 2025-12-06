@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "level": "beginner",
+    "correctWord": "kind",
+    "options": ["kind", "king", "kid", "mind"],
+    "exampleSentence": "She is always kind to her friends."
+  },
+  {
+    "id": 2,
+    "level": "beginner",
+    "correctWord": "tall",
+    "options": ["tall", "tail", "tell", "tool"],
+    "exampleSentence": "The boy is very tall for his age."
+  },
+  {
+    "id": 3,
+    "level": "beginner",
+    "correctWord": "short",
+    "options": ["short", "shirt", "shot", "sort"],
+    "exampleSentence": "He is too short to reach the shelf."
+  },
+  {
+    "id": 4,
+    "level": "beginner",
+    "correctWord": "clean",
+    "options": ["clean", "climb", "clear", "clown"],
+    "exampleSentence": "Please keep your room clean."
+  },
+  {
+    "id": 5,
+    "level": "beginner",
+    "correctWord": "dirty",
+    "options": ["dirty", "duty", "thirty", "party"],
+    "exampleSentence": "Your hands are dirty, go wash them."
+  },
+  {
+    "id": 6,
+    "level": "beginner",
+    "correctWord": "quiet",
+    "options": ["quiet", "quite", "quit", "white"],
+    "exampleSentence": "The library is a quiet place."
+  },
+  {
+    "id": 7,
+    "level": "beginner",
+    "correctWord": "loud",
+    "options": ["loud", "load", "lord", "long"],
+    "exampleSentence": "The music is too loud."
+  },
+  {
+    "id": 8,
+    "level": "beginner",
+    "correctWord": "early",
+    "options": ["early", "yearly", "really", "rarely"],
+    "exampleSentence": "He woke up early this morning."
+  },
+  {
+    "id": 9,
+    "level": "beginner",
+    "correctWord": "late",
+    "options": ["late", "let", "light", "list"],
+    "exampleSentence": "She was late for school."
+  },
+  {
+    "id": 10,
+    "level": "beginner",
+    "correctWord": "friendly",
+    "options": ["friendly", "friend", "freely", "finally"],
+    "exampleSentence": "Our new neighbor is very friendly."
+  },
+
+  {
+    "id": 11,
+    "level": "intermediate",
+    "correctWord": "generous",
+    "options": ["generous", "general", "genuine", "jealous"],
+    "exampleSentence": "He is generous with his time and money."
+  },
+  {
+    "id": 12,
+    "level": "intermediate",
+    "correctWord": "cautious",
+    "options": ["cautious", "conscious", "curious", "anxious"],
+    "exampleSentence": "She was cautious while crossing the busy road."
+  },
+  {
+    "id": 13,
+    "level": "intermediate",
+    "correctWord": "annoyed",
+    "options": ["annoyed", "amused", "amazed", "ashamed"],
+    "exampleSentence": "He was annoyed by the constant noise."
+  },
+  {
+    "id": 14,
+    "level": "intermediate",
+    "correctWord": "curious",
+    "options": ["curious", "furious", "serious", "various"],
+    "exampleSentence": "Children are naturally curious."
+  },
+  {
+    "id": 15,
+    "level": "intermediate",
+    "correctWord": "confident",
+    "options": ["confident", "convenient", "consistent", "continent"],
+    "exampleSentence": "She felt confident before the exam."
+  },
+  {
+    "id": 16,
+    "level": "intermediate",
+    "correctWord": "disappointed",
+    "options": ["disappointed", "appointed", "disappointedly", "disappeared"],
+    "exampleSentence": "They were disappointed with the result."
+  },
+  {
+    "id": 17,
+    "level": "intermediate",
+    "correctWord": "awkward",
+    "options": ["awkward", "afterward", "outward", "award"],
+    "exampleSentence": "There was an awkward silence in the room."
+  },
+  {
+    "id": 18,
+    "level": "intermediate",
+    "correctWord": "sensible",
+    "options": ["sensible", "sensitive", "sensible", "sensible"],
+    "exampleSentence": "That is a sensible decision."
+  },
+  {
+    "id": 19,
+    "level": "intermediate",
+    "correctWord": "hesitant",
+    "options": ["hesitant", "assistant", "distant", "resident"],
+    "exampleSentence": "He was hesitant to ask for help."
+  },
+  {
+    "id": 20,
+    "level": "intermediate",
+    "correctWord": "grateful",
+    "options": ["grateful", "greatful", "greatly", "graceful"],
+    "exampleSentence": "She is grateful for their support."
+  },
+
+  {
+    "id": 21,
+    "level": "advanced",
+    "correctWord": "elaborate",
+    "options": ["elaborate", "elevate", "elated", "liberate"],
+    "exampleSentence": "They prepared an elaborate plan for the event."
+  },
+  {
+    "id": 22,
+    "level": "advanced",
+    "correctWord": "notorious",
+    "options": ["notorious", "notable", "nutritious", "victorious"],
+    "exampleSentence": "The area is notorious for heavy traffic."
+  },
+  {
+    "id": 23,
+    "level": "advanced",
+    "correctWord": "preliminary",
+    "options": ["preliminary", "preliminary", "preliminary", "prelim"],
+    "exampleSentence": "These are just the preliminary results."
+  },
+  {
+    "id": 24,
+    "level": "advanced",
+    "correctWord": "substantial",
+    "options": ["substantial", "subtle", "suburban", "sustained"],
+    "exampleSentence": "They made a substantial profit last year."
+  },
+  {
+    "id": 25,
+    "level": "advanced",
+    "correctWord": "unprecedented",
+    "options": ["unprecedented", "unpleasant", "unprotected", "unexpected"],
+    "exampleSentence": "The company saw unprecedented growth."
+  },
+  {
+    "id": 26,
+    "level": "advanced",
+    "correctWord": "vulnerable",
+    "options": ["vulnerable", "valuable", "variable", "visible"],
+    "exampleSentence": "Young animals are vulnerable to cold weather."
+  },
+  {
+    "id": 27,
+    "level": "advanced",
+    "correctWord": "intricate",
+    "options": ["intricate", "intimate", "indicate", "imitate"],
+    "exampleSentence": "The design on the door is very intricate."
+  },
+  {
+    "id": 28,
+    "level": "advanced",
+    "correctWord": "plausible",
+    "options": ["plausible", "possible", "probable", "pleasurable"],
+    "exampleSentence": "Her explanation sounded plausible."
+  },
+  {
+    "id": 29,
+    "level": "advanced",
+    "correctWord": "tedious",
+    "options": ["tedious", "tremendous", "tenuous", "serious"],
+    "exampleSentence": "Filling out forms can be tedious."
+  },
+  {
+    "id": 30,
+    "level": "advanced",
+    "correctWord": "rigorous",
+    "options": ["rigorous", "vigorous", "righteous", "rewarding"],
+    "exampleSentence": "They followed a rigorous testing process."
+  }
+]

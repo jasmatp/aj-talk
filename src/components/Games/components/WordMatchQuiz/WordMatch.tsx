@@ -1,12 +1,13 @@
-import React, { useMemo, useState } from "react";
-import { Level } from "../../types/quiz";
+import React, { useEffect, useMemo, useState } from "react";
+import { Level, Question } from "../../types/quiz";
 import ScoreBoard from "./ScoreBoard";
 import LevelSelector from "../LevelSelector";
 import QuestionCard from "./QuestionCard";
-import { questions } from "../../data/questions";
+// import { questions } from "../../data/questions";
 import { useTheme } from "../../../context/ThemeContext";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const WordMatchApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -22,9 +23,31 @@ const WordMatchApp: React.FC = () => {
   const [isFinished, setIsFinished] = useState<boolean>(false);
   const [bestScore, setBestScore] = useState<number | null>(null);
 
+  const [wordMatch, setWordMatch] = useState<Question[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/wordMatchQuestions.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setWordMatch(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   const levelQuestions = useMemo(
     () =>
-      selectedLevel ? questions.filter((q) => q.level === selectedLevel) : [],
+      selectedLevel ? wordMatch.filter((q) => q.level === selectedLevel) : [],
     [selectedLevel]
   );
 
@@ -103,6 +126,14 @@ const WordMatchApp: React.FC = () => {
     resetQuizState();
     setBestScore(null);
   };
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   return (
     <div

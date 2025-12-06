@@ -1,0 +1,32 @@
+[
+  {
+    "imageSrc": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/images/english-basic.png",
+    "title": "English Speaking Basics",
+    "description": "Learn basic everyday English expressions for beginners.",
+    "lessonUrl": "/basic-I"
+  },
+  {
+    "imageSrc": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/images/english-grammar.png",
+    "title": "Basics of English Grammar",
+    "description": "Improve your English speaking with strong grammar basics.",
+    "lessonUrl": "/grammar"
+  },
+  {
+    "imageSrc": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/images/listening.png",
+    "title": "English Listening Lessons",
+    "description": "Practice listening the fun way — with exciting Q&A!",
+    "lessonUrl": "/listening"
+  },
+  {
+    "imageSrc": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/images/conversation.png",
+    "title": "English Conversation",
+    "description": "Practice everyday English dialogues to build confidence and communication skills.",
+    "lessonUrl": "/convertion"
+  },
+  {
+    "imageSrc": "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/images/english-playroom.jpg",
+    "title": "English Playroom",
+    "description": "Enjoy learning English with fun, fast, bite-sized challenges.",
+    "lessonUrl": "/games"
+  }
+]

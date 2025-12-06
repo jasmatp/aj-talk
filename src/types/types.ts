@@ -1,3 +1,10 @@
+export interface HomeLesson {
+  imageSrc: string;
+  title: string;
+  description: string;
+  lessonUrl: string;
+}
+
 export interface LessonContent {
   title: string;
   detail1: string;

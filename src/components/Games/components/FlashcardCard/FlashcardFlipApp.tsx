@@ -1,11 +1,12 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Level, Flashcard } from "../../types/quiz";
-import { flashcards } from "../../data/flashcards";
+// import { flashcards } from "../../data/flashcards";
 import LevelSelector from "../LevelSelector";
 import FlashcardCard from "./FlashcardCard";
 import { useTheme } from "../../../context/ThemeContext";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const FlashcardFlipApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -17,6 +18,28 @@ const FlashcardFlipApp: React.FC = () => {
   const [knownCount, setKnownCount] = useState(0);
   const [learnAgainCount, setLearnAgainCount] = useState(0);
   const [finished, setFinished] = useState(false);
+
+  const [flashcards, setFlashcards] = useState<Flashcard[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/flashCard.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setFlashcards(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
 
   const levelCards: Flashcard[] = useMemo(
     () =>
@@ -73,6 +96,14 @@ const FlashcardFlipApp: React.FC = () => {
     setSelectedLevel(null);
     resetLevelState();
   };
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   // No level selected
   if (!selectedLevel) {
@@ -151,9 +182,16 @@ const FlashcardFlipApp: React.FC = () => {
       <div className="container py-4">
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
-            <div className="text-center mb-4">
-              <h2 className="fw-bold">Flashcard Flip Game</h2>
-              <p className="text-muted mb-0">
+            <div className="mb-2">
+              <Button variant="link" onClick={() => navigate("/games")}>
+                ← Back
+              </Button>
+              <h2>
+                <Badge bg="secondary" className="m-2">
+                  Flashcard Flip Game
+                </Badge>
+              </h2>
+              <p className="text-muted m-2">
                 Tap the card to see meaning and decide if you{" "}
                 <strong>know it</strong> or want to <strong>learn again</strong>
                 . 📚

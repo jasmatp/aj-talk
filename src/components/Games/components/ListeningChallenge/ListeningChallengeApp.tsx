@@ -3,10 +3,11 @@ import { Level, ListeningQuestion } from "../../types/quiz";
 import LevelSelector from "../LevelSelector";
 import ListeningCard from "./ListeningCard";
 import { useTheme } from "../../../context/ThemeContext";
-import { listeningQuestions } from "../../data/listeningQuestions";
+// import { listeningQuestions } from "../../data/listeningQuestions";
 import { useSpeechSynthesis } from "../../../../hooks/useSpeechSynthesis";
 import { useNavigate } from "react-router-dom";
 import { Badge, Button } from "react-bootstrap";
+import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const ListeningChallengeApp: React.FC = () => {
   const { isDark } = useTheme();
@@ -22,10 +23,34 @@ const ListeningChallengeApp: React.FC = () => {
 
   const { speak, cancel, isSpeaking, supported } = useSpeechSynthesis();
 
+  const [listeningQuestion, setListeningQuestion] = useState<
+    ListeningQuestion[]
+  >([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch(
+      "https://ydgxhfiiuzztmqfrzlhn.supabase.co/storage/v1/object/public/static-assets/playroom/listeningQuestions.json"
+    )
+      .then((res) => {
+        if (!res.ok) throw new Error("Failed to load home data");
+        return res.json();
+      })
+      .then((data) => {
+        setListeningQuestion(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
   const levelQuestions: ListeningQuestion[] = useMemo(
     () =>
       selectedLevel
-        ? listeningQuestions.filter((q) => q.level === selectedLevel)
+        ? listeningQuestion.filter((q) => q.level === selectedLevel)
         : [],
     [selectedLevel]
   );
@@ -108,6 +133,14 @@ const ListeningChallengeApp: React.FC = () => {
       cancel();
     };
   }, [cancel]);
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
+
+  if (error) {
+    return <div className="text-center text-danger mt-4">{error}</div>;
+  }
 
   return (
     <div

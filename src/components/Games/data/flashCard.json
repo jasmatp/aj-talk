@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "level": "beginner",
+    "word": "brave",
+    "meaning": "Not afraid to do something difficult or dangerous.",
+    "exampleSentence": "The brave boy saved the little puppy."
+  },
+  {
+    "id": 2,
+    "level": "beginner",
+    "word": "polite",
+    "meaning": "Having good manners and being respectful.",
+    "exampleSentence": "She is always polite to her teachers."
+  },
+  {
+    "id": 3,
+    "level": "beginner",
+    "word": "noisy",
+    "meaning": "Making a lot of sound.",
+    "exampleSentence": "The market is very noisy on Sundays."
+  },
+  {
+    "id": 4,
+    "level": "beginner",
+    "word": "gentle",
+    "meaning": "Kind and careful not to hurt anyone or anything.",
+    "exampleSentence": "Be gentle with the small kitten."
+  },
+  {
+    "id": 5,
+    "level": "beginner",
+    "word": "clever",
+    "meaning": "Able to learn or understand things quickly.",
+    "exampleSentence": "He is a clever student in maths."
+  },
+  {
+    "id": 6,
+    "level": "beginner",
+    "word": "messy",
+    "meaning": "Not clean or tidy.",
+    "exampleSentence": "His room is always messy with clothes on the floor."
+  },
+  {
+    "id": 7,
+    "level": "beginner",
+    "word": "silent",
+    "meaning": "Completely quiet; not making any sound.",
+    "exampleSentence": "The classroom became silent when the exam started."
+  },
+  {
+    "id": 8,
+    "level": "beginner",
+    "word": "sleepy",
+    "meaning": "Feeling like you want to sleep.",
+    "exampleSentence": "I feel sleepy after lunch."
+  },
+  {
+    "id": 9,
+    "level": "beginner",
+    "word": "busy",
+    "meaning": "Having a lot of things to do.",
+    "exampleSentence": "My mother is always busy in the morning."
+  },
+  {
+    "id": 10,
+    "level": "beginner",
+    "word": "lucky",
+    "meaning": "Having good things happen by chance.",
+    "exampleSentence": "He was lucky to find money on the road."
+  },
+
+  {
+    "id": 11,
+    "level": "intermediate",
+    "word": "creative",
+    "meaning": "Able to think of new and interesting ideas.",
+    "exampleSentence": "She is very creative and loves drawing comics."
+  },
+  {
+    "id": 12,
+    "level": "intermediate",
+    "word": "nervous",
+    "meaning": "Worried or a bit afraid about something.",
+    "exampleSentence": "He felt nervous before his first interview."
+  },
+  {
+    "id": 13,
+    "level": "intermediate",
+    "word": "honest",
+    "meaning": "Telling the truth and not cheating.",
+    "exampleSentence": "An honest person does not lie or steal."
+  },
+  {
+    "id": 14,
+    "level": "intermediate",
+    "word": "organized",
+    "meaning": "Able to plan and arrange things well.",
+    "exampleSentence": "She is organized and keeps her notes in order."
+  },
+  {
+    "id": 15,
+    "level": "intermediate",
+    "word": "ambitious",
+    "meaning": "Having a strong desire to succeed or achieve something.",
+    "exampleSentence": "He is ambitious and wants to start his own company."
+  },
+  {
+    "id": 16,
+    "level": "intermediate",
+    "word": "supportive",
+    "meaning": "Giving help or encouragement to someone.",
+    "exampleSentence": "Her parents are very supportive of her dreams."
+  },
+  {
+    "id": 17,
+    "level": "intermediate",
+    "word": "flexible",
+    "meaning": "Able to change or be changed easily.",
+    "exampleSentence": "You need a flexible schedule to work this job."
+  },
+  {
+    "id": 18,
+    "level": "intermediate",
+    "word": "responsible",
+    "meaning": "Able to be trusted to do what is right or expected.",
+    "exampleSentence": "He is responsible for locking the office at night."
+  },
+  {
+    "id": 19,
+    "level": "intermediate",
+    "word": "independent",
+    "meaning": "Not needing help from other people.",
+    "exampleSentence": "She is independent and travels alone."
+  },
+  {
+    "id": 20,
+    "level": "intermediate",
+    "word": "talkative",
+    "meaning": "Liking to talk a lot.",
+    "exampleSentence": "The children became very talkative during the break."
+  },
+
+  {
+    "id": 21,
+    "level": "advanced",
+    "word": "conscientious",
+    "meaning": "Careful and wanting to do your work well and correctly.",
+    "exampleSentence": "He is a conscientious worker who checks every detail twice."
+  },
+  {
+    "id": 22,
+    "level": "advanced",
+    "word": "versatile",
+    "meaning": "Having many different skills or uses.",
+    "exampleSentence": "She is a versatile actor who can play many roles."
+  },
+  {
+    "id": 23,
+    "level": "advanced",
+    "word": "charismatic",
+    "meaning": "Having a strong charm that attracts people.",
+    "exampleSentence": "The charismatic leader inspired everyone in the room."
+  },
+  {
+    "id": 24,
+    "level": "advanced",
+    "word": "determined",
+    "meaning": "Having a strong decision not to give up.",
+    "exampleSentence": "She was determined to finish the race despite the pain."
+  },
+  {
+    "id": 25,
+    "level": "advanced",
+    "word": "sophisticated",
+    "meaning": "Having a lot of experience and knowledge about the world or culture.",
+    "exampleSentence": "He has sophisticated tastes in music and art."
+  },
+  {
+    "id": 26,
+    "level": "advanced",
+    "word": "pragmatic",
+    "meaning": "Dealing with problems in a practical, realistic way.",
+    "exampleSentence": "We need a pragmatic solution, not just big ideas."
+  },
+  {
+    "id": 27,
+    "level": "advanced",
+    "word": "spontaneous",
+    "meaning": "Acting suddenly, without planning.",
+    "exampleSentence": "They took a spontaneous trip to the beach."
+  },
+  {
+    "id": 28,
+    "level": "advanced",
+    "word": "indifferent",
+    "meaning": "Not interested or not caring about something.",
+    "exampleSentence": "He seemed indifferent to the result of the game."
+  },
+  {
+    "id": 29,
+    "level": "advanced",
+    "word": "comprehensive",
+    "meaning": "Including all or almost all the details.",
+    "exampleSentence": "The report gives a comprehensive view of the project."
+  },
+  {
+    "id": 30,
+    "level": "advanced",
+    "word": "contradictory",
+    "meaning": "Containing two ideas that cannot both be true.",
+    "exampleSentence": "The witness gave contradictory statements to the police."
+  }
+]

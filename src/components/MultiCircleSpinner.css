@@ -1,0 +1,47 @@
+.aj-spinner {
+  position: relative;
+}
+
+.aj-circle {
+  position: absolute;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #0d6efd;
+  /* AJ-Talk primary */
+  animation: aj-spin 0.9s linear infinite;
+}
+
+/* Big outer circle */
+.aj-circle-outer {
+  inset: 0;
+  /* full size of parent */
+  border-width: 4px;
+}
+
+/* Middle circle (smaller) */
+.aj-circle-middle {
+  inset: 8px;
+  /* gap from outer */
+  border-width: 4px;
+  border-top-color: #20c997;
+  /* teal */
+  animation-duration: 0.8s;
+  animation-direction: reverse;
+}
+
+/* Smallest inner circle */
+.aj-circle-inner {
+  inset: 16px;
+  /* gap from middle */
+  border-width: 4px;
+  border-top-color: #ffc107;
+  /* amber */
+  animation-duration: 0.7s;
+}
+
+@keyframes aj-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

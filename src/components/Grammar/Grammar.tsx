@@ -1,21 +1,28 @@
 import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { grammarLession } from "../../mochData/grammarData";
+// import { grammarLession } from "../../mochData/grammarData";
 import { Badge, Button, Form } from "react-bootstrap";
 import { useDebounce } from "../../hooks/useDebounce";
+import { useGrammar } from "../../hooks/useGrammar";
+import MultiCircleSpinner from "../MultiCircleSpinner";
 
 const Grammar = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
+  const { grammarData, loading } = useGrammar();
 
   const debouncedSearch = useDebounce(searchTerm, 400);
 
   // Filter lessons by title based on debounced search
   const filteredLessons = useMemo(() => {
-    if (!debouncedSearch) return grammarLession;
+    if (!debouncedSearch) return grammarData;
     const lower = debouncedSearch.toLowerCase();
-    return grammarLession.filter((l) => l.title.toLowerCase().includes(lower));
-  }, [debouncedSearch]);
+    return grammarData.filter((l) => l.title.toLowerCase().includes(lower));
+  }, [debouncedSearch, grammarData]);
+
+  if (loading) {
+    return <MultiCircleSpinner fullScreen size={96} />;
+  }
   return (
     <div>
       <Button variant="link" onClick={() => navigate(-1)}>

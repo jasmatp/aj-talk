@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "word": "happy",
+    "options": ["sad", "angry", "feeling good and cheerful", "weak"],
+    "correctIndex": 2,
+    "level": "beginner",
+    "gujaratiMeaning": "ખુશ, આનંદિત"
+  },
+  {
+    "id": 2,
+    "word": "small",
+    "options": ["tiny in size", "very big", "expensive", "dangerous"],
+    "correctIndex": 0,
+    "level": "beginner",
+    "gujaratiMeaning": "નાનું કદ"
+  },
+  {
+    "id": 3,
+    "word": "fast",
+    "options": ["quick", "slow", "heavy", "confused"],
+    "correctIndex": 0,
+    "level": "beginner",
+    "gujaratiMeaning": "ઝડપી"
+  },
+  {
+    "id": 4,
+    "word": "cold",
+    "options": ["very hot", "freezing or low temperature", "bright", "dirty"],
+    "correctIndex": 1,
+    "level": "beginner",
+    "gujaratiMeaning": "ઠંડુ"
+  },
+  {
+    "id": 5,
+    "word": "strong",
+    "options": ["not powerful", "powerful", "lazy", "empty"],
+    "correctIndex": 1,
+    "level": "beginner",
+    "gujaratiMeaning": "મજબૂત, શક્તિશાળી"
+  },
+  {
+    "id": 6,
+    "word": "clean",
+    "options": ["dirty", "neat and free from dirt", "broken", "loud"],
+    "correctIndex": 1,
+    "level": "beginner",
+    "gujaratiMeaning": "સાફ"
+  },
+  {
+    "id": 7,
+    "word": "hot",
+    "options": ["very cold", "very warm", "slow", "sad"],
+    "correctIndex": 1,
+    "level": "beginner",
+    "gujaratiMeaning": "ગરમ"
+  },
+  {
+    "id": 8,
+    "word": "near",
+    "options": ["far away", "close by", "dangerous", "open"],
+    "correctIndex": 1,
+    "level": "beginner",
+    "gujaratiMeaning": "નજીક"
+  },
+  {
+    "id": 9,
+    "word": "easy",
+    "options": ["simple, not difficult", "very hard", "confusing", "tasteless"],
+    "correctIndex": 0,
+    "level": "beginner",
+    "gujaratiMeaning": "સરળ"
+  },
+  {
+    "id": 10,
+    "word": "quickly",
+    "options": ["slowly", "in a fast way", "carelessly", "quietly"],
+    "correctIndex": 1,
+    "level": "beginner",
+    "gujaratiMeaning": "ઝડપી રીતે"
+  },
+
+  {
+    "id": 11,
+    "word": "enormous",
+    "options": ["very huge", "very small", "silent", "weak"],
+    "correctIndex": 0,
+    "level": "intermediate",
+    "gujaratiMeaning": "વિશાળ, ખૂબ મોટું"
+  },
+  {
+    "id": 12,
+    "word": "brave",
+    "options": [
+      "lazy",
+      "showing courage and no fear",
+      "very angry",
+      "always tired"
+    ],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "બહાદુર"
+  },
+  {
+    "id": 13,
+    "word": "rapid",
+    "options": ["very slow", "very fast", "broken", "incorrect"],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "ઝડપી"
+  },
+  {
+    "id": 14,
+    "word": "ancient",
+    "options": ["very modern", "very old from long ago", "recent", "temporary"],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "પ્રાચીન"
+  },
+  {
+    "id": 15,
+    "word": "predict",
+    "options": [
+      "to guess the future",
+      "to hide something",
+      "to break",
+      "to fix"
+    ],
+    "correctIndex": 0,
+    "level": "intermediate",
+    "gujaratiMeaning": "અંદાજ લગાવવો"
+  },
+  {
+    "id": 16,
+    "word": "confident",
+    "options": ["unsure", "sure about yourself", "noisy", "weak"],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "આત્મવિશ્વાસ ધરાવનાર"
+  },
+  {
+    "id": 17,
+    "word": "polite",
+    "options": ["rude", "well-mannered", "angry", "slow"],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "નમ્ર"
+  },
+  {
+    "id": 18,
+    "word": "calm",
+    "options": [
+      "very excited",
+      "relaxed and peaceful",
+      "confusing",
+      "dangerous"
+    ],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "શાંત"
+  },
+  {
+    "id": 19,
+    "word": "distant",
+    "options": ["very near", "far away", "broken", "soft"],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "દૂર"
+  },
+  {
+    "id": 20,
+    "word": "frequent",
+    "options": ["rare", "happening often", "expensive", "soft"],
+    "correctIndex": 1,
+    "level": "intermediate",
+    "gujaratiMeaning": "વારંવાર થતું"
+  },
+
+  {
+    "id": 21,
+    "word": "allocate",
+    "options": [
+      "to waste something",
+      "to distribute or assign",
+      "to clean",
+      "to confuse"
+    ],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "ફાળવવું, વહેંચવું"
+  },
+  {
+    "id": 22,
+    "word": "precise",
+    "options": ["not clear", "exact and accurate", "very old", "broken"],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "ખૂબ ચોક્કસ"
+  },
+  {
+    "id": 23,
+    "word": "transform",
+    "options": [
+      "to stay the same",
+      "to change completely",
+      "to hide",
+      "to clean"
+    ],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "રૂપાંતર કરવું"
+  },
+  {
+    "id": 24,
+    "word": "significant",
+    "options": ["not important", "very important", "very small", "temporary"],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "મહત્વપૂર્ણ"
+  },
+  {
+    "id": 25,
+    "word": "alternative",
+    "options": [
+      "only option",
+      "another possible option",
+      "broken object",
+      "dangerous thing"
+    ],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "વૈકલ્પિક વિકલ્પ"
+  },
+  {
+    "id": 26,
+    "word": "steady",
+    "options": ["changing", "firm and stable", "weak", "unreliable"],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "સ્થિર"
+  },
+  {
+    "id": 27,
+    "word": "vivid",
+    "options": [
+      "boring",
+      "very clear, detailed and colorful",
+      "dark",
+      "silent"
+    ],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "જીવંત, તેજસ્વી"
+  },
+  {
+    "id": 28,
+    "word": "analyze",
+    "options": ["to guess", "to examine carefully", "to break", "to refuse"],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "વિશ્લેષણ કરવું"
+  },
+  {
+    "id": 29,
+    "word": "derive",
+    "options": [
+      "to ignore",
+      "to get or obtain from something",
+      "to clean something",
+      "to complain"
+    ],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "મેળવવું, પરથી મેળવવું"
+  },
+  {
+    "id": 30,
+    "word": "emphasize",
+    "options": [
+      "to remove",
+      "to stress or highlight something",
+      "to forget",
+      "to hide"
+    ],
+    "correctIndex": 1,
+    "level": "advanced",
+    "gujaratiMeaning": "જોર આપવું"
+  }
+]
