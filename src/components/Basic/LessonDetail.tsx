@@ -81,8 +81,8 @@ const LessonDetail: React.FC = () => {
       {!start ? (
         <div className="m-2">
           <div className="lesson-title-main">
-            <Button variant="link" onClick={() => navigate(-1)}>
-              ← Back
+            <Button variant="light" className="mb-1" onClick={() => navigate(-1)}>
+               <i className="bi bi-arrow-left"></i> Back
             </Button>
             <h2>
               <Badge bg="secondary">Basics for English Speaking </Badge>
@@ -113,8 +113,8 @@ const LessonDetail: React.FC = () => {
         </div>
       ) : (
         <div className="container justify-content-start">
-          <Button onClick={handleBack} className="text-start" variant="link">
-            ← Back
+          <Button onClick={handleBack}  className="text-start m-1" variant="light">
+            <i className="bi bi-arrow-left"></i> Back
           </Button>
           <Table striped bordered hover responsive="md" className="mb-0">
             <thead>

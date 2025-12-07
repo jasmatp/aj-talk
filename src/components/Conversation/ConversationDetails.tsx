@@ -32,8 +32,8 @@ const ConversationDetails: React.FC = () => {
 
   return (
     <div style={{ flex: 1, padding: "10px" }}>
-      <Button variant="link" onClick={() => navigate("/convertion")}>
-        ← Back
+      <Button variant="light" className="m-2" onClick={() => navigate("/convertion")}>
+        <i className="bi bi-arrow-left"></i> Back
       </Button>
       <h2>
         <Badge bg="secondary" className="m-2">

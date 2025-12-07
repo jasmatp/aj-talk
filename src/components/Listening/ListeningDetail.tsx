@@ -50,8 +50,8 @@ const ListeningDetail = () => {
 
   return (
     <div className="container">
-      <Button variant="link" onClick={() => navigate(-1)}>
-        ← Back
+      <Button variant="light" onClick={() => navigate(-1)}>
+        <i className="bi bi-arrow-left"></i> Back
       </Button>
       <h2>{lesson.title || `Lesson ${lessonIndex + 1}`}</h2>
       <div>

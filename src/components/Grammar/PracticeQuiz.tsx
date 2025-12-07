@@ -43,8 +43,8 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions  = []}) => {
 
   return (
     <div className="container">
-      <Button variant="link" onClick={() => navigate(-1)}>
-        ← Back
+      <Button variant="light" className="m-2" onClick={() => navigate(-1)}>
+        <i className="bi bi-arrow-left"></i> Back
       </Button>
       <h3 className="text-decoration-underline">Practice Quiz</h3>
       {questions.map((q, idx) => (

@@ -9,8 +9,8 @@ const Listening = () => {
     <div className="m-2">
       {lestningLession.map((lesson, idx) => (
         <div key={idx} style={{ marginBottom: "1rem" }}>
-          <Button variant="link" onClick={() => navigate("/")}>
-            ← Back
+          <Button variant="light" onClick={() => navigate("/")}>
+            <i className="bi bi-arrow-left"></i> Back
           </Button>
           <h2 className="mt-2">
             <Badge bg="secondary">English Listening Lessons </Badge>{" "}

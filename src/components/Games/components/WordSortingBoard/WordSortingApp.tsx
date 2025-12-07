@@ -140,8 +140,8 @@ const WordSortingApp: React.FC = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-7">
             <div className="mb-2">
-              <Button variant="link" onClick={() => navigate("/games")}>
-                ← Back
+              <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
+                <i className="bi bi-arrow-left"></i> Back
               </Button>
               <h2>
                 <Badge bg="secondary" className="m-2">

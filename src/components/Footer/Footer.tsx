@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         <div className="justify-center">
           <p className="rights">All rights reserved © 2025 AJ Talk.</p>
           <div className="">
-            <a href="/contacts">Contact</a>
+            <a href="/contacts" className="text-decoration-none" style={{ color: "#bababa", fontSize: ".7rem" }}>Contact</a>
           </div>
         </div>
       </Container>

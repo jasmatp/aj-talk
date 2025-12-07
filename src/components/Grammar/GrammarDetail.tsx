@@ -51,8 +51,8 @@ const GrammarDetail: React.FC = () => {
     <>
       {!practice ? (
         <div className="container">
-          <Button variant="link" onClick={() => navigate(-1)}>
-            ← Back
+          <Button variant="light" className="m-2" onClick={() => navigate(-1)}>
+            <i className="bi bi-arrow-left"></i> Back
           </Button>
 
           <div className="mb-2">
