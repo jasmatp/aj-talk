@@ -1743,4 +1743,286 @@ export const lessonLinks: LessonLink[] = [
       ],
     },
   },
+  {
+    id: "basic-051",
+    title: "You should + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2052",
+    content: {
+      title: "You should + (verb)",
+      detail1:
+        "“You should + (verb)” tells someone what is a good idea or what is the right thing to do. It’s used when giving advice, recommendations, or talking about something necessary.",
+      example1: [
+        "You should eat more vegetables.",
+        "You should study for your exam.",
+        "You should call your mom.",
+        "You should wear a jacket.",
+        "You should sleep early.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“You should + (verb)” કોઈને સલાહ આપવા, ભલામણ કરવા અથવા યોગ્ય કાર્ય શું છે તે બતાવવા માટે વપરાય છે. તે સામાન્ય રીતે કહેવા માટે વપરાય છે કે શું કરવું સારું છે અથવા શું જરૂરી છે.",
+      example1Guj: [
+        "તમારે વધુ શાકભાજી ખાવા જોઈએ.",
+        "તમારે તમારા પરીક્ષાની તૈયારી કરવી જોઈએ.",
+        "તમારે તમારી માતાને ફોન કરવો જોઈએ.",
+        "તમારે જેકેટ પહેરવું જોઈએ.",
+        "તમારે વહેલાં સુઈ જવું જોઈએ.",
+      ],
+    },
+  },
+  {
+    id: "basic-052",
+    title: "You're supposed to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2053",
+    content: {
+      title: "You're supposed to + (verb)",
+      detail1:
+        "“You’re supposed to + (verb)” means you are expected or required to do something. It often refers to a rule, duty, or plan — something that people think you should do.",
+      example1: [
+        "You're supposed to do your homework before watching TV.",
+        "You're supposed to be here at 8 o'clock.",
+        "You're supposed to wear a uniform at school.",
+        "You're supposed to call if you're going to be late.",
+        "You're supposed to keep that secret.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“You’re supposed to + (verb)” નો અર્થ એ છે કે તમારી પાસેથી કંઈક કરવાની અપેક્ષા રાખવામાં આવે છે અથવા તે તમારો ફરજ/નિયમ છે. આ સામાન્ય રીતે નિયમ, ફરજ અથવા યોજના સાથે સંબંધિત હોય છે — એવી વસ્તુ જે લોકો માને છે કે તમને કરવી જોઈએ.",
+      example1Guj: [
+        "ટીવી જોતા પહેલા તમારે તમારું હોમવર્ક કરવું જોઈએ.",
+        "તમારે 8 વાગ્યે અહીં હોવું જોઈએ.",
+        "સ્કૂલમાં તમારે યુનિફોર્મ પહેરવું જોઈએ.",
+        "જો તમને મોડું થવાનું હોય તો તમારે ફોન કરવો જોઈએ.",
+        "તમારે એ વાત ગુપ્ત રાખવી જોઈએ.",
+      ],
+    },
+  },
+  {
+    id: "basic-053",
+    title: "You seem + (adjective)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2054",
+    content: {
+      title: "You seem + (adjective)",
+      detail1:
+        "“You seem + (adjective)” is used to say how someone appears or looks based on what you observe or feel. It expresses an impression, not a fact.",
+      example1: [
+        "You seem tired.",
+        "You seem happy today.",
+        "You seem worried.",
+        "You seem unhappy with the results.",
+        "You seem excited about the trip.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“You seem + (adjective)” નો ઉપયોગ કોઈ વ્યક્તિ દેખાવ અથવા વર્તન પરથી કેવી લાગે છે તે જણાવવા માટે થાય છે. આ છાપ (impression) વ્યક્ત કરે છે, હકીકત નહીં.",
+      example1Guj: [
+        "તમે થાકેલા લાગો છો.",
+        "તમે આજે ખુશ લાગે છો.",
+        "તમે ચિંતિત લાગો છો.",
+        "તમે પરિણામોથી નારાજ લાગો છો.",
+        "તમે પ્રવાસ વિશે ઉત્સાહિત લાગો છો.",
+      ],
+    },
+  },
+  {
+    id: "basic-054",
+    title: "You'd better + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2055",
+    content: {
+      title: "You'd better + (verb)",
+      detail1:
+        "“You’d better + (verb)” is used to give strong advice or a warning. It means that something bad might happen if the person doesn’t do it.",
+      example1: [
+        "You'd better exercise.",
+        "You'd better help out.",
+        "You'd better study for the test.",
+        "You'd better leave now.",
+        "You'd better take an umbrella.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“You’d better + (verb)” નો ઉપયોગ મજબૂત સલાહ આપવા અથવા ચેતવણી આપવા માટે થાય છે. તેનો અર્થ એ છે કે જો કોઈ વ્યક્તિ એ કામ નહીં કરે તો કંઈક ખરાબ થઈ શકે છે.",
+      example1Guj: [
+        "તમારે કસરત કરવી સારું રહેશે.",
+        "તમારે મદદ કરવી સારું રહેશે.",
+        "તમારે પરીક્ષાની તૈયારી કરવી સારું રહેશે.",
+        "તમારે હવે નીકળી જવું સારું રહેશે.",
+        "તમારે છત્રી લઈ જવી સારું રહેશે.",
+      ],
+    },
+  },
+  {
+    id: "basic-055",
+    title: "Are you into + (noun)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2056",
+    content: {
+      title: "Are you into + (noun)",
+      detail1:
+        "“Are you into + (noun)” is used to ask if someone likes or is interested in something. It’s a casual and friendly way to talk about interests or hobbies.",
+      example1: [
+        "Are you into soccer?",
+        "Are you into trying new things?",
+        "Are you into music?",
+        "Are you into cooking?",
+        "Are you into reading books?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“Are you into + (noun)” નો ઉપયોગ પૂછવા માટે થાય છે કે કોઈ વ્યક્તિને કંઈક ગમે છે કે નહિ, અથવા તેમાં રસ છે કે નહીં. આ રસ અને શોખ વિશે વાત કરવાની એક સરળ અને મિત્રસભર રીત છે.",
+      example1Guj: [
+        "શું તમને ફૂટબોલ ગમે છે?",
+        "શું તમને નવી વસ્તુઓ અજમાવવી ગમે છે?",
+        "શું તમને સંગીતમાં રસ છે?",
+        "શું તમને રસોઈ કરવી ગમે છે?",
+        "શું તમને પુસ્તકો વાંચવામાં રસ છે?",
+      ],
+    },
+  },
+  {
+    id: "basic-056",
+    title: "Are you trying to + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2057",
+    content: {
+      title: "Are you trying to + (verb)",
+      detail1:
+        "“Are you trying to + (verb)” is used to ask if someone is making an effort or attempting to do something. It can describe both mental and physical actions.",
+      example1: [
+        "Are you trying to ignore me?",
+        "Are you trying to manage your money?",
+        "Are you trying to lose weight?",
+        "Are you trying to fix the computer?",
+        "Are you trying to learn English?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“Are you trying to + (verb)” નો ઉપયોગ પૂછવા માટે થાય છે કે કોઈ વ્યક્તિ કંઈક કરવાના પ્રયત્નમાં છે કે નહીં. તે માનસિક અને શારીરિક બંને ક્રિયાઓ માટે વાપરી શકાય છે.",
+      example1Guj: [
+        "શું તમે મને અવગણવા પ્રયાસ કરી રહ્યા છો?",
+        "શું તમે તમારું પૈસું સંભાળવા પ્રયાસ કરી રહ્યા છો?",
+        "શું તમે વજન ઘટાવવા પ્રયાસ કરી રહ્યા છો?",
+        "શું તમે કમ્પ્યુટર ઠીક કરવા પ્રયત્ન કરી રહ્યા છો?",
+        "શું તમે અંગ્રેજી શીખવા પ્રયાસ કરી રહ્યા છો?",
+      ],
+    },
+  },
+  {
+    id: "basic-057",
+    title: "Please + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2058",
+    content: {
+      title: "Please + (verb)",
+      detail1:
+        "“Please + (verb)” is used to make a polite request when asking someone to do something. It helps your sentence sound kind and respectful.",
+      example1: [
+        "Please pass me the salt.",
+        "Please order me the steak and potatoes.",
+        "Please call me when you arrive.",
+        "Please take a seat.",
+        "Please be quiet.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“Please + (verb)” નો ઉપયોગ કોઈને કંઈક કરવાનું વિનમ્ર વિનંતી કરવા માટે થાય છે. આ તમારા વાક્યને દયાળુ અને સન્માનજનક બનાવે છે.",
+      example1Guj: [
+        "કૃપા કરીને મને મીઠું આપો.",
+        "કૃપા કરીને મારા માટે સ્ટીક અને બટાટા ઓર્ડર કરો.",
+        "જ્યારે તમે પહોંચો ત્યારે કૃપા કરીને મને ફોન કરો.",
+        "કૃપા કરીને બેસી જાઓ.",
+        "કૃપા કરીને શાંત રહો.",
+      ],
+      detail2: "“Please” can also mean to make someone happy or satisfied.",
+      example2: [
+        "It pleases me to hear that news.",
+        "The smell of the flowers was very pleasing.",
+        "She was pleased with the dress.",
+      ],
+      detail2Guj: "“Please” નો અર્થ કોઈને ખુશ કે સંતોષજનક બનાવવો પણ થાય છે.",
+      example2Guj: [
+        "એ સમાચાર સાંભળીને મને ખુશી થઈ.",
+        "ફૂલોની સુગંધ ખૂબ જ મનભરવી હતી.",
+        "તે ડ્રેસથી તે ખુશ હતી.",
+      ],
+    },
+  },
+  {
+    id: "basic-058",
+    title: "Don't + (verb)",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2059",
+    content: {
+      title: "Don't + (verb)",
+      detail1:
+        "“Don’t + (verb)” is used to tell someone not to do something. It gives a negative command or instruction. “Don’t” is the short form of “do not.”",
+      example1: [
+        "Don't worry about it.",
+        "Don't forget your keys.",
+        "Don't be late.",
+        "Don't touch that!",
+        "Don't allow this to happen.",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“Don’t + (verb)” નો ઉપયોગ કોઈને કંઈક ન કરવા માટે કહેવા માટે થાય છે. તે નકારાત્મક આદેશ અથવા સૂચન આપે છે. “Don’t” એ “do not” નું સંક્ષિપ્ત રૂપ છે.",
+      example1Guj: [
+        "તેથી ચિંતા ના કરો.",
+        "તમારા ચાવી ભૂલશો નહીં.",
+        "મોડા ન થશો.",
+        "એને સ્પર્શશો નહીં!",
+        "આને થવા દો નહીં.",
+      ],
+    },
+  },
+  {
+    id: "basic-059",
+    title: "Do you like",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2060",
+    content: {
+      title: "Do you like",
+      detail1:
+        "“Do you like + (noun / verb-ing)” is used to ask someone about their preferences or things they enjoy. It’s a common and friendly way to start conversations.",
+      example1: [
+        "Do you like coffee?",
+        "Do you like traveling on a plane?",
+        "Do you like playing sports?",
+        "Do you like watching movies?",
+        "Do you like learning English?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“Do you like + (noun / verb-ing)” નો ઉપયોગ કોઈની પસંદગીઓ કે તેને કઈ વસ્તુઓ પસંદ છે તે પૂછવા માટે થાય છે. આ વાતચીત શરૂ કરવા માટે એક સામાન્ય અને મૈત્રીપૂર્ણ રીત છે.",
+      example1Guj: [
+        "શું તમને કોફી ગમે છે?",
+        "શું તમને વિમાનમાં મુસાફરી કરવી ગમે છે?",
+        "શું તમને રમતો રમવી ગમે છે?",
+        "શું તમને ફિલ્મો જોવાનો શોખ છે?",
+        "શું તમને અંગ્રેજી શીખવી ગમે છે?",
+      ],
+    },
+  },
+  {
+    id: "basic-060",
+    title: "How often do you",
+    url: "https://www.talkenglish.com/lessondetails.aspx?ALID=2061",
+    content: {
+      title: "How often do you",
+      detail1:
+        "“How often do you + (verb)” is used to ask about the frequency of someone’s habits or repeated actions. It means you want to know how many times or how regularly they do something.",
+      example1: [
+        "How often do you exercise?",
+        "How often do you study English?",
+        "How often do you eat out?",
+        "How often do you go to the gym?",
+        "How often do you visit your parents?",
+      ],
+      titleGuj: "",
+      detail1Guj:
+        "“How often do you + (verb)” નો ઉપયોગ કોઈની આદતો કે વારંવાર થતી ક્રિયાઓ વિશે પૂછવા માટે થાય છે. તેનો અર્થ એ છે કે તમે જાણવા માંગો છો કે તે વ્યક્તિ કેટલી વાર કે કેટલી નિયમિતતા સાથે કંઈક કરે છે.",
+      example1Guj: [
+        "તમે કેટલી વાર વ્યાયામ કરો છો?",
+        "તમે કેટલી વાર અંગ્રેજી અભ્યાસ કરો છો?",
+        "તમે કેટલી વાર બહાર ખાવા જાઓ છો?",
+        "તમે કેટલી વાર જિમ જાઓ છો?",
+        "તમે કેટલી વાર તમારા માતાપિતા પાસે જાઓ છો?",
+      ],
+    },
+  },
 ];
