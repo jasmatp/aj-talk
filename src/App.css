@@ -114,10 +114,12 @@
     transform: scale(1);
     opacity: 0.6;
   }
+
   70% {
     transform: scale(1.6);
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -147,6 +149,7 @@
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -163,4 +166,17 @@
   font-size: 18px;
   cursor: pointer;
   color: #444;
+}
+
+.shadow-title {
+  font-family: 'Helvetica Neue', sans-serif;
+  /* font-size: 3rem; */
+  font-weight: 700;
+  color: #093374;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.white-space {
+  white-space: pre-wrap !important;
 }

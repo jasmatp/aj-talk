@@ -38,6 +38,7 @@ import { Provider } from "react-redux";
 import { store } from "./store";
 import { HomeLesson } from "./types/types";
 import MultiCircleSpinner from "./components/MultiCircleSpinner";
+import Overview from "./components/Overview";
 
 function Home() {
   const [homeLessons, setHomeLessons] = useState<HomeLesson[]>([]);
@@ -72,6 +73,7 @@ function Home() {
 
   return (
     <>
+      <Overview />
       <div className="row m-1">
         {homeLessons.map((lesson) => (
           <LessonCard
@@ -96,9 +98,9 @@ function AppContent() {
       <div className="main">
         <Header />
         {/* <ScrollingHeading /> */}
-        {location.pathname === "/" && (
+        {/* {location.pathname === "/" && (
           <HeaderSection description="Discover exciting English sentences every day and practice real-life communication for confident speaking!" />
-        )}
+        )} */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/basic-I" element={<LessonDetail />} />
