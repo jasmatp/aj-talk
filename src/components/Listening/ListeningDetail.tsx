@@ -49,62 +49,91 @@ const ListeningDetail = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container py-4">
       <Button variant="light" onClick={() => navigate(-1)}>
         <i className="bi bi-arrow-left"></i> Back
       </Button>
-      <h2>{lesson.title || `Lesson ${lessonIndex + 1}`}</h2>
-      <div>
-        <p className="m-0">
-          Listen to the conversation and answer the questions.
-        </p>
-        <p>ધ્યાનથી સાંભળો અને પછી પ્રશ્નોના જવાબ આપો.</p>
-      </div>
-      <p className="m-0">Click on this button</p>
-      <button
-        onClick={() => speakText(lesson.conversation)}
-        className="btn btn-info"
-      >
-        Listen
-      </button>
 
-      <h4>Questions</h4>
-      {lesson.questionAnswers.map((q, idx) => (
-        <div key={idx}>
-          <p className="m-0">{q.question}</p>
-          <ul>
-            {q.options.map((opt, oIdx) => (
-              <li key={oIdx}>
-                <label>
-                  <input
-                    type="radio"
-                    name={`question-${idx}`}
-                    checked={selectedAnswers[idx] === oIdx}
-                    onChange={() => handleSelect(idx, oIdx)}
-                  />
-                  {opt}
-                </label>
-              </li>
-            ))}
-          </ul>
-          {selectedAnswers[idx] != null && (
-            <p
-              style={{
-                color:
-                  selectedAnswers[idx] === q.correctAnswerIndex
-                    ? "green"
-                    : "red",
-              }}
-            >
-              {selectedAnswers[idx] === q.correctAnswerIndex
-                ? "Correct!"
-                : `Incorrect. The correct answer is "${
-                    q.options[q.correctAnswerIndex]
-                  }".`}
-            </p>
-          )}
+      <div className="mt-3 p-4 bg-light rounded shadow-sm">
+        <h2 className="mb-2">{lesson.title || `Lesson ${lessonIndex + 1}`}</h2>
+        <p className="mb-1">
+          Look at the conversation below, then listen carefully and fill in the
+          answers.
+        </p>
+        <p className="text-muted mb-3">ધ્યાનથી વાંચો, પછી સાંભળો અને જવાબ આપો.</p>
+
+        <div className="d-flex gap-2 flex-wrap mb-3">
+          <Button variant="info" onClick={() => speakText(lesson.conversation)}>
+            <i className="bi bi-volume-up-fill"></i> Listen
+          </Button>
+          <Button
+            variant="outline-secondary"
+            onClick={() => setSelectedAnswers({})}
+          >
+            Reset Answers
+          </Button>
         </div>
-      ))}
+
+        <div className="p-3 bg-white border rounded mb-4">
+          <h5 className="mb-3">Conversation</h5>
+          {lesson.conversation.map((line, index) => (
+            <div key={index} className="mb-2">
+              <span className="fw-bold">{line.speaker}:</span>{" "}
+              <span>{line.text}</span>
+            </div>
+          ))}
+        </div>
+
+        <h4>Fill in the answers</h4>
+        <div className="row">
+          {lesson.questionAnswers.map((q, idx) => (
+            <div key={idx} className="col-12 mb-3">
+              <div className="card border-0 shadow-sm">
+                <div className="card-body">
+                  <p className="card-text fw-semibold mb-2">{q.question}</p>
+                  <div className="row row-cols-1 row-cols-md-2 g-2">
+                    {q.options.map((opt, oIdx) => (
+                      <div key={oIdx} className="col">
+                        <label className="form-check form-check-inline w-100 border rounded p-2">
+                          <input
+                            className="form-check-input me-2"
+                            type="radio"
+                            name={`question-${idx}`}
+                            checked={selectedAnswers[idx] === oIdx}
+                            onChange={() => handleSelect(idx, oIdx)}
+                          />
+                          <span className="form-check-label">{opt}</span>
+                        </label>
+                      </div>
+                    ))}
+                  </div>
+
+                  {selectedAnswers[idx] != null && (
+                    <div className="mt-3">
+                      <span
+                        className={`badge rounded-pill ${
+                          selectedAnswers[idx] === q.correctAnswerIndex
+                            ? "bg-success"
+                            : "bg-danger"
+                        }`}
+                      >
+                        {selectedAnswers[idx] === q.correctAnswerIndex
+                          ? "Correct"
+                          : "Incorrect"}
+                      </span>
+                      {selectedAnswers[idx] !== q.correctAnswerIndex && (
+                        <p className="mt-2 mb-0 text-muted">
+                          Correct answer: <strong>{q.options[q.correctAnswerIndex]}</strong>
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
