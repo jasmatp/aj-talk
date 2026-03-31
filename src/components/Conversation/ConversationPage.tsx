@@ -24,6 +24,7 @@ const ConversationPage: React.FC = () => {
           Conversations
         </Badge>
       </h2>
+      <h4 className="m-2"><Badge bg="info" className="white-space">Choose a real-life situation and practice listening and speaking</Badge></h4>
       {/* Title List */}
       <div
         style={{

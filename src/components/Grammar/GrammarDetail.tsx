@@ -6,6 +6,7 @@ import { Badge, Button } from "react-bootstrap";
 // import { practiceQuestions } from "../../mochData/grammarQuiz";
 import PracticeQuiz from "./PracticeQuiz";
 import { useGrammar } from "../../hooks/useGrammar";
+import { useSpeechSynthesis } from "../../hooks/useSpeechSynthesis";
 import MultiCircleSpinner from "../MultiCircleSpinner";
 
 type GrammarQuizMap = Record<string, Question[]>;
@@ -17,6 +18,7 @@ const GrammarDetail: React.FC = () => {
   const [grammarQuiz, setGrammarQuiz] = useState<GrammarQuizMap>({});
   const [quizLoading, setQuizLoading] = useState(true);
   const [practice, setPractice] = useState(false);
+  const { speak, supported } = useSpeechSynthesis();
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -42,6 +44,11 @@ const GrammarDetail: React.FC = () => {
 
   const handlePractice = () => {
     setPractice(true);
+  };
+
+  const handleListen = (text: string) => {
+    if (!supported) return;
+    speak(text, "en-US");
   };
 
   // Get practice questions by lesson title (fallback to empty array)
@@ -104,9 +111,16 @@ const GrammarDetail: React.FC = () => {
                 return (
                   <div key={key} className="mb-3">
                     {/* English detail */}
-                    <p className="m-0">
-                      <strong>⇒ {english}</strong>
+                    <p className="m-0 d-flex align-items-start">
+                      <strong className="flex-grow-1">⇒ {english}</strong>
                     </p>
+                      <Button
+                        className="btn btn-info ms-2"
+                        onClick={() => handleListen(String(english))}
+                        disabled={!supported}
+                      >
+                        🔊 Listen
+                      </Button>
 
                     {/* Gujarati detail */}
                     {gujarati && (

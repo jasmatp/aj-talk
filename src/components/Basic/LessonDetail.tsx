@@ -116,6 +116,7 @@ const LessonDetail: React.FC = () => {
           <Button onClick={handleBack}  className="text-start m-1" variant="light">
             <i className="bi bi-arrow-left"></i> Back
           </Button>
+          <h4><Badge bg="info" className="white-space">Start with lesson 1 and move down the list. Each lesson has audio and examples.</Badge></h4>
           <Table striped bordered hover responsive="md" className="mb-0">
             <thead>
               <tr>
@@ -128,7 +129,7 @@ const LessonDetail: React.FC = () => {
               {currentLessons.map((lesson: LessonLink, idx: number) => (
                 <tr key={lesson.id}>
                   <td>{indexOfFirstLesson + idx + 1}</td>
-                  <td>
+                  <td onClick={() => handleDetailPage(lesson?.content)}>
                     <Link to={""} className="lesson-clickable">
                       {lesson.title}
                     </Link>
@@ -139,7 +140,7 @@ const LessonDetail: React.FC = () => {
                       onClick={() => handleDetailPage(lesson?.content)}
                       className="btn btn-info"
                     >
-                      Show Details
+                      Open lesson
                     </button>
                   </td>
                 </tr>
