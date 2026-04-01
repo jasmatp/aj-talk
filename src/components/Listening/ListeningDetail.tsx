@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, Link, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { lestningLession } from "../../mochData/lesteningData";
 import { Button } from "react-bootstrap";
 import BackButton from "../BackButton";
@@ -12,7 +12,7 @@ const ListeningDetail = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<{
     [key: number]: number;
   }>({});
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   if (!lesson) {
     return (

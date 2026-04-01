@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // import { grammarLession } from "../../mochData/grammarData";
 import { GrammarLesson, Question } from "../../types/types";
 import { Badge, Button, Card } from "react-bootstrap";
@@ -20,7 +20,7 @@ const GrammarDetail: React.FC = () => {
   const [quizLoading, setQuizLoading] = useState(true);
   const [practice, setPractice] = useState(false);
   const { speak, supported } = useSpeechSynthesis();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     fetch(
