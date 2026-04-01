@@ -31,7 +31,7 @@ const SentenceBuilderApp: React.FC = () => {
       selectedLevel
         ? sentenceBuilder.filter((q) => q.level === selectedLevel)
         : [],
-    [selectedLevel]
+    [selectedLevel, sentenceBuilder]
   );
 
   useEffect(() => {

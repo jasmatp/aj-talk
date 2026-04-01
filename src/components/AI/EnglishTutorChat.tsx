@@ -24,7 +24,7 @@ const EnglishTutorChat:  React.FC<Props> = ({ onClose }) => {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState<string>("");
   const [isListening, setIsListening] = useState<boolean>(false);
-  const [mode, setMode] = useState<Mode>("practice");
+  const [mode] = useState<Mode>("practice");
 
   const [voiceLang, setVoiceLang] = useState<string>("en-IN"); // default: Indian English
   const [voiceRate, setVoiceRate] = useState<number>(1); // 1 = normal

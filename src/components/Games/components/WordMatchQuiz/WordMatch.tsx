@@ -48,7 +48,7 @@ const WordMatchApp: React.FC = () => {
   const levelQuestions = useMemo(
     () =>
       selectedLevel ? wordMatch.filter((q) => q.level === selectedLevel) : [],
-    [selectedLevel]
+    [selectedLevel, wordMatch]
   );
 
   const totalQuestions = levelQuestions.length;

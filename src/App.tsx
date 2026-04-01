@@ -2,12 +2,11 @@ import React, { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  useLocation,
+  Route
 } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
-import HeaderSection from "./components/Header/HeaderSection";
+// import HeaderSection from "./components/Header/HeaderSection";
 // import { lessons } from "../src/mochData/mockLessons";
 import Footer from "./components/Footer/Footer";
 import ContactInfo from "./components/ContactInfo";
@@ -90,7 +89,7 @@ function Home() {
 }
 
 function AppContent() {
-  const location = useLocation();
+  // const location = useLocation();
   const [showChat, setShowChat] = useState(false);
 
   return (

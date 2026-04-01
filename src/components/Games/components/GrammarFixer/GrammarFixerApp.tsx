@@ -50,7 +50,7 @@ const GrammarFixerApp: React.FC = () => {
       selectedLevel
         ? grammarFixer.filter((q) => q.level === selectedLevel)
         : [],
-    [selectedLevel]
+    [selectedLevel, grammarFixer]
   );
 
   const totalQuestions = levelQuestions.length;

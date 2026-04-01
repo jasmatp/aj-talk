@@ -42,67 +42,80 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions  = []}) => {
   };
 
   return (
-    <div className="container">
+    <div className="container py-4">
       <Button variant="light" className="m-2" onClick={() => navigate(-1)}>
         <i className="bi bi-arrow-left"></i> Back
       </Button>
-      <h3 className="text-decoration-underline">Practice Quiz</h3>
-      {questions.map((q, idx) => (
-        <div key={idx} className="mb-3">
-          <p className="m-0">
-            <strong>
-              {idx + 1}. {q.question}
-            </strong>
-          </p>
-          <ul style={{ listStyleType: "none" }} className="m-0">
-            {q.options.map((opt, oIdx) => (
-              <li key={oIdx}>
-                <label>
-                  <input
-                    type="radio"
-                    name={`question-${idx}`}
-                    disabled={submitted}
-                    checked={answers[idx] === oIdx}
-                    onChange={() => handleSelect(idx, oIdx)}
-                  />{" "}
-                  {opt}
-                </label>
-              </li>
-            ))}
-          </ul>
-          {submitted && (
-            <p
-              style={{
-                color: answers[idx] === q.correctAnswerIndex ? "green" : "red",
-              }}
-            >
-              {answers[idx] === q.correctAnswerIndex
-                ? "Correct!"
-                : `Incorrect. Correct answer: "${
-                    q.options[q.correctAnswerIndex]
-                  }"`}
-            </p>
-          )}
-        </div>
-      ))}
+      <div className="mb-4">
+        <h3 className="text-decoration-underline">Practice Quiz</h3>
+        <p className="text-muted mb-0">
+          Choose the best answer for each question and submit to see your results.
+        </p>
+      </div>
 
-      {!submitted ? (
-        <Button variant="primary" className="mb-4" size="lg" onClick={handleSubmit}>
-          Submit Answers
-        </Button>
-      ) : (
-        <div className="mb-4">
-          <p className="text-red text-center">
-            <strong>{getFeedbackMessage()}</strong>
-          </p>
-          <Badge bg="success">
-            <h4>
+      <div className="row g-4">
+        {questions.map((q, idx) => (
+          <div key={idx} className="col-12">
+            <div className="card shadow-sm border-0">
+              <div className="card-body">
+                <div className="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3 mb-3">
+                  <div>
+                    <p className="mb-1 fw-semibold">
+                      {idx + 1}. {q.question}
+                    </p>
+                  </div>
+                  {submitted && (
+                    <Badge bg={answers[idx] === q.correctAnswerIndex ? "success" : "danger"}>
+                      {answers[idx] === q.correctAnswerIndex ? "Correct" : "Incorrect"}
+                    </Badge>
+                  )}
+                </div>
+                <div className="row row-cols-1 row-cols-md-2 g-3">
+                  {q.options.map((opt, oIdx) => (
+                    <div key={oIdx} className="col">
+                      <label
+                        className={`form-check form-check-card p-3 rounded-3 w-100 border ${
+                          answers[idx] === oIdx ? "border-primary bg-light" : "border-secondary bg-white"
+                        }`}
+                      >
+                        <input
+                          className="form-check-input me-2"
+                          type="radio"
+                          name={`question-${idx}`}
+                          disabled={submitted}
+                          checked={answers[idx] === oIdx}
+                          onChange={() => handleSelect(idx, oIdx)}
+                        />
+                        <span className="form-check-label">{opt}</span>
+                      </label>
+                    </div>
+                  ))}
+                </div>
+                {submitted && answers[idx] !== q.correctAnswerIndex && (
+                  <p className="mt-3 text-danger mb-0">
+                    Correct answer: <strong>{q.options[q.correctAnswerIndex]}</strong>
+                  </p>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="mt-4 d-flex flex-column flex-md-row align-items-center gap-3">
+        {!submitted ? (
+          <Button variant="primary" size="lg" onClick={handleSubmit}>
+            Submit Answers
+          </Button>
+        ) : (
+          <div>
+            <Badge bg="success" className="mb-2">
               Your Score: {score} / {questions.length}
-            </h4>
-          </Badge>
-
-        </div>
-      )}
+            </Badge>
+            <p className="text-muted mb-0">{getFeedbackMessage()}</p>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

@@ -52,7 +52,7 @@ const ListeningChallengeApp: React.FC = () => {
       selectedLevel
         ? listeningQuestion.filter((q) => q.level === selectedLevel)
         : [],
-    [selectedLevel]
+    [selectedLevel, listeningQuestion]
   );
 
   const totalQuestions = levelQuestions.length;

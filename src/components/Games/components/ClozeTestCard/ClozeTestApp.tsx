@@ -60,11 +60,12 @@ const ClozeTestApp: React.FC = () => {
   const levelQuestions: ClozeQuestion[] = useMemo(
     () =>
       selectedLevel ? clozeData.filter((q) => q.level === selectedLevel) : [],
-    [selectedLevel]
+    [selectedLevel, clozeData]
   );
 
   // Session: shuffled, max 10
   const sessionQuestions: ClozeQuestion[] = useMemo(() => {
+    void sessionId;
     const shuffled = shuffleArray(levelQuestions);
     return shuffled.slice(0, Math.min(QUESTIONS_PER_SESSION, shuffled.length));
   }, [levelQuestions, sessionId]);

@@ -92,6 +92,8 @@ const WordUnscrambleApp: React.FC = () => {
 
   // Build session: shuffled, limited to max 10, with fixed scrambles
   const sessionQuestions: SessionItem[] = useMemo(() => {
+    // Use sessionId to regenerate the session when the level is reset.
+    const sessionSeed = sessionId;
     const shuffled = shuffleArray(baseFiltered);
     const limited = shuffled.slice(
       0,

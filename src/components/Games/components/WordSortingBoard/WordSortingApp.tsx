@@ -51,7 +51,7 @@ const WordSortingApp: React.FC = () => {
       selectedLevel
         ? wordSortingSet.filter((s) => s.level === selectedLevel)
         : [],
-    [selectedLevel]
+    [selectedLevel, wordSortingSet]
   );
 
   const currentSet: WordSortingSet | null =

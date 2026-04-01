@@ -1,36 +1,45 @@
 .game-card {
-    /* background: #fff; */
-    border-radius: 10px;
-    /* border: 1.5px solid #ddd; */
-    margin: 16px 0px;
-    padding: 8px 12px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 0;
+    padding: 0;
     width: 100%;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
     cursor: pointer;
-    height: 235px;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .game-card:hover {
-    transform: translateY(-4px) scale(1.02);
+    transform: translateY(-6px);
+    box-shadow: 0 22px 45px rgba(15, 23, 42, 0.12);
 }
 
 .game-img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    min-height: 180px;
     object-fit: cover;
-    border-radius: 8px;
     transition: transform 0.3s ease;
-    border: 2px dotted #049aff;
+}
+
+.game-card:hover .game-img {
+    transform: scale(1.03);
 }
 
 .lesson-title {
-    font-weight: bold !important;
-    font-size: 1.3rem !important;
-    margin-bottom: 4px;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    letter-spacing: 0.02em;
 }
 
 .game-info {
-    justify-items: center;
-    margin-top: -15px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 }

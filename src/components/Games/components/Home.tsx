@@ -9,244 +9,145 @@ const GamesHome: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <div
-      className={`d-flex align-items-center ${
-        isDark ? "bg-dark text-light" : ""
-      }`}
-    >
-      <div className="w-100">
-        <Button variant="light" className="m-2" onClick={() => navigate("/")}>
-          <i className="bi bi-arrow-left"></i> Back
+    <div className={`container py-4 ${isDark ? "text-light" : ""}`}>
+      <div className="d-flex flex-column flex-md-row align-items-start justify-content-between gap-3 mb-4">
+        <div>
+          <h2 className="mb-2">
+            <Badge bg="secondary">English Playroom</Badge>
+          </h2>
+          <p className="mb-2 text-muted">
+            Practice English with fun games that build listening, grammar, spelling, and vocabulary.
+          </p>
+          <p className="small text-secondary mb-0">
+            Select a game below to start learning in a playful way.
+          </p>
+        </div>
+
+        <Button variant="outline-secondary" onClick={() => navigate("/")}> 
+          <i className="bi bi-house-door"></i> Back Home
         </Button>
-        <h2>
-          <Badge bg="secondary" className="m-2">
-            English Playroom
-          </Badge>
-        </h2>
-        <div className="row m-2 g-3 mb-5">
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/word-match`)}
-            >
-              <img
-                src="/gameImages/word-match-quiz.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/word-match"
-                  className="btn btn-primary lesson-title"
-                >
-                  Word Match Quiz
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/sentence-builder`)}
-            >
-              <img
-                src="/gameImages/sentence-builder.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/sentence-builder"
-                  className="btn btn-success lesson-title"
-                >
-                  Sentence Builder
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/picture-word`)}
-            >
-              <img
-                src="/gameImages/picture-word.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/picture-word"
-                  className="btn btn-warning lesson-title"
-                >
-                  Picture to Word (Kids)
-                </Link>
-              </div>
-            </div>
-          </div>
+      </div>
 
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/spelling-challenge`)}
-            >
-              <img
-                src="/gameImages/spelling-challenge.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/spelling-challenge"
-                  className="btn btn-primary lesson-title"
-                >
-                 Spelling Challenge
-                </Link>
-              </div>
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div className="col">
+          <Link to="/games/word-match" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/word-match-quiz.png" alt="Word Match Quiz" className="game-img" />
+            <div className="game-info">
+              <h5>Word Match Quiz</h5>
+              <p className="text-muted mb-3">Match words with meanings and build vocabulary fast.</p>
+              <div className="btn btn-primary lesson-title">Play Now</div>
             </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/listening-challenge`)}
-            >
-              <img
-                src="/gameImages/listening-challenge.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/listening-challenge"
-                  className="btn btn-success lesson-title"
-                >
-                  Listening Challenge
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/word-unscramble`)}
-            >
-              <img
-                src="/gameImages/word-unscramble.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/word-unscramble"
-                  className="btn btn-warning lesson-title"
-                >
-                  Word Unscramble
-                </Link>
-              </div>
-            </div>
-          </div>
+          </Link>
+        </div>
 
-           <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/gramma-fixer`)}
-            >
-              <img
-                src="/gameImages/gramma-fixer.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/gramma-fixer"
-                  className="btn btn-primary lesson-title"
-                >
-                 Grammar Fixer
-                </Link>
-              </div>
+        <div className="col">
+          <Link to="/games/sentence-builder" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/sentence-builder.png" alt="Sentence Builder" className="game-img" />
+            <div className="game-info">
+              <h5>Sentence Builder</h5>
+              <p className="text-muted mb-3">Construct sentences from words and practice grammar order.</p>
+              <div className="btn btn-success lesson-title">Play Now</div>
             </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/cloze-test`)}
-            >
-              <img
-                src="/gameImages/cloze-test.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/cloze-test"
-                  className="btn btn-success lesson-title"
-                >
-                 Cloze Test
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/emoji-guess`)}
-            >
-              <img
-                src="/gameImages/emoji-guess.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/emoji-guess"
-                  className="btn btn-warning lesson-title"
-                >
-                  Emoji Guess
-                </Link>
-              </div>
-            </div>
-          </div>
+          </Link>
+        </div>
 
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/flashcard-flip`)}
-            >
-              <img
-                src="/gameImages/flashcard-flip.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/flashcard-flip"
-                  className="btn btn-primary lesson-title"
-                >
-                 Flashcard Flip
-                </Link>
-              </div>
+        <div className="col">
+          <Link to="/games/picture-word" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/picture-word.png" alt="Picture to Word" className="game-img" />
+            <div className="game-info">
+              <h5>Picture to Word</h5>
+              <p className="text-muted mb-3">Look at pictures and choose the right English word.</p>
+              <div className="btn btn-warning lesson-title">Play Now</div>
             </div>
-          </div>
-          <div className="col-sm-6 col-md-6 col-lg-4">
-            <div
-              className="game-card"
-              onClick={() => navigate(`/games/word-sorting`)}
-            >
-              <img
-                src="/gameImages/word-sorting.png"
-                alt="english-playroom"
-                className="game-img"
-              />
-              <div className="game-info">
-                <Link
-                  to="/games/word-sorting"
-                  className="btn btn-success lesson-title"
-                >
-                 Word Sorting
-                </Link>
-              </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/spelling-challenge" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/spelling-challenge.png" alt="Spelling Challenge" className="game-img" />
+            <div className="game-info">
+              <h5>Spelling Challenge</h5>
+              <p className="text-muted mb-3">Spell words correctly and level up your writing skills.</p>
+              <div className="btn btn-primary lesson-title">Play Now</div>
             </div>
-          </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/listening-challenge" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/listening-challenge.png" alt="Listening Challenge" className="game-img" />
+            <div className="game-info">
+              <h5>Listening Challenge</h5>
+              <p className="text-muted mb-3">Listen carefully and answer questions about short dialogs.</p>
+              <div className="btn btn-success lesson-title">Play Now</div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/word-unscramble" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/word-unscramble.png" alt="Word Unscramble" className="game-img" />
+            <div className="game-info">
+              <h5>Word Unscramble</h5>
+              <p className="text-muted mb-3">Rearrange letters to form the correct English word.</p>
+              <div className="btn btn-warning lesson-title">Play Now</div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/gramma-fixer" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/gramma-fixer.png" alt="Grammar Fixer" className="game-img" />
+            <div className="game-info">
+              <h5>Grammar Fixer</h5>
+              <p className="text-muted mb-3">Correct sentences and learn the proper grammar form.</p>
+              <div className="btn btn-primary lesson-title">Play Now</div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/cloze-test" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/cloze-test.png" alt="Cloze Test" className="game-img" />
+            <div className="game-info">
+              <h5>Cloze Test</h5>
+              <p className="text-muted mb-3">Complete sentences with the best missing words.</p>
+              <div className="btn btn-success lesson-title">Play Now</div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/emoji-guess" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/emoji-guess.png" alt="Emoji Guess" className="game-img" />
+            <div className="game-info">
+              <h5>Emoji Guess</h5>
+              <p className="text-muted mb-3">Match emojis with words for fun vocabulary practice.</p>
+              <div className="btn btn-warning lesson-title">Play Now</div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/flashcard-flip" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/flashcard-flip.png" alt="Flashcard Flip" className="game-img" />
+            <div className="game-info">
+              <h5>Flashcard Flip</h5>
+              <p className="text-muted mb-3">Flip cards to learn new words and review meanings.</p>
+              <div className="btn btn-primary lesson-title">Play Now</div>
+            </div>
+          </Link>
+        </div>
+
+        <div className="col">
+          <Link to="/games/word-sorting" className="game-card text-decoration-none text-reset">
+            <img src="/gameImages/word-sorting.png" alt="Word Sorting" className="game-img" />
+            <div className="game-info">
+              <h5>Word Sorting</h5>
+              <p className="text-muted mb-3">Sort words into the right order for stronger sentence skills.</p>
+              <div className="btn btn-success lesson-title">Play Now</div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

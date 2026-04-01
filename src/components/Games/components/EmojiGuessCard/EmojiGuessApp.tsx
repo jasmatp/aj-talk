@@ -40,11 +40,12 @@ const EmojiGuessApp: React.FC = () => {
   const levelQuestions: EmojiQuestion[] = useMemo(
     () =>
       selectedLevel ? emojiData.filter((q) => q.level === selectedLevel) : [],
-    [selectedLevel]
+    [selectedLevel, emojiData]
   );
 
   // Session: shuffled, max 10
   const sessionQuestions: EmojiQuestion[] = useMemo(() => {
+    void sessionId;
     const shuffled = shuffleArray(levelQuestions);
     return shuffled.slice(0, Math.min(QUESTIONS_PER_SESSION, shuffled.length));
   }, [levelQuestions, sessionId]);

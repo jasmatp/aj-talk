@@ -8,20 +8,19 @@ interface LevelSelectorProps {
 
 const LevelSelector: React.FC<LevelSelectorProps> = ({ onSelectLevel }) => {
   return (
-    <div className="card bg-light shadow-sm">
+    <div className="card shadow-sm border-0">
       <div className="card-body">
-        <h4 className="mb-2">
+        <h4 className="mb-3">
           <Badge bg="secondary">Choose Difficulty Level</Badge>
         </h4>
         <p className="text-muted mb-4">
-          Start with <strong>Beginner</strong> and slowly go to{" "}
-          <strong>Advanced</strong>.
+          Pick a level that matches your current skill and challenge yourself in the game.
         </p>
 
-        <div className="d-flex flex-column gap-2">
+        <div className="d-grid gap-3">
           <button
             type="button"
-            className="btn btn-outline-success"
+            className="btn btn-outline-success btn-lg"
             onClick={() => onSelectLevel("beginner")}
           >
             Beginner
@@ -29,7 +28,7 @@ const LevelSelector: React.FC<LevelSelectorProps> = ({ onSelectLevel }) => {
 
           <button
             type="button"
-            className="btn btn-outline-primary"
+            className="btn btn-outline-primary btn-lg"
             onClick={() => onSelectLevel("intermediate")}
           >
             Intermediate
@@ -37,7 +36,7 @@ const LevelSelector: React.FC<LevelSelectorProps> = ({ onSelectLevel }) => {
 
           <button
             type="button"
-            className="btn btn-outline-danger"
+            className="btn btn-outline-danger btn-lg"
             onClick={() => onSelectLevel("advanced")}
           >
             Advanced

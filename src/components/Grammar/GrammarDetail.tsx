@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 // import { grammarLession } from "../../mochData/grammarData";
 import { GrammarLesson, Question } from "../../types/types";
-import { Badge, Button } from "react-bootstrap";
+import { Badge, Button, Card } from "react-bootstrap";
 // import { practiceQuestions } from "../../mochData/grammarQuiz";
 import PracticeQuiz from "./PracticeQuiz";
 import { useGrammar } from "../../hooks/useGrammar";
@@ -57,96 +57,118 @@ const GrammarDetail: React.FC = () => {
   return (
     <>
       {!practice ? (
-        <div className="container">
-          <Button variant="light" className="m-2" onClick={() => navigate(-1)}>
-            <i className="bi bi-arrow-left"></i> Back
-          </Button>
-
-          <div className="mb-2">
-            <h2 className="text-decoration-underline">{lesson.title}</h2>
+        <div className="container py-4">
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3 mb-4">
+            <div>
+              <Button variant="light" className="mb-3" onClick={() => navigate(-1)}>
+                <i className="bi bi-arrow-left"></i> Back
+              </Button>
+              <h2 className="mb-2">{lesson.title}</h2>
+              <p className="text-muted mb-3">
+                Review the grammar rule, listen to the key point, and practice using examples.
+              </p>
+            </div>
+            <Badge bg="info" className="py-2 px-3 text-wrap">
+              Grammar Detail
+            </Badge>
           </div>
 
-          <Badge bg="info" className="text-start text-wrap">
-            {lesson.remember && (
-              <ul className="p-1 m-0">
-                <Badge bg="dark" className="fs-5">
-                  Remember
-                </Badge>
-                {lesson.remember.map((r, i) => (
-                  <p
-                    className="text-decoration-none m-0 fs-6 fst-italic"
-                    key={i}
-                  >
-                    {r}
-                  </p>
+          <Card className="border-0 shadow-sm mb-4">
+            <Card.Body>
+              <h5 className="mb-3">Remember</h5>
+              <div className="d-flex flex-column gap-3">
+                {lesson.remember?.map((r, i) => (
+                  <div key={i} className="p-3 rounded-3 bg-light">
+                    <p className="mb-0 fw-semibold">{r}</p>
+                  </div>
                 ))}
-                <div className="mt-2">
-                  {lesson?.rememberGuj &&
-                    lesson?.rememberGuj.map((r, i) => (
-                      <p
-                        className="text-decoration-none m-0 fs-6 fst-italic"
-                        key={i}
-                      >
-                        {r}
-                      </p>
-                    ))}
-                </div>
-              </ul>
-            )}
-          </Badge>
+                {lesson.rememberGuj?.map((r, i) => (
+                  <div key={i} className="p-3 rounded-3 bg-white border">
+                    <p className="mb-0 text-success">{r}</p>
+                  </div>
+                ))}
+              </div>
+            </Card.Body>
+          </Card>
 
-          <div className="mt-3">
+          <div className="row g-4">
             {Object.keys(lesson).map((key) => {
-              // match only English details like: details1, details2...
               if (/^details[0-9]+$/.test(key)) {
                 const num = key.replace("details", "");
-
                 const english = lesson[key as keyof GrammarLesson];
-                const gujarati =
-                  lesson[`details${num}Guj` as keyof GrammarLesson];
-                const examples = lesson[
-                  `example${num}` as keyof GrammarLesson
-                ] as string[];
+                const gujarati = lesson[`details${num}Guj` as keyof GrammarLesson];
+                const examples = lesson[`example${num}` as keyof GrammarLesson] as string[];
 
                 return (
-                  <div key={key} className="mb-3">
-                    {/* English detail */}
-                    <p className="m-0 d-flex align-items-start">
-                      <strong className="flex-grow-1">⇒ {english}</strong>
-                    </p>
-                      <Button
-                        className="btn btn-info ms-2"
-                        onClick={() => handleListen(String(english))}
-                        disabled={!supported}
-                      >
-                        🔊 Listen
-                      </Button>
-
-                    {/* Gujarati detail */}
-                    {gujarati && (
-                      <p className="m-0 text-success">
-                        <strong>⇒ {gujarati}</strong>
-                      </p>
-                    )}
-
-                    {/* Examples */}
-                    {examples && (
-                      <ul className="mt-1">
-                        <p className="m-0 fw-bold">Example:</p>
-                        {examples.map((ex, j) => (
-                          <li key={j}>{ex}</li>
-                        ))}
-                      </ul>
-                    )}
+                  <div key={key} className="col-12">
+                    <Card className="border-0 shadow-sm h-100">
+                      <Card.Body>
+                        <div className="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3">
+                          <div>
+                            <h5 className="fw-bold mb-2">Grammar Point {num}</h5>
+                            <p className="mb-1">
+                              <span className="text-primary fw-semibold">⇒</span> {english}
+                            </p>
+                            {gujarati && (
+                              <p className="mb-0 text-success">
+                                <span className="fw-semibold">⇒</span> {gujarati}
+                              </p>
+                            )}
+                          </div>
+                          <Button
+                            variant="outline-primary"
+                            size="sm"
+                            onClick={() => handleListen(String(english))}
+                            disabled={!supported}
+                          >
+                            <i className="bi bi-volume-up-fill"></i> Listen
+                          </Button>
+                        </div>
+                        {examples && examples.length > 0 && (
+                          <div className="mt-4 bg-light rounded-3 p-3">
+                            <div className="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3 mb-2">
+                              <p className="fw-semibold mb-0">Example</p>
+                              <Button
+                                variant="outline-secondary"
+                                size="sm"
+                                onClick={() => handleListen(examples.join(". "))}
+                                disabled={!supported}
+                              >
+                                <i className="bi bi-volume-up-fill"></i> Listen All
+                              </Button>
+                            </div>
+                            <ul className="mb-0 list-group list-group-flush">
+                              {examples.map((ex, j) => (
+                                <li key={j} className="list-group-item d-flex justify-content-between align-items-center py-2 px-0 border-0">
+                                  <span>{ex}</span>
+                                  <Button
+                                    variant="link"
+                                    size="sm"
+                                    className="p-0"
+                                    onClick={() => handleListen(String(ex))}
+                                    disabled={!supported}
+                                  >
+                                    🔊
+                                  </Button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </Card.Body>
+                    </Card>
                   </div>
                 );
               }
               return null;
             })}
+          </div>
+
+          <div className="d-flex justify-content-center mt-4">
             <Button
               variant="danger"
               size="lg"
-              className="mb-4 w-2 check-prog"
+              className="px-5"
               onClick={handlePractice}
             >
               Check Your Progress
@@ -154,11 +176,13 @@ const GrammarDetail: React.FC = () => {
           </div>
         </div>
       ) : (
-        <div>
+        <div className="container py-4">
           {questionsForLesson.length > 0 ? (
             <PracticeQuiz questions={questionsForLesson} />
           ) : (
-            <p>No practice questions available for this lesson.</p>
+            <div className="alert alert-warning">
+              No practice questions available for this lesson.
+            </div>
           )}
         </div>
       )}

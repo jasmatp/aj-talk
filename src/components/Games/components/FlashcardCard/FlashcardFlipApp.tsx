@@ -44,7 +44,7 @@ const FlashcardFlipApp: React.FC = () => {
   const levelCards: Flashcard[] = useMemo(
     () =>
       selectedLevel ? flashcards.filter((c) => c.level === selectedLevel) : [],
-    [selectedLevel]
+    [selectedLevel, flashcards]
   );
 
   const totalCards = levelCards.length;

@@ -54,7 +54,7 @@ const SpellingChallengeApp: React.FC = () => {
       selectedLevel
         ? spellingQuestion.filter((q) => q.level === selectedLevel)
         : [],
-    [selectedLevel]
+    [selectedLevel, spellingQuestion]
   );
 
   const totalQuestions = levelQuestions.length;

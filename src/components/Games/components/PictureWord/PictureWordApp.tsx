@@ -45,7 +45,7 @@ const PictureWordApp: React.FC = () => {
   const levelQuestions = useMemo(
     () =>
       selectedLevel ? pictureWord.filter((q) => q.level === selectedLevel) : [],
-    [selectedLevel]
+    [selectedLevel, pictureWord]
   );
 
   const totalQuestions = levelQuestions.length;
