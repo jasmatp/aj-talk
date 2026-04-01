@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { PracticeQuizProps } from "../../types/types";
 import { Badge, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import BackButton from "../BackButton";
 
 const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions  = []}) => {
   const [answers, setAnswers] = useState<(number | null)[]>(
     Array(questions.length).fill(null)
   );
-  const navigate = useNavigate();
   const [submitted, setSubmitted] = useState(false);
 
   const handleSelect = (qIdx: number, optionIdx: number) => {
@@ -43,9 +42,7 @@ const PracticeQuiz: React.FC<PracticeQuizProps> = ({ questions  = []}) => {
 
   return (
     <div className="container py-4">
-      <Button variant="light" className="m-2" onClick={() => navigate(-1)}>
-        <i className="bi bi-arrow-left"></i> Back
-      </Button>
+      <BackButton className="m-2" />
       <div className="mb-4">
         <h3 className="text-decoration-underline">Practice Quiz</h3>
         <p className="text-muted mb-0">

@@ -4,8 +4,8 @@ import LevelSelector from "../LevelSelector";
 import EmojiGuessCard from "./EmojiGuessCard";
 import { useTheme } from "../../../context/ThemeContext";
 // import { emojiQuestions } from "../../data/emojiQuestions";
-import { useNavigate } from "react-router-dom";
-import { Badge, Button } from "react-bootstrap";
+import BackButton from "../../../BackButton";
+import { Badge } from "react-bootstrap";
 import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const QUESTIONS_PER_SESSION = 10;
@@ -21,7 +21,6 @@ const shuffleArray = <T,>(arr: T[]): T[] => {
 
 const EmojiGuessApp: React.FC = () => {
   const { isDark } = useTheme();
-  const navigate = useNavigate();
 
   const [emojiData, setEmojiData] = useState<EmojiQuestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -148,9 +147,7 @@ const EmojiGuessApp: React.FC = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8 col-lg-6">
               <div className="mb-2">
-                <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                  <i className="bi bi-arrow-left"></i> Back
-                </Button>
+                <BackButton className="m-2" to="/games" />
                 <h2>
                   <Badge bg="secondary" className="m-2">
                     Emoji Guess Game
@@ -214,9 +211,7 @@ const EmojiGuessApp: React.FC = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="mb-2">
-              <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                <i className="bi bi-arrow-left"></i> Back
-              </Button>
+              <BackButton className="m-2" to="/games" />
               <h2>
                 <Badge bg="secondary" className="m-2">
                   Emoji Guess Game

@@ -4,8 +4,8 @@ import LevelSelector from "../LevelSelector";
 import ClozeTestCard from "./ClozeTestCard";
 import { useTheme } from "../../../context/ThemeContext";
 // import { clozeQuestions } from "../../data/clozeQuestions";
-import { useNavigate } from "react-router-dom";
-import { Badge, Button } from "react-bootstrap";
+import BackButton from "../../../BackButton";
+import { Badge } from "react-bootstrap";
 import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const QUESTIONS_PER_SESSION = 10;
@@ -21,7 +21,6 @@ const shuffleArray = <T,>(arr: T[]): T[] => {
 
 const ClozeTestApp: React.FC = () => {
   const { isDark } = useTheme();
-  const navigate = useNavigate();
 
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [sessionId, setSessionId] = useState(0);
@@ -150,9 +149,7 @@ const ClozeTestApp: React.FC = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8 col-lg-6">
               <div className="mb-2">
-                <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                  <i className="bi bi-arrow-left"></i> Back
-                </Button>
+                <BackButton className="m-2" to="/games" />
                 <h2>
                   <Badge bg="secondary" className="m-2">
                     Cloze Test (Fill in the Blank)
@@ -216,9 +213,7 @@ const ClozeTestApp: React.FC = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="mb-2">
-              <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                <i className="bi bi-arrow-left"></i> Back
-              </Button>
+              <BackButton className="m-2" to="/games" />
               <h2>
                 <Badge bg="secondary" className="m-2">
                   Cloze Test (Fill in the Blank)

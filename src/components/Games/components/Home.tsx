@@ -1,12 +1,12 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useTheme } from "../../context/ThemeContext";
 import "./game.css";
-import { Badge, Button } from "react-bootstrap";
+import BackButton from "../../BackButton";
+import { Badge } from "react-bootstrap";
 
 const GamesHome: React.FC = () => {
   const { isDark } = useTheme();
-  const navigate = useNavigate();
 
   return (
     <div className={`container py-4 ${isDark ? "text-light" : ""}`}>
@@ -23,9 +23,7 @@ const GamesHome: React.FC = () => {
           </p>
         </div>
 
-        <Button variant="outline-secondary" onClick={() => navigate("/")}> 
-          <i className="bi bi-house-door"></i> Back Home
-        </Button>
+        <BackButton variant="outline-secondary" to="/" label="Back Home" />
       </div>
 
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

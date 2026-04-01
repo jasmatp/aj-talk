@@ -5,13 +5,12 @@ import ListeningCard from "./ListeningCard";
 import { useTheme } from "../../../context/ThemeContext";
 // import { listeningQuestions } from "../../data/listeningQuestions";
 import { useSpeechSynthesis } from "../../../../hooks/useSpeechSynthesis";
-import { useNavigate } from "react-router-dom";
-import { Badge, Button } from "react-bootstrap";
+import BackButton from "../../../BackButton";
+import { Badge } from "react-bootstrap";
 import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const ListeningChallengeApp: React.FC = () => {
   const { isDark } = useTheme();
-  const navigate = useNavigate();
 
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -152,9 +151,7 @@ const ListeningChallengeApp: React.FC = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="mb-2">
-              <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                <i className="bi bi-arrow-left"></i> Back
-              </Button>
+              <BackButton className="m-2" to="/games" />
               <h2>
                 <Badge bg="secondary" className="m-2">
                   Listening Challenge

@@ -1,13 +1,13 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 // import { conversations } from "../../mochData/conversationData";
-import { Badge, Button, Card } from "react-bootstrap";
+import { Badge, Card } from "react-bootstrap";
+import BackButton from "../BackButton";
 import { useConversation } from "../../hooks/useConversation";
 import MultiCircleSpinner from "../MultiCircleSpinner";
 
 const ConversationDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const navigate = useNavigate();
   const { conversationData, loading } = useConversation();
 
   if (loading) {
@@ -32,9 +32,7 @@ const ConversationDetails: React.FC = () => {
 
   return (
     <div style={{ flex: 1, padding: "10px" }}>
-      <Button variant="light" className="m-2" onClick={() => navigate("/convertion")}>
-        <i className="bi bi-arrow-left"></i> Back
-      </Button>
+      <BackButton className="m-2" to="/convertion" />
       <h2>
         <Badge bg="secondary" className="m-2">
           {group.title}

@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 // import { grammarLession } from "../../mochData/grammarData";
 import { GrammarLesson, Question } from "../../types/types";
 import { Badge, Button, Card } from "react-bootstrap";
+import BackButton from "../BackButton";
 // import { practiceQuestions } from "../../mochData/grammarQuiz";
 import PracticeQuiz from "./PracticeQuiz";
 import { useGrammar } from "../../hooks/useGrammar";
@@ -60,9 +61,7 @@ const GrammarDetail: React.FC = () => {
         <div className="container py-4">
           <div className="d-flex flex-column flex-md-row justify-content-between align-items-start gap-3 mb-4">
             <div>
-              <Button variant="light" className="mb-3" onClick={() => navigate(-1)}>
-                <i className="bi bi-arrow-left"></i> Back
-              </Button>
+              <BackButton className="mb-3" />
               <h2 className="mb-2">{lesson.title}</h2>
               <p className="text-muted mb-3">
                 Review the grammar rule, listen to the key point, and practice using examples.

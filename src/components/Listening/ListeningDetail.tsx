@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { lestningLession } from "../../mochData/lesteningData";
 import { Button } from "react-bootstrap";
+import BackButton from "../BackButton";
 
 
 const ListeningDetail = () => {
@@ -16,7 +17,7 @@ const ListeningDetail = () => {
   if (!lesson) {
     return (
       <div>
-        <Link to="/listening">Back to Lessons</Link>
+        <BackButton to="/listening" label="Back to Lessons" className="mb-3" />
         <p>Lesson not found.</p>
       </div>
     );
@@ -50,9 +51,7 @@ const ListeningDetail = () => {
 
   return (
     <div className="container py-4">
-      <Button variant="light" onClick={() => navigate(-1)}>
-        <i className="bi bi-arrow-left"></i> Back
-      </Button>
+      <BackButton />
 
       <div className="mt-3 p-4 bg-light rounded shadow-sm">
         <h2 className="mb-2">{lesson.title || `Lesson ${lessonIndex + 1}`}</h2>

@@ -1,14 +1,18 @@
 import React, { useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
 // import { grammarLession } from "../../mochData/grammarData";
-import { Badge, Button, Form, InputGroup } from "react-bootstrap";
+import Badge from "react-bootstrap/Badge";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
+import BackButton from "../BackButton";
+import { useNavigate } from "react-router-dom";
 import { useDebounce } from "../../hooks/useDebounce";
 import { useGrammar } from "../../hooks/useGrammar";
 import MultiCircleSpinner from "../MultiCircleSpinner";
 
 const Grammar = () => {
-  const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
   const { grammarData, loading } = useGrammar();
 
   const debouncedSearch = useDebounce(searchTerm, 400);
@@ -37,9 +41,7 @@ const Grammar = () => {
             Search by title or scroll through the lesson cards below.
           </p>
         </div>
-        <Button variant="light" onClick={() => navigate(-1)}>
-          <i className="bi bi-arrow-left"></i> Back
-        </Button>
+        <BackButton />
       </div>
 
       <InputGroup className="mb-4 w-100 w-md-50">

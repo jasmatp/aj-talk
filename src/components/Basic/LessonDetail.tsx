@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Badge, Button, Form, Modal, Pagination, Table } from "react-bootstrap";
+import BackButton from "../BackButton";
 import { LessonContent, LessonLink } from "../../types/types";
 import MultiCircleSpinner from "../MultiCircleSpinner";
 // import { lessonLinks } from "../../mochData/lessonLinks";
@@ -81,9 +82,7 @@ const LessonDetail: React.FC = () => {
       {!start ? (
         <div className="m-2">
           <div className="lesson-title-main">
-            <Button variant="light" className="mb-1" onClick={() => navigate(-1)}>
-               <i className="bi bi-arrow-left"></i> Back
-            </Button>
+            <BackButton className="mb-1" onClick={() => navigate(-1)} />
             <h2>
               <Badge bg="secondary">Basics for English Speaking </Badge>
             </h2>
@@ -113,9 +112,7 @@ const LessonDetail: React.FC = () => {
         </div>
       ) : (
         <div className="container justify-content-start">
-          <Button onClick={handleBack}  className="text-start m-1" variant="light">
-            <i className="bi bi-arrow-left"></i> Back
-          </Button>
+          <BackButton onClick={handleBack} className="text-start m-1" />
           <h4><Badge bg="info" className="white-space">Start with lesson 1 and move down the list. Each lesson has audio and examples.</Badge></h4>
           <Table striped bordered hover responsive="md" className="mb-0">
             <thead>

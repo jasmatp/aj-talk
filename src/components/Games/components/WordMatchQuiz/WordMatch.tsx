@@ -5,13 +5,12 @@ import LevelSelector from "../LevelSelector";
 import QuestionCard from "./QuestionCard";
 // import { questions } from "../../data/questions";
 import { useTheme } from "../../../context/ThemeContext";
-import { useNavigate } from "react-router-dom";
-import { Badge, Button } from "react-bootstrap";
+import BackButton from "../../../BackButton";
+import { Badge } from "react-bootstrap";
 import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const WordMatchApp: React.FC = () => {
   const { isDark } = useTheme();
-  const navigate = useNavigate();
 
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -145,9 +144,7 @@ const WordMatchApp: React.FC = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="mb-2">
-              <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                <i className="bi bi-arrow-left"></i> Back
-              </Button>
+                <BackButton className="m-2" to="/games" />
               <h2>
                 <Badge bg="secondary" className="m-2">
                   Word Match Quiz
@@ -260,13 +257,12 @@ const WordMatchApp: React.FC = () => {
               <div className="alert alert-warning mt-3">
                 No questions found for this level. Please choose another level.
                 <div className="mt-2">
-                  <button
-                    className="btn btn-sm btn-primary"
+                  <BackButton
+                    variant="primary"
+                    className="btn-sm"
+                    label="Back to Level Selection"
                     onClick={handleChangeLevel}
-                    type="button"
-                  >
-                    Back to Level Selection
-                  </button>
+                  />
                 </div>
               </div>
             )}

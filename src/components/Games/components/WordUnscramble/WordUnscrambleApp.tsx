@@ -4,8 +4,8 @@ import LevelSelector from "../LevelSelector";
 import WordUnscrambleCard from "./WordUnscrambleCard";
 import { useTheme } from "../../../context/ThemeContext";
 // import { unscrambleQuestions } from "../../data/unscrambleQuestions";
-import { Badge, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import BackButton from "../../../BackButton";
+import { Badge } from "react-bootstrap";
 import MultiCircleSpinner from "../../../MultiCircleSpinner";
 
 const QUESTIONS_PER_SESSION = 10;
@@ -46,7 +46,6 @@ const normalize = (value: string) => value.trim().toLowerCase();
 
 const WordUnscrambleApp: React.FC = () => {
   const { isDark } = useTheme();
-  const navigate = useNavigate();
 
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null);
   const [sessionId, setSessionId] = useState(0);
@@ -188,9 +187,7 @@ const WordUnscrambleApp: React.FC = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-md-8 col-lg-6">
               <div className="mb-2">
-                <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                  <i className="bi bi-arrow-left"></i> Back
-                </Button>
+                <BackButton className="m-2" to="/games" />
                 <h2>
                   <Badge bg="secondary" className="m-2">
                     Word Unscramble Game
@@ -253,9 +250,7 @@ const WordUnscrambleApp: React.FC = () => {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-6">
             <div className="mb-2">
-              <Button variant="light" className="m-2" onClick={() => navigate("/games")}>
-                <i className="bi bi-arrow-left"></i> Back
-              </Button>
+              <BackButton className="m-2" to="/games" />
               <h2>
                 <Badge bg="secondary" className="m-2">
                   Word Unscramble Game

@@ -1,10 +1,10 @@
 import React from "react";
 import { lestningLession } from "../../mochData/lesteningData";
-import { Link, useNavigate } from "react-router-dom";
-import { Badge, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Badge } from "react-bootstrap";
+import BackButton from "../BackButton";
 
 const Listening = () => {
-  const navigate = useNavigate();
   return (
     <div className="container py-4">
       <div className="d-flex flex-column flex-md-row align-items-start justify-content-between mb-4 gap-3">
@@ -17,9 +17,7 @@ const Listening = () => {
             Each lesson includes a short conversation and follow-up questions.
           </p>
         </div>
-        <Button variant="light" onClick={() => navigate("/")}> 
-          <i className="bi bi-arrow-left"></i> Back
-        </Button>
+        <BackButton to="/" />
       </div>
 
       <div className="row row-cols-1 row-cols-md-2 g-4">

@@ -1,25 +1,37 @@
+.conversation-page {
+  min-height: 100vh;
+}
+
 .conversation-card {
-    background: #fff;
-    border-radius: 10px;
-    border: 2px dotted #049aff;
-    margin: 16px 0px;
-    padding: 8px 12px;
-    width: 100%;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    height: 235px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid rgba(4, 154, 255, 0.18);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .conversation-info {
-    justify-items: center;
-    margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.conversation-image-wrapper {
+  overflow: hidden;
 }
 
 .conversation-img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.conversation-card:hover .conversation-img {
+  transform: scale(1.03);
 }
