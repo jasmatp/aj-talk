@@ -53,7 +53,7 @@ const GamesHome: React.FC = () => {
 
         <div className="col">
           <Link to="/games/picture-word" className="game-card text-decoration-none text-reset">
-            <img src="/gameImages/picture-word.png" alt="Picture to Word" className="game-img" />
+            <img src="/gameImages/picture-word.png" alt="Word from visual clue" className="game-img" />
             <div className="game-info">
               <h5>Picture to Word</h5>
               <p className="text-muted mb-3">Look at pictures and choose the right English word.</p>
